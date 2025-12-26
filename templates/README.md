@@ -398,5 +398,5 @@ cp content/templates/SERVICE-API-TEMPLATE.md content/services/api/your-service/_
 
 **模板版本：** v2.0（模块化结构）  
 **最后更新：** 2024年12月  
-**维护者：** GetFreeAI.net 团队
+**维护者：** GetFreeAI.net 团队1
 
