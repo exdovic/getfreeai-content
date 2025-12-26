@@ -24,10 +24,10 @@ Welcome to GetFreeAI! We've carefully compiled guides for free AI services from 
 ## 📚 Service Categories
 
 {{< cards >}}
-  {{< card link="/providers" title="AI Providers" icon="gift" subtitle="View all AI service providers" >}}
-  {{< card link="/services/chatbot" title="Chatbot Services" icon="sparkles" subtitle="Online conversational AI services" >}}
-  {{< card link="/services/api" title="API Services" icon="code" subtitle="Developer API interfaces" >}}
-  {{< card link="/contribute" title="Contribution Guide" icon="pencil" subtitle="Help us improve the documentation" >}}
+  {{< card link="/en/providers" title="AI Providers" icon="gift" subtitle="View all AI service providers" >}}
+  {{< card link="/en/services/chatbot" title="Chatbot Services" icon="sparkles" subtitle="Online conversational AI services" >}}
+  {{< card link="/en/services/api" title="API Services" icon="code" subtitle="Developer API interfaces" >}}
+  {{< card link="/en/contribute" title="Contribution Guide" icon="pencil" subtitle="Help us improve the documentation" >}}
 {{< /cards >}}
 
 ---
