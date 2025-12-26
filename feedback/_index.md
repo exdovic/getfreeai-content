@@ -55,7 +55,7 @@ sidebar:
 您的每一条反馈都对我们非常重要，帮助我们不断改进这个网站，为更多用户提供价值。
 
 如果您觉得这个项目有帮助，欢迎：
-- ⭐ 在 [GitHub](https://github.com/your-repo) 上给我们一个 Star
+- ⭐ 在 [GitHub](https://github.com/exdovic/getfreeai-content) 上给我们一个 Star
 - 📢 将 GetFreeAI.net 分享给您的朋友
 - ✍️ 参与文档的编写和维护（查看[贡献指南](/contribute)）
 

@@ -168,7 +168,7 @@ GetFreeAI 由热爱 AI 技术的朋友们共同维护。
 ## 📞 联系我们
 
 - **网站：** GetFreeAI.net
-- **GitHub：** [github.com/getfreeai]
+- **GitHub：** [github.com/exdovic/getfreeai-content]
 - **Email：** [待添加]
 
 ---

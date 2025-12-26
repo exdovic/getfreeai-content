@@ -55,7 +55,7 @@ We will review and respond to your comments as soon as possible, but since this 
 Every piece of feedback from you is very important to us, helping us continuously improve this website and provide value to more users.
 
 If you find this project helpful, feel free to:
-- ⭐ Give us a Star on [GitHub](https://github.com/your-repo)
+- ⭐ Give us a Star on [GitHub](https://github.com/exdovic/getfreeai-content)
 - 📢 Share GetFreeAI.net with your friends
 - ✍️ Participate in writing and maintaining documentation (check out the [Contribution Guide](/en/contribute))
 
