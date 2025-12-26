@@ -24,10 +24,10 @@ title: GetFreeAI - 免费 AI 服务使用指南
 ## 📚 服务分类
 
 {{< cards >}}
-  {{< card link="/providers" title="AI 提供者" icon="gift" subtitle="查看所有 AI 服务提供者" >}}
-  {{< card link="/services/chatbot" title="Chatbot 服务" icon="sparkles" subtitle="在线对话式 AI 服务" >}}
-  {{< card link="/services/api" title="API 服务" icon="code" subtitle="开发者 API 接口" >}}
-  {{< card link="/contribute" title="贡献指南" icon="pencil" subtitle="帮助我们完善文档" >}}
+  {{< card link="/zh-cn/providers" title="AI 提供者" icon="gift" subtitle="查看所有 AI 服务提供者" >}}
+  {{< card link="/zh-cn/services/chatbot" title="Chatbot 服务" icon="sparkles" subtitle="在线对话式 AI 服务" >}}
+  {{< card link="/zh-cn/services/api" title="API 服务" icon="code" subtitle="开发者 API 接口" >}}
+  {{< card link="/zh-cn/contribute" title="贡献指南" icon="pencil" subtitle="帮助我们完善文档" >}}
 {{< /cards >}}
 
 ---
