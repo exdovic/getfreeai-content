@@ -25,7 +25,7 @@ GetFreeAI 采用**模块化文档架构**，将提供者（Provider）和服务�
 
 ### 🏢 Provider（提供者）文档
 
-**位置：** `content/providers/{provider-name}/_index.md`
+**位置：** `providers/{provider-name}/_index.md`
 
 **内容：**
 - 提供者基本信息和介绍
@@ -34,14 +34,14 @@ GetFreeAI 采用**模块化文档架构**，将提供者（Provider）和服务�
 - 提供的服务列表（链接到 Service 文档）
 
 **示例：**
-- `content/providers/google-ai-studio/_index.md`
-- `content/providers/groq/_index.md`
+- `providers/google-ai-studio/_index.md`
+- `providers/groq/_index.md`
 
 ---
 
 ### 🎯 Service（服务）文档
 
-**Chatbot 服务位置：** `content/services/chatbot/{service-name}/_index.md`
+**Chatbot 服务位置：** `services/chatbot/{service-name}/_index.md`
 
 **注意：** 目录名不要重复 "chatbot" 或 "chat" 字样
 
@@ -52,12 +52,12 @@ GetFreeAI 采用**模块化文档架构**，将提供者（Provider）和服务�
 - 使用步骤和技巧
 
 **示例：**
-- `content/services/chatbot/google-ai-studio/_index.md`
-- `content/services/chatbot/deepseek/_index.md`
+- `services/chatbot/google-ai-studio/_index.md`
+- `services/chatbot/deepseek/_index.md`
 
 ---
 
-**API 服务位置：** `content/services/api/{service-name}/_index.md`
+**API 服务位置：** `services/api/{service-name}/_index.md`
 
 **注意：** 目录名不要重复 "api" 字样
 
@@ -69,8 +69,8 @@ GetFreeAI 采用**模块化文档架构**，将提供者（Provider）和服务�
 - 价格信息
 
 **示例：**
-- `content/services/api/google-ai-studio/_index.md`
-- `content/services/api/groq/_index.md`
+- `services/api/google-ai-studio/_index.md`
+- `services/api/groq/_index.md`
 
 ---
 
@@ -110,9 +110,9 @@ GetFreeAI 采用**模块化文档架构**，将提供者（Provider）和服务�
 **2. 查看文档模板**
 
 我们提供三种模板：
-- 📋 [Provider 模板](https://github.com/your-repo/blob/main/content/templates/PROVIDER-TEMPLATE.md)
-- 💬 [Chatbot 服务模板](https://github.com/your-repo/blob/main/content/templates/SERVICE-CHATBOT-TEMPLATE.md)
-- 🔌 [API 服务模板](https://github.com/your-repo/blob/main/content/templates/SERVICE-API-TEMPLATE.md)
+- 📋 [Provider 模板](https://github.com/exdovic/getfreeai-content/blob/main/templates/PROVIDER-TEMPLATE.md)
+- 💬 [Chatbot 服务模板](https://github.com/exdovic/getfreeai-content/blob/main/templates/SERVICE-CHATBOT-TEMPLATE.md)
+- 🔌 [API 服务模板](https://github.com/exdovic/getfreeai-content/blob/main/templates/SERVICE-API-TEMPLATE.md)
 
 **3. 参考现有文档**
 
@@ -157,11 +157,11 @@ GetFreeAI 采用**模块化文档架构**，将提供者（Provider）和服务�
 
 ```bash {filename="Bash"}
 # 1. 创建 Provider 目录
-mkdir -p content/providers/your-provider
+mkdir -p providers/your-provider
 
 # 2. 复制 Provider 模板
-cp content/templates/PROVIDER-TEMPLATE.md \
-   content/providers/your-provider/_index.md
+cp templates/PROVIDER-TEMPLATE.md \
+   providers/your-provider/_index.md
 
 # 3. 编辑文档
 # 填写：基本信息、公司介绍、注册流程、服务列表
@@ -171,9 +171,9 @@ cp content/templates/PROVIDER-TEMPLATE.md \
 
 ```bash {filename="Bash"}
 # 创建目录并复制 Chatbot 模板
-mkdir -p content/services/chatbot/your-service
-cp content/templates/SERVICE-CHATBOT-TEMPLATE.md \
-   content/services/chatbot/your-service/_index.md
+mkdir -p services/chatbot/your-service
+cp templates/SERVICE-CHATBOT-TEMPLATE.md \
+   services/chatbot/your-service/_index.md
 
 # 编辑文档
 # 填写：访问地址、功能、限制、使用方法
@@ -183,9 +183,9 @@ cp content/templates/SERVICE-CHATBOT-TEMPLATE.md \
 
 ```bash {filename="Bash"}
 # 创建目录并复制 API 模板
-mkdir -p content/services/api/your-service
-cp content/templates/SERVICE-API-TEMPLATE.md \
-   content/services/api/your-service/_index.md
+mkdir -p services/api/your-service
+cp templates/SERVICE-API-TEMPLATE.md \
+   services/api/your-service/_index.md
 
 # 编辑文档
 # 填写：API 端点、模型、配额、代码示例
@@ -276,8 +276,8 @@ cp content/templates/SERVICE-API-TEMPLATE.md \
 ```bash {filename="Bash"}
 # Fork 项目到您的 GitHub 账号
 # 然后克隆到本地
-git clone https://github.com/your-username/getfreeai.git
-cd getfreeai
+git clone https://github.com/exdovic/getfreeai-content.git
+cd getfreeai-content
 ```
 
 ### 2. 创建分支
@@ -294,13 +294,13 @@ git checkout -b fix-issue-description
 
 ```bash {filename="Bash"}
 # 添加 Provider 文档
-git add content/providers/your-provider/_index.md
+git add providers/your-provider/_index.md
 
 # 添加 Chatbot 服务文档（如有）
-git add content/services/chatbot/your-service/
+git add services/chatbot/your-service/
 
 # 添加 API 服务文档（如有）
-git add content/services/api/your-service/
+git add services/api/your-service/
 
 # 更新导航配置（如需要）
 git add hugo.yaml
@@ -585,7 +585,7 @@ docs: 添加 Anthropic (Claude) 提供者和服务文档
 
 让我们一起让 AI 服务触手可及！
 
-[开始贡献](https://github.com/your-repo) · [查看模板](/templates) · [阅读指南](/templates/writing-guide)
+[开始贡献](https://github.com/exdovic/getfreeai-content) · [查看模板](/templates) · [阅读指南](/templates/writing-guide)
 
 </div>
 

@@ -25,7 +25,7 @@ GetFreeAI uses a **modular documentation architecture**, separating providers an
 
 ### 🏢 Provider Documents
 
-**Location:** `content/providers/{provider-name}/_index.md`
+**Location:** `providers/{provider-name}/_index.md`
 
 **Content:**
 - Basic information and introduction of the provider
@@ -34,14 +34,14 @@ GetFreeAI uses a **modular documentation architecture**, separating providers an
 - List of services provided (links to Service documents)
 
 **Examples:**
-- `content/providers/google-ai-studio/_index.md`
-- `content/providers/groq/_index.md`
+- `providers/google-ai-studio/_index.md`
+- `providers/groq/_index.md`
 
 ---
 
 ### 🎯 Service Documents
 
-**Chatbot Service Location:** `content/services/chatbot/{service-name}/_index.md`
+**Chatbot Service Location:** `services/chatbot/{service-name}/_index.md`
 
 **Note:** Directory names should not repeat "chatbot" or "chat"
 
@@ -52,12 +52,12 @@ GetFreeAI uses a **modular documentation architecture**, separating providers an
 - Usage steps and tips
 
 **Examples:**
-- `content/services/chatbot/google-ai-studio/_index.md`
-- `content/services/chatbot/deepseek/_index.md`
+- `services/chatbot/google-ai-studio/_index.md`
+- `services/chatbot/deepseek/_index.md`
 
 ---
 
-**API Service Location:** `content/services/api/{service-name}/_index.md`
+**API Service Location:** `services/api/{service-name}/_index.md`
 
 **Note:** Directory names should not repeat "api"
 
@@ -69,8 +69,8 @@ GetFreeAI uses a **modular documentation architecture**, separating providers an
 - Pricing information
 
 **Examples:**
-- `content/services/api/google-ai-studio/_index.md`
-- `content/services/api/groq/_index.md`
+- `services/api/google-ai-studio/_index.md`
+- `services/api/groq/_index.md`
 
 ---
 
@@ -110,9 +110,9 @@ This detailed guide includes:
 **2. Check Document Templates**
 
 We provide three templates:
-- 📋 [Provider Template](https://github.com/your-repo/blob/main/content/templates/PROVIDER-TEMPLATE.md)
-- 💬 [Chatbot Service Template](https://github.com/your-repo/blob/main/content/templates/SERVICE-CHATBOT-TEMPLATE.md)
-- 🔌 [API Service Template](https://github.com/your-repo/blob/main/content/templates/SERVICE-API-TEMPLATE.md)
+- 📋 [Provider Template](https://github.com/exdovic/getfreeai-content/blob/main/templates/PROVIDER-TEMPLATE.md)
+- 💬 [Chatbot Service Template](https://github.com/exdovic/getfreeai-content/blob/main/templates/SERVICE-CHATBOT-TEMPLATE.md)
+- 🔌 [API Service Template](https://github.com/exdovic/getfreeai-content/blob/main/templates/SERVICE-API-TEMPLATE.md)
 
 **3. Reference Existing Documents**
 
@@ -157,11 +157,11 @@ Before starting to write, please ensure you have:
 
 ```bash {filename="Bash"}
 # 1. Create Provider directory
-mkdir -p content/providers/your-provider
+mkdir -p providers/your-provider
 
 # 2. Copy Provider template
-cp content/templates/PROVIDER-TEMPLATE.md \
-   content/providers/your-provider/_index.md
+cp templates/PROVIDER-TEMPLATE.md \
+   providers/your-provider/_index.md
 
 # 3. Edit document
 # Fill in: basic info, company intro, registration process, service list
@@ -171,9 +171,9 @@ cp content/templates/PROVIDER-TEMPLATE.md \
 
 ```bash {filename="Bash"}
 # Create directory and copy Chatbot template
-mkdir -p content/services/chatbot/your-service
-cp content/templates/SERVICE-CHATBOT-TEMPLATE.md \
-   content/services/chatbot/your-service/_index.md
+mkdir -p services/chatbot/your-service
+cp templates/SERVICE-CHATBOT-TEMPLATE.md \
+   services/chatbot/your-service/_index.md
 
 # Edit document
 # Fill in: access URL, features, limitations, usage methods
@@ -183,9 +183,9 @@ cp content/templates/SERVICE-CHATBOT-TEMPLATE.md \
 
 ```bash {filename="Bash"}
 # Create directory and copy API template
-mkdir -p content/services/api/your-service
-cp content/templates/SERVICE-API-TEMPLATE.md \
-   content/services/api/your-service/_index.md
+mkdir -p services/api/your-service
+cp templates/SERVICE-API-TEMPLATE.md \
+   services/api/your-service/_index.md
 
 # Edit document
 # Fill in: API endpoint, models, quotas, code examples
@@ -276,8 +276,8 @@ Use our checklist:
 ```bash {filename="Bash"}
 # Fork the project to your GitHub account
 # Then clone locally
-git clone https://github.com/your-username/getfreeai.git
-cd getfreeai
+git clone https://github.com/exdovic/getfreeai-content.git
+cd getfreeai-content
 ```
 
 ### 2. Create Branch
@@ -294,13 +294,13 @@ git checkout -b fix-issue-description
 
 ```bash {filename="Bash"}
 # Add Provider document
-git add content/providers/your-provider/_index.md
+git add providers/your-provider/_index.md
 
 # Add Chatbot service document (if applicable)
-git add content/services/chatbot/your-service/
+git add services/chatbot/your-service/
 
 # Add API service document (if applicable)
-git add content/services/api/your-service/
+git add services/api/your-service/
 
 # Update navigation config (if needed)
 git add hugo.yaml
@@ -585,7 +585,7 @@ Check out these excellent examples:
 
 Let's make AI services accessible together!
 
-[Start Contributing](https://github.com/your-repo) · [View Templates](/en/templates) · [Read Guide](/en/templates/writing-guide)
+[Start Contributing](https://github.com/exdovic/getfreeai-content) · [View Templates](/en/templates) · [Read Guide](/en/templates/writing-guide)
 
 </div>
 
