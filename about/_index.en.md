@@ -62,6 +62,49 @@ Each provider's documentation includes:
 
 ---
 
+## ⚠️ Important Notices
+
+### Information Accuracy Disclaimer
+
+All information on this site is sourced from:
+- Official websites and documentation of service providers
+- Actual testing and feedback from community users
+- Public technical blogs and review articles
+
+**Please Note:**
+- ✅ We strive to ensure information accuracy and timeliness
+- ⚠️ AI service policies may change at any time; please refer to official latest information
+- 📝 If you find outdated or incorrect information, please report via [GitHub Issues](https://github.com/exdovic/getfreeai-content/issues)
+- 🔄 We update documentation regularly but cannot guarantee real-time updates
+
+### Responsible Use Guidelines
+
+Free services are precious; let's cherish them together:
+
+**✅ Recommended Practices:**
+- Use for learning, research, and personal project development
+- Follow service providers' terms of use
+- Use reasonably within quota limits
+- Respect providers' business models
+
+**❌ Prohibited Actions:**
+- Large-scale commercial use of free quotas
+- Bypassing limits through technical means
+- Bulk account registration to abuse services
+- Use for illegal or unethical purposes
+
+**Why Is This Important?**
+
+If many users abuse free services, it may lead to:
+- Providers tightening free policies or canceling free services
+- Significantly reduced quotas, affecting normal users
+- Increased verification barriers (e.g., mandatory credit cards)
+- The entire community losing valuable free resources
+
+**Let's work together to maintain a healthy free AI service ecosystem!** 🌱
+
+---
+
 ## 📊 Inclusion Criteria
 
 Services we include must meet the following conditions:
