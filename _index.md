@@ -31,6 +31,36 @@ title: GetFreeAI - 免费 AI 服务使用指南
 
 ---
 
+## 🌟 精选推荐
+
+### 💬 Chatbot 服务
+
+无需编程，直接在网页使用 AI 对话服务：
+
+{{< cards >}}
+  {{< card link="/zh-cn/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="1,500次/天 · Gemini系列 · 多模态" >}}
+  {{< card link="/zh-cn/services/chatbot/groq" title="Groq Playground" subtitle="14,400次/天 · 极速推理 · 800+ tokens/s" >}}
+  {{< card link="/zh-cn/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000次/天 · 47+免费模型" >}}
+  {{< card link="/zh-cn/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="50条/天 · 中文顶尖 · 思维链可见" >}}
+  {{< card link="/zh-cn/services/chatbot/cohere" title="Cohere Coral" subtitle="无限制 · RAG专家 · 文档上传" >}}
+  {{< card link="/zh-cn/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300试用 · 企业级 · 2M上下文" >}}
+{{< /cards >}}
+
+### 🔌 API 服务
+
+开发者 API 接口，集成到您的应用中：
+
+{{< cards >}}
+  {{< card link="/zh-cn/services/api/google-ai-studio" title="Google AI Studio API" subtitle="15M tokens/天 · Gemini系列 · OpenAI兼容" >}}
+  {{< card link="/zh-cn/services/api/groq" title="Groq API" subtitle="14,400次/天 · 极速推理 · OpenAI兼容" >}}
+  {{< card link="/zh-cn/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000次/天 · 47+模型 · 一站式" >}}
+  {{< card link="/zh-cn/services/api/deepseek" title="DeepSeek API" subtitle="¥5试用 · 超低价格 · 中文优化" >}}
+  {{< card link="/zh-cn/services/api/cohere" title="Cohere API" subtitle="1,000-10,000次/月 · RAG · Embed+Rerank" >}}
+  {{< card link="/zh-cn/services/api/vertex-ai" title="Vertex AI API" subtitle="$300试用 · 企业级 · 完整MLOps" >}}
+{{< /cards >}}
+
+---
+
 ## 📚 服务分类
 
 {{< cards >}}
@@ -39,34 +69,6 @@ title: GetFreeAI - 免费 AI 服务使用指南
   {{< card link="/zh-cn/services/api" title="API 服务" icon="code" subtitle="开发者 API 接口" >}}
   {{< card link="/zh-cn/contribute" title="贡献指南" icon="pencil" subtitle="帮助我们完善文档" >}}
 {{< /cards >}}
-
----
-
-## 🌟 精选推荐
-
-### 免费提供者
-
-<div class="mt-6 mb-6">
-
-| 提供者 | 主要特点 | 免费配额 | 推荐指数 |
-|--------|---------|---------|---------|
-| [Google AI Studio](/providers/google-ai-studio) | 业界最高免费额度，Gemini 系列 | 15M tokens/天 | ⭐⭐⭐⭐⭐ |
-| [Groq](/providers/groq) | 业界最快速度（800+ tokens/s） | 14,400 请求/天 | ⭐⭐⭐⭐⭐ |
-| [OpenRouter](/providers/openrouter) | 47+ 免费模型聚合 | 50-1000 请求/天 | ⭐⭐⭐⭐⭐ |
-
-</div>
-
-### 试用积分提供者
-
-<div class="mt-6 mb-6">
-
-| 提供者 | 主要特点 | 试用额度 | 推荐指数 |
-|--------|---------|---------|---------|
-| [DeepSeek](/providers/deepseek) | 中国最强，价格超低 | ¥5 + 免费 Chatbot | ⭐⭐⭐⭐⭐ |
-| [Cohere](/providers/cohere) | 企业级 RAG 专家 | 10,000 calls/月 | ⭐⭐⭐⭐⭐ |
-| [Google Vertex AI](/providers/google-vertex-ai) | 企业级 AI 平台 | $300（90天） | ⭐⭐⭐⭐ |
-
-</div>
 
 ---
 

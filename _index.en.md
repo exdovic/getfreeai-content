@@ -31,6 +31,36 @@ Welcome to GetFreeAI! We've carefully compiled guides for free AI services from 
 
 ---
 
+## 🌟 Featured Services
+
+### 💬 Chatbot Services
+
+No coding required, use AI conversational services directly in your browser:
+
+{{< cards >}}
+  {{< card link="/en/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="1,500/day · Gemini · Multimodal" >}}
+  {{< card link="/en/services/chatbot/groq" title="Groq Playground" subtitle="14,400/day · Ultra-fast · 800+ tokens/s" >}}
+  {{< card link="/en/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000/day · 47+ free models" >}}
+  {{< card link="/en/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="50 msgs/day · Top Chinese · Chain-of-thought" >}}
+  {{< card link="/en/services/chatbot/cohere" title="Cohere Coral" subtitle="Unlimited · RAG expert · Doc upload" >}}
+  {{< card link="/en/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300 trial · Enterprise · 2M context" >}}
+{{< /cards >}}
+
+### 🔌 API Services
+
+Developer API interfaces to integrate into your applications:
+
+{{< cards >}}
+  {{< card link="/en/services/api/google-ai-studio" title="Google AI Studio API" subtitle="15M tokens/day · Gemini · OpenAI-compatible" >}}
+  {{< card link="/en/services/api/groq" title="Groq API" subtitle="14,400/day · Ultra-fast · OpenAI-compatible" >}}
+  {{< card link="/en/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000/day · 47+ models · One-stop" >}}
+  {{< card link="/en/services/api/deepseek" title="DeepSeek API" subtitle="¥5 trial · Ultra-low price · Chinese optimized" >}}
+  {{< card link="/en/services/api/cohere" title="Cohere API" subtitle="1,000-10,000/month · RAG · Embed+Rerank" >}}
+  {{< card link="/en/services/api/vertex-ai" title="Vertex AI API" subtitle="$300 trial · Enterprise · Full MLOps" >}}
+{{< /cards >}}
+
+---
+
 ## 📚 Service Categories
 
 {{< cards >}}
@@ -39,34 +69,6 @@ Welcome to GetFreeAI! We've carefully compiled guides for free AI services from 
   {{< card link="/en/services/api" title="API Services" icon="code" subtitle="Developer API interfaces" >}}
   {{< card link="/en/contribute" title="Contribution Guide" icon="pencil" subtitle="Help us improve the documentation" >}}
 {{< /cards >}}
-
----
-
-## 🌟 Featured Recommendations
-
-### Free Providers
-
-<div class="mt-6 mb-6">
-
-| Provider | Key Features | Free Quota | Rating |
-|----------|-------------|------------|---------|
-| [Google AI Studio](/providers/google-ai-studio) | Highest free quota, Gemini series | 15M tokens/day | ⭐⭐⭐⭐⭐ |
-| [Groq](/providers/groq) | Industry-leading speed (800+ tokens/s) | 14,400 requests/day | ⭐⭐⭐⭐⭐ |
-| [OpenRouter](/providers/openrouter) | 47+ free model aggregation | 50-1000 requests/day | ⭐⭐⭐⭐⭐ |
-
-</div>
-
-### Trial Credit Providers
-
-<div class="mt-6 mb-6">
-
-| Provider | Key Features | Trial Credit | Rating |
-|----------|-------------|--------------|---------|
-| [DeepSeek](/providers/deepseek) | China's strongest, ultra-low price | ¥5 + Free Chatbot | ⭐⭐⭐⭐⭐ |
-| [Cohere](/providers/cohere) | Enterprise RAG expert | 10,000 calls/month | ⭐⭐⭐⭐⭐ |
-| [Google Vertex AI](/providers/google-vertex-ai) | Enterprise AI platform | $300 (90 days) | ⭐⭐⭐⭐ |
-
-</div>
 
 ---
 
