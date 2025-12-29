@@ -19,6 +19,16 @@ Welcome to GetFreeAI! We've carefully compiled guides for free AI services from 
 - ✅ Avoid pitfalls by learning about limitations and precautions upfront
 - ✅ Use as a long-term reference handbook
 
+### ⚠️ Important Notes
+
+{{< callout type="warning" >}}
+  **Information Accuracy:** Information on this site is sourced from the internet and actual testing, for reference only. Please refer to the official and latest information from each service provider.
+{{< /callout >}}
+
+{{< callout type="info" >}}
+  **Responsible Use:** Please do not abuse these free services. Responsible use is not only respectful to providers, but also ensures these quality free resources remain available for everyone for the long term.
+{{< /callout >}}
+
 ---
 
 ## 📚 Service Categories
