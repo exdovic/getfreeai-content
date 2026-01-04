@@ -1,5 +1,15 @@
 ---
 title: AI 服务
+description: "按服务类型浏览免费 AI 服务：Chatbot 在线对话服务和 API 开发接口。对比 Google AI Studio、Groq、OpenRouter、DeepSeek、Cohere 等平台，找到最适合您需求的免费 AI 解决方案。"
+keywords:
+  - AI服务
+  - 免费AI服务
+  - AI聊天服务
+  - AI API服务
+  - 在线AI工具
+  - 开发者AI工具
+  - 免费AI平台
+  - AI服务对比
 weight: 2
 comments: true
 ---
