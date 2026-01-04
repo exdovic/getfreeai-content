@@ -1,5 +1,17 @@
 ---
 title: AI Providers
+description: Discover 6 top free AI service providers including Google AI Studio, Groq, OpenRouter, DeepSeek, Cohere, and Vertex AI. Compare free quotas, API access, tutorials, and features to choose the best AI platform for your needs.
+keywords:
+  - AI providers
+  - free AI platforms
+  - Google AI Studio
+  - Groq
+  - OpenRouter
+  - DeepSeek
+  - Cohere
+  - Vertex AI
+  - AI service comparison
+  - free LLM platforms
 type: docs
 weight: 1
 comments: true

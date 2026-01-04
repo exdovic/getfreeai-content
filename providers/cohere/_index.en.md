@@ -1,5 +1,18 @@
 ---
-title: Cohere
+title: "Cohere - RAG Expert Free AI Platform"
+description: "Cohere specializes in RAG applications! Command R+ model, Embed v3 vectorization, Rerank 3.5 reranking. 1000-10000 free requests monthly, provides Chatbot and API services, enterprise-grade RAG solutions, detailed tutorials."
+keywords:
+  - Cohere
+  - RAG expert
+  - Command R+
+  - Embed v3
+  - Rerank 3.5
+  - vectorization
+  - document retrieval
+  - free RAG
+  - Cohere API
+  - knowledge base AI
+image: /images/providers/cohere-og.png
 type: docs
 weight: 5
 comments: true

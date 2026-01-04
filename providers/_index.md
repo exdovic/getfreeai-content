@@ -1,5 +1,17 @@
 ---
 title: AI 提供者
+description: 汇集 Google AI Studio、Groq、OpenRouter、DeepSeek、Cohere、Vertex AI 等 6 大免费 AI 服务提供者。提供免费配额、API 接口、使用教程和详细对比，帮助您选择最适合的 AI 平台。
+keywords:
+  - AI提供者
+  - 免费AI平台
+  - Google AI Studio
+  - Groq
+  - OpenRouter
+  - DeepSeek
+  - Cohere
+  - Vertex AI
+  - AI服务对比
+  - 免费大模型平台
 type: docs
 weight: 1
 comments: true

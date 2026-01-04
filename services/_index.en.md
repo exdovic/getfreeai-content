@@ -1,5 +1,15 @@
 ---
 title: AI Services
+description: "Browse free AI services by type: Chatbot services for online conversations and API services for developers. Compare Google AI Studio, Groq, OpenRouter, DeepSeek, Cohere and more. Find the best free AI solution for your needs."
+keywords:
+  - AI services
+  - free AI services
+  - AI chatbot services
+  - AI API services
+  - online AI tools
+  - developer AI tools
+  - free AI platforms
+  - AI service comparison
 weight: 2
 comments: true
 ---

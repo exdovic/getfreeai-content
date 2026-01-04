@@ -1,5 +1,17 @@
 ---
 title: API 服务
+description: 免费 AI API 接口大全！提供 Google AI Studio API、Groq API、OpenRouter API、DeepSeek API、Cohere API 等平台的免费 API 配额。OpenAI 兼容、高速推理、详细教程、代码示例。
+keywords:
+  - 免费AI API
+  - AI接口
+  - Google AI Studio API
+  - Groq API
+  - OpenRouter API
+  - DeepSeek API
+  - Cohere API
+  - OpenAI兼容API
+  - 免费LLM API
+  - AI开发接口
 weight: 2
 comments: true
 ---

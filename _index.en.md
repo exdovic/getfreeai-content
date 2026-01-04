@@ -1,5 +1,23 @@
 ---
 title: GetFreeAI - Free AI Services Guide
+description: Discover and use the best free AI services! Comprehensive guides for Google AI Studio, Groq, OpenRouter, DeepSeek and more. Free quotas, API access, and tutorials. Start AI development at zero cost.
+keywords:
+  - free AI
+  - free AI services
+  - AI API
+  - ChatGPT alternative
+  - free Gemini
+  - Google AI Studio
+  - Groq API
+  - OpenRouter
+  - DeepSeek
+  - free AI tools
+  - AI development
+  - free LLM
+  - LLM API
+  - free GPT
+  - AI chatbot
+image: /images/og-default.png
 ---
 
 <div align="center">

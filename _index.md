@@ -1,5 +1,23 @@
 ---
 title: GetFreeAI - 免费 AI 服务使用指南
+description: 发现并使用最好的免费 AI 服务！提供 Google AI Studio、Groq、OpenRouter、DeepSeek 等主流 AI 平台的免费配额、API 接口和详细使用教程。无需付费，轻松上手 AI 开发。
+keywords:
+  - 免费AI
+  - 免费AI服务
+  - AI API
+  - ChatGPT替代
+  - Gemini免费
+  - Google AI Studio
+  - Groq API
+  - OpenRouter
+  - DeepSeek
+  - 免费AI工具
+  - AI开发
+  - 免费大模型
+  - LLM API
+  - 免费GPT
+  - AI聊天机器人
+image: /images/og-default.png
 ---
 
 <div align="center">
