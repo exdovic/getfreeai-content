@@ -2,6 +2,17 @@
 title: About
 weight: 5
 comments: true
+faq:
+  - question: "What is GetFreeAI?"
+    answer: "GetFreeAI is an open-source documentation website dedicated to helping users access and use free AI services. We systematically organize free service information from major AI providers and provide detailed registration and usage guides."
+  - question: "Is the information on the website accurate?"
+    answer: "Our information comes from official websites and documentation of service providers, as well as actual testing and feedback from community users. We strive to ensure accuracy and timeliness, but AI service policies may change at any time. Please refer to the latest official information."
+  - question: "How can I contribute?"
+    answer: "GetFreeAI is an open-source project. You are welcome to submit Pull Requests or Issues via GitHub. You can contribute new service provider information, update outdated content, improve documentation, or suggest improvements."
+  - question: "Why do some services require VPN access?"
+    answer: "Some AI service providers (such as Google AI Studio, OpenAI, etc.) cannot be directly accessed in certain regions due to policy reasons. We will clearly indicate these restrictions in the documentation to help users understand in advance."
+  - question: "Do free services have usage limits?"
+    answer: "Yes, most free AI services have certain limitations, such as daily request limits, token quotas, rate limits, etc. We will detail these limitations in each service's documentation to help you choose the most suitable service."
 ---
 
 
