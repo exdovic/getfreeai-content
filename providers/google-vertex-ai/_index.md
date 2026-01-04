@@ -1,5 +1,18 @@
 ---
-title: Google Vertex AI
+title: "Google Vertex AI - $300 试用企业级 AI 平台"
+description: "Google Vertex AI 提供 $300 免费试用额度！企业级 AI 平台，支持 Gemini、Claude、Llama 等模型，2M 上下文，完整 MLOps 工具链。90 天试用，无需信用卡扣费，详细教程。"
+keywords:
+  - Google Vertex AI
+  - Vertex AI
+  - 300美元试用
+  - 企业级AI
+  - Google Cloud AI
+  - MLOps
+  - Gemini企业版
+  - Claude API
+  - 免费试用
+  - AI平台
+image: /images/providers/vertex-ai-og.png
 type: docs
 weight: 6
 comments: true

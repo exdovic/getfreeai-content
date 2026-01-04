@@ -1,5 +1,18 @@
 ---
-title: DeepSeek
+title: "DeepSeek - Top Chinese AI Free Guide"
+description: "DeepSeek offers top-tier Chinese AI models! DeepSeek R1 with visible chain-of-thought, DeepSeek V3 ultra-low price ¥1/million tokens. ¥5 free trial, Chinese-optimized, transparent reasoning process. Provides Chatbot and API services, detailed tutorials."
+keywords:
+  - DeepSeek
+  - DeepSeek R1
+  - DeepSeek V3
+  - Chinese AI
+  - chain of thought
+  - reasoning process
+  - ultra-low price AI
+  - free trial
+  - Chinese LLM
+  - DeepSeek API
+image: /images/providers/deepseek-og.png
 type: docs
 weight: 4
 comments: true

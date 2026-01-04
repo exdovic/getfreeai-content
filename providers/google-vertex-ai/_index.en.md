@@ -1,5 +1,18 @@
 ---
-title: Google Vertex AI
+title: "Google Vertex AI - $300 Trial Enterprise AI Platform"
+description: "Google Vertex AI offers $300 free trial credits! Enterprise-grade AI platform supporting Gemini, Claude, Llama and more, 2M context, complete MLOps toolchain. 90-day trial, no credit card charges, detailed tutorials."
+keywords:
+  - Google Vertex AI
+  - Vertex AI
+  - 300 dollar trial
+  - enterprise AI
+  - Google Cloud AI
+  - MLOps
+  - Gemini enterprise
+  - Claude API
+  - free trial
+  - AI platform
+image: /images/providers/vertex-ai-og.png
 type: docs
 weight: 6
 comments: true

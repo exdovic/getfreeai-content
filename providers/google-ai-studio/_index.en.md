@@ -1,5 +1,18 @@
 ---
-title: Google AI Studio
+title: "Google AI Studio - Free Gemini Guide"
+description: "Google AI Studio offers the industry's highest 15M tokens/day free quota! Supports Gemini 2.5 Flash/Pro models, multimodal, 2M context, Google Search grounding. Provides Chatbot and API services, completely free, no credit card required. Detailed tutorials."
+keywords:
+  - Google AI Studio
+  - Gemini API
+  - free Gemini
+  - Google AI
+  - Gemini free quota
+  - 15M tokens
+  - multimodal AI
+  - Google Search Grounding
+  - free AI API
+  - Gemini 2.5 Flash
+image: /images/providers/google-ai-studio-og.png
 type: docs
 weight: 1
 comments: true

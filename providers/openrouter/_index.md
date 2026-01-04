@@ -1,5 +1,18 @@
 ---
-title: OpenRouter
+title: "OpenRouter - 47+ 免费 AI 模型聚合平台"
+description: "OpenRouter 聚合 47+ 免费 AI 模型！一个 API 访问 GPT-4、Claude、Gemini、Llama 等。每日 50-1000 次免费请求，统一接口，无需多个 API key，OpenAI 兼容格式。"
+keywords:
+  - OpenRouter
+  - AI模型聚合
+  - 47个免费模型
+  - 统一API接口
+  - GPT-4免费
+  - Claude免费
+  - 多模型访问
+  - OpenAI兼容
+  - 免费AI路由
+  - 模型切换
+image: /images/providers/openrouter-og.png
 type: docs
 weight: 3
 comments: true

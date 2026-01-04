@@ -1,5 +1,18 @@
 ---
-title: DeepSeek
+title: "DeepSeek - 中文顶尖免费 AI 使用指南"
+description: "DeepSeek 提供中文顶尖 AI 模型！DeepSeek R1 思维链可见，DeepSeek V3 超低价格 ¥1/百万 tokens。免费试用 ¥5，中文优化，推理过程透明。提供 Chatbot 和 API 服务，详细教程。"
+keywords:
+  - DeepSeek
+  - DeepSeek R1
+  - DeepSeek V3
+  - 中文AI
+  - 思维链
+  - 推理过程
+  - 超低价AI
+  - 免费试用
+  - 中文大模型
+  - DeepSeek API
+image: /images/providers/deepseek-og.png
 type: docs
 weight: 4
 comments: true
