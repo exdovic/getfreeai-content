@@ -3,14 +3,14 @@ title: "[Service Name] API - [Feature Description]"  # SEO-optimized full title,
 linkTitle: "API - [Short Service Name]"  # Sidebar display name, e.g., "API - Google AI Studio"
 description: "[150-160 characters SEO description with key features, free quota, and technical details]"
 keywords:
-  - [Service Name] API  # e.g., Google AI Studio API
-  - [Keyword2]  # e.g., Gemini API
-  - [Keyword3]  # e.g., free AI API
-  - [Keyword4]
-  - [Keyword5]
-  - [Keyword6]
-  - [Keyword7]
-  - [Keyword8]
+  - "[Service Name] API"  # e.g., Google AI Studio API
+  - "[Keyword2]"  # e.g., Gemini API
+  - "[Keyword3]"  # e.g., free AI API
+  - "[Keyword4]"
+  - "[Keyword5]"
+  - "[Keyword6]"
+  - "[Keyword7]"
+  - "[Keyword8]"
 image: /images/logo.svg  # OG image path
 type: docs
 weight: 20

@@ -3,14 +3,14 @@ title: "[服务名称] API - [特点描述]"  # SEO 优化的完整标题，例�
 linkTitle: "API - [服务简短名称]"  # 侧边栏显示名称，例如："API - Google AI Studio"
 description: "[150-160 字符的 SEO 描述，包含关键特性、免费配额和技术细节]"
 keywords:
-  - [服务名称] API  # 例如：Google AI Studio API
-  - [关键词2]  # 例如：Gemini API
-  - [关键词3]  # 例如：免费 AI API
-  - [关键词4]
-  - [关键词5]
-  - [关键词6]
-  - [关键词7]
-  - [关键词8]
+  - "[服务名称] API"  # 例如：Google AI Studio API
+  - "[关键词2]"  # 例如：Gemini API
+  - "[关键词3]"  # 例如：免费 AI API
+  - "[关键词4]"
+  - "[关键词5]"
+  - "[关键词6]"
+  - "[关键词7]"
+  - "[关键词8]"
 image: /images/logo.svg  # OG 图片路径
 type: docs
 weight: 20

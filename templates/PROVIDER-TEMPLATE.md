@@ -3,16 +3,16 @@ title: "[提供者中文名称] - [特点描述]"  # SEO 优化的完整标题�
 linkTitle: "[提供者简短名称]"  # 侧边栏显示的简短名称，例如："Google AI Studio"
 description: "[150-160 字符的 SEO 描述，包含关键词、核心特性和免费配额]"
 keywords:
-  - [关键词1]  # 例如：Google AI Studio
-  - [关键词2]  # 例如：Gemini API
-  - [关键词3]  # 例如：免费Gemini
-  - [关键词4]
-  - [关键词5]
-  - [关键词6]
-  - [关键词7]
-  - [关键词8]
-  - [关键词9]
-  - [关键词10]
+  - "[关键词1]"  # 例如：Google AI Studio
+  - "[关键词2]"  # 例如：Gemini API
+  - "[关键词3]"  # 例如：免费Gemini
+  - "[关键词4]"
+  - "[关键词5]"
+  - "[关键词6]"
+  - "[关键词7]"
+  - "[关键词8]"
+  - "[关键词9]"
+  - "[关键词10]"
 image: /images/providers/[provider-name]-og.png  # OG 图片路径（可选，如未创建则使用默认图）
 type: docs
 weight: 10
