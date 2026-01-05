@@ -1,5 +1,6 @@
 ---
 title: "Cohere Coral - 企业级 RAG 专用对话工具"
+linkTitle: "Coral - Cohere"
 description: "Cohere Coral 提供专注 RAG 应用的在线对话工具，支持 Command R+ 模型、文档理解、知识库对话。无限制免费使用，企业级准确度，专为文档检索和问答优化。"
 keywords:
   - Cohere Coral

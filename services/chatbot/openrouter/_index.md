@@ -1,5 +1,6 @@
 ---
 title: "OpenRouter Playground - 100+ 免费 AI 模型在线对话"
+linkTitle: "Playground - OpenRouter"
 description: "OpenRouter Playground 提供 100+ 免费 AI 模型的对话服务，包括 GPT-4、Claude 3.5、Gemini Pro 等顶级模型。统一界面，一键切换，免费额度丰富，支持多模态对话。"
 keywords:
   - OpenRouter Playground

@@ -1,5 +1,6 @@
 ---
 title: "Google AI Studio Chatbot - 免费 Gemini 在线对话工具"
+linkTitle: "Chatbot - Google AI Studio"
 description: "Google AI Studio 提供免费在线 Chatbot，支持 Gemini 2.5 Flash/Pro 模型、多模态对话、2M 上下文、Google Search 联网搜索。15M tokens/天配额，完全免费无需信用卡，实时对话体验。"
 keywords:
   - Google AI Studio Chatbot

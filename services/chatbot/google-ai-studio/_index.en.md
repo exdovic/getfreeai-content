@@ -1,5 +1,6 @@
 ---
 title: "Google AI Studio Chatbot - Free Gemini Online Chat Tool"
+linkTitle: "Chatbot - Google AI Studio"
 description: "Google AI Studio provides free online Chatbot with Gemini 2.5 Flash/Pro models, multimodal conversation, 2M context, Google Search grounding. 15M tokens/day quota, completely free without credit card, real-time chat experience."
 keywords:
   - Google AI Studio Chatbot
