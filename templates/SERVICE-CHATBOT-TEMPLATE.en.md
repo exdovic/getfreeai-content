@@ -3,14 +3,14 @@ title: "[Service Name] Chatbot - [Feature Description]"  # SEO-optimized full ti
 linkTitle: "Chatbot - [Short Service Name]"  # Sidebar display name, e.g., "Chatbot - Google AI Studio"
 description: "[150-160 characters SEO description with key features, free quota, and use cases]"
 keywords:
-  - [Service Name] Chatbot  # e.g., Google AI Studio Chatbot
-  - [Keyword2]  # e.g., Gemini online chat
-  - [Keyword3]  # e.g., free AI chatbot
-  - [Keyword4]
-  - [Keyword5]
-  - [Keyword6]
-  - [Keyword7]
-  - [Keyword8]
+  - "[Service Name] Chatbot"  # e.g., Google AI Studio Chatbot
+  - "[Keyword2]"  # e.g., Gemini online chat
+  - "[Keyword3]"  # e.g., free AI chatbot
+  - "[Keyword4]"
+  - "[Keyword5]"
+  - "[Keyword6]"
+  - "[Keyword7]"
+  - "[Keyword8]"
 image: /images/logo.svg  # OG image path
 type: docs
 weight: 10
