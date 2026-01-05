@@ -1,5 +1,19 @@
 ---
-title: "[Provider Name]"
+title: "[Provider Name] - [Feature Description]"  # SEO-optimized full title, e.g., "Google AI Studio - Free Gemini Guide"
+linkTitle: "[Short Provider Name]"  # Short name for sidebar, e.g., "Google AI Studio"
+description: "[150-160 characters SEO description with keywords, core features, and free quota]"
+keywords:
+  - [Keyword1]  # e.g., Google AI Studio
+  - [Keyword2]  # e.g., Gemini API
+  - [Keyword3]  # e.g., free Gemini
+  - [Keyword4]
+  - [Keyword5]
+  - [Keyword6]
+  - [Keyword7]
+  - [Keyword8]
+  - [Keyword9]
+  - [Keyword10]
+image: /images/providers/[provider-name]-og.png  # OG image path (optional, uses default if not created)
 type: docs
 weight: 10
 comments: true
