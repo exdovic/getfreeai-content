@@ -1,5 +1,6 @@
 ---
 title: "DeepSeek - 中文顶尖免费 AI 使用指南"
+linkTitle: "DeepSeek"
 description: "DeepSeek 提供中文顶尖 AI 模型！DeepSeek R1 思维链可见，DeepSeek V3 超低价格 ¥1/百万 tokens。免费试用 ¥5，中文优化，推理过程透明。提供 Chatbot 和 API 服务，详细教程。"
 keywords:
   - DeepSeek

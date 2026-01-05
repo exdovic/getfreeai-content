@@ -1,5 +1,6 @@
 ---
 title: "OpenRouter - 47+ Free AI Models Aggregation Platform"
+linkTitle: "OpenRouter"
 description: "OpenRouter aggregates 47+ free AI models! One API to access GPT-4, Claude, Gemini, Llama and more. 50-1000 free requests daily, unified interface, no multiple API keys needed, OpenAI-compatible format."
 keywords:
   - OpenRouter

@@ -1,5 +1,6 @@
 ---
 title: "Google AI Studio - 免费 Gemini 使用指南"
+linkTitle: "Google AI Studio"
 description: "Google AI Studio 提供业界最高 15M tokens/天免费配额！支持 Gemini 2.5 Flash/Pro 模型、多模态、2M 上下文、Google Search 联网搜索。提供 Chatbot 和 API 服务，完全免费，无需信用卡，详细教程。"
 keywords:
   - Google AI Studio

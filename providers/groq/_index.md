@@ -1,5 +1,6 @@
 ---
 title: "Groq - 超高速免费 AI 使用指南"
+linkTitle: "Groq"
 description: "Groq 提供业界最快推理速度 800+ tokens/秒！每日 14,400 次免费请求，支持 Llama 3.3、Mixtral、Gemma 2 等模型。提供 Chatbot 和 API 服务，极速响应、OpenAI 兼容，详细教程。"
 keywords:
   - Groq

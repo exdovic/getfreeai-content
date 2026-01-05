@@ -1,5 +1,6 @@
 ---
 title: "Groq - Ultra-Fast Free AI Guide"
+linkTitle: "Groq"
 description: "Groq offers the industry's fastest inference speed at 800+ tokens/sec! 14,400 free requests daily, supporting Llama 3.3, Mixtral, Gemma 2 and more. Provides Chatbot and API services, lightning-fast response, OpenAI-compatible, detailed tutorials."
 keywords:
   - Groq

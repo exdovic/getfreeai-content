@@ -1,5 +1,6 @@
 ---
 title: "Cohere - RAG 专家免费 AI 平台"
+linkTitle: "Cohere"
 description: "Cohere 专注 RAG 应用！Command R+ 模型、Embed v3 向量化、Rerank 3.5 重排序。每月 1000-10000 次免费请求，提供 Chatbot 和 API 服务，企业级 RAG 解决方案，详细教程。"
 keywords:
   - Cohere
