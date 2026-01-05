@@ -1,5 +1,6 @@
 ---
 title: "Google AI Studio API - 免费 Gemini API 接口服务"
+linkTitle: "API - Google AI Studio"
 description: "Google AI Studio 提供业界最高 15M tokens/天免费 API 配额！支持 Gemini 2.5 Flash/Pro 模型、多模态、2M 上下文、Google Search 联网。完全免费，OpenAI 兼容格式，详细集成教程。"
 keywords:
   - Google AI Studio API

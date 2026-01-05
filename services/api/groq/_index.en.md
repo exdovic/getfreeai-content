@@ -1,5 +1,6 @@
 ---
 title: "Groq API - Ultra-Fast Free AI API Service"
+linkTitle: "API - Groq"
 description: "Groq provides the industry's fastest inference speed at 800+ tokens/sec free API! 14,400 free requests daily, supporting Llama 3.3, Mixtral, Gemma 2 and more. OpenAI-compatible interface, lightning-fast response, detailed code examples."
 keywords:
   - Groq API

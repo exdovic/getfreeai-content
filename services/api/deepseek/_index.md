@@ -1,5 +1,6 @@
 ---
 title: "DeepSeek API - 中文优化超低价 AI API 服务"
+linkTitle: "API - DeepSeek"
 description: "DeepSeek 提供中文顶尖 AI API 服务，支持 DeepSeek R1 思维链可见、DeepSeek V3 高性能推理。中文优化，超低价格 ¥1/百万 tokens，¥5 免费试用，OpenAI 兼容接口。"
 keywords:
   - DeepSeek API

@@ -1,5 +1,6 @@
 ---
 title: "Google AI Studio API - Free Gemini API Service"
+linkTitle: "API - Google AI Studio"
 description: "Google AI Studio provides the industry's highest 15M tokens/day free API quota! Supports Gemini 2.5 Flash/Pro models, multimodal, 2M context, Google Search grounding. Completely free, OpenAI-compatible format, detailed integration tutorials."
 keywords:
   - Google AI Studio API

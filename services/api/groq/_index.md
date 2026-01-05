@@ -1,5 +1,6 @@
 ---
 title: "Groq API - 极速免费 AI API 接口服务"
+linkTitle: "API - Groq"
 description: "Groq 提供业界最快推理速度 800+ tokens/秒的免费 API！每日 14,400 次免费请求，支持 Llama 3.3、Mixtral、Gemma 2 等模型。OpenAI 兼容接口，极速响应，详细代码示例。"
 keywords:
   - Groq API

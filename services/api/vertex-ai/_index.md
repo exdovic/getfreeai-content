@@ -1,5 +1,6 @@
 ---
 title: "Vertex AI API - Google Cloud 企业级 API 服务"
+linkTitle: "API - Google Vertex AI"
 description: "Google Vertex AI 提供企业级 API 服务，支持 Gemini Pro/Flash、Claude 3.5、Llama 3 等模型。$300 免费额度，GCP 生态集成，企业级安全与合规，REST 和 gRPC 接口。"
 keywords:
   - Vertex AI API

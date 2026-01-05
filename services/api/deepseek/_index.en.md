@@ -1,5 +1,6 @@
 ---
 title: "DeepSeek API - Chinese-Optimized Ultra-Low-Cost AI API"
+linkTitle: "API - DeepSeek"
 description: "DeepSeek provides top-tier Chinese AI API service, supporting DeepSeek R1 with visible chain-of-thought, DeepSeek V3 high-performance inference. Chinese-optimized, ultra-low price ¥1/million tokens, ¥5 free trial, OpenAI-compatible interface."
 keywords:
   - DeepSeek API
