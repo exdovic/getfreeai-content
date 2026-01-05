@@ -1,5 +1,17 @@
 ---
-title: "[服务名称] Chatbot"
+title: "[服务名称] Chatbot - [特点描述]"  # SEO 优化的完整标题，例如："Google AI Studio Chatbot - 免费 Gemini 在线对话工具"
+linkTitle: "Chatbot - [服务简短名称]"  # 侧边栏显示名称，例如："Chatbot - Google AI Studio"
+description: "[150-160 字符的 SEO 描述，包含关键特性、免费配额和使用场景]"
+keywords:
+  - [服务名称] Chatbot  # 例如：Google AI Studio Chatbot
+  - [关键词2]  # 例如：Gemini 在线对话
+  - [关键词3]  # 例如：免费 AI 聊天
+  - [关键词4]
+  - [关键词5]
+  - [关键词6]
+  - [关键词7]
+  - [关键词8]
+image: /images/logo.svg  # OG 图片路径
 type: docs
 weight: 10
 comments: true

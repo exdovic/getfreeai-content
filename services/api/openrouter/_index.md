@@ -1,5 +1,17 @@
 ---
-title: OpenRouter - API
+title: "OpenRouter API - 100+ 免费 AI 模型 API 聚合"
+linkTitle: "API - OpenRouter"
+description: "OpenRouter 提供 100+ 免费 AI 模型的 API 服务，包括 GPT-4、Claude 3.5、Gemini Pro 等顶级模型。统一接口，一键切换，免费额度丰富，OpenAI 兼容格式，详细文档。"
+keywords:
+  - OpenRouter API
+  - 多模型 API
+  - 免费 GPT-4 API
+  - Claude API
+  - AI 模型聚合 API
+  - 统一 API 接口
+  - OpenAI 兼容
+  - 多种 AI 模型
+image: /images/logo.svg
 weight: 3
 comments: true
 sidebar:

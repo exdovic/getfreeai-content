@@ -1,5 +1,17 @@
 ---
-title: Groq - Playground
+title: "Groq Playground - Ultra-Fast Free AI Online Chat Tool"
+linkTitle: "Playground - Groq"
+description: "Groq Playground provides the fastest free AI chat experience in the industry, supporting Llama 3.3, Mixtral, Gemma 2 and more. 800+ tokens/sec lightning-fast response, 14,400 free requests daily, real-time chat with no waiting."
+keywords:
+  - Groq Playground
+  - ultra-fast AI chat
+  - free Llama chat
+  - Groq online tool
+  - fast AI response
+  - Mixtral chat
+  - free AI web interface
+  - super fast AI tool
+image: /images/logo.svg
 weight: 2
 comments: true
 sidebar:

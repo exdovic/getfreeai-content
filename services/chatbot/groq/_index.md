@@ -1,5 +1,17 @@
 ---
-title: Groq - Playground
+title: "Groq Playground - 极速免费 AI 在线对话工具"
+linkTitle: "Playground - Groq"
+description: "Groq Playground 提供业界最快的免费 AI 对话体验，支持 Llama 3.3、Mixtral、Gemma 2 等模型。800+ tokens/秒极速响应，每日 14,400 次免费请求，实时对话无等待。"
+keywords:
+  - Groq Playground
+  - 极速 AI 对话
+  - 免费 Llama 聊天
+  - Groq 在线工具
+  - 快速 AI 响应
+  - Mixtral 对话
+  - 免费 AI 网页版
+  - 超快 AI 工具
+image: /images/logo.svg
 weight: 2
 comments: true
 sidebar:

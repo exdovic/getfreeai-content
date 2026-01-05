@@ -1,5 +1,17 @@
 ---
-title: OpenRouter - Playground
+title: "OpenRouter Playground - 100+ Free AI Models Online Chat"
+linkTitle: "Playground - OpenRouter"
+description: "OpenRouter Playground provides chat service with 100+ free AI models, including GPT-4, Claude 3.5, Gemini Pro and more top models. Unified interface, one-click switching, generous free quota, supports multimodal chat."
+keywords:
+  - OpenRouter Playground
+  - multi-model chat
+  - free GPT-4 chat
+  - Claude chat
+  - AI model aggregation
+  - free AI web interface
+  - unified chat interface
+  - multiple AI models
+image: /images/logo.svg
 weight: 3
 comments: true
 sidebar:

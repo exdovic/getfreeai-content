@@ -1,5 +1,17 @@
 ---
-title: Google Vertex AI - API
+title: "Vertex AI API - Google Cloud Enterprise API Service"
+linkTitle: "API - Google Vertex AI"
+description: "Google Vertex AI provides enterprise-grade API service, supporting Gemini Pro/Flash, Claude 3.5, Llama 3 and more. $300 free credit, GCP ecosystem integration, enterprise security and compliance, REST and gRPC interfaces."
+keywords:
+  - Vertex AI API
+  - Google Cloud AI API
+  - enterprise API
+  - GCP API service
+  - Gemini API
+  - Claude API
+  - cloud AI interface
+  - production-grade API
+image: /images/logo.svg
 weight: 6
 comments: true
 sidebar:

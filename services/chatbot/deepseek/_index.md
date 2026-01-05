@@ -1,5 +1,17 @@
 ---
-title: DeepSeek - Chatbot
+title: "DeepSeek Chatbot - 中文优化免费 AI 对话工具"
+linkTitle: "Chatbot - DeepSeek"
+description: "DeepSeek 提供中文顶尖 Chatbot，支持 DeepSeek R1 思维链可见、DeepSeek V3 高性能对话。中文优化，推理过程透明，¥5 免费试用，超低价格持续使用。"
+keywords:
+  - DeepSeek Chatbot
+  - 中文 AI 对话
+  - 免费中文聊天
+  - DeepSeek R1
+  - 思维链可见
+  - 中文 AI 网页版
+  - 国产 AI 对话
+  - 透明推理过程
+image: /images/logo.svg
 weight: 4
 comments: true
 sidebar:

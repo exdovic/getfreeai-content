@@ -1,5 +1,17 @@
 ---
-title: Cohere - Coral
+title: "Cohere Coral - Enterprise RAG-Focused Chat Tool"
+linkTitle: "Coral - Cohere"
+description: "Cohere Coral provides RAG-focused online chat tool, supporting Command R+ model, document understanding, knowledge base conversation. Unlimited free usage, enterprise-grade accuracy, optimized for document retrieval and Q&A."
+keywords:
+  - Cohere Coral
+  - RAG chat tool
+  - free enterprise AI
+  - Command R+ chat
+  - document Q&A
+  - knowledge base chat
+  - free RAG tool
+  - enterprise AI chat
+image: /images/logo.svg
 weight: 5
 comments: true
 sidebar:
