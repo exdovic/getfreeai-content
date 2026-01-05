@@ -1,5 +1,16 @@
 ---
-title: Cohere - API
+title: "Cohere API - 企业级 RAG 专用 API 服务"
+description: "Cohere 提供专注 RAG 应用的 API 服务，支持 Command R+ 对话、Embed v3 向量化、Rerank 3.5 重排序。每月 1000-10000 次免费请求，企业级准确度，专为 RAG 优化。"
+keywords:
+  - Cohere API
+  - RAG API
+  - 免费企业 AI API
+  - Command R+ API
+  - Embed API
+  - Rerank API
+  - 向量化 API
+  - 企业级 AI 接口
+image: /images/logo.svg
 weight: 5
 comments: true
 sidebar:

@@ -1,5 +1,16 @@
 ---
-title: Cohere - API
+title: "Cohere API - Enterprise RAG-Focused API Service"
+description: "Cohere provides RAG-focused API service, supporting Command R+ chat, Embed v3 vectorization, Rerank 3.5 reranking. 1000-10000 free requests monthly, enterprise-grade accuracy, optimized for RAG applications."
+keywords:
+  - Cohere API
+  - RAG API
+  - free enterprise AI API
+  - Command R+ API
+  - Embed API
+  - Rerank API
+  - vectorization API
+  - enterprise AI interface
+image: /images/logo.svg
 weight: 5
 comments: true
 sidebar:

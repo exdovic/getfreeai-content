@@ -1,5 +1,16 @@
 ---
-title: Google Vertex AI - Studio
+title: "Vertex AI Studio - Google Cloud Enterprise Chat Tool"
+description: "Google Vertex AI Studio provides enterprise-grade online chat tool, supporting Gemini Pro/Flash, Claude 3.5, Llama 3 and more. $300 free credit, GCP ecosystem integration, enterprise security and compliance, suitable for production environments."
+keywords:
+  - Vertex AI Studio
+  - Google Cloud AI
+  - enterprise chat
+  - GCP chat tool
+  - multi-model support
+  - cloud AI chat
+  - $300 free credit
+  - production-grade AI
+image: /images/logo.svg
 weight: 6
 comments: true
 sidebar:

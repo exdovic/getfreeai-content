@@ -1,5 +1,16 @@
 ---
-title: Google Vertex AI - Studio
+title: "Vertex AI Studio - Google Cloud 企业级对话工具"
+description: "Google Vertex AI Studio 提供企业级在线对话工具，支持 Gemini Pro/Flash、Claude 3.5、Llama 3 等模型。$300 免费额度，GCP 生态集成，企业级安全与合规，适合生产环境。"
+keywords:
+  - Vertex AI Studio
+  - Google Cloud AI
+  - 企业级对话
+  - GCP 对话工具
+  - 多模型支持
+  - 云端 AI 对话
+  - 免费 $300 额度
+  - 生产级 AI 工具
+image: /images/logo.svg
 weight: 6
 comments: true
 sidebar:
