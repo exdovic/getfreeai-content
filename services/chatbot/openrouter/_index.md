@@ -279,7 +279,7 @@ Playground 共享 API 配额：
 
 ### 文档和教程
 - [OpenRouter 完整介绍](/providers/openrouter)
-- [API 服务使用指南](/services/api/openrouter-api)
+- [API 服务使用指南](/services/api/openrouter)
 - [官方文档](https://openrouter.ai/docs)
 
 ### 模型信息

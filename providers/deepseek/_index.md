@@ -100,7 +100,7 @@ DeepSeek 提供两种主要服务：
 - **特点：** 完全免费，每日 50 条消息
 - **功能：** 联网搜索、代码执行、文件上传、思维链展示
 
-### 2. [API 服务](/services/api/deepseek-api)
+### 2. [API 服务](/services/api/deepseek)
 - **类型：** RESTful API
 - **特点：** OpenAI 兼容，超低价格
 - **模型：** deepseek-chat, deepseek-reasoner, deepseek-coder

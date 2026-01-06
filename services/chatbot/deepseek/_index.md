@@ -267,7 +267,7 @@ R1 思维过程：
 
 ### 文档和教程
 - [DeepSeek 完整介绍](/providers/deepseek)
-- [API 服务使用指南](/services/api/deepseek-api)
+- [API 服务使用指南](/services/api/deepseek)
 - [官方帮助中心](https://platform.deepseek.com/docs)
 
 ---

@@ -293,7 +293,7 @@ Google AI Studio 的 Chatbot 在免费层级提供慷慨的使用配额：
 
 ### 文档和教程
 - [Google AI Studio 完整介绍](/providers/google-ai-studio)
-- [API 服务使用指南](/services/api/google-ai-studio-api)
+- [API 服务使用指南](/services/api/google-ai-studio)
 - [官方文档](https://ai.google.dev/docs)
 
 ### 学习资源

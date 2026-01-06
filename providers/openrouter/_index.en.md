@@ -107,7 +107,7 @@ OpenRouter provides two main services:
 - **Features:** Test all free models directly, view usage statistics
 - **Supports:** All 47+ free models
 
-### 2. [API Service](/services/api/openrouter-api)
+### 2. [API Service](/services/api/openrouter)
 - **Type:** RESTful API
 - **Features:** Fully compatible with OpenAI API format
 - **Models:** 47+ free models, including Llama, DeepSeek, Qwen, etc.

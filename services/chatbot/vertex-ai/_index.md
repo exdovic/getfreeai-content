@@ -220,7 +220,7 @@ Vertex AI Studio 是 Google Cloud 提供的可视化 AI 测试平台，让您无
 
 ### 文档和教程
 - [Vertex AI 完整介绍](/providers/google-vertex-ai)
-- [API 服务使用指南](/services/api/vertex-ai-api)
+- [API 服务使用指南](/services/api/vertex-ai)
 - [官方文档](https://cloud.google.com/vertex-ai/docs)
 
 ---

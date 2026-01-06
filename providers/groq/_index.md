@@ -103,7 +103,7 @@ Groq 提供两种主要服务：
 - **特点：** 实时查看推理速度，直观的参数调整
 - **支持：** 所有 Groq 模型
 
-### 2. [API 服务](/services/api/groq-api)
+### 2. [API 服务](/services/api/groq)
 - **类型：** RESTful API
 - **特点：** 完全兼容 OpenAI API 格式
 - **模型：** Llama 3.3/3.1, Mixtral, Gemma 2, DeepSeek R1 等

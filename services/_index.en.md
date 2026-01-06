@@ -63,7 +63,7 @@ Developer API interfaces to integrate into your applications.
 
 | Provider | Free Type | Daily Quota | Advanced Features |
 |--------|---------|---------|---------|
-| [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | 1,500 times | Multimodal, web search |
+| [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Multimodal, web search |
 | [Groq](/en/services/chatbot/groq) | Free Forever | 14,400 times | Ultra-fast inference |
 | [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1,000 times | 47+ models |
 | [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | 50 messages | Chain-of-thought, code execution |
@@ -74,7 +74,7 @@ Developer API interfaces to integrate into your applications.
 
 | Provider | Free Type | Quota | Features |
 |--------|---------|------|------|
-| [Google AI Studio API](/en/services/api/google-ai-studio) | Free Forever | 15M tokens/day | Gemini series |
+| [Google AI Studio API](/en/services/api/google-ai-studio) | Free Forever | Free to use | Gemini series |
 | [Groq API](/en/services/api/groq) | Free Forever | 14,400 times/day | Ultra-fast inference |
 | [OpenRouter API](/en/services/api/openrouter) | Free Forever | 50-1,000 times/day | 47+ models |
 | [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Ultra-low price |
