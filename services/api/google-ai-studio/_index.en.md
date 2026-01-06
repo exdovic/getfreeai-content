@@ -68,7 +68,7 @@ import google.generativeai as genai
 # Configure API key
 genai.configure(api_key="YOUR_API_KEY")
 
-# Create model instance
+# Create model instance (using latest stable model)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Send request
@@ -92,63 +92,78 @@ curl https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:ge
 
 ## 🤖 Supported Models
 
-### Gemini Flash Series (Recommended)
+### Gemini 3 Series (Latest, Preview)
 
-| Model Name | Model ID | Features | Use Cases |
+| Model Name | Model ID | Features | Free Tier |
 |---------|---------|------|---------|
-| **Gemini 3 Flash** | `gemini-3-flash` | Fastest speed | High-frequency calls, real-time responses |
-| **Gemini 2.5 Flash** | `gemini-2.5-flash` | Next-gen fast model | Daily tasks, balanced performance |
-| **Gemini 2.5 Flash-Lite** | `gemini-2.5-flash-lite` | Lightweight ultra-fast | Simple tasks, instant responses |
+| **Gemini 3 Flash** | `gemini-3-flash-preview` | Smartest + Fastest | ✅ Free |
+| **Gemini 3 Pro** | `gemini-3-pro-preview` | Most Powerful | ❌ Paid |
 
-### Gemini Pro Series
+### Gemini 2.5 Series (Stable, Recommended)
 
-| Model Name | Model ID | Features | Use Cases |
+| Model Name | Model ID | Features | Free Tier |
 |---------|---------|------|---------|
-| **Gemini Pro** | `gemini-pro` | Better understanding | Complex tasks, deep reasoning |
+| **Gemini 2.5 Flash** | `gemini-2.5-flash` | Hybrid reasoning model | ✅ Free |
+| **Gemini 2.5 Pro** | `gemini-2.5-pro` | Advanced multi-purpose | ✅ Free |
+| **Gemini 2.5 Flash-Lite** | `gemini-2.5-flash-lite` | Lightweight efficient | ✅ Free |
+
+### Gemini 2.0 Series
+
+| Model Name | Model ID | Features | Free Tier |
+|---------|---------|------|---------|
+| **Gemini 2.0 Flash** | `gemini-2.0-flash` | Balanced multimodal | ✅ Free |
+| **Gemini 2.0 Flash-Lite** | `gemini-2.0-flash-lite` | Compact efficient | ✅ Free |
 
 ### Gemma Open Source Series
 
-| Model Name | Model ID | Features | Use Cases |
+| Model Name | Model ID | Features | Free Tier |
 |---------|---------|------|---------|
-| **Gemma 3 27B** | `gemma-3-27b-instruct` | Large parameters | Complex tasks |
-| **Gemma 3 12B** | `gemma-3-12b-instruct` | Medium parameters | Balanced performance |
-| **Gemma 3 4B** | `gemma-3-4b-instruct` | Small and fast | Lightweight tasks |
+| **Gemma 3 27B** | `gemma-3-27b-instruct` | Large parameters | ✅ Free |
+| **Gemma 3 12B** | `gemma-3-12b-instruct` | Medium parameters | ✅ Free |
+| **Gemma 3 4B** | `gemma-3-4b-instruct` | Small and fast | ✅ Free |
 
 ---
 
 ## 🔢 Quotas and Limits
 
-### API Quotas
+### Free Tier Explanation
 
-| Model Name | Daily Requests | Requests/Minute | Tokens/Minute |
-|---------|-----------|-------------|--------------|
-| Gemini 3 Flash | 20 requests/day | 5 requests/min | 250,000 tokens/min |
-| Gemini 2.5 Flash | 20 requests/day | 5 requests/min | 250,000 tokens/min |
-| Gemini 2.5 Flash-Lite | 20 requests/day | 10 requests/min | 250,000 tokens/min |
-| Gemma 3 27B | 14,400 requests/day | 30 requests/min | 15,000 tokens/min |
-| Gemma 3 12B | 14,400 requests/day | 30 requests/min | 15,000 tokens/min |
-| Gemma 3 4B | 14,400 requests/day | 30 requests/min | 15,000 tokens/min |
+Google AI Studio's free tier is very generous, with all major models available for free:
 
-### Daily Total Quotas
+| Feature | Free Tier |
+|---------|-----------|
+| **Input Tokens** | Free |
+| **Output Tokens** | Free |
+| **Available Models** | Gemini 3 Flash, 2.5 Flash/Pro, 2.0 Flash, Gemma 3, etc. |
+| **Rate Limits** | Varies by model, see table below |
 
-| Model Series | Daily Tokens Quota |
-|---------|----------------|
-| Gemini Flash Series | 15M tokens |
-| Gemini Pro Series | 3M tokens |
-| Gemma Series | 4M tokens |
+### Rate Limits (Free Tier)
+
+Different models have different rate limits. Here are the limits for major models:
+
+| Model Series | Requests/Minute (RPM) | Tokens/Minute (TPM) | Requests/Day (RPD) |
+|-------------|----------------------|---------------------|-------------------|
+| Gemini 3 Flash | 10 RPM | 4M TPM | 1,500 RPD |
+| Gemini 2.5 Flash | 15 RPM | 1M TPM | 1,500 RPD |
+| Gemini 2.5 Pro | 2 RPM | 32K TPM | 50 RPD |
+| Gemini 2.0 Flash | 15 RPM | 1M TPM | 1,500 RPD |
+| Gemma 3 Series | 30 RPM | 15K TPM | 14,400 RPD |
 
 ### Context Length
 
 | Model | Input Context | Output Length |
 |------|-----------|---------|
-| Gemini Series | Up to 2M tokens | 8,192 tokens |
-| Gemma Series | 8K-128K tokens | 8,192 tokens |
+| Gemini 2.5 Flash | 1M tokens | 8K tokens |
+| Gemini 2.5 Pro | 2M tokens | 8K tokens |
+| Gemini 2.0 Flash | 1M tokens | 8K tokens |
+| Gemma Series | 8K-128K tokens | 8K tokens |
 
-### ⚠️ Important Limitations
+### ⚠️ Important Notes
 
-1. **Total Request Limit:** All Gemini models share a daily quota of 1500 requests
-2. **Cross-model Rate Limit:** 60 requests/min (across all models)
-3. **Quota Sharing:** All API keys share the same GCP project quota
+1. **Free Usage:** Both input and output are free in the free tier
+2. **Rate Limits:** Exceeding rate limits will result in 429 errors
+3. **Paid Upgrade:** Upgrade to paid tier for higher quotas
+4. **Data Usage:** Free tier data may be used to improve Google products
 
 ---
 

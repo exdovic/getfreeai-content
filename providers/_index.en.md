@@ -40,7 +40,7 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### Google AI Studio
 - **Type:** Completely Free
-- **Features:** 15M tokens/day, Gemini series
+- **Features:** Free to use, Gemini series
 - **Suitable for:** Individual developers, rapid prototyping
 
 [View Details →](/providers/google-ai-studio)
@@ -67,7 +67,7 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 [View Details →](/providers/deepseek)
 
 ### Cohere
-- **Type:** Trial Credits
+- **Type:** Free Trial (1,000 calls/month)
 - **Features:** RAG expert, enterprise-grade features
 - **Suitable for:** Knowledge bases, semantic search
 

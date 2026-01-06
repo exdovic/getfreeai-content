@@ -96,25 +96,29 @@ Google AI Studio provides two main services:
 - **Features:** No programming required, use directly on the web
 - **Supports:** Multimodal input (text, images, audio, video)
 
-### 2. [API Service](/services/api/google-ai-studio-api)
+### 2. [API Service](/services/api/google-ai-studio)
 - **Type:** RESTful API
 - **Features:** Compatible with OpenAI API format
-- **Models:** Gemini 3/2.5 Flash, Gemma 3 series
-- **Quota:** 15M tokens/day (Flash series)
+- **Models:** Gemini 3/2.5/2.0 Flash, Gemini 2.5 Pro, Gemma 3 series
+- **Quota:** Free tier available for all major models
 
 ---
 
 ## 📊 Quota Overview
 
-### Total Quota
+### Free Tier Quota
 
-| Model Series | Daily Tokens | Daily Requests |
-|-------------|--------------|----------------|
-| Gemini Flash Series | 15M tokens | 1,500 requests |
-| Gemini Pro Series | 3M tokens | 1,500 requests |
-| Gemma Series | 4M tokens | 14,400 requests |
+Google AI Studio provides generous free quotas, with all major models available in the free tier:
 
-⚠️ **Important:** All models share a total quota of 1,500 daily requests (except Gemma)
+| Model Series | Free Tier | Notes |
+|-------------|-----------|-------|
+| Gemini 3 Flash (Preview) | ✅ Free | Latest generation, free input/output |
+| Gemini 2.5 Flash | ✅ Free | Stable version, free input/output |
+| Gemini 2.5 Pro | ✅ Free | Advanced model, free input/output |
+| Gemini 2.0 Flash | ✅ Free | Previous generation, free input/output |
+| Gemma 3 Series | ✅ Free | Open source models, completely free |
+
+⚠️ **Note:** Free tier has rate limits that vary by model. See [API Service documentation](/services/api/google-ai-studio) for details
 
 ---
 
@@ -185,6 +189,7 @@ Google AI Studio provides two main services:
 
 ## 📝 Changelog
 
+- **January 2025:** Gemini 3 Flash/Pro preview released, new generation models
 - **December 2024:** Gemini 2.5 Flash released, providing faster inference speed
 - **November 2024:** Gemma 3 series released, open-source model support
 - **2024:** Continuously increasing free quotas, adding multimodal features

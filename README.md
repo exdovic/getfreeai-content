@@ -59,7 +59,7 @@
 | [Groq](providers/groq/) | 永久免费 | 800+ tokens/s 极速 | ⭐⭐⭐⭐⭐ |
 | [OpenRouter](providers/openrouter/) | 永久免费 | 47+ 免费模型 | ⭐⭐⭐⭐⭐ |
 | [DeepSeek](providers/deepseek/) | 试用积分 | 中文顶尖，超低价格 | ⭐⭐⭐⭐⭐ |
-| [Cohere](providers/cohere/) | 试用积分 | RAG 专家，企业级 | ⭐⭐⭐⭐⭐ |
+| [Cohere](providers/cohere/) | 免费试用 | RAG 专家，1,000 次/月 | ⭐⭐⭐⭐⭐ |
 | [Google Vertex AI](providers/google-vertex-ai/) | 试用积分 | $300，企业平台 | ⭐⭐⭐⭐ |
 
 ### 💬 Chatbot 服务 (7个)

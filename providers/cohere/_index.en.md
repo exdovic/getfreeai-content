@@ -27,23 +27,28 @@ sidebar:
 
 **Provider Name:** Cohere  
 **Official Website:** https://cohere.com  
-**Console:** https://dashboard.cohere.com  
-**Type:** Trial Account - Provides $5 trial credit
+**Chatbot:** https://coral.cohere.com  
+**Developer Console:** https://dashboard.cohere.com  
+**Headquarters:** Toronto (Canada), San Francisco (USA)  
+**Founded:** 2019  
+**Type:** Free Trial (Trial: 1,000 API calls/month, resets monthly)
 
 ---
 
 ## 📋 Product Overview
 
-Cohere is a Canadian enterprise AI company focused on providing enterprise-grade natural language processing (NLP) solutions. Cohere's models excel in text generation, summarization, classification, and embedding, especially suitable for enterprise-level applications and RAG (Retrieval-Augmented Generation) systems.
+Cohere is a Canadian artificial intelligence company founded in 2019, specializing in providing advanced Large Language Model (LLM) solutions for enterprises. The company was co-founded by former Google Brain researchers Aidan Gomez, Ivan Zhang, and Nick Frosst, and holds a leading position in Retrieval-Augmented Generation (RAG), text vectorization, and semantic search.
 
 **Core Advantages:**
-- 🏢 **Enterprise-Grade** - Professional-level stability and security
-- 🔍 **RAG Expert** - Optimized for retrieval-augmented generation
-- 📊 **Text Processing** - Excels at classification, extraction, summarization
-- 🌐 **Multilingual Support** - Supports 100+ languages
-- 🎁 **Trial Credit** - Provides $5 trial credit, sufficient for testing
+- 🎯 **RAG Expert** - Industry-leading Retrieval-Augmented Generation
+- 🌍 **Multilingual Support** - Supports 100+ languages with excellent Chinese performance
+- 📊 **Powerful Embedding** - Top-tier text vectorization technology
+- 🔝 **Best Rerank** - Improves search accuracy by 20-30%
+- 🎁 **Free Chatbot** - Coral is completely free with unlimited usage
+- 🆓 **Free Trial** - Trial 1,000 calls/month, resets monthly
+- 🏆 **Industry Recognition** - Valued at $6.8 billion in 2025 with $150M annual revenue
 
-**Rating:** ⭐⭐⭐⭐ (RAG Expert!)
+**Rating:** ⭐⭐⭐⭐⭐ (First choice for RAG and enterprise applications!)
 
 ---
 
@@ -51,52 +56,45 @@ Cohere is a Canadian enterprise AI company focused on providing enterprise-grade
 
 ### Registration Requirements
 
+**Chatbot (Coral):**
+
 | Requirement | Required | Notes |
 |------------|----------|-------|
-| Account Registration | ✅ Required | Supports email, Google |
-| Email Verification | ✅ Required | Need to verify email |
-| Credit Card Binding | ❌ Not Required | Trial account no payment info needed |
-| Phone Verification | ❌ Not Required | Phone number not needed |
+| Account Registration | ✅ Required | Email or Google account |
+| Email Verification | ✅ Required | Need to verify |
+| Credit Card | ❌ Not Required | Completely free |
+
+**API (Trial Free Tier):**
+
+| Requirement | Required | Notes |
+|------------|----------|-------|
+| Account Registration | ✅ Required | Email or Google account |
+| Email Verification | ✅ Required | Need to verify |
+| Credit Card | ❌ Not Required | Completely free |
+
+**API (Production Paid Tier):**
+
+| Requirement | Required | Notes |
+|------------|----------|-------|
+| Account Registration | ✅ Required | Email or Google account |
+| Email Verification | ✅ Required | Need to verify |
+| Credit Card | ✅ Required | Pay-as-you-go |
 
 ### Registration Steps
 
 {{% steps %}}
 
-#### Visit Official Website
+#### Register Free Account
 
-Open browser, visit [https://cohere.com](https://cohere.com), click **"Get Started"** or **"Sign Up"** button
+Visit [https://dashboard.cohere.com](https://dashboard.cohere.com), click **"Sign Up"**, register using email or Google account, verify email address, automatically receive Trial API Key (1,000 calls/month, free).
 
-#### Choose Registration Method
+#### For Production Use (Optional)
 
-Choose one of the following methods:
-- **Google Account** (recommended, fastest)
-- **Email Registration**
-
-#### Verify Email
-
-If using email registration, check your inbox, click the verification link, return to Cohere to complete registration.
-
-#### Complete Account Setup
-
-After first login, fill in basic information:
-- Name (can use nickname)
-- Purpose (select "Development" or "Learning")
-- Company name (optional, can skip)
-
-#### Get Trial Credit
-
-After registration, automatically receive **$5 trial credit**. Check balance in console: [https://dashboard.cohere.com](https://dashboard.cohere.com)
-
-#### Create API Key
-
-1. In the console, click **"API Keys"**
-2. Default Trial key is already created (has "Trial" tag)
-3. Can also create new key:
-   - Click **"New Key"** button
-   - Name the key (e.g., "My Trial Key")
-   - Select "Trial" plan
-   - Click **"Create"**
-4. ⚠️ **Important:** Immediately copy and save your API key
+If the free Trial tier is not enough, you can upgrade to the paid Production tier:
+1. Login to Dashboard
+2. Select **"Go to Production"**
+3. Add credit card information
+4. Pay-as-you-go based on usage
 
 {{% /steps %}}
 
@@ -114,183 +112,167 @@ Cohere provides two main services:
 
 ### 2. [API Service](/services/api/cohere)
 - **Type:** RESTful API
-- **Features:** Text generation, embedding, classification, summarization
-- **Models:** Command R+, Command R, Embed models
-- **Quota:** $5 trial credit
+- **Features:** Enterprise-grade performance, RAG optimized
+- **Models:** Command R+, Embed v3, Rerank v3.5
+- **Free Quota:** Trial 1,000 calls/month (resets monthly)
 
 ---
 
 ## 📊 Quota Overview
 
-### Trial Account
+### Trial Free Tier (Recommended)
 
 | Limit Type | Quota | Notes |
 |-----------|-------|-------|
-| **Trial Credit** | $5 | One-time |
-| **Requests Per Minute (RPM)** | 100 requests | All models combined |
-| **API Calls/Month** | 10,000 calls | Theoretical upper limit |
-| **Context Length** | 128K tokens | Command R+ model |
-| **Validity** | Unlimited | Credit doesn't expire |
+| **Monthly API Calls** | 1,000 calls | All APIs shared |
+| **Rate Limit** | 10-20 req/min | Varies by model |
+| **Available Models** | All | Command A, R+, Embed, Rerank, etc. |
+| **Credit Card Required** | ❌ No | Completely free |
+| **Quota Reset** | Monthly | Continuously available |
 
-### Model Pricing (Trial Credit Deduction)
+### Production Paid Tier
 
-| Model | Input Cost | Output Cost | Notes |
-|-------|-----------|-------------|-------|
-| **Command R+** | $0.50/M tokens | $1.50/M tokens | Most powerful |
-| **Command R** | $0.15/M tokens | $0.60/M tokens | Balanced |
-| **Embed v3** | $0.10/M tokens | - | Embedding model |
+| Limit Type | Quota | Notes |
+|-----------|-------|-------|
+| **Billing Method** | Pay-as-you-go | Based on usage |
+| **Rate Limit** | 500-1,000 req/min | Production-grade performance |
+| **Available Models** | All | All enterprise features |
+| **Credit Card Required** | ✅ Yes | Pay for actual usage |
 
-⚠️ **Important Notes:**
-- Trial credit doesn't expire, use with confidence
-- Usage automatically deducts from $5 trial credit
-- After credit exhausted, need to upgrade to paid account
-- RPM limit applies to all models combined
+### API Call Counting Rules (Trial Tier)
+
+- **Chat:** 1 request = 1 call
+- **Embed:** 1,000 texts = 1 call
+- **Rerank:** 1 request = 1 call
+- **Quota Reset:** Monthly reset
 
 ---
 
-## 🤖 Model Overview
+## 🤖 Core Models
 
-### Command R+
+### Command A - Latest Flagship Model 🆕
 
-| Parameter | Value | Notes |
-|----------|-------|-------|
-| **Model Name** | `command-r-plus` | Flagship model |
-| **Parameters** | 104B | 104 billion parameters |
-| **Context Length** | 128K tokens | Long text processing |
-| **Capabilities** | Most powerful | Suitable for complex tasks |
-| **Price** | $0.50 (in) / $1.50 (out) per M tokens | Relatively expensive |
+| Feature | Details |
+|---------|---------|
+| **Release Date** | March 2025 |
+| **Parameters** | 111B (111 billion) |
+| **Context** | 256K tokens |
+| **Features** | 150% improved inference efficiency, requires only 2 GPUs |
+| **Best For** | Complex enterprise tasks, long text processing |
 
-**Excels At:**
-- 📝 Long text generation
-- 🔍 Complex RAG tasks
-- 📊 Enterprise-level text processing
-- 🌐 Multilingual conversation
+### Command R+ - Flagship Conversation Model
 
-### Command R
+| Feature | Details |
+|---------|---------|
+| **Context** | 128K tokens |
+| **Features** | RAG optimized, multilingual support |
+| **Languages** | 100+ languages |
+| **Best For** | Conversation, Q&A, RAG applications |
 
-| Parameter | Value | Notes |
-|----------|-------|-------|
-| **Model Name** | `command-r` | Balanced model |
-| **Parameters** | 35B | 35 billion parameters |
-| **Context Length** | 128K tokens | Long text processing |
-| **Capabilities** | Balanced performance | Cost-effective |
-| **Price** | $0.15 (in) / $0.60 (out) per M tokens | More economical |
+### Embed v3 - Vectorization Model
 
-**Excels At:**
-- 💬 General conversation
-- 📄 Document summarization
-- 🏷️ Text classification
-- 🔗 RAG applications
+| Feature | Details |
+|---------|---------|
+| **Type** | Text and image vectorization |
+| **Dimensions** | 256/512/1024 options |
+| **Languages** | 100+ languages |
+| **Best For** | Semantic search, clustering, classification |
 
-### Embed v3
+### Rerank v3.5 - Reranking Model
 
-| Parameter | Value | Notes |
-|----------|-------|-------|
-| **Model Name** | `embed-english-v3.0`, `embed-multilingual-v3.0` | Embedding model |
-| **Capabilities** | Text embedding | Convert text to vectors |
-| **Dimensions** | 1024 | Vector dimensions |
-| **Price** | $0.10 per M tokens | Most economical |
-
-**Use Cases:**
-- 🔍 Semantic search
-- 📚 Document retrieval
-- 🤖 RAG system knowledge base
-- 📊 Text similarity calculation
+| Feature | Details |
+|---------|---------|
+| **Type** | Search result reordering |
+| **Features** | Industry-best performance |
+| **Languages** | 100+ languages |
+| **Best For** | RAG, search optimization |
 
 ---
 
 ## 🌟 Core Advantages
 
-### 1. Enterprise-Grade Stability
+### 1. RAG Expert
 
-**High Availability:**
-- 99.9% uptime SLA (paid account)
-- Multiple data center deployment
-- Automatic failover
+**Retrieval-Augmented Generation:**
+- Automatic source citation and annotation
+- Deep document context understanding
+- Intelligent multi-document fusion
+- Effectively reduces model hallucination
+- Enterprise-grade accuracy
 
-**Security:**
-- SOC 2 Type II certification
-- GDPR compliant
-- Data encryption storage
+### 2. Powerful Embedding
 
-### 2. RAG Expert
+**Text Vectorization:**
+- Multilingual support (100+)
+- Multiple dimension options (256/512/1024)
+- Semantic search optimization
+- Supports text and image vectorization
+- High-performance retrieval capabilities
 
-**Retrieval Optimized:**
-- Embed model optimized for search
-- Built-in semantic search
-- High-quality vector representations
+### 3. Industry-Best Rerank
 
-**Citation Capability:**
-- Can mark information sources
-- Enhanced answer credibility
-- Suitable for knowledge base Q&A
+**Search Result Reordering:**
+- Improves accuracy by 20-30%
+- Multilingual support
+- Essential RAG tool
+- Fast response
+- Significantly improves search quality
 
-### 3. Multilingual Support
+### 4. Multilingual Support
 
-**Supported Languages:**
-- Supports 100+ languages
-- Multilingual embedding models
-- Cross-language semantic search
+**100+ Languages:**
+- Excellent Chinese performance
+- Strong cross-language understanding
+- Unified API interface
+- No need to switch models
+- Supports mixed multilingual queries
 
-**Optimized Languages:**
-- English, French, German, Spanish, Italian
-- Portuguese, Dutch, Polish, Japanese, Korean
-- Chinese, Arabic, and more
+### 5. Enterprise-Grade Reliability
 
-### 4. Developer Friendly
-
-**Rich SDKs:**
-- Python, TypeScript/JavaScript, Go, Java
-- Well-documented
-- Abundant example code
-
-**Easy to Use:**
-- Simple API design
-- Clear error messages
-- Detailed API documentation
+**Professional Services:**
+- Partnerships with Oracle, Salesforce, Nvidia, and other top enterprises
+- Serves regulated industries: finance, healthcare, manufacturing
+- $150M annual revenue (October 2025)
+- Valued at $6.8 billion in 2025
+- SOC 2 Type II certified, GDPR compliant
 
 ---
 
 ## ⚠️ Usage Notes
 
-### Trial Credit Management
+### Quota Management
 
-- Trial credit $5, suitable for testing and light usage
-- Monitor balance in console to avoid unexpected depletion
-- After credit exhausted, need to upgrade to paid account
-- Choose appropriate model to save costs
+- **Trial Tier:** 1,000 calls/month, suitable for development, testing, and small-scale applications
+- **Monthly Reset:** Trial quota automatically resets monthly, can be used long-term for free
+- **Monitor Usage:** Check current month's usage in Dashboard
 
-### Model Selection
+### Free vs Paid
 
-- **Complex tasks:** Use Command R+, most powerful
-- **General tasks:** Use Command R, cost-effective
-- **Embedding:** Use Embed v3, most economical
-- **Testing:** Recommend starting with Command R
+- **Trial (Free):** No credit card required, 1,000 calls/month, resets monthly
+- **Production (Paid):** Credit card required, pay-as-you-go, higher rate limits
+- **When to Upgrade:** Consider upgrading to paid tier when free quota is insufficient
 
-### Rate Limits
+### API Call Optimization
 
-- **RPM (Requests Per Minute):** 100 requests, sufficient for most testing scenarios
-- **Monthly API Calls:** 10,000 calls, $5 trial credit can support approximately 1000-5000 conversations (depending on length)
-
-### API Key Security
-
-- Don't expose keys in public code
-- Can create different keys for different projects
-- Regularly check usage statistics to detect abnormal usage
+- **Embed is Cost-Effective:** 1,000 texts = 1 call (batch processing is highly efficient)
+- **Chat and Rerank:** 1 request = 1 call
+- **Smart Usage:** Fully utilize Embed's batch processing capability to save quota
 
 ---
 
 ## 📊 Comparison with Other Services
 
-| Feature | Cohere | OpenAI | Anthropic |
-|---------|--------|--------|-----------|
-| Trial Credit | $5 | $5 | - |
-| Flagship Model | Command R+ (104B) | GPT-4 | Claude 3 |
-| Context Length | 128K | 128K | 200K |
-| RAG Optimization | 🏆 Excellent | Good | Good |
-| Multilingual Support | 🏆 100+ languages | 50+ languages | 50+ languages |
-| Enterprise Features | 🏆 Rich | Rich | Rich |
-| Mainland China Access | 🔧 Stable Network Required | 🔧 Restricted | 🔧 Restricted |
+| Feature | Cohere | Google AI Studio | OpenRouter |
+|---------|--------|------------------|------------|
+| RAG Capability | 🏆 Industry-leading | Good | Fair |
+| Embedding | 🏆 Top-tier (text+image) | Good | Not provided |
+| Rerank | 🏆 Unique advantage | Not provided | Not provided |
+| Multilingual | 🏆 100+ languages | Good | Varies by model |
+| Free Quota | 1,000-10,000/month | 1,500/day | 50-1,000/day |
+| Credit Card Required | Production (no charge) | ❌ | ❌ |
+| Enterprise Features | 🏆 Comprehensive | Fair | Fair |
+| Enterprise Partners | Oracle, Salesforce, Nvidia | Google | Multiple |
+| Industry Certification | SOC 2 Type II, GDPR | Yes | Varies |
 
 ---
 
@@ -299,42 +281,53 @@ Cohere provides two main services:
 ### Reasons to Choose Cohere
 
 ✅ **Highly Recommended:**
-- Need to build RAG system
-- Focus on text classification and extraction
-- Need multilingual support
-- Have enterprise-level stability requirements
+- Need to build RAG (Retrieval-Augmented Generation) systems
+- Building enterprise-grade semantic search engines
+- Need high-quality Embedding and Rerank features
+- Multilingual application development (100+ languages)
+- Enterprise applications requiring stability and certification
+- Regulated industries: finance, healthcare, etc.
 
 ✅ **Suitable Scenarios:**
-- Knowledge base Q&A system
-- Document semantic search
-- Text classification and tagging
-- Enterprise chatbot
+- Intelligent knowledge base Q&A systems
+- Enterprise internal document search
+- Intelligent customer service and dialogue systems
+- Document analysis and content extraction
+- Multilingual content processing
+- Applications requiring source citations
 
 ❌ **Not Suitable For:**
-- Need completely free long-term usage (trial credit will eventually be exhausted)
-- Need multimodal features (images, audio) - choose Google AI Studio
-- Need extremely high free quota - choose DeepSeek or Groq
+- Only need simple conversations (Google AI Studio is better)
+- Need extremely high free quota (choose Groq)
+- Don't need RAG, search, or related features
+- Personal learning projects with limited budget
 
 ---
 
 ## 🔗 Related Links
 
 - **Official Website:** [https://cohere.com](https://cohere.com)
-- **Console:** [https://dashboard.cohere.com](https://dashboard.cohere.com)
 - **Coral Chatbot:** [https://coral.cohere.com](https://coral.cohere.com)
+- **Developer Console:** [https://dashboard.cohere.com](https://dashboard.cohere.com)
 - **API Documentation:** [https://docs.cohere.com](https://docs.cohere.com)
-- **Model Details:** [https://cohere.com/models](https://cohere.com/models)
 - **Pricing Information:** [https://cohere.com/pricing](https://cohere.com/pricing)
+- **Model Details:** [https://cohere.com/models](https://cohere.com/models)
+- **GitHub Repository:** [https://github.com/cohere-ai](https://github.com/cohere-ai)
+- **Discord Community:** [https://discord.gg/co-mmunity](https://discord.gg/co-mmunity)
 - **Developer Community:** [https://community.cohere.com](https://community.cohere.com)
+- **Enterprise Partnerships:** sales@cohere.com
 
 ---
 
 ## 📝 Changelog
 
-- **2024:** Command R+ model released, performance significantly improved
-- **2024:** Embed v3 released, multilingual support enhanced
-- **2024:** Coral chatbot launched, testing more convenient
-- **2024:** Continuously optimizing RAG capabilities
+- **March 2025:** Released Command A flagship model with 111B parameters, 256K context, 150% improved inference efficiency
+- **February 2025:** Launched API compatible with OpenAI SDK for seamless switching
+- **November 2024:** Released Rerank v3.5 with 30% performance improvement
+- **September 2024:** Released Command R+ with 128K context
+- **2024:** Continuously optimizing RAG performance and multilingual support
+- **June 2023:** Completed $270M Series C funding at $2.2B valuation
+- **2019:** Cohere company founded
 
 ---
 

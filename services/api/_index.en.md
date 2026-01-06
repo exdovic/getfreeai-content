@@ -87,7 +87,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Groq](/en/services/api/groq) | Free Forever | 14,400 req/day | 30 req/min | ✅ |
 | [OpenRouter](/en/services/api/openrouter) | Free Forever | 50-1,000 req/day | 20 req/min | ✅ |
 | [DeepSeek](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | By usage | ✅ |
-| [Cohere](/en/services/api/cohere) | Trial Credits | 1,000-10,000/month | 10-1000 req/min | ❌ |
+| [Cohere](/en/services/api/cohere) | Free Trial | 1,000/month | 10-20 req/min | ❌ |
 | [Vertex AI](/en/services/api/vertex-ai) | Trial Credits | $300 (90 days) | Configurable | ❌ |
 
 ### By Key Features
@@ -106,7 +106,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 ## 🎯 Selection Guide
 
 ### I Need High Free Quota
-→ [Google AI Studio API](/en/services/api/google-ai-studio) - 15M tokens/day
+→ [Google AI Studio API](/en/services/api/google-ai-studio) - Free to use
 
 ### I Need Ultra-fast Inference Speed
 → [Groq API](/en/services/api/groq) - 800+ tokens/s

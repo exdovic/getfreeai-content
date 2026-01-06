@@ -63,10 +63,10 @@ Choose the model you want to use in the main interface:
 
 | Model Name | Use Cases | Features |
 |---------|---------|------|
-| **Gemini 2.5 Flash** | Daily conversation, quick response | Latest version, fast speed |
-| **Gemini 3 Flash** | High-frequency use | Fastest speed |
-| **Gemini 2.5 Flash-Lite** | Simple tasks | Ultra-fast, lightweight |
-| **Gemini Pro** | Complex tasks | Better understanding |
+| **Gemini 3 Flash** | Latest experience | Smartest + Fastest (preview) |
+| **Gemini 2.5 Flash** | Daily conversation | Stable version, recommended |
+| **Gemini 2.5 Pro** | Complex tasks | Advanced model, deep reasoning |
+| **Gemini 2.0 Flash** | Balanced choice | Previous stable version |
 
 #### Step 3: Start Conversation
 
@@ -168,21 +168,22 @@ Click the settings icon on the right side to adjust:
 
 ### Chatbot Usage Quotas
 
-While Chatbot shares API quotas, limits are relatively lenient in actual use:
+Google AI Studio's Chatbot provides generous usage quotas in the free tier:
 
 | Limit Type | Quota | Notes |
 |---------|------|------|
-| Daily Tokens | 15M tokens | Shared with API |
-| Daily Requests | 1,500 times | Shared with API |
-| Single Context | 2M tokens | Ultra-long context support |
+| Usage Cost | Completely Free | Free input and output |
+| Single Context | Up to 2M tokens | Varies by model |
 | File Size | Varies by type | Images: 4MB, Audio/Video: 100MB |
+| Rate Limits | Varies by model | Shares rate limits with API |
 
 ### Actual Usage Experience
 
-For Chatbot users, quotas are typically sufficient:
-- ✅ Can have hundreds of conversations daily
-- ✅ Supports extended continuous conversations
-- ✅ Multimodal file uploads without special limits
+For Chatbot users, the free quota is very sufficient:
+- ✅ Completely free to use, no payment required
+- ✅ Supports long continuous conversations
+- ✅ Multimodal file uploads
+- ✅ All major models available
 
 ---
 
@@ -191,9 +192,10 @@ For Chatbot users, quotas are typically sufficient:
 ### ✅ Best Practices
 
 1. **Choose the Right Model**
-   - Daily conversation: Gemini 2.5 Flash
-   - Complex tasks: Gemini Pro
-   - Quick response: Gemini 2.5 Flash-Lite
+   - Latest experience: Gemini 3 Flash (preview)
+   - Daily conversation: Gemini 2.5 Flash (recommended)
+   - Complex tasks: Gemini 2.5 Pro
+   - Balanced choice: Gemini 2.0 Flash
 
 2. **Fully Utilize Multimodal Capabilities**
    - Upload images to help model understand

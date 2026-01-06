@@ -23,21 +23,22 @@ sidebar:
 **提供者：** [Cohere](/providers/cohere)  
 **服务类型：** API 服务  
 **API 端点：** [https://api.cohere.ai](https://api.cohere.ai)  
-**免费类型：** Trial 1,000 calls/月，Production 10,000 calls/月
+**免费配额：** Trial 1,000 calls/月（每月重置，完全免费）
 
 ---
 
 ## 🎯 服务简介
 
-Cohere API 提供企业级 AI 能力，特别擅长 RAG、Embedding 和 Rerank，是构建智能搜索和知识库的首选。
+Cohere API 提供企业级 AI 能力，特别擅长 RAG、Embedding 和 Rerank，是构建智能搜索和知识库的首选。由加拿大人工智能公司 Cohere（成立于 2019 年）提供，服务于全球顶级企业。
 
 **核心优势：**
 - 🎯 **RAG 专家** - 业界领先的检索增强生成
-- 📊 **强大 Embedding** - 顶尖文本向量化
+- 📊 **强大 Embedding** - 顶尖文本和图像向量化
 - 🔝 **最佳 Rerank** - 提升搜索准确度 20-30%
-- 🌍 **多语言** - 100+ 语言支持
-- 💼 **企业级** - Production 10,000 calls/月
+- 🌍 **多语言** - 支持 100+ 语言，中文表现优秀
+- 💼 **企业级** - 生产级性能和可靠性
 - 🆓 **免费开始** - Trial 1,000 calls/月，无需信用卡
+- 🆕 **最新模型** - Command A（111B 参数，256K 上下文）
 
 ---
 
@@ -45,13 +46,10 @@ Cohere API 提供企业级 AI 能力，特别擅长 RAG、Embedding 和 Rerank�
 
 ### 前提条件
 
-**Trial 层级（推荐）：**
+**使用免费 API：**
 - ✅ 已注册 Cohere 账户
 - ❌ 无需信用卡
-
-**Production 层级：**
-- ✅ 已注册 Cohere 账户
-- ✅ 已验证信用卡（不扣费）
+- ✅ 自动获得 Trial API Key（1,000 calls/月）
 
 详细步骤请参考：[Cohere 注册指南](/providers/cohere#注册和账号)
 
@@ -84,16 +82,23 @@ print(response.text)
 
 ### 1. Chat - 对话生成
 
+**Command A 模型（最新）🆕：**
+- 111B 参数（1110 亿）
+- 256K 上下文窗口
+- 推理效率提升 150%
+- 企业级性能
+
 **Command R+ 模型：**
 - 128K 上下文窗口
-- RAG 优化
+- RAG 深度优化
 - 100+ 语言支持
 
 **基础使用：**
 ```python {filename="Python"}
+# 使用最新的 Command A 模型
 response = co.chat(
     message="你好，介绍一下 Cohere",
-    model="command-r-plus"
+    model="command-a"  # 或使用 "command-r-plus"
 )
 print(response.text)
 ```
@@ -123,12 +128,14 @@ for citation in response.citations:
     print(f"引用: {citation['text']}")
 ```
 
-### 2. Embed - 文本向量化
+### 2. Embed - 文本和图像向量化
 
 **功能：**
-- 将文本转换为向量
-- 语义搜索
+- 将文本转换为高质量向量
+- 支持图像向量化 🆕
+- 语义搜索优化
 - 文本聚类和分类
+- 多语言支持（100+）
 
 **使用示例：**
 ```python {filename="Python"}
@@ -186,12 +193,14 @@ for idx in np.argsort(scores)[::-1]:
     print(f"{documents[idx]}: {scores[idx]:.4f}")
 ```
 
-### 3. Rerank - 搜索结果重排序
+### 3. Rerank - 搜索结果重排序（v3.5）
 
 **功能：**
-- 对搜索结果重新排序
+- 智能重新排序搜索结果
 - 提升准确度 20-30%
-- RAG 必备工具
+- RAG 应用必备工具
+- 业界最佳性能
+- 支持 100+ 语言
 
 **使用示例：**
 ```python {filename="Python"}
@@ -219,26 +228,28 @@ for result in response.results:
 
 ## 🔢 配额和定价
 
-### Trial 层级（免费）
+### Trial 免费层级
 
 | 项目 | 配额 | 说明 |
 |------|------|------|
-| 月度调用 | 1,000 calls | 无需信用卡 |
-| 速率限制 | 10 req/min | 开发测试 |
-| 可用模型 | 全部 | Chat, Embed, Rerank |
+| 月度调用 | 1,000 calls | 完全免费 |
+| 速率限制 | 10-20 req/min | 因模型而异 |
+| 可用模型 | 全部 | Command A, R+, Embed, Rerank |
+| 配额重置 | 每月重置 | 持续可用 |
+| 需要信用卡 | ❌ 否 | 无需付费信息 |
 
-### Production 层级（免费）
+### Production 付费层级
 
-| 项目 | 配额 | 说明 |
-|------|------|------|
-| 月度调用 | 10,000 calls | 需验证信用卡 |
-| 速率限制 | 1,000 req/min | 生产级性能 |
-| 可用模型 | 全部 | 所有企业功能 |
+| 项目 | 说明 |
+|------|------|
+| 计费方式 | 按量付费（pay-as-you-go） |
+| 速率限制 | 500-1,000 req/min |
+| 需要信用卡 | ✅ 是 |
 
-### API 调用计数
+### API 调用计数（Trial 层级）
 
 - **Chat：** 每次请求 = 1 call
-- **Embed：** 每 1,000 texts = 1 call
+- **Embed：** 每 1,000 texts = 1 call（非常划算！）
 - **Rerank：** 每次请求 = 1 call
 
 ---
@@ -313,23 +324,20 @@ for result in response.results:
 
 ## 🔧 常见问题
 
-### 1. Trial 和 Production 的区别？
+### 1. Trial 免费层级够用吗？
 
-**主要区别：**
-| 特性 | Trial | Production |
-|------|-------|------------|
-| 配额 | 1,000 calls/月 | 10,000 calls/月 |
-| 速率 | 10 req/min | 1,000 req/min |
-| 信用卡 | 不需要 | 需要验证 |
-| 扣费 | 不会 | 免费配额内不会 |
+**适用场景：**
+- ✅ 个人开发和学习
+- ✅ 小规模应用（如个人博客的智能搜索）
+- ✅ 原型开发和测试
+- ⚠️ 如需更高配额，考虑付费 Production 层级
 
-### 2. 如何升级到 Production？
+### 2. 免费配额会过期吗？
 
-**步骤：**
-1. 登录 Dashboard
-2. 选择 "Upgrade to Production"
-3. 添加信用卡（仅验证，不扣费）
-4. 自动升级
+**不会过期：**
+- Trial API Key 可以长期使用
+- 每月配额会自动重置
+- 无需担心积分用完
 
 ### 3. Embed 为什么这么划算？
 
@@ -343,6 +351,14 @@ for result in response.results:
 **方法：**
 - 登录 https://dashboard.cohere.com
 - Dashboard 首页显示当月使用情况
+
+### 5. 如果需要更高配额怎么办？
+
+**升级到 Production：**
+1. 在 Dashboard 选择 "Go to Production"
+2. 添加信用卡信息
+3. 按使用量付费（pay-as-you-go）
+4. 获得更高的速率限制
 
 ---
 

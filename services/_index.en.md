@@ -78,7 +78,7 @@ Developer API interfaces to integrate into your applications.
 | [Groq API](/en/services/api/groq) | Free Forever | 14,400 times/day | Ultra-fast inference |
 | [OpenRouter API](/en/services/api/openrouter) | Free Forever | 50-1,000 times/day | 47+ models |
 | [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Ultra-low price |
-| [Cohere API](/en/services/api/cohere) | Trial Credits | 1,000-10,000 times/month | RAG expert |
+| [Cohere API](/en/services/api/cohere) | Free Trial | 1,000 times/month | RAG expert |
 | [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (90 days) | Enterprise-grade |
 
 ---
@@ -92,7 +92,7 @@ Developer API interfaces to integrate into your applications.
 
 **High Quota:**
 - [Groq Playground](/en/services/chatbot/groq) - 14,400 times/day
-- [Google AI Studio](/en/services/chatbot/google-ai-studio) - 15M tokens/day
+- [Google AI Studio](/en/services/chatbot/google-ai-studio) - Free to use
 
 **Special Features:**
 - [DeepSeek Chat](/en/services/chatbot/deepseek) - Visible chain-of-thought
@@ -104,7 +104,7 @@ Developer API interfaces to integrate into your applications.
 - [Groq API](/en/services/api/groq) - 800+ tokens/s
 
 **High Free Quota:**
-- [Google AI Studio API](/en/services/api/google-ai-studio) - 15M tokens/day
+- [Google AI Studio API](/en/services/api/google-ai-studio) - Free to use
 
 **Ultra-low Price:**
 - [DeepSeek API](/en/services/api/deepseek) - 97% cheaper than GPT-4

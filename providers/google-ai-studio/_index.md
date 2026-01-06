@@ -96,25 +96,29 @@ Google AI Studio 提供两种主要服务：
 - **特点：** 无需编程，直接在网页使用
 - **支持：** 多模态输入（文本、图像、音频、视频）
 
-### 2. [API 服务](/services/api/google-ai-studio-api)
+### 2. [API 服务](/services/api/google-ai-studio)
 - **类型：** RESTful API
 - **特点：** 兼容 OpenAI API 格式
-- **模型：** Gemini 3/2.5 Flash, Gemma 3 系列
-- **配额：** 15M tokens/天（Flash 系列）
+- **模型：** Gemini 3/2.5/2.0 Flash, Gemini 2.5 Pro, Gemma 3 系列
+- **配额：** 免费层级所有主要模型可用
 
 ---
 
 ## 📊 配额概览
 
-### 总配额
+### 免费层级配额
 
-| 模型系列 | 每日 Tokens | 每日请求数 |
-|---------|-------------|-----------|
-| Gemini Flash 系列 | 15M tokens | 1,500 次 |
-| Gemini Pro 系列 | 3M tokens | 1,500 次 |
-| Gemma 系列 | 4M tokens | 14,400 次 |
+Google AI Studio 提供慷慨的免费配额，所有主要模型在免费层级都可使用：
 
-⚠️ **重要：** 所有模型共享每日 1500 次请求的总配额（Gemma 除外）
+| 模型系列 | 免费层级 | 说明 |
+|---------|---------|------|
+| Gemini 3 Flash (预览) | ✅ 免费 | 最新一代，输入输出免费 |
+| Gemini 2.5 Flash | ✅ 免费 | 稳定版，输入输出免费 |
+| Gemini 2.5 Pro | ✅ 免费 | 高级模型，输入输出免费 |
+| Gemini 2.0 Flash | ✅ 免费 | 上一代，输入输出免费 |
+| Gemma 3 系列 | ✅ 免费 | 开源模型，完全免费 |
+
+⚠️ **注意：** 免费层级有速率限制，具体限制因模型而异。详细信息请查看 [API 服务文档](/services/api/google-ai-studio)
 
 ---
 
@@ -185,6 +189,7 @@ Google AI Studio 提供两种主要服务：
 
 ## 📝 更新日志
 
+- **2025年1月：** Gemini 3 Flash/Pro 预览版发布，新一代模型
 - **2024年12月：** Gemini 2.5 Flash 发布，提供更快的推理速度
 - **2024年11月：** Gemma 3 系列发布，开源模型支持
 - **2024年：** 持续提高免费配额，添加多模态功能

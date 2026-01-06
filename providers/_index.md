@@ -40,7 +40,7 @@ next: /providers/google-ai-studio
 
 ### Google AI Studio
 - **类型：** 完全免费
-- **特点：** 15M tokens/天，Gemini 系列
+- **特点：** 免费使用，Gemini 系列
 - **适合：** 个人开发者，快速原型
 
 [查看详情 →](/providers/google-ai-studio)
@@ -67,7 +67,7 @@ next: /providers/google-ai-studio
 [查看详情 →](/providers/deepseek)
 
 ### Cohere
-- **类型：** 试用积分
+- **类型：** 免费试用（1,000 次/月）
 - **特点：** RAG 专家，企业级功能
 - **适合：** 知识库，语义搜索
 
