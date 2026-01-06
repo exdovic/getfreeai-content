@@ -130,7 +130,7 @@ image: /images/og-default.png
 ### 学习研究
 1. **Google AI Studio** - 大配额实验
 2. **OpenRouter** - 多模型对比
-3. **DeepSeek R1** - 推理过程学习
+3. **DeepSeek** - 推理过程学习、中文任务
 
 ---
 

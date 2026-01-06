@@ -97,7 +97,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Google AI Studio](/en/services/api/google-ai-studio) | Fast | Excellent | 2M | Multimodal, high quota |
 | [Groq](/en/services/api/groq) | 🏆 Ultra-fast | Good | 128K | Speed champion |
 | [OpenRouter](/en/services/api/openrouter) | Fast | Varies by model | Varies | 🏆 47+ models |
-| [DeepSeek](/en/services/api/deepseek) | Fast | 🏆 Top-tier | 64K | Ultra-low price, chain-of-thought |
+| [DeepSeek](/en/services/api/deepseek) | Fast | 🏆 Top-tier | 128K | Ultra-low price, thinking mode |
 | [Cohere](/en/services/api/cohere) | Fast | Excellent | 128K | 🏆 RAG, Embed |
 | [Vertex AI](/en/services/api/vertex-ai) | Fast | Excellent | 🏆 2M | Enterprise-grade |
 

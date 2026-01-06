@@ -97,7 +97,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Google AI Studio](/services/api/google-ai-studio) | 快 | 优秀 | 2M | 多模态、高配额 |
 | [Groq](/services/api/groq) | 🏆 极快 | 良好 | 128K | 速度王者 |
 | [OpenRouter](/services/api/openrouter) | 快 | 视模型 | 视模型 | 🏆 47+ 模型 |
-| [DeepSeek](/services/api/deepseek) | 快 | 🏆 顶尖 | 64K | 超低价、思维链 |
+| [DeepSeek](/services/api/deepseek) | 快 | 🏆 顶尖 | 128K | 超低价、思维链 |
 | [Cohere](/services/api/cohere) | 快 | 优秀 | 128K | 🏆 RAG、Embed |
 | [Vertex AI](/services/api/vertex-ai) | 快 | 优秀 | 🏆 2M | 企业级 |
 

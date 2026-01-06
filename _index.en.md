@@ -130,7 +130,7 @@ Developer API interfaces to integrate into your applications:
 ### Learning & Research
 1. **Google AI Studio** - Large quota experiments
 2. **OpenRouter** - Multi-model comparison
-3. **DeepSeek R1** - Reasoning process learning
+3. **DeepSeek** - Reasoning process learning, Chinese tasks
 
 ---
 
