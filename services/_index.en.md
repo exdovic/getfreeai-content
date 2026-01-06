@@ -92,7 +92,7 @@ Developer API interfaces to integrate into your applications.
 
 **High Quota:**
 - [Groq Playground](/en/services/chatbot/groq) - 14,400 times/day
-- [Google AI Studio](/en/services/chatbot/google-ai-studio) - 15M tokens/day
+- [Google AI Studio](/en/services/chatbot/google-ai-studio) - Free to use
 
 **Special Features:**
 - [DeepSeek Chat](/en/services/chatbot/deepseek) - Visible chain-of-thought
@@ -104,7 +104,7 @@ Developer API interfaces to integrate into your applications.
 - [Groq API](/en/services/api/groq) - 800+ tokens/s
 
 **High Free Quota:**
-- [Google AI Studio API](/en/services/api/google-ai-studio) - 15M tokens/day
+- [Google AI Studio API](/en/services/api/google-ai-studio) - Free to use
 
 **Ultra-low Price:**
 - [DeepSeek API](/en/services/api/deepseek) - 97% cheaper than GPT-4

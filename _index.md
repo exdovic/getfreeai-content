@@ -69,7 +69,7 @@ image: /images/og-default.png
 开发者 API 接口，集成到您的应用中：
 
 {{< cards >}}
-  {{< card link="/zh-cn/services/api/google-ai-studio" title="Google AI Studio API" subtitle="15M tokens/天 · Gemini系列 · OpenAI兼容" >}}
+  {{< card link="/zh-cn/services/api/google-ai-studio" title="Google AI Studio API" subtitle="免费使用 · Gemini系列 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/groq" title="Groq API" subtitle="14,400次/天 · 极速推理 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000次/天 · 47+模型 · 一站式" >}}
   {{< card link="/zh-cn/services/api/deepseek" title="DeepSeek API" subtitle="¥5试用 · 超低价格 · 中文优化" >}}

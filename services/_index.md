@@ -74,7 +74,7 @@ comments: true
 
 | 提供者 | 免费类型 | 配额 | 特点 |
 |--------|---------|------|------|
-| [Google AI Studio API](/services/api/google-ai-studio) | 永久免费 | 15M tokens/天 | Gemini 系列 |
+| [Google AI Studio API](/services/api/google-ai-studio) | 永久免费 | 免费使用 | Gemini 系列 |
 | [Groq API](/services/api/groq) | 永久免费 | 14,400 次/天 | 极速推理 |
 | [OpenRouter API](/services/api/openrouter) | 永久免费 | 50-1,000 次/天 | 47+ 模型 |
 | [DeepSeek API](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 超低价格 |
@@ -92,7 +92,7 @@ comments: true
 
 **高配额：**
 - [Groq Playground](/services/chatbot/groq) - 14,400 次/天
-- [Google AI Studio](/services/chatbot/google-ai-studio) - 15M tokens/天
+- [Google AI Studio](/services/chatbot/google-ai-studio) - 免费使用
 
 **特殊功能：**
 - [DeepSeek Chat](/services/chatbot/deepseek) - 思维链可见
@@ -104,7 +104,7 @@ comments: true
 - [Groq API](/services/api/groq) - 800+ tokens/s
 
 **高免费配额：**
-- [Google AI Studio API](/services/api/google-ai-studio) - 15M tokens/天
+- [Google AI Studio API](/services/api/google-ai-studio) - 免费使用
 
 **超低价格：**
 - [DeepSeek API](/services/api/deepseek) - 比 GPT-4 便宜 97%

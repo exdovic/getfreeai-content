@@ -68,7 +68,7 @@ import google.generativeai as genai
 # 配置 API 密钥
 genai.configure(api_key="YOUR_API_KEY")
 
-# 创建模型实例
+# 创建模型实例（使用最新的稳定版模型）
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 # 发送请求
@@ -92,63 +92,78 @@ curl https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:ge
 
 ## 🤖 支持的模型
 
-### Gemini Flash 系列（推荐）
+### Gemini 3 系列（最新，预览版）
 
-| 模型名称 | 模型 ID | 特点 | 适用场景 |
+| 模型名称 | 模型 ID | 特点 | 免费层级 |
 |---------|---------|------|---------|
-| **Gemini 3 Flash** | `gemini-3-flash` | 最快速度 | 高频调用、实时响应 |
-| **Gemini 2.5 Flash** | `gemini-2.5-flash` | 新一代快速模型 | 日常任务、平衡性能 |
-| **Gemini 2.5 Flash-Lite** | `gemini-2.5-flash-lite` | 轻量超快 | 简单任务、极速响应 |
+| **Gemini 3 Flash** | `gemini-3-flash-preview` | 最智能+最快 | ✅ 免费 |
+| **Gemini 3 Pro** | `gemini-3-pro-preview` | 最强大智能 | ❌ 付费 |
 
-### Gemini Pro 系列
+### Gemini 2.5 系列（稳定版，推荐）
 
-| 模型名称 | 模型 ID | 特点 | 适用场景 |
+| 模型名称 | 模型 ID | 特点 | 免费层级 |
 |---------|---------|------|---------|
-| **Gemini Pro** | `gemini-pro` | 更强理解 | 复杂任务、深度推理 |
+| **Gemini 2.5 Flash** | `gemini-2.5-flash` | 混合推理模型 | ✅ 免费 |
+| **Gemini 2.5 Pro** | `gemini-2.5-pro` | 高级多用途 | ✅ 免费 |
+| **Gemini 2.5 Flash-Lite** | `gemini-2.5-flash-lite` | 轻量高效 | ✅ 免费 |
+
+### Gemini 2.0 系列
+
+| 模型名称 | 模型 ID | 特点 | 免费层级 |
+|---------|---------|------|---------|
+| **Gemini 2.0 Flash** | `gemini-2.0-flash` | 均衡多模态 | ✅ 免费 |
+| **Gemini 2.0 Flash-Lite** | `gemini-2.0-flash-lite` | 小巧高效 | ✅ 免费 |
 
 ### Gemma 开源系列
 
-| 模型名称 | 模型 ID | 特点 | 适用场景 |
+| 模型名称 | 模型 ID | 特点 | 免费层级 |
 |---------|---------|------|---------|
-| **Gemma 3 27B** | `gemma-3-27b-instruct` | 大参数量 | 复杂任务 |
-| **Gemma 3 12B** | `gemma-3-12b-instruct` | 中等参数 | 平衡性能 |
-| **Gemma 3 4B** | `gemma-3-4b-instruct` | 小型快速 | 轻量任务 |
+| **Gemma 3 27B** | `gemma-3-27b-instruct` | 大参数量 | ✅ 免费 |
+| **Gemma 3 12B** | `gemma-3-12b-instruct` | 中等参数 | ✅ 免费 |
+| **Gemma 3 4B** | `gemma-3-4b-instruct` | 小型快速 | ✅ 免费 |
 
 ---
 
 ## 🔢 配额和限制
 
-### API 配额限制
+### 免费层级说明
 
-| 模型名称 | 每日请求数 | 每分钟请求数 | 每分钟 Tokens |
-|---------|-----------|-------------|--------------|
-| Gemini 3 Flash | 20 requests/day | 5 requests/min | 250,000 tokens/min |
-| Gemini 2.5 Flash | 20 requests/day | 5 requests/min | 250,000 tokens/min |
-| Gemini 2.5 Flash-Lite | 20 requests/day | 10 requests/min | 250,000 tokens/min |
-| Gemma 3 27B | 14,400 requests/day | 30 requests/min | 15,000 tokens/min |
-| Gemma 3 12B | 14,400 requests/day | 30 requests/min | 15,000 tokens/min |
-| Gemma 3 4B | 14,400 requests/day | 30 requests/min | 15,000 tokens/min |
+Google AI Studio 的免费层级非常慷慨，所有主要模型都可以免费使用：
 
-### 每日总配额
+| 特性 | 免费层级 |
+|------|---------|
+| **输入 Tokens** | 免费 |
+| **输出 Tokens** | 免费 |
+| **可用模型** | Gemini 3 Flash, 2.5 Flash/Pro, 2.0 Flash, Gemma 3 等 |
+| **速率限制** | 因模型而异，详见下表 |
 
-| 模型系列 | 每日 Tokens 配额 |
-|---------|----------------|
-| Gemini Flash 系列 | 15M tokens |
-| Gemini Pro 系列 | 3M tokens |
-| Gemma 系列 | 4M tokens |
+### 速率限制（免费层级）
+
+不同模型有不同的速率限制，以下是主要模型的限制：
+
+| 模型系列 | 每分钟请求数 (RPM) | 每分钟 Tokens (TPM) | 每日请求数 (RPD) |
+|---------|------------------|-------------------|----------------|
+| Gemini 3 Flash | 10 RPM | 4M TPM | 1,500 RPD |
+| Gemini 2.5 Flash | 15 RPM | 1M TPM | 1,500 RPD |
+| Gemini 2.5 Pro | 2 RPM | 32K TPM | 50 RPD |
+| Gemini 2.0 Flash | 15 RPM | 1M TPM | 1,500 RPD |
+| Gemma 3 系列 | 30 RPM | 15K TPM | 14,400 RPD |
 
 ### 上下文长度
 
 | 模型 | 输入上下文 | 输出长度 |
 |------|-----------|---------|
-| Gemini 系列 | 最高 2M tokens | 8,192 tokens |
-| Gemma 系列 | 8K-128K tokens | 8,192 tokens |
+| Gemini 2.5 Flash | 1M tokens | 8K tokens |
+| Gemini 2.5 Pro | 2M tokens | 8K tokens |
+| Gemini 2.0 Flash | 1M tokens | 8K tokens |
+| Gemma 系列 | 8K-128K tokens | 8K tokens |
 
-### ⚠️ 重要限制
+### ⚠️ 重要说明
 
-1. **总请求限制：** 所有 Gemini 模型共享每日 1500 次请求的总配额
-2. **跨模型速率限制：** 60 requests/min（跨所有模型）
-3. **配额共享：** 所有 API 密钥共享同一个 GCP 项目的配额
+1. **免费使用：** 免费层级的输入和输出都是免费的
+2. **速率限制：** 超过速率限制会收到 429 错误
+3. **付费升级：** 如需更高配额，可升级到付费层级
+4. **数据使用：** 免费层级的数据可能用于改进 Google 产品
 
 ---
 
@@ -162,6 +177,7 @@ curl https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:ge
 import google.generativeai as genai
 
 genai.configure(api_key="YOUR_API_KEY")
+# 推荐使用 Gemini 2.5 Flash（稳定版）或 Gemini 3 Flash（最新预览版）
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 # 简单对话
