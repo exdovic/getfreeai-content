@@ -67,7 +67,7 @@ next: /providers/google-ai-studio
 [查看详情 →](/providers/deepseek)
 
 ### Cohere
-- **类型：** 试用积分
+- **类型：** 免费试用（1,000 次/月）
 - **特点：** RAG 专家，企业级功能
 - **适合：** 知识库，语义搜索
 

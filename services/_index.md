@@ -78,7 +78,7 @@ comments: true
 | [Groq API](/services/api/groq) | 永久免费 | 14,400 次/天 | 极速推理 |
 | [OpenRouter API](/services/api/openrouter) | 永久免费 | 50-1,000 次/天 | 47+ 模型 |
 | [DeepSeek API](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 超低价格 |
-| [Cohere API](/services/api/cohere) | 试用积分 | 1,000-10,000 次/月 | RAG 专家 |
+| [Cohere API](/services/api/cohere) | 免费试用 | 1,000 次/月 | RAG 专家 |
 | [Vertex AI API](/services/api/vertex-ai) | 试用积分 | $300 (90天) | 企业级 |
 
 ---

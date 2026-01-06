@@ -87,7 +87,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Groq](/services/api/groq) | 永久免费 | 14,400 req/天 | 30 req/min | ✅ |
 | [OpenRouter](/services/api/openrouter) | 永久免费 | 50-1,000 req/天 | 20 req/min | ✅ |
 | [DeepSeek](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 按用量 | ✅ |
-| [Cohere](/services/api/cohere) | 试用积分 | 1,000-10,000/月 | 10-1000 req/min | ❌ |
+| [Cohere](/services/api/cohere) | 免费试用 | 1,000/月 | 10-20 req/min | ❌ |
 | [Vertex AI](/services/api/vertex-ai) | 试用积分 | $300 (90天) | 按配置 | ❌ |
 
 ### 按特色功能

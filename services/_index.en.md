@@ -78,7 +78,7 @@ Developer API interfaces to integrate into your applications.
 | [Groq API](/en/services/api/groq) | Free Forever | 14,400 times/day | Ultra-fast inference |
 | [OpenRouter API](/en/services/api/openrouter) | Free Forever | 50-1,000 times/day | 47+ models |
 | [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Ultra-low price |
-| [Cohere API](/en/services/api/cohere) | Trial Credits | 1,000-10,000 times/month | RAG expert |
+| [Cohere API](/en/services/api/cohere) | Free Trial | 1,000 times/month | RAG expert |
 | [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (90 days) | Enterprise-grade |
 
 ---

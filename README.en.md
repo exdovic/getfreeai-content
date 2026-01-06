@@ -59,7 +59,7 @@ English | [简体中文](README.md)
 | [Groq](providers/groq/) | Permanent Free | 800+ tokens/s speed | ⭐⭐⭐⭐⭐ |
 | [OpenRouter](providers/openrouter/) | Permanent Free | 47+ free models | ⭐⭐⭐⭐⭐ |
 | [DeepSeek](providers/deepseek/) | Trial Credits | Top Chinese, ultra-low price | ⭐⭐⭐⭐⭐ |
-| [Cohere](providers/cohere/) | Trial Credits | RAG expert, enterprise-grade | ⭐⭐⭐⭐⭐ |
+| [Cohere](providers/cohere/) | Free Trial | RAG expert, 1,000 calls/month | ⭐⭐⭐⭐⭐ |
 | [Google Vertex AI](providers/google-vertex-ai/) | Trial Credits | $300, enterprise platform | ⭐⭐⭐⭐ |
 
 ### 💬 Chatbot Services (7)

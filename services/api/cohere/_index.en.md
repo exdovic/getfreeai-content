@@ -23,7 +23,7 @@ sidebar:
 **Provider:** [Cohere](/en/providers/cohere)  
 **Service Type:** API Service  
 **API Endpoint:** [https://api.cohere.ai](https://api.cohere.ai)  
-**Free Tier:** Trial 1,000 calls/month, Production 10,000 calls/month
+**Free Quota:** Trial 1,000 calls/month (resets monthly, completely free)
 
 ---
 
@@ -36,8 +36,8 @@ Cohere API provides enterprise-grade AI capabilities, particularly excelling in 
 - 📊 **Powerful Embedding** - Top-tier text and image vectorization
 - 🔝 **Best Rerank** - Improve search accuracy by 20-30%
 - 🌍 **Multilingual** - Supports 100+ languages with excellent Chinese performance
-- 💼 **Enterprise Grade** - Production 10,000 calls/month free
-- 🆓 **Free Start** - Trial 1,000 calls/month, no credit card required
+- 🆓 **Free to Start** - Trial 1,000 calls/month, no credit card required
+- 🔄 **Monthly Reset** - Free quota resets monthly, continuously available
 - 🆕 **Latest Models** - Command A (111B parameters, 256K context)
 
 ---
@@ -46,13 +46,10 @@ Cohere API provides enterprise-grade AI capabilities, particularly excelling in 
 
 ### Prerequisites
 
-**Trial Tier (Recommended):**
+**Using Free API:**
 - ✅ Registered Cohere account
 - ❌ No credit card required
-
-**Production Tier:**
-- ✅ Registered Cohere account
-- ✅ Credit card verified (no charges)
+- ✅ Automatically receive Trial API Key (1,000 calls/month)
 
 For detailed steps, see: [Cohere Registration Guide](/en/providers/cohere#registration-and-account)
 
@@ -231,26 +228,28 @@ for result in response.results:
 
 ## 🔢 Quotas and Pricing
 
-### Trial Tier (Free)
+### Trial Free Tier
 
 | Item | Quota | Notes |
 |------|------|------|
-| Monthly Calls | 1,000 calls | No credit card required |
-| Rate Limit | 10 req/min | Development and testing |
-| Available Models | All | Chat, Embed, Rerank |
+| Monthly Calls | 1,000 calls | Completely free |
+| Rate Limit | 10-20 req/min | Varies by model |
+| Available Models | All | Command A, R+, Embed, Rerank |
+| Quota Reset | Monthly | Continuously available |
+| Credit Card Required | ❌ No | No payment info needed |
 
-### Production Tier (Free)
+### Production Paid Tier
 
-| Item | Quota | Notes |
-|------|------|------|
-| Monthly Calls | 10,000 calls | Credit card verification required |
-| Rate Limit | 1,000 req/min | Production-grade performance |
-| Available Models | All | All enterprise features |
+| Item | Notes |
+|------|------|
+| Billing Method | Pay-as-you-go |
+| Rate Limit | 500-1,000 req/min |
+| Credit Card Required | ✅ Yes |
 
-### API Call Counting
+### API Call Counting (Trial Tier)
 
 - **Chat:** 1 request = 1 call
-- **Embed:** 1,000 texts = 1 call
+- **Embed:** 1,000 texts = 1 call (very cost-effective!)
 - **Rerank:** 1 request = 1 call
 
 ---
@@ -325,28 +324,25 @@ for result in response.results:
 
 ## 🔧 Common Issues
 
-### 1. Difference Between Trial and Production?
+### 1. Is the Trial Free Tier Sufficient?
 
-**Main Differences:**
-| Feature | Trial | Production |
-|------|-------|------------|
-| Quota | 1,000 calls/month | 10,000 calls/month |
-| Rate | 10 req/min | 1,000 req/min |
-| Credit Card | Not required | Verification required |
-| Charges | No | No within free quota |
+**Use Cases:**
+- ✅ Personal development and learning
+- ✅ Small-scale applications (e.g., smart search for personal blog)
+- ✅ Prototype development and testing
+- ⚠️ For higher quotas, consider paid Production tier
 
-### 2. How to Upgrade to Production?
+### 2. Does the Free Quota Expire?
 
-**Steps:**
-1. Login to Dashboard
-2. Select "Upgrade to Production"
-3. Add credit card (verification only, no charge)
-4. Automatic upgrade
+**No Expiration:**
+- Trial API Key can be used long-term
+- Monthly quota automatically resets
+- No need to worry about credits running out
 
 ### 3. Why Is Embed So Cost-effective?
 
 **Billing Method:**
-- Every 1,000 texts = 1 call
+- 1,000 texts = 1 call
 - Example: Vectorizing 5,000 documents = 5 calls
 - Very suitable for large-scale text processing
 
@@ -354,7 +350,15 @@ for result in response.results:
 
 **Method:**
 - Login to https://dashboard.cohere.com
-- Dashboard homepage shows current month usage
+- Dashboard homepage displays current month's usage
+
+### 5. What If I Need Higher Quota?
+
+**Upgrade to Production:**
+1. Select "Go to Production" in Dashboard
+2. Add credit card information
+3. Pay-as-you-go based on usage
+4. Get higher rate limits
 
 ---
 

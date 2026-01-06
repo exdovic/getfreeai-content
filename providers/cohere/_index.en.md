@@ -31,7 +31,7 @@ sidebar:
 **Developer Console:** https://dashboard.cohere.com  
 **Headquarters:** Toronto (Canada), San Francisco (USA)  
 **Founded:** 2019  
-**Type:** Trial Credits (1,000-10,000 API calls/month)
+**Type:** Free Trial (Trial: 1,000 API calls/month, resets monthly)
 
 ---
 
@@ -45,7 +45,7 @@ Cohere is a Canadian artificial intelligence company founded in 2019, specializi
 - 📊 **Powerful Embedding** - Top-tier text vectorization technology
 - 🔝 **Best Rerank** - Improves search accuracy by 20-30%
 - 🎁 **Free Chatbot** - Coral is completely free with unlimited usage
-- 💼 **Enterprise-Grade** - Production tier with 10,000 calls/month free quota
+- 🆓 **Free Trial** - Trial 1,000 calls/month, resets monthly
 - 🏆 **Industry Recognition** - Valued at $6.8 billion in 2025 with $150M annual revenue
 
 **Rating:** ⭐⭐⭐⭐⭐ (First choice for RAG and enterprise applications!)
@@ -56,52 +56,45 @@ Cohere is a Canadian artificial intelligence company founded in 2019, specializi
 
 ### Registration Requirements
 
+**Chatbot (Coral):**
+
 | Requirement | Required | Notes |
 |------------|----------|-------|
-| Account Registration | ✅ Required | Supports email, Google |
-| Email Verification | ✅ Required | Need to verify email |
-| Credit Card Binding | ❌ Not Required | Trial account no payment info needed |
-| Phone Verification | ❌ Not Required | Phone number not needed |
+| Account Registration | ✅ Required | Email or Google account |
+| Email Verification | ✅ Required | Need to verify |
+| Credit Card | ❌ Not Required | Completely free |
+
+**API (Trial Free Tier):**
+
+| Requirement | Required | Notes |
+|------------|----------|-------|
+| Account Registration | ✅ Required | Email or Google account |
+| Email Verification | ✅ Required | Need to verify |
+| Credit Card | ❌ Not Required | Completely free |
+
+**API (Production Paid Tier):**
+
+| Requirement | Required | Notes |
+|------------|----------|-------|
+| Account Registration | ✅ Required | Email or Google account |
+| Email Verification | ✅ Required | Need to verify |
+| Credit Card | ✅ Required | Pay-as-you-go |
 
 ### Registration Steps
 
 {{% steps %}}
 
-#### Visit Official Website
+#### Register Free Account
 
-Open browser, visit [https://cohere.com](https://cohere.com), click **"Get Started"** or **"Sign Up"** button
+Visit [https://dashboard.cohere.com](https://dashboard.cohere.com), click **"Sign Up"**, register using email or Google account, verify email address, automatically receive Trial API Key (1,000 calls/month, free).
 
-#### Choose Registration Method
+#### For Production Use (Optional)
 
-Choose one of the following methods:
-- **Google Account** (recommended, fastest)
-- **Email Registration**
-
-#### Verify Email
-
-If using email registration, check your inbox, click the verification link, return to Cohere to complete registration.
-
-#### Complete Account Setup
-
-After first login, fill in basic information:
-- Name (can use nickname)
-- Purpose (select "Development" or "Learning")
-- Company name (optional, can skip)
-
-#### Get Trial Credit
-
-After registration, automatically receive **$5 trial credit**. Check balance in console: [https://dashboard.cohere.com](https://dashboard.cohere.com)
-
-#### Create API Key
-
-1. In the console, click **"API Keys"**
-2. Default Trial key is already created (has "Trial" tag)
-3. Can also create new key:
-   - Click **"New Key"** button
-   - Name the key (e.g., "My Trial Key")
-   - Select "Trial" plan
-   - Click **"Create"**
-4. ⚠️ **Important:** Immediately copy and save your API key
+If the free Trial tier is not enough, you can upgrade to the paid Production tier:
+1. Login to Dashboard
+2. Select **"Go to Production"**
+3. Add credit card information
+4. Pay-as-you-go based on usage
 
 {{% /steps %}}
 
@@ -119,37 +112,39 @@ Cohere provides two main services:
 
 ### 2. [API Service](/services/api/cohere)
 - **Type:** RESTful API
-- **Features:** Text generation, embedding, classification, summarization
-- **Models:** Command R+, Command R, Embed models
-- **Quota:** $5 trial credit
+- **Features:** Enterprise-grade performance, RAG optimized
+- **Models:** Command R+, Embed v3, Rerank v3.5
+- **Free Quota:** Trial 1,000 calls/month (resets monthly)
 
 ---
 
 ## 📊 Quota Overview
 
-### Trial Account
+### Trial Free Tier (Recommended)
 
 | Limit Type | Quota | Notes |
 |-----------|-------|-------|
-| **Trial Credit** | $5 | One-time |
-| **Requests Per Minute (RPM)** | 100 requests | All models combined |
-| **API Calls/Month** | 10,000 calls | Theoretical upper limit |
-| **Context Length** | 128K tokens | Command R+ model |
-| **Validity** | Unlimited | Credit doesn't expire |
+| **Monthly API Calls** | 1,000 calls | All APIs shared |
+| **Rate Limit** | 10-20 req/min | Varies by model |
+| **Available Models** | All | Command A, R+, Embed, Rerank, etc. |
+| **Credit Card Required** | ❌ No | Completely free |
+| **Quota Reset** | Monthly | Continuously available |
 
-### Model Pricing (Trial Credit Deduction)
+### Production Paid Tier
 
-| Model | Input Cost | Output Cost | Notes |
-|-------|-----------|-------------|-------|
-| **Command R+** | $0.50/M tokens | $1.50/M tokens | Most powerful |
-| **Command R** | $0.15/M tokens | $0.60/M tokens | Balanced |
-| **Embed v3** | $0.10/M tokens | - | Embedding model |
+| Limit Type | Quota | Notes |
+|-----------|-------|-------|
+| **Billing Method** | Pay-as-you-go | Based on usage |
+| **Rate Limit** | 500-1,000 req/min | Production-grade performance |
+| **Available Models** | All | All enterprise features |
+| **Credit Card Required** | ✅ Yes | Pay for actual usage |
 
-⚠️ **Important Notes:**
-- Trial credit doesn't expire, use with confidence
-- Usage automatically deducts from $5 trial credit
-- After credit exhausted, need to upgrade to paid account
-- RPM limit applies to all models combined
+### API Call Counting Rules (Trial Tier)
+
+- **Chat:** 1 request = 1 call
+- **Embed:** 1,000 texts = 1 call
+- **Rerank:** 1 request = 1 call
+- **Quota Reset:** Monthly reset
 
 ---
 
@@ -245,30 +240,23 @@ Cohere provides two main services:
 
 ## ⚠️ Usage Notes
 
-### Trial Credit Management
+### Quota Management
 
-- Trial credit $5, suitable for testing and light usage
-- Monitor balance in console to avoid unexpected depletion
-- After credit exhausted, need to upgrade to paid account
-- Choose appropriate model to save costs
+- **Trial Tier:** 1,000 calls/month, suitable for development, testing, and small-scale applications
+- **Monthly Reset:** Trial quota automatically resets monthly, can be used long-term for free
+- **Monitor Usage:** Check current month's usage in Dashboard
 
-### Model Selection
+### Free vs Paid
 
-- **Complex tasks:** Use Command R+, most powerful
-- **General tasks:** Use Command R, cost-effective
-- **Embedding:** Use Embed v3, most economical
-- **Testing:** Recommend starting with Command R
+- **Trial (Free):** No credit card required, 1,000 calls/month, resets monthly
+- **Production (Paid):** Credit card required, pay-as-you-go, higher rate limits
+- **When to Upgrade:** Consider upgrading to paid tier when free quota is insufficient
 
-### Rate Limits
+### API Call Optimization
 
-- **RPM (Requests Per Minute):** 100 requests, sufficient for most testing scenarios
-- **Monthly API Calls:** 10,000 calls, $5 trial credit can support approximately 1000-5000 conversations (depending on length)
-
-### API Key Security
-
-- Don't expose keys in public code
-- Can create different keys for different projects
-- Regularly check usage statistics to detect abnormal usage
+- **Embed is Cost-Effective:** 1,000 texts = 1 call (batch processing is highly efficient)
+- **Chat and Rerank:** 1 request = 1 call
+- **Smart Usage:** Fully utilize Embed's batch processing capability to save quota
 
 ---
 
