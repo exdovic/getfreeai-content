@@ -73,7 +73,7 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/groq" title="Groq API" subtitle="14,400/day · Ultra-fast · OpenAI-compatible" >}}
   {{< card link="/en/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000/day · 47+ models · One-stop" >}}
   {{< card link="/en/services/api/deepseek" title="DeepSeek API" subtitle="¥5 trial · Ultra-low price · Chinese optimized" >}}
-  {{< card link="/en/services/api/cohere" title="Cohere API" subtitle="1,000-10,000/month · RAG · Embed+Rerank" >}}
+  {{< card link="/en/services/api/cohere" title="Cohere API" subtitle="1,000/month · RAG · Embed+Rerank" >}}
   {{< card link="/en/services/api/vertex-ai" title="Vertex AI API" subtitle="$300 trial · Enterprise · Full MLOps" >}}
 {{< /cards >}}
 

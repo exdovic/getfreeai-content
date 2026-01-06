@@ -73,7 +73,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/api/groq" title="Groq API" subtitle="14,400次/天 · 极速推理 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000次/天 · 47+模型 · 一站式" >}}
   {{< card link="/zh-cn/services/api/deepseek" title="DeepSeek API" subtitle="¥5试用 · 超低价格 · 中文优化" >}}
-  {{< card link="/zh-cn/services/api/cohere" title="Cohere API" subtitle="1,000-10,000次/月 · RAG · Embed+Rerank" >}}
+  {{< card link="/zh-cn/services/api/cohere" title="Cohere API" subtitle="1,000次/月 · RAG · Embed+Rerank" >}}
   {{< card link="/zh-cn/services/api/vertex-ai" title="Vertex AI API" subtitle="$300试用 · 企业级 · 完整MLOps" >}}
 {{< /cards >}}
 
