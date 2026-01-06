@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek API - Chinese-Optimized Ultra-Low-Cost AI API"
 linkTitle: "API - DeepSeek"
-description: "DeepSeek provides top-tier Chinese AI API service, supporting DeepSeek R1 with visible chain-of-thought, DeepSeek V3 high-performance inference. Chinese-optimized, ultra-low price ¥1/million tokens, ¥5 free trial, OpenAI-compatible interface."
+description: "DeepSeek provides top-tier Chinese AI API service, supporting DeepSeek V3.2 latest flagship model and thinking mode reasoning. Chinese-optimized, ultra-low price $0.28/million tokens, ¥5 free trial, OpenAI-compatible interface."
 keywords:
   - DeepSeek API
   - Chinese AI API
@@ -30,15 +30,15 @@ sidebar:
 
 ## 🎯 Service Overview
 
-DeepSeek API provides powerful AI capabilities, fully compatible with OpenAI API format, priced 97% cheaper than GPT-4, making it ideal for developers on a budget who need high performance.
+DeepSeek API provides powerful AI capabilities, fully compatible with OpenAI API format, priced 95%+ cheaper than GPT-4, making it ideal for developers on a budget who need high performance.
 
 **Key Advantages:**
-- 💰 **Ultra-low Price** - 97% cheaper than GPT-4
+- 💰 **Ultra-low Price** - 95%+ cheaper than GPT-4
 - 🔄 **OpenAI Compatible** - Seamless code migration
-- 🧠 **Strong Reasoning** - R1 model with visible chain-of-thought
-- 💻 **Code Expert** - Coder V2 specialized in programming
+- 🧠 **Thinking Mode** - Transparent reasoning process
+- 🆕 **Latest V3.2** - Enhanced Agent capabilities
 - 🇨🇳 **Chinese Optimized** - Top-tier Chinese performance
-- 🎁 **Trial Credits** - New users receive ¥5
+- 🎁 **Trial Credits** - New users receive ¥5 (7 days validity)
 
 ---
 
@@ -84,13 +84,15 @@ print(response.choices[0].message.content)
 
 ### Model List
 
-| Model ID | Type | Features | Price |
-|----------|------|------|------|
-| `deepseek-chat` | General conversation | V3 flagship | ¥1(in)/¥2(out) |
-| `deepseek-reasoner` | Reasoning model | R1 visible chain-of-thought | ¥5.5(in)/¥19(out) |
-| `deepseek-coder` | Code model | Coder V2 professional | ¥1(in)/¥2(out) |
+| Model ID | Version | Context | Price (/million tokens)|
+|----------|---------|---------|------------------------|
+| `deepseek-chat` | V3.2 | 128K | $0.28(in)/$0.42(out) |
+| `deepseek-reasoner` | V3.2 | 128K | $0.28(in)/$0.42(out) |
 
-**Price unit:** RMB per million tokens
+**Notes:** 
+- deepseek-chat: Standard mode, default output 4K (max 8K)
+- deepseek-reasoner: Thinking mode, default output 32K (max 64K)
+- Supports context caching, input price drops to $0.028/M when hit
 
 ---
 
@@ -101,28 +103,27 @@ print(response.choices[0].message.content)
 | Item | Details |
 |------|------|
 | **Amount** | ¥5 RMB |
-| **Usage** | ~500M tokens (chat model) |
+| **Usage** | ~1,800M tokens (V3.2 input) |
 | **Validity** | 7 days after registration |
 | **How to Get** | Automatically after registration and verification |
 
 ### Pricing After Recharge
 
-**deepseek-chat & deepseek-coder:**
-- Input: ¥1 / million tokens
-- Output: ¥2 / million tokens
+**All models (V3.2):**
+- Input (cache miss): $0.28 / million tokens
+- Input (cache hit): $0.028 / million tokens  
+- Output: $0.42 / million tokens
 
-**deepseek-reasoner:**
-- Input: ¥5.5 / million tokens
-- Output: ¥19 / million tokens
+**Exchange reference:** $1 ≈ ¥7.2
 
 ### Price Comparison
 
 | Model | Input | Output | Relative Savings |
 |------|------|------|---------|
-| **DeepSeek** | ¥1 | ¥2 | Baseline |
-| GPT-4 Turbo | ¥70 | ¥210 | **70-105x** |
-| Claude 3.5 | ¥21 | ¥105 | **21-53x** |
-| Gemini 1.5 | ¥8.75 | ¥35 | **8.75-17.5x** |
+| **DeepSeek V3.2** | $0.28 | $0.42 | Baseline |
+| GPT-4 Turbo | $10 | $30 | **36-71x** |
+| GPT-4o | $5 | $15 | **18-36x** |
+| Claude 3.5 | $3 | $15 | **11-36x** |
 
 ---
 

@@ -72,7 +72,7 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/google-ai-studio" title="Google AI Studio API" subtitle="Free to use · Gemini · OpenAI-compatible" >}}
   {{< card link="/en/services/api/groq" title="Groq API" subtitle="14,400/day · Ultra-fast · OpenAI-compatible" >}}
   {{< card link="/en/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000/day · 47+ models · One-stop" >}}
-  {{< card link="/en/services/api/deepseek" title="DeepSeek API" subtitle="¥5 trial · Ultra-low price · Chinese optimized" >}}
+  {{< card link="/en/services/api/deepseek" title="DeepSeek API" subtitle="¥5 trial · $0.28/M · Chinese optimized" >}}
   {{< card link="/en/services/api/cohere" title="Cohere API" subtitle="1,000/month · RAG · Embed+Rerank" >}}
   {{< card link="/en/services/api/vertex-ai" title="Vertex AI API" subtitle="$300 trial · Enterprise · Full MLOps" >}}
 {{< /cards >}}
@@ -130,7 +130,7 @@ Developer API interfaces to integrate into your applications:
 ### Learning & Research
 1. **Google AI Studio** - Large quota experiments
 2. **OpenRouter** - Multi-model comparison
-3. **DeepSeek R1** - Reasoning process learning
+3. **DeepSeek** - Reasoning process learning, Chinese tasks
 
 ---
 

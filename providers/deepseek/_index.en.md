@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek - Top Chinese AI Free Guide"
 linkTitle: "DeepSeek"
-description: "DeepSeek offers top-tier Chinese AI models! DeepSeek R1 with visible chain-of-thought, DeepSeek V3 ultra-low price ¥1/million tokens. ¥5 free trial, Chinese-optimized, transparent reasoning process. Provides Chatbot and API services, detailed tutorials."
+description: "DeepSeek provides top-tier Chinese AI models! DeepSeek V3.2 latest flagship model with visible reasoning process. Ultra-low prices $0.28/million tokens input, free trial ¥5, Chinese optimized. Provides Chatbot and API services, detailed tutorials."
 keywords:
   - DeepSeek
   - DeepSeek R1
@@ -28,7 +28,7 @@ sidebar:
 **Provider Name:** DeepSeek (Deep Seek)  
 **Official Website:** https://www.deepseek.com  
 **Console:** https://platform.deepseek.com  
-**Type:** Freemium - Provides 9 million Tokens per month + 50 million Bonus Tokens
+**Type:** Free Chatbot + Trial Credits (¥5, 7 days validity)
 
 ---
 
@@ -37,11 +37,12 @@ sidebar:
 DeepSeek is an AI company from China, focusing on developing powerful open-source large language models. DeepSeek's models excel in Chinese understanding, programming, and reasoning, especially the DeepSeek R1 series which has outstanding reasoning capabilities and is completely free to use.
 
 **Core Advantages:**
-- 🇨🇳 **Chinese Optimization** - Understanding and generating Chinese text better than most international models
-- 💻 **Programming Expert** - Outstanding code generation and explanation capabilities
-- 🧠 **Reasoning Capabilities** - R1 series has powerful logical reasoning abilities
-- 🎁 **Extremely Generous Free Tier** - 9M tokens/month + 50M bonus tokens
-- 🌍 **Fully Open-Source** - Model architecture and weights fully open
+- 🆕 **Latest V3.2 Model** - Released December 2025, enhanced Agent capabilities
+- 🇨🇳 **Chinese Optimization** - Top-tier Chinese performance
+- 🧠 **Thinking Mode** - Transparent reasoning process
+- 💰 **Ultra-low Prices** - 95%+ cheaper than GPT-4
+- 🎁 **Free Chatbot** - 50 messages daily
+- 🔧 **Trial Credits** - New users get ¥5 (7 days validity)
 
 **Rating:** ⭐⭐⭐⭐⭐ (Best for Chinese!)
 
@@ -99,78 +100,58 @@ After first login, fill in basic information (optional). Go to console: [https:/
 
 DeepSeek provides two main services:
 
-### 1. [Chat Service](/services/chatbot/deepseek)
+### 1. [Chatbot Service](/services/chatbot/deepseek)
 - **Type:** Web conversation interface
 - **Access URL:** https://chat.deepseek.com
-- **Features:** Direct conversation, no registration/API key needed
-- **Supports:** DeepSeek V3, DeepSeek R1
+- **Features:** Completely free, 50 messages daily
+- **Functions:** Web search, code execution, file upload, chain-of-thought display
 
 ### 2. [API Service](/services/api/deepseek)
 - **Type:** RESTful API
-- **Features:** OpenAI API compatible format
-- **Models:** DeepSeek V3, DeepSeek R1 (Thinking), DeepSeek R1 (Fast)
-- **Quota:** 9M tokens/month + 50M bonus tokens
+- **Features:** OpenAI compatible, ultra-low prices
+- **Models:** deepseek-chat (V3.2), deepseek-reasoner (V3.2 Thinking)
+- **Trial:** New users get ¥5 (7 days validity)
 
 ---
 
 ## 📊 Quota Overview
 
-### Basic Free Tier (New Users)
+### Chatbot Free Quota
 
 | Limit Type | Quota | Notes |
 |-----------|-------|-------|
-| **Monthly Input Tokens** | 9 million tokens | ~4.5 million Chinese characters |
-| **Monthly Output Tokens** | 9 million tokens | ~4.5 million Chinese characters |
-| **Requests Per Minute (RPM)** | 60 requests | All models combined |
-| **Tokens Per Minute (TPM)** | 60,000 tokens | All models combined |
-| **Tokens Per Request** | 10,000 tokens | Single request limit |
-| **Cost** | $0 | Completely free |
+| Daily Messages | 50 messages | All models shared |
+| Single Conversation Length | Unlimited | Supports ultra-long context |
+| Advanced Features | All supported | Web search, code execution, file upload |
 
-### Bonus Tokens (One-Time)
+### API Trial Credits
 
-| Limit Type | Quota | Notes |
-|-----------|-------|-------|
-| **Bonus Input Tokens** | 50 million tokens | ~25 million Chinese characters |
-| **Bonus Output Tokens** | 50 million tokens | ~25 million Chinese characters |
-| **Validity** | Unlimited | Never expires |
-| **Purpose** | High-frequency usage | Testing, development, production all applicable |
-
-⚠️ **Important Notes:**
-- Basic quota resets every natural month (first day at 00:00)
-- Bonus tokens don't expire and can be accumulated
-- Bonus tokens are used after basic quota is exhausted
-- RPM and TPM limits apply to all models combined
+| Item | Details |
+|------|---------|
+| **Trial Credits** | ¥5 RMB |
+| **Usable Tokens** | Approximately 1,800M tokens (V3.2 input)|
+| **Validity** | 7 days after registration |
+| **Recharge Price** | $0.28/M tokens (input)<br>$0.42/M tokens (output)|
 
 ---
 
-## 🤖 Model Overview
+## 🤖 Supported Models
 
-### DeepSeek V3
+### Chatbot Models
 
-| Parameter | Value | Notes |
-|----------|-------|-------|
-| **Model Name** | `deepseek-chat` | General chat model |
-| **Parameters** | 671B (Mixture of Experts) | 671 billion parameters, only 37B activated per request |
-| **Context Length** | 128K tokens | Approximately 64,000 Chinese characters |
-| **Capabilities** | General capabilities | Excels at Chinese, coding, reasoning |
-| **Update Time** | December 2024 | Latest version |
+| Model | Version | Features | Use Cases |
+|-------|---------|----------|-----------|
+| **DeepSeek** | V3.2 | Latest flagship model | General conversation, bilingual Chinese-English |
+| **DeepSeek (Thinking)** | V3.2 | Visible reasoning process | Complex reasoning, math problems |
 
-**Excels At:**
-- 📝 Chinese text understanding and generation
-- 💻 Code writing and explanation
-- 🔍 Information extraction and summarization
-- 🧮 Mathematical and logical reasoning
-- 📚 Long text processing
+### API Models
 
-### DeepSeek R1 (Thinking Mode)
+| Model ID | Version | Context | Price (/million tokens)|
+|----------|---------|---------|------------------------|
+| `deepseek-chat` | V3.2 | 128K | $0.28(in)/$0.42(out) |
+| `deepseek-reasoner` | V3.2 | 128K | $0.28(in)/$0.42(out) |
 
-| Parameter | Value | Notes |
-|----------|-------|-------|
-| **Model Name** | `deepseek-reasoner` | Reasoning-specialized model |
-| **Parameters** | Same as V3 | 671B MoE architecture |
-| **Context Length** | 64K tokens | Approximately 32,000 Chinese characters |
-| **Capabilities** | Deep reasoning | Displays reasoning process |
-| **Features** | Thinking chain visible | Can see model's reasoning steps |
+**Note:** deepseek-reasoner is thinking mode, outputs reasoning process with longer default output (32K vs 4K).
 
 **Excels At:**
 - 🧠 Complex logical reasoning
@@ -214,49 +195,49 @@ DeepSeek provides two main services:
 
 ### 3. Reasoning Capabilities
 
-**Deep Reasoning:**
-- R1 model has powerful reasoning chain capabilities
+**Thinking Mode:**
+- deepseek-reasoner displays reasoning process
 - Can handle complex logical problems
-- Visible reasoning process, high transparency
+- Visible reasoning steps, high transparency
 
-**Multi-step Task:**
-- Automatic task decomposition
-- Step-by-step execution plan
-- Clear thinking logic
+**Price Advantages:**
+- 95%+ cheaper than GPT-4
+- $0.28/M input, $0.42/M output
 
-### 4. Extremely Generous Free Tier
-
-**Monthly Quota:**
-- 9M tokens/month, equal to about 4.5M Chinese characters
-- Can handle approximately 150 long conversations (30,000 chars each)
-- Sufficient for individual developer daily usage
-
-**Bonus Tokens:**
-- One-time 50M tokens, never expires
-- Can process approximately 25M Chinese characters
-- Suitable for high-frequency usage scenarios
+| Model Comparison | Input Price | Output Price |
+|-----------------|-------------|--------------|
+| DeepSeek V3.2 | $0.28/M | $0.42/M |
+| GPT-4 Turbo | $10/M | $30/M |
+| GPT-4o | $5/M | $15/M |
 
 ---
 
 ## ⚠️ Usage Notes
 
+### Trial Credits
+
+- New users get ¥5
+- Valid for 7 days
+- Can recharge after use, prices are extremely low
+
 ### Quota Management
 
-- Monthly basic quota resets on the 1st of each month
-- Bonus tokens don't expire, use with confidence
-- Monitor token consumption in console to avoid overuse
+- Chatbot: 50 messages daily
+- Resets at 00:00 Beijing time
+- API: Pay-as-you-go
 
 ### Model Selection
 
-- **General tasks:** Use DeepSeek V3 (`deepseek-chat`), fast and comprehensive
-- **Complex reasoning:** Use DeepSeek R1 (`deepseek-reasoner`), powerful reasoning but higher token consumption
-- **Long text processing:** V3 supports 128K context, more suitable for long texts
+- **General tasks:** Use deepseek-chat (V3.2), fast response
+- **Complex reasoning:** Use deepseek-reasoner (V3.2), visible thinking process
+- **Long context:** Both models support 128K context
 
 ### Rate Limits
 
-- **RPM (Requests Per Minute):** 60 requests, sufficient for most applications
-- **TPM (Tokens Per Minute):** 60,000 tokens, be mindful in high-frequency scenarios
-- **Request Token Limit:** Single request maximum 10,000 tokens
+- **No strict rate limits:** API does not enforce rate limits
+- **Context Length:** 128K tokens
+- **Max Output:** chat: 8K, reasoner: 64K
+- **High Concurrency:** May need to wait, but won't be rejected
 
 ### API Key Security
 
@@ -268,15 +249,13 @@ DeepSeek provides two main services:
 
 ## 📊 Comparison with Other Services
 
-| Feature | DeepSeek | Google AI Studio | OpenRouter |
-|---------|----------|------------------|------------|
-| Free Quota | 🏆 9M/month + 50M bonus | 1,500 times/day | 50-1,000 times/day |
-| Chinese Optimization | 🏆 Excellent | Good | Varies |
-| Reasoning Capability | 🏆 Excellent (R1) | Good (Gemini) | Varies |
-| Code Generation | 🏆 Excellent | Good | Varies |
-| Context Length | 128K | 1M | Varies |
-| OpenAI Compatible | ✅ | ❌ | ✅ |
-| Mainland China Access | 🏆 Very Good | 🔧 VPN Required | 🔧 Stable Network Required |
+| Feature | DeepSeek | Google AI Studio | Groq |
+|---------|----------|------------------|------|
+| Free Chatbot | ✅ 50/day | ❌ | ❌ |
+| Chinese Performance | 🏆 Top-tier | Good | General |
+| Reasoning Ability | 🏆 Visible thinking | None | None |
+| API Price | 🏆 $0.28-0.42/M | Free to use | 14,400/day |
+| Context Length | 128K | 2M | 8K-32K |
 
 ---
 

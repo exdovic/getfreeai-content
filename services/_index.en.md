@@ -77,7 +77,7 @@ Developer API interfaces to integrate into your applications.
 | [Google AI Studio API](/en/services/api/google-ai-studio) | Free Forever | Free to use | Gemini series |
 | [Groq API](/en/services/api/groq) | Free Forever | 14,400 times/day | Ultra-fast inference |
 | [OpenRouter API](/en/services/api/openrouter) | Free Forever | 50-1,000 times/day | 47+ models |
-| [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Ultra-low price |
+| [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Top Chinese |
 | [Cohere API](/en/services/api/cohere) | Free Trial | 1,000 times/month | RAG expert |
 | [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (90 days) | Enterprise-grade |
 
@@ -107,7 +107,7 @@ Developer API interfaces to integrate into your applications.
 - [Google AI Studio API](/en/services/api/google-ai-studio) - Free to use
 
 **Ultra-low Price:**
-- [DeepSeek API](/en/services/api/deepseek) - 97% cheaper than GPT-4
+- [DeepSeek API](/en/services/api/deepseek) - 95%+ cheaper than GPT-4
 
 **RAG Features:**
 - [Cohere API](/en/services/api/cohere) - Embed + Rerank

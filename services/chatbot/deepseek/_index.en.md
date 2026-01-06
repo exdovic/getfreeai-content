@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek Chatbot - Chinese-Optimized Free AI Chat Tool"
 linkTitle: "Chatbot - DeepSeek"
-description: "DeepSeek provides top-tier Chinese Chatbot, supporting DeepSeek R1 with visible chain-of-thought, DeepSeek V3 high-performance chat. Chinese-optimized, transparent reasoning process, ¥5 free trial, ultra-low price for continued use."
+description: "DeepSeek provides top-tier Chinese Chatbot, supporting DeepSeek V3.2 latest flagship model and thinking mode reasoning. Chinese-optimized, transparent reasoning process, 50 free messages daily, ¥5 API trial credits."
 keywords:
   - DeepSeek Chatbot
   - Chinese AI chat
@@ -30,11 +30,12 @@ sidebar:
 
 ## 🎯 Service Overview
 
-DeepSeek Chatbot is a powerful free AI conversation platform providing advanced features such as web search, code execution, file upload, and the unique R1 model's visible chain-of-thought feature.
+DeepSeek Chatbot is a powerful free AI conversation platform providing advanced features such as web search, code execution, file upload, and the visible thinking mode feature.
 
 **Key Advantages:**
 - 🆓 **Completely Free** - 50 messages per day, no credit card required
-- 🧠 **Visible Chain-of-Thought** - R1 model displays reasoning process
+- 🆕 **Latest V3.2** - Released December 2025, enhanced Agent capabilities
+- 🧠 **Thinking Mode** - Transparent reasoning process
 - 🌐 **Web Search** - Get real-time information
 - 💻 **Code Execution** - Run code online
 - 📄 **File Upload** - Support PDF, Word, images, etc.
@@ -62,11 +63,10 @@ For detailed registration steps, see: [DeepSeek Registration Guide](/en/provider
 
 Choose model in the conversation interface:
 
-| Model | Use Cases | Features |
-|------|---------|------|
-| **DeepSeek V3** | General conversation | Top-tier bilingual Chinese-English |
-| **DeepSeek R1** | Complex reasoning | Shows thinking process |
-| **DeepSeek Coder V2** | Code tasks | Programming expert |
+| Model | Version | Features |
+|------|---------|----------|
+| **DeepSeek** | V3.2 | General conversation, top-tier bilingual |
+| **DeepSeek (Thinking)** | V3.2 | Shows reasoning process, for complex problems |
 
 #### Step 3: Start Conversation
 

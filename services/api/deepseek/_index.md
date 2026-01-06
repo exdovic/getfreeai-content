@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek API - 中文优化超低价 AI API 服务"
 linkTitle: "API - DeepSeek"
-description: "DeepSeek 提供中文顶尖 AI API 服务，支持 DeepSeek R1 思维链可见、DeepSeek V3 高性能推理。中文优化，超低价格 ¥1/百万 tokens，¥5 免费试用，OpenAI 兼容接口。"
+description: "DeepSeek 提供中文顶尖 AI API 服务，支持 DeepSeek V3.2 最新旗舰模型、思维链模式推理。中文优化，超低价格 $0.28/百万 tokens，¥5 免费试用，OpenAI 兼容接口。"
 keywords:
   - DeepSeek API
   - 中文 AI API
@@ -33,12 +33,12 @@ sidebar:
 DeepSeek API 提供强大的 AI 能力，完全兼容 OpenAI API 格式，价格比 GPT-4 便宜 97%，特别适合预算有限但需要高性能的开发者。
 
 **核心优势：**
-- 💰 **超低价格** - 比 GPT-4 便宜 97%
+- 💰 **超低价格** - 比 GPT-4 便宜 95%+
 - 🔄 **OpenAI 兼容** - 无缝迁移现有代码
-- 🧠 **强大推理** - R1 模型思维链可见
-- 💻 **代码专家** - Coder V2 专注编程
+- 🧠 **思维链模式** - 推理过程透明可见
+- 🆕 **最新 V3.2** - 强化 Agent 能力
 - 🇨🇳 **中文优化** - 中文性能顶尖
-- 🎁 **试用积分** - 新用户赠送 ¥5
+- 🎁 **试用积分** - 新用户赠送 ¥5（7天有效）
 
 ---
 
@@ -84,13 +84,15 @@ print(response.choices[0].message.content)
 
 ### 模型列表
 
-| Model ID | 类型 | 特点 | 价格 |
-|----------|------|------|------|
-| `deepseek-chat` | 通用对话 | V3 旗舰模型 | ¥1(in)/¥2(out) |
-| `deepseek-reasoner` | 推理模型 | R1 思维链可见 | ¥5.5(in)/¥19(out) |
-| `deepseek-coder` | 代码模型 | Coder V2 专业 | ¥1(in)/¥2(out) |
+| Model ID | 版本 | 上下文 | 价格（/百万tokens）|
+|----------|------|--------|-------------------|
+| `deepseek-chat` | V3.2 | 128K | $0.28(in)/$0.42(out) |
+| `deepseek-reasoner` | V3.2 | 128K | $0.28(in)/$0.42(out) |
 
-**价格单位：** 人民币/百万 tokens
+**注意：** 
+- deepseek-chat：标准模式，默认输出 4K（最大 8K）
+- deepseek-reasoner：思维链模式，默认输出 32K（最大 64K）
+- 支持上下文缓存，命中时输入价格降至 $0.028/M
 
 ---
 
@@ -101,28 +103,27 @@ print(response.choices[0].message.content)
 | 项目 | 详情 |
 |------|------|
 | **赠送金额** | ¥5 人民币 |
-| **可用量** | 约 500M tokens（chat 模型）|
+| **可用量** | 约 1,800M tokens（V3.2 输入）|
 | **有效期** | 注册后 7 天 |
 | **获取方式** | 注册并实名认证后自动获得 |
 
 ### 充值后价格
 
-**deepseek-chat & deepseek-coder：**
-- 输入：¥1 / 百万 tokens
-- 输出：¥2 / 百万 tokens
+**所有模型（V3.2）：**
+- 输入（缓存未命中）：$0.28 / 百万 tokens
+- 输入（缓存命中）：$0.028 / 百万 tokens  
+- 输出：$0.42 / 百万 tokens
 
-**deepseek-reasoner：**
-- 输入：¥5.5 / 百万 tokens
-- 输出：¥19 / 百万 tokens
+**换算参考：** $1 ≈ ¥7.2
 
 ### 价格对比
 
 | 模型 | 输入 | 输出 | 相对便宜 |
 |------|------|------|---------|
-| **DeepSeek** | ¥1 | ¥2 | 基准 |
-| GPT-4 Turbo | ¥70 | ¥210 | **70-105倍** |
-| Claude 3.5 | ¥21 | ¥105 | **21-53倍** |
-| Gemini 1.5 | ¥8.75 | ¥35 | **8.75-17.5倍** |
+| **DeepSeek V3.2** | $0.28 | $0.42 | 基准 |
+| GPT-4 Turbo | $10 | $30 | **36-71倍** |
+| GPT-4o | $5 | $15 | **18-36倍** |
+| Claude 3.5 | $3 | $15 | **11-36倍** |
 
 ---
 

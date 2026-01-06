@@ -77,7 +77,7 @@ comments: true
 | [Google AI Studio API](/services/api/google-ai-studio) | 永久免费 | 免费使用 | Gemini 系列 |
 | [Groq API](/services/api/groq) | 永久免费 | 14,400 次/天 | 极速推理 |
 | [OpenRouter API](/services/api/openrouter) | 永久免费 | 50-1,000 次/天 | 47+ 模型 |
-| [DeepSeek API](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 超低价格 |
+| [DeepSeek API](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 中文顶尖 |
 | [Cohere API](/services/api/cohere) | 免费试用 | 1,000 次/月 | RAG 专家 |
 | [Vertex AI API](/services/api/vertex-ai) | 试用积分 | $300 (90天) | 企业级 |
 
@@ -107,7 +107,7 @@ comments: true
 - [Google AI Studio API](/services/api/google-ai-studio) - 免费使用
 
 **超低价格：**
-- [DeepSeek API](/services/api/deepseek) - 比 GPT-4 便宜 97%
+- [DeepSeek API](/services/api/deepseek) - 比 GPT-4 便宜 95%+
 
 **RAG 功能：**
 - [Cohere API](/services/api/cohere) - Embed + Rerank
