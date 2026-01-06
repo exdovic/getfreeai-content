@@ -64,7 +64,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 ### RAG Expert
 
 #### [Cohere API](/en/services/api/cohere)
-- **Quota:** 1,000-10,000 times/month
+- **Quota:** 1,000 times/month
 - **Features:** Embed + Rerank, RAG optimized
 - **Rating:** ⭐⭐⭐⭐⭐
 

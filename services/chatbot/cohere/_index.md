@@ -238,7 +238,7 @@ Coral：根据论文，核心贡献包括：
 
 ### 文档和教程
 - [Cohere 完整介绍](/providers/cohere)
-- [API 服务使用指南](/services/api/cohere-api)
+- [API 服务使用指南](/services/api/cohere)
 - [官方文档](https://docs.cohere.com)
 
 ---

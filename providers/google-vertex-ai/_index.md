@@ -99,13 +99,13 @@ Google Vertex AI 是 Google Cloud 的企业级 AI 平台，提供 Gemini 系列�
 
 Google Vertex AI 提供两种主要服务：
 
-### 1. [Vertex AI Studio 服务](/services/chatbot/vertex-ai-studio)
+### 1. [Vertex AI Studio 服务](/services/chatbot/vertex-ai)
 - **类型：** Web 界面（AI Studio）
 - **访问地址：** https://console.cloud.google.com/vertex-ai/generative
 - **特点：** 可视化测试，无需编程
 - **功能：** 模型测试、Prompt 设计、多模态
 
-### 2. [API 服务](/services/api/vertex-ai-api)
+### 2. [API 服务](/services/api/vertex-ai)
 - **类型：** RESTful API 和 SDK
 - **特点：** 企业级性能，完整功能
 - **模型：** Gemini 1.5 Pro/Flash, PaLM 2 等

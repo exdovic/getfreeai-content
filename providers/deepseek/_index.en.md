@@ -105,7 +105,7 @@ DeepSeek provides two main services:
 - **Features:** Direct conversation, no registration/API key needed
 - **Supports:** DeepSeek V3, DeepSeek R1
 
-### 2. [API Service](/services/api/deepseek-api)
+### 2. [API Service](/services/api/deepseek)
 - **Type:** RESTful API
 - **Features:** OpenAI API compatible format
 - **Models:** DeepSeek V3, DeepSeek R1 (Thinking), DeepSeek R1 (Fast)

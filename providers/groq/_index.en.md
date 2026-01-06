@@ -103,7 +103,7 @@ Groq provides two main services:
 - **Features:** Real-time inference speed display, intuitive parameter adjustment
 - **Supports:** All Groq models
 
-### 2. [API Service](/services/api/groq-api)
+### 2. [API Service](/services/api/groq)
 - **Type:** RESTful API
 - **Features:** Fully compatible with OpenAI API format
 - **Models:** Llama 3.3/3.1, Mixtral, Gemma 2, DeepSeek R1, etc.

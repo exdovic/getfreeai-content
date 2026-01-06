@@ -107,7 +107,7 @@ OpenRouter 提供两种主要服务：
 - **特点：** 直接测试所有免费模型，查看使用统计
 - **支持：** 所有 47+ 免费模型
 
-### 2. [API 服务](/services/api/openrouter-api)
+### 2. [API 服务](/services/api/openrouter)
 - **类型：** RESTful API
 - **特点：** 完全兼容 OpenAI API 格式
 - **模型：** 47+ 免费模型，包括 Llama, DeepSeek, Qwen 等

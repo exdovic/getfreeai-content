@@ -282,7 +282,7 @@ Playground 共享 API 配额：
 
 ### 文档和教程
 - [Groq 完整介绍](/providers/groq)
-- [API 服务使用指南](/services/api/groq-api)
+- [API 服务使用指南](/services/api/groq)
 - [官方文档](https://console.groq.com/docs)
 
 ### 学习资源

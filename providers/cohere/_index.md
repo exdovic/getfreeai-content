@@ -1,7 +1,7 @@
 ---
 title: "Cohere - RAG 专家免费 AI 平台"
 linkTitle: "Cohere"
-description: "Cohere 专注 RAG 应用！Command R+ 模型、Embed v3 向量化、Rerank 3.5 重排序。每月 1000-10000 次免费请求，提供 Chatbot 和 API 服务，企业级 RAG 解决方案，详细教程。"
+description: "Cohere 专注 RAG 应用！Command R+ 模型、Embed v3 向量化、Rerank 3.5 重排序。每月 1,000 次免费请求，提供 Chatbot 和 API 服务，企业级 RAG 解决方案，详细教程。"
 keywords:
   - Cohere
   - RAG专家
@@ -104,13 +104,13 @@ Cohere 是一家加拿大人工智能公司，成立于 2019 年，专注于为�
 
 Cohere 提供两种主要服务：
 
-### 1. [Coral Chatbot 服务](/services/chatbot/cohere-coral)
+### 1. [Coral Chatbot 服务](/services/chatbot/cohere)
 - **类型：** Web 对话界面
 - **访问地址：** https://coral.cohere.com
 - **特点：** 完全免费，无使用限制
 - **功能：** RAG、文档上传、引用来源、多语言
 
-### 2. [API 服务](/services/api/cohere-api)
+### 2. [API 服务](/services/api/cohere)
 - **类型：** RESTful API
 - **特点：** 企业级性能，RAG 优化
 - **模型：** Command R+, Embed v3, Rerank v3.5
@@ -268,7 +268,7 @@ Cohere 提供两种主要服务：
 | Embedding | 🏆 顶尖（支持文本+图像） | 良好 | 不提供 |
 | Rerank | 🏆 独有优势 | 不提供 | 不提供 |
 | 多语言 | 🏆 100+ 语言 | 良好 | 视模型而定 |
-| 免费配额 | 1,000-10,000/月 | 1,500/天 | 50-1,000/天 |
+| 免费配额 | 1,000 次/月 | 免费使用 | 50-1,000/天 |
 | 需要信用卡 | Production 需要（不扣费） | ❌ | ❌ |
 | 企业功能 | 🏆 完善 | 一般 | 一般 |
 | 企业合作 | Oracle、Salesforce、Nvidia | Google | 多个提供商 |
