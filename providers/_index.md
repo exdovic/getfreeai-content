@@ -40,7 +40,7 @@ next: /providers/google-ai-studio
 
 ### Google AI Studio
 - **类型：** 完全免费
-- **特点：** 15M tokens/天，Gemini 系列
+- **特点：** 免费使用，Gemini 系列
 - **适合：** 个人开发者，快速原型
 
 [查看详情 →](/providers/google-ai-studio)

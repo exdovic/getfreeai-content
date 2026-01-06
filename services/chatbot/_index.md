@@ -50,7 +50,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 - **推荐：** ⭐⭐⭐⭐⭐
 
 #### [Google AI Studio](/services/chatbot/google-ai-studio)
-- **配额：** 1,500 次/天（15M tokens）
+- **配额：** 免费使用
 - **特点：** Gemini 系列，多模态
 - **推荐：** ⭐⭐⭐⭐⭐
 
@@ -81,7 +81,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 |------|---------|------|------|------|--------|---------|
 | [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 无限制 | 快 | ✅ | ❌ | RAG、引用来源 |
 | [Groq](/services/chatbot/groq) | 永久免费 | 14,400/天 | 🏆 极快 | ✅ | ❌ | 速度王者 |
-| [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 1,500/天 | 快 | ✅ | 🏆 强 | 多模态、2M上下文 |
+| [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 免费使用 | 快 | ✅ | 🏆 强 | 多模态、2M上下文 |
 | [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 50条/天 | 快 | 🏆 顶尖 | ✅ | 思维链、代码执行 |
 | [OpenRouter](/services/chatbot/openrouter) | 永久免费 | 50-1000/天 | 快 | ✅ | 部分 | 🏆 47+ 模型 |
 | [Vertex AI Studio](/services/chatbot/vertex-ai) | 试用积分 | $300 | 快 | ✅ | 🏆 强 | 企业级、2M上下文 |

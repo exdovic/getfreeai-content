@@ -50,7 +50,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 - **Rating:** ⭐⭐⭐⭐⭐
 
 #### [Google AI Studio](/en/services/chatbot/google-ai-studio)
-- **Quota:** 1,500 times/day (15M tokens)
+- **Quota:** Free to use
 - **Features:** Gemini series, multimodal
 - **Rating:** ⭐⭐⭐⭐⭐
 
@@ -81,7 +81,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 |------|---------|------|------|------|--------|---------|
 | [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Unlimited | Fast | ✅ | ❌ | RAG, citation sources |
 | [Groq](/en/services/chatbot/groq) | Free Forever | 14,400/day | 🏆 Ultra-fast | ✅ | ❌ | Speed champion |
-| [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | 1,500/day | Fast | ✅ | 🏆 Strong | Multimodal, 2M context |
+| [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Fast | ✅ | 🏆 Strong | Multimodal, 2M context |
 | [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | 50/day | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
 | [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1000/day | Fast | ✅ | Partial | 🏆 47+ models |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | Fast | ✅ | 🏆 Strong | Enterprise-grade, 2M context |
