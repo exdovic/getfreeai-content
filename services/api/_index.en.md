@@ -83,7 +83,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 
 | API | Free Type | Daily/Monthly Quota | Rate Limit | OpenAI Compatible |
 |-----|---------|-------------|---------|------------|
-| [Google AI Studio](/en/services/api/google-ai-studio) | Free Forever | 15M tokens/day | 1,500 req/day | ❌ |
+| [Google AI Studio](/en/services/api/google-ai-studio) | Free Forever | Free to use | Varies by model | ❌ |
 | [Groq](/en/services/api/groq) | Free Forever | 14,400 req/day | 30 req/min | ✅ |
 | [OpenRouter](/en/services/api/openrouter) | Free Forever | 50-1,000 req/day | 20 req/min | ✅ |
 | [DeepSeek](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | By usage | ✅ |

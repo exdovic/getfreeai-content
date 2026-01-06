@@ -56,7 +56,7 @@ image: /images/og-default.png
 无需编程，直接在网页使用 AI 对话服务：
 
 {{< cards >}}
-  {{< card link="/zh-cn/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="1,500次/天 · Gemini系列 · 多模态" >}}
+  {{< card link="/zh-cn/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="免费使用 · Gemini系列 · 多模态" >}}
   {{< card link="/zh-cn/services/chatbot/groq" title="Groq Playground" subtitle="14,400次/天 · 极速推理 · 800+ tokens/s" >}}
   {{< card link="/zh-cn/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000次/天 · 47+免费模型" >}}
   {{< card link="/zh-cn/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="50条/天 · 中文顶尖 · 思维链可见" >}}

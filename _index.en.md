@@ -56,7 +56,7 @@ Welcome to GetFreeAI! We've carefully compiled guides for free AI services from 
 No coding required, use AI conversational services directly in your browser:
 
 {{< cards >}}
-  {{< card link="/en/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="1,500/day · Gemini · Multimodal" >}}
+  {{< card link="/en/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="Free to use · Gemini · Multimodal" >}}
   {{< card link="/en/services/chatbot/groq" title="Groq Playground" subtitle="14,400/day · Ultra-fast · 800+ tokens/s" >}}
   {{< card link="/en/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000/day · 47+ free models" >}}
   {{< card link="/en/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="50 msgs/day · Top Chinese · Chain-of-thought" >}}

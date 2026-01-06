@@ -63,7 +63,7 @@ comments: true
 
 | 提供者 | 免费类型 | 每日限额 | 高级功能 |
 |--------|---------|---------|---------|
-| [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 1,500 次 | 多模态、联网 |
+| [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 免费使用 | 多模态、联网 |
 | [Groq](/services/chatbot/groq) | 永久免费 | 14,400 次 | 极速推理 |
 | [OpenRouter](/services/chatbot/openrouter) | 永久免费 | 50-1,000 次 | 47+ 模型 |
 | [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 50 条消息 | 思维链、代码执行 |
