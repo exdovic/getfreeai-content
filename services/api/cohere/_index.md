@@ -29,15 +29,16 @@ sidebar:
 
 ## 🎯 服务简介
 
-Cohere API 提供企业级 AI 能力，特别擅长 RAG、Embedding 和 Rerank，是构建智能搜索和知识库的首选。
+Cohere API 提供企业级 AI 能力，特别擅长 RAG、Embedding 和 Rerank，是构建智能搜索和知识库的首选。由加拿大人工智能公司 Cohere（成立于 2019 年）提供，服务于全球顶级企业。
 
 **核心优势：**
 - 🎯 **RAG 专家** - 业界领先的检索增强生成
-- 📊 **强大 Embedding** - 顶尖文本向量化
+- 📊 **强大 Embedding** - 顶尖文本和图像向量化
 - 🔝 **最佳 Rerank** - 提升搜索准确度 20-30%
-- 🌍 **多语言** - 100+ 语言支持
-- 💼 **企业级** - Production 10,000 calls/月
+- 🌍 **多语言** - 支持 100+ 语言，中文表现优秀
+- 💼 **企业级** - Production 10,000 calls/月免费
 - 🆓 **免费开始** - Trial 1,000 calls/月，无需信用卡
+- 🆕 **最新模型** - Command A（111B 参数，256K 上下文）
 
 ---
 
@@ -84,16 +85,23 @@ print(response.text)
 
 ### 1. Chat - 对话生成
 
+**Command A 模型（最新）🆕：**
+- 111B 参数（1110 亿）
+- 256K 上下文窗口
+- 推理效率提升 150%
+- 企业级性能
+
 **Command R+ 模型：**
 - 128K 上下文窗口
-- RAG 优化
+- RAG 深度优化
 - 100+ 语言支持
 
 **基础使用：**
 ```python {filename="Python"}
+# 使用最新的 Command A 模型
 response = co.chat(
     message="你好，介绍一下 Cohere",
-    model="command-r-plus"
+    model="command-a"  # 或使用 "command-r-plus"
 )
 print(response.text)
 ```
@@ -123,12 +131,14 @@ for citation in response.citations:
     print(f"引用: {citation['text']}")
 ```
 
-### 2. Embed - 文本向量化
+### 2. Embed - 文本和图像向量化
 
 **功能：**
-- 将文本转换为向量
-- 语义搜索
+- 将文本转换为高质量向量
+- 支持图像向量化 🆕
+- 语义搜索优化
 - 文本聚类和分类
+- 多语言支持（100+）
 
 **使用示例：**
 ```python {filename="Python"}
@@ -186,12 +196,14 @@ for idx in np.argsort(scores)[::-1]:
     print(f"{documents[idx]}: {scores[idx]:.4f}")
 ```
 
-### 3. Rerank - 搜索结果重排序
+### 3. Rerank - 搜索结果重排序（v3.5）
 
 **功能：**
-- 对搜索结果重新排序
+- 智能重新排序搜索结果
 - 提升准确度 20-30%
-- RAG 必备工具
+- RAG 应用必备工具
+- 业界最佳性能
+- 支持 100+ 语言
 
 **使用示例：**
 ```python {filename="Python"}

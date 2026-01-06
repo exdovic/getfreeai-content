@@ -29,15 +29,16 @@ sidebar:
 
 ## 🎯 Service Overview
 
-Cohere API provides enterprise-grade AI capabilities, particularly excelling in RAG, Embedding, and Rerank—the top choice for building intelligent search and knowledge bases.
+Cohere API provides enterprise-grade AI capabilities, particularly excelling in RAG, Embedding, and Rerank—the top choice for building intelligent search and knowledge bases. Provided by Canadian AI company Cohere (founded in 2019), serving global leading enterprises.
 
 **Key Advantages:**
-- 🎯 **RAG Expert** - Industry-leading Retrieval Augmented Generation
-- 📊 **Powerful Embedding** - Top-tier text vectorization
+- 🎯 **RAG Expert** - Industry-leading Retrieval-Augmented Generation
+- 📊 **Powerful Embedding** - Top-tier text and image vectorization
 - 🔝 **Best Rerank** - Improve search accuracy by 20-30%
-- 🌍 **Multilingual** - 100+ language support
-- 💼 **Enterprise Grade** - Production 10,000 calls/month
+- 🌍 **Multilingual** - Supports 100+ languages with excellent Chinese performance
+- 💼 **Enterprise Grade** - Production 10,000 calls/month free
 - 🆓 **Free Start** - Trial 1,000 calls/month, no credit card required
+- 🆕 **Latest Models** - Command A (111B parameters, 256K context)
 
 ---
 
@@ -84,16 +85,23 @@ print(response.text)
 
 ### 1. Chat - Conversation Generation
 
+**Command A Model (Latest) 🆕:**
+- 111B parameters (111 billion)
+- 256K context window
+- 150% improved inference efficiency
+- Enterprise-grade performance
+
 **Command R+ Model:**
 - 128K context window
-- RAG optimized
+- Deeply optimized for RAG
 - 100+ language support
 
 **Basic Usage:**
 ```python {filename="Python"}
+# Using the latest Command A model
 response = co.chat(
     message="Hello, introduce Cohere",
-    model="command-r-plus"
+    model="command-a"  # or use "command-r-plus"
 )
 print(response.text)
 ```
@@ -123,12 +131,14 @@ for citation in response.citations:
     print(f"Citation: {citation['text']}")
 ```
 
-### 2. Embed - Text Vectorization
+### 2. Embed - Text and Image Vectorization
 
 **Features:**
-- Convert text to vectors
-- Semantic search
+- Convert text to high-quality vectors
+- Support image vectorization 🆕
+- Semantic search optimization
 - Text clustering and classification
+- Multilingual support (100+)
 
 **Usage Example:**
 ```python {filename="Python"}
@@ -186,12 +196,14 @@ for idx in np.argsort(scores)[::-1]:
     print(f"{documents[idx]}: {scores[idx]:.4f}")
 ```
 
-### 3. Rerank - Search Result Reordering
+### 3. Rerank - Search Result Reordering (v3.5)
 
 **Features:**
-- Reorder search results
+- Intelligently reorder search results
 - Improve accuracy by 20-30%
-- Essential RAG tool
+- Essential tool for RAG applications
+- Industry-best performance
+- Supports 100+ languages
 
 **Usage Example:**
 ```python {filename="Python"}

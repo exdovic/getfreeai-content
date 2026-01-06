@@ -30,15 +30,16 @@ sidebar:
 
 ## 🎯 Service Overview
 
-Coral is Cohere's free AI chatbot, particularly excelling at RAG (Retrieval Augmented Generation), capable of answering questions based on uploaded documents and automatically citing information sources.
+Coral is Cohere's free AI chatbot, developed by Canadian AI company Cohere (founded in 2019). Coral particularly excels at RAG (Retrieval-Augmented Generation), capable of answering questions based on uploaded documents and automatically citing information sources—an ideal choice for enterprise-grade document Q&A.
 
 **Key Advantages:**
-- 🆓 **Completely Free** - No usage limits
-- 📚 **RAG Expert** - Answer questions based on documents
-- 📎 **Document Upload** - Support PDF, Word, TXT, etc.
-- 🔗 **Source Citations** - Automatically mark information sources
-- 🌍 **Multilingual** - Support 100+ languages
-- 💬 **Multi-turn Conversations** - Maintain context
+- 🆓 **Completely Free** - No usage limits, permanently free
+- 📚 **RAG Expert** - Accurately answer questions based on documents
+- 📎 **Document Upload** - Support multiple formats: PDF, Word, TXT, etc.
+- 🔗 **Source Citations** - Automatically mark information sources, traceable verification
+- 🌍 **Multilingual** - Support 100+ languages with excellent Chinese performance
+- 💬 **Multi-turn Conversations** - Intelligently maintain context
+- 🤖 **Latest Models** - Uses Command R+ and Command A models
 
 ---
 
@@ -72,23 +73,28 @@ For detailed registration steps, see: [Cohere Registration Guide](/en/providers/
 ### 1. Basic Conversation
 
 **Supported Features:**
-- Multi-turn conversation, automatically maintains context
-- 100+ language support
-- Quick response
+- Multi-turn conversation, intelligently maintains context
+- 100+ language support with excellent Chinese performance
+- Fast response speed
+- Uses Command R+ and Command A latest models
+- Enterprise-grade accuracy
 
-### 2. RAG (Retrieval Augmented Generation)
+### 2. RAG (Retrieval-Augmented Generation) - Core Feature
 
 **Features:**
-- Answer questions based on uploaded documents
-- Automatically cite information sources
-- Reduce model hallucination
-- Improve answer accuracy
+- Intelligently answer questions based on uploaded documents
+- Automatically cite information sources, clickable for verification
+- Effectively reduce model hallucination
+- Significantly improve answer accuracy
+- Support multi-document comprehensive analysis
 
 **Usage:**
 1. Click 📎 icon on the left of input box
-2. Upload documents (PDF, Word, TXT, etc.)
-3. Ask questions about the documents
-4. Coral answers based on document content
+2. Upload documents (PDF, Word, TXT, and other formats)
+3. Can upload multiple related documents
+4. Ask questions about the documents
+5. Coral generates accurate answers based on document content
+6. Click citation marks to view original source
 
 ### 3. Document Upload
 
@@ -129,10 +135,12 @@ Coral: According to the paper, core contributions include:
 ### 5. Multilingual Support
 
 **Supported Languages:**
-- 100+ languages
-- Excellent Chinese performance
-- Cross-language understanding
+- Support 100+ languages
+- Excellent Chinese performance with accurate understanding
+- Strong cross-language understanding capabilities
 - Automatic language detection
+- Support mixed multilingual conversations
+- Specially optimized: English, Chinese, French, German, Spanish, Japanese, Korean, etc.
 
 ---
 
