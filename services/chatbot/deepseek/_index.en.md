@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek Chatbot - Chinese-Optimized Free AI Chat Tool"
 linkTitle: "Chatbot - DeepSeek"
-description: "DeepSeek provides top-tier Chinese Chatbot, supporting DeepSeek R1 with visible chain-of-thought, DeepSeek V3 high-performance chat. Chinese-optimized, transparent reasoning process, ¥5 free trial, ultra-low price for continued use."
+description: "DeepSeek provides top-tier Chinese Chatbot, supporting DeepSeek V3.2 latest flagship model and thinking mode reasoning. Chinese-optimized, transparent reasoning process, 50 free messages daily, ¥5 API trial credits."
 keywords:
   - DeepSeek Chatbot
   - Chinese AI chat

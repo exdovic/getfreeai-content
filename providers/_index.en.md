@@ -61,8 +61,8 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### DeepSeek
 - **Type:** Free Chatbot + Trial Credits
-- **Features:** Top-tier Chinese, R1 reasoning model
-- **Suitable for:** Chinese applications, mathematical reasoning
+- **Features:** Top-tier Chinese, V3.2 latest model, thinking mode
+- **Suitable for:** Chinese applications, complex reasoning, ultra-low prices
 
 [View Details →](/providers/deepseek)
 

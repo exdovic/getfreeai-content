@@ -61,8 +61,8 @@ next: /providers/google-ai-studio
 
 ### DeepSeek
 - **类型：** 免费 Chatbot + 试用积分
-- **特点：** 中文顶尖，R1 推理模型
-- **适合：** 中文应用，数学推理
+- **特点：** 中文顶尖，V3.2 最新模型，思维链模式
+- **适合：** 中文应用，复杂推理，超低价格
 
 [查看详情 →](/providers/deepseek)
 
