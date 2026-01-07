@@ -66,7 +66,7 @@ comments: true
 | [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 免费使用 | 多模态、联网 |
 | [Groq](/services/chatbot/groq) | 永久免费 | 14,400 次 | 极速推理 |
 | [OpenRouter](/services/chatbot/openrouter) | 永久免费 | 50-1,000 次 | 47+ 模型 |
-| [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 50 条消息 | 思维链、代码执行 |
+| [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 免费使用 | 思维链、代码执行 |
 | [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 免费使用 | RAG、文档上传 |
 | [Vertex AI Studio](/services/chatbot/vertex-ai) | 试用积分 | $300 | 2M 上下文 |
 

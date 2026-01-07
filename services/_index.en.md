@@ -66,7 +66,7 @@ Developer API interfaces to integrate into your applications.
 | [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Multimodal, web search |
 | [Groq](/en/services/chatbot/groq) | Free Forever | 14,400 times | Ultra-fast inference |
 | [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1,000 times | 47+ models |
-| [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | 50 messages | Chain-of-thought, code execution |
+| [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | Free to use | Chain-of-thought, code execution |
 | [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Free to use | RAG, document upload |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | 2M context |
 

@@ -82,7 +82,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 | [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Free to use | Fast | ✅ | ❌ | RAG, citation sources |
 | [Groq](/en/services/chatbot/groq) | Free Forever | 14,400/day | 🏆 Ultra-fast | ✅ | ❌ | Speed champion |
 | [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Fast | ✅ | 🏆 Strong | Multimodal, up to 2M |
-| [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | 50/day | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
+| [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | Free to use | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
 | [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1000/day | Fast | ✅ | Partial | 🏆 47+ models |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | Fast | ✅ | 🏆 Strong | Enterprise-grade, 2M context |
 
