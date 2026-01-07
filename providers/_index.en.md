@@ -88,8 +88,8 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 → [Groq](/providers/groq) - 800+ tokens/s
 
 ### I need ultra-long context
-→ [Google AI Studio](/providers/google-ai-studio) - 2M tokens
-→ [Vertex AI](/providers/google-vertex-ai) - 2M tokens
+→ [Google AI Studio](/providers/google-ai-studio) - Up to 2M tokens
+→ [Vertex AI](/providers/google-vertex-ai) - Up to 2M tokens
 
 ### I need Chinese optimization
 → [DeepSeek](/providers/deepseek) - Top-tier Chinese

@@ -88,8 +88,8 @@ next: /providers/google-ai-studio
 → [Groq](/providers/groq) - 800+ tokens/s
 
 ### 我需要超长上下文
-→ [Google AI Studio](/providers/google-ai-studio) - 2M tokens
-→ [Vertex AI](/providers/google-vertex-ai) - 2M tokens
+→ [Google AI Studio](/providers/google-ai-studio) - 最高 2M tokens
+→ [Vertex AI](/providers/google-vertex-ai) - 最高 2M tokens
 
 ### 我需要中文优化
 → [DeepSeek](/providers/deepseek) - 中文顶尖
