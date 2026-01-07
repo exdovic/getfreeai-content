@@ -1,7 +1,7 @@
 ---
 title: "Groq Playground - Ultra-Fast Free AI Online Chat Tool"
 linkTitle: "Playground - Groq"
-description: "Groq Playground provides the fastest free AI chat experience in the industry, supporting Llama 3.3, Mixtral, Gemma 2 and more. 800+ tokens/sec lightning-fast response, 14,400 free requests daily, real-time chat with no waiting."
+description: "Groq Playground provides the fastest free AI chat experience in the industry, supporting Llama 3.3, Mixtral, Gemma 2 and more. 800+ tokens/sec lightning-fast response, free service with typical quota ~14,400/day, real-time chat with no waiting."
 keywords:
   - Groq Playground
   - ultra-fast AI chat
@@ -24,7 +24,7 @@ sidebar:
 **Provider:** [Groq](/en/providers/groq)  
 **Service Type:** Chatbot (Web Playground)  
 **Access URL:** [https://console.groq.com/playground](https://console.groq.com/playground)  
-**Free Tier:** Free Forever (with usage limits)
+**Free Tier:** Free Service (with usage limits)
 
 ---
 
@@ -164,12 +164,14 @@ When answering, please:
 
 Playground shares API quotas:
 
-| Limit Type | Quota | Notes |
+| Limit Type | Typical Quota | Notes |
 |---------|------|------|
-| Daily Requests | 14,400 times | Shared with API |
-| Requests per Minute | 30 times | Shared with API |
-| Daily Tokens | 20,000-1,000,000 | Varies by model |
+| Daily Requests | ~14,400 times | Shared with API |
+| Requests per Minute | ~30 times | Shared with API |
+| Daily Tokens | ~20,000-1,000,000 | Varies by model |
 | Max Tokens per Request | 8,192 | Output length limit |
+
+**Note:** Actual quotas may vary by account. Please check your console for actual limits.
 
 ### Actual Usage Experience
 

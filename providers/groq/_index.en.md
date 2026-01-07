@@ -1,7 +1,7 @@
 ---
 title: "Groq - Ultra-Fast Free AI Guide"
 linkTitle: "Groq"
-description: "Groq offers the industry's fastest inference speed at 800+ tokens/sec! 14,400 free requests daily, supporting Llama 3.3, Mixtral, Gemma 2 and more. Provides Chatbot and API services, lightning-fast response, OpenAI-compatible, detailed tutorials."
+description: "Groq offers the industry's fastest inference speed at 800+ tokens/sec! Free service with typical quota ~14,400/day, supporting Llama 3.3, Mixtral, Gemma 2 and more. Provides Chatbot and API services, lightning-fast response, OpenAI-compatible, detailed tutorials."
 keywords:
   - Groq
   - Groq API
@@ -11,7 +11,7 @@ keywords:
   - free AI API
   - high-speed LLM
   - OpenAI compatible
-  - 14400 requests
+  - ultra-high quota
   - free inference API
 image: /images/providers/groq-og.png
 type: docs
@@ -28,7 +28,7 @@ sidebar:
 **Provider Name:** Groq  
 **Official Website:** https://groq.com  
 **Developer Console:** https://console.groq.com  
-**Type:** Free Service (Permanently free with usage limits)
+**Type:** Free Service (with usage limits)
 
 ---
 
@@ -39,7 +39,7 @@ Groq is a company providing ultra-high-speed AI inference services, based on its
 **Core Features:**
 - ⚡ **Industry's Fastest Inference Speed** - 800+ tokens/s
 - 🔧 **LPU Chip Powered** - Hardware optimized for language models
-- 🎁 **Ultra-High Free Quota** - 14,400 requests/day
+- 🎁 **Ultra-High Free Quota** - Typical quota ~14,400 requests/day
 - 🔄 **OpenAI API Compatible** - Seamlessly switch existing code
 - 🚀 **Real-time Response** - Extremely low latency conversation experience
 
@@ -107,7 +107,7 @@ Groq provides two main services:
 - **Type:** RESTful API
 - **Features:** Fully compatible with OpenAI API format
 - **Models:** Llama 3.3/3.1, Mixtral, Gemma 2, DeepSeek R1, etc.
-- **Quota:** 14,400 requests/day
+- **Quota:** Typical quota ~14,400 requests/day
 
 ---
 
@@ -115,12 +115,14 @@ Groq provides two main services:
 
 ### Free Tier Quota
 
-| Limit Type | Quota | Notes |
+| Limit Type | Typical Quota | Notes |
 |-----------|-------|-------|
-| **Daily Requests** | 14,400 requests/day | Shared across all models |
-| **Requests Per Minute** | 30 requests/min | Shared across all models |
-| **Daily Tokens** | 20,000 tokens/day | Input + output total |
-| **Tokens Per Minute** | 6,000 tokens/min | Input + output total |
+| **Daily Requests** | ~14,400 requests/day | Shared across all models |
+| **Requests Per Minute** | ~30 requests/min | Shared across all models |
+| **Daily Tokens** | ~20,000 tokens/day | Input + output total |
+| **Tokens Per Minute** | ~6,000 tokens/min | Input + output total |
+
+**Note:** Actual quotas may vary by account. Please check your console for actual limits.
 
 ⚠️ **Important Notes:**
 - Shared quota: All models share the same account quota
@@ -209,8 +211,8 @@ Groq provides two main services:
 | Feature | Groq | Google AI Studio | OpenRouter |
 |---------|------|------------------|------------|
 | Inference Speed | 🏆 800+ tokens/s | 50-100 tokens/s | Varies by provider |
-| Daily Requests | 14,400 | 1,500 | 50-1,000 |
-| Daily Tokens | 20K-1M | 15M (Flash) | Unlimited |
+| Daily Requests | ~14,400 | Free to use | 50-1,000 |
+| Daily Tokens | ~20K-1M | Free to use | Unlimited |
 | Credit Card Required | ✅ Verification | ❌ | ❌ |
 | OpenAI Compatible | ✅ Fully Compatible | ❌ Not Compatible | ✅ Compatible |
 | Multimodal Support | ❌ | ✅ | Some models |
@@ -225,7 +227,7 @@ Groq provides two main services:
 ✅ **Highly Recommended:**
 - Need extremely fast response speed
 - Building real-time conversation applications
-- High-frequency calls (14,400 times/day)
+- High-frequency calls (high daily quota)
 - Need OpenAI API compatibility
 
 ❌ **Not Suitable For:**
@@ -241,7 +243,7 @@ If free quota isn't enough, Groq offers flexible paid options:
 
 | Plan | Price | Features |
 |------|-------|----------|
-| Free | $0 | 14,400 req/day |
+| Free | $0 | High daily quota |
 | Pay-as-you-go | Pay by usage | Higher quotas, billed by tokens |
 | Enterprise | Custom | Dedicated support, SLA guarantee |
 
@@ -268,7 +270,7 @@ If free quota isn't enough, Groq offers flexible paid options:
 
 - **December 2024:** Support for DeepSeek R1 Distill series reasoning models
 - **November 2024:** Released Llama 3.3 70B support
-- **October 2024:** Increased free tier quota to 14,400 requests/day
+- **October 2024:** Increased free tier quota
 - **2024:** Continuously optimizing LPU performance, improving inference speed
 
 ---

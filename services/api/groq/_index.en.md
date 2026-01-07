@@ -1,7 +1,7 @@
 ---
 title: "Groq API - Ultra-Fast Free AI API Service"
 linkTitle: "API - Groq"
-description: "Groq provides the industry's fastest inference speed at 800+ tokens/sec free API! 14,400 free requests daily, supporting Llama 3.3, Mixtral, Gemma 2 and more. OpenAI-compatible interface, lightning-fast response, detailed code examples."
+description: "Groq provides the industry's fastest inference speed at 800+ tokens/sec free API! Free service with typical quota ~14,400/day, supporting Llama 3.3, Mixtral, Gemma 2 and more. OpenAI-compatible interface, lightning-fast response, detailed code examples."
 keywords:
   - Groq API
   - ultra-fast AI API
@@ -23,7 +23,7 @@ sidebar:
 **Provider:** [Groq](/en/providers/groq)  
 **Service Type:** API Service  
 **API Endpoint:** [https://api.groq.com/openai/v1](https://api.groq.com/openai/v1)  
-**Free Tier:** Free Forever (with usage limits)  
+**Free Tier:** Free Service (with usage limits)  
 **API Compatibility:** Fully compatible with OpenAI API
 
 ---
@@ -35,8 +35,8 @@ Groq API provides the industry's fastest LLM inference service, fully compatible
 **Key Advantages:**
 - ⚡ **Industry Fastest** - 800+ tokens/s inference speed
 - 🔄 **OpenAI Compatible** - Seamless code migration
-- 🎁 **High Quota** - 14,400 requests/day
-- 💰 **Completely Free** - No hidden fees
+- 🎁 **High Quota** - Typical quota ~14,400 requests/day
+- 💰 **Free Service** - No payment required
 - 🚀 **Low Latency** - Millisecond first-token response
 
 ---
@@ -127,13 +127,15 @@ print(response.choices[0].message.content)
 
 ### API Quotas
 
-| Limit Type | Free Tier | Notes |
+| Limit Type | Typical Quota | Notes |
 |---------|---------|------|
-| **Daily Requests** | 14,400 requests | Shared across all models |
-| **Requests/Minute** | 30 requests | Shared across all models |
-| **Daily Tokens** | 20,000-1,000,000 | Varies by model |
-| **Tokens/Minute** | 6,000 tokens | Input + output combined |
+| **Daily Requests** | ~14,400 requests | Shared across all models |
+| **Requests/Minute** | ~30 requests | Shared across all models |
+| **Daily Tokens** | ~20,000-1,000,000 | Varies by model |
+| **Tokens/Minute** | ~6,000 tokens | Input + output combined |
 | **Max Context** | 128K tokens | Llama 3.x series |
+
+**Note:** Actual quotas may vary by account. Please check your console for actual limits.
 | **Max Output** | 8,192 tokens | Per request |
 
 ### ⚠️ Important Limitations
