@@ -1,11 +1,11 @@
 ---
-title: "OpenRouter - 47+ Free AI Models Aggregation Platform"
+title: "OpenRouter - 25+ Free AI Models Aggregation Platform"
 linkTitle: "OpenRouter"
-description: "OpenRouter aggregates 47+ free AI models! One API to access GPT-4, Claude, Gemini, Llama and more. 50-1000 free requests daily, unified interface, no multiple API keys needed, OpenAI-compatible format."
+description: "OpenRouter aggregates 25+ free AI models! One API to access GPT-4, Claude, Gemini, Llama and more. 50-1000 free requests daily, unified interface, no multiple API keys needed, OpenAI-compatible format."
 keywords:
   - OpenRouter
   - AI model aggregation
-  - 47 free models
+  - 25+ free models
   - unified API
   - free GPT-4
   - free Claude
@@ -28,20 +28,21 @@ sidebar:
 **Provider Name:** OpenRouter  
 **Official Website:** https://openrouter.ai  
 **Console:** https://openrouter.ai/keys  
-**Type:** Freemium - Provides 47+ free models
+**Type:** Freemium - Provides 25+ free models
 
 ---
 
 ## 📋 Product Overview
 
-OpenRouter is an AI model aggregation platform that provides 47+ free models from multiple providers through a unified API interface, allowing developers to access various AI models without registering multiple services.
+OpenRouter is an AI model aggregation platform that provides 25+ free models from multiple providers through a unified API interface, allowing developers to access various AI models without registering multiple services.
 
 **Core Features:**
-- 🎯 **Model Aggregation** - One API access to 47+ free models
+- 🎯 **Model Aggregation** - One API access to 25+ free models
 - 🔄 **OpenAI Compatible** - Fully compatible with OpenAI API format
 - 🎁 **Abundant Free Models** - Llama 3.3 405B, DeepSeek, Qwen, etc.
 - 🚀 **Smart Routing** - Automatically select optimal provider
 - 💰 **Flexible Pricing** - Free tier + pay-as-you-go
+- 🔑 **BYOK Support** - Use your own API keys (1M free requests/month)
 
 **Rating:** ⭐⭐⭐⭐⭐ (Most Complete Models!)
 
@@ -89,7 +90,7 @@ If 50 daily requests aren't enough:
 
 1. Click on the balance display in the upper right corner
 2. Select **"Add Credits"**
-3. Top-up $10 (supports credit card, PayPal, Alipay, WeChat Pay)
+3. Top-up $10 (supports credit card, cryptocurrency, and other methods; check console for specifics)
 4. After top-up, automatically upgrade to 1000 requests/day
 5. 💡 **Tip:** Top-up amount won't be automatically deducted, only consumed when using paid models
 
@@ -105,13 +106,19 @@ OpenRouter provides two main services:
 - **Type:** Web testing interface
 - **Access URL:** https://openrouter.ai/playground
 - **Features:** Test all free models directly, view usage statistics
-- **Supports:** All 47+ free models
+- **Supports:** All 25+ free models
 
 ### 2. [API Service](/services/api/openrouter)
 - **Type:** RESTful API
 - **Features:** Fully compatible with OpenAI API format
-- **Models:** 47+ free models, including Llama, DeepSeek, Qwen, etc.
+- **Models:** 25+ free models, including Llama, DeepSeek, Qwen, etc.
 - **Quota:** Basic 50 times/day, top-up $10 upgrades to 1000 times/day
+
+### 3. BYOK (Bring Your Own Key)
+- **Type:** Use your own provider API keys
+- **Features:** Route through OpenRouter, billing at original provider
+- **Free Quota:** 1 million BYOK requests per month free
+- **Use Cases:** Users who already have OpenAI/Anthropic accounts
 
 ---
 
@@ -123,7 +130,7 @@ OpenRouter provides two main services:
 |-----------|-------|-------|
 | **Daily Requests** | 50 requests/day | Shared across all free models |
 | **Requests Per Minute** | 20 requests/min | Shared across all free models |
-| **Available Models** | 47+ models | Models marked as `:free` |
+| **Available Models** | 25+ models | Models marked as `:free` |
 | **Cost** | $0 | Completely free |
 
 ### Upgraded Free Tier ($10 Lifetime Top-up)
@@ -138,7 +145,8 @@ OpenRouter provides two main services:
 ⚠️ **Important Notes:**
 - Top-up amount can be used for paid models, free models don't consume balance
 - Can set credit limit to $0 to prevent accidentally using paid models
-- Free models never incur charges
+- Free models (`:free` tagged) don't incur charges
+- BYOK users get 1 million free requests per month
 
 ---
 
@@ -190,7 +198,7 @@ OpenRouter provides two main services:
 ### 1. Model Aggregation
 
 **Unified Interface:**
-- One API key accesses 47+ models
+- One API key accesses 25+ free models
 - No need to register each provider separately
 - Unified billing and monitoring
 
@@ -199,7 +207,19 @@ OpenRouter provides two main services:
 - Load balancing
 - Failover
 
-### 2. OpenAI Compatibility
+### 2. BYOK (Bring Your Own Key)
+
+**Use Your Own Keys:**
+- Support using your own OpenAI, Anthropic, Google and other provider keys
+- Enjoy OpenRouter's routing and failover features
+- 1 million BYOK requests per month free
+
+**Use Cases:**
+- Already have provider accounts with balance
+- Need higher request quotas
+- Want to leverage OpenRouter's smart routing
+
+### 3. OpenAI Compatibility
 
 **Seamless Migration:**
 ```python {filename="Python"}
@@ -214,12 +234,13 @@ client = OpenAI(
 # Everything else is exactly the same
 ```
 
-### 3. Flexible Pricing
+### 4. Flexible Pricing
 
 **Multi-tier Options:**
 - Free tier: 50 times/day
 - Upgraded tier: $10 lifetime, 1000 times/day
 - Paid tier: Pay-as-you-go, only paid models charge
+- BYOK: Use your own keys, 1 million requests/month free
 
 ---
 
@@ -236,6 +257,7 @@ client = OpenAI(
 - Check for `:free` tag in model list
 - Free models are already very powerful
 - Choose appropriate model size based on task
+- 💡 **Tip:** Free model count changes dynamically, check [official model list](https://openrouter.ai/models?free=true)
 
 ### API Key Security
 
@@ -249,12 +271,13 @@ client = OpenAI(
 
 | Feature | OpenRouter | Google AI Studio | Groq |
 |---------|-----------|------------------|------|
-| Free Model Count | 🏆 47+ | 6 | 6 |
-| Daily Requests | 50-1,000 | 1,500 | 14,400 |
+| Free Model Count | 🏆 25+ | 6 | 6 |
+| Daily Requests | 50-1,000 | Free to use | ~14,400 |
 | Model Sources | Multiple providers | Google | Groq |
 | OpenAI Compatible | ✅ Fully Compatible | ❌ | ✅ |
 | Credit Card Required | ❌ | ❌ | ✅ |
 | Upgrade Cost | $10 lifetime | - | - |
+| BYOK Support | ✅ 1M/month | ❌ | ❌ |
 | Mainland China Access | ✅ Good | 🔧 VPN Required | 🔧 Stable Network Required |
 
 ---

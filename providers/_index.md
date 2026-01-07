@@ -46,15 +46,15 @@ next: /providers/google-ai-studio
 [查看详情 →](/providers/google-ai-studio)
 
 ### Groq
-- **类型：** 完全免费
-- **特点：** 800+ tokens/s 极速，14,400 次/天
+- **类型：** 免费服务
+- **特点：** 800+ tokens/s 极速，典型配额约 14,400 次/天
 - **适合：** 实时应用，高频调用
 
 [查看详情 →](/providers/groq)
 
 ### OpenRouter
-- **类型：** 完全免费
-- **特点：** 47+ 免费模型，一站式访问
+- **类型：** 免费增值
+- **特点：** 25+ 免费模型，一站式访问，支持 BYOK
 - **适合：** 模型对比，多样化需求
 
 [查看详情 →](/providers/openrouter)
@@ -88,14 +88,14 @@ next: /providers/google-ai-studio
 → [Groq](/providers/groq) - 800+ tokens/s
 
 ### 我需要超长上下文
-→ [Google AI Studio](/providers/google-ai-studio) - 2M tokens
-→ [Vertex AI](/providers/google-vertex-ai) - 2M tokens
+→ [Google AI Studio](/providers/google-ai-studio) - 最高 2M tokens
+→ [Vertex AI](/providers/google-vertex-ai) - 最高 2M tokens
 
 ### 我需要中文优化
 → [DeepSeek](/providers/deepseek) - 中文顶尖
 
 ### 我需要大量免费模型
-→ [OpenRouter](/providers/openrouter) - 47+ 模型
+→ [OpenRouter](/providers/openrouter) - 25+ 模型
 
 ### 我需要 RAG 功能
 → [Cohere](/providers/cohere) - RAG 专家

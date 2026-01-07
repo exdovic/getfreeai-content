@@ -1,7 +1,7 @@
 ---
-title: "OpenRouter Playground - 100+ Free AI Models Online Chat"
+title: "OpenRouter Playground - 25+ Free AI Models Online Chat"
 linkTitle: "Playground - OpenRouter"
-description: "OpenRouter Playground provides chat service with 100+ free AI models, including GPT-4, Claude 3.5, Gemini Pro and more top models. Unified interface, one-click switching, generous free quota, supports multimodal chat."
+description: "OpenRouter Playground provides chat service with 25+ free AI models, including GPT-4, Claude 3.5, Gemini Pro and more top models. Unified interface, one-click switching, generous free quota, supports multimodal chat."
 keywords:
   - OpenRouter Playground
   - multi-model chat
@@ -30,10 +30,10 @@ sidebar:
 
 ## 🎯 Service Overview
 
-OpenRouter Playground is a powerful web testing interface that allows you to test and compare 47+ free AI models directly in your browser without writing any code.
+OpenRouter Playground is a powerful web testing interface that allows you to test and compare 25+ free AI models directly in your browser without writing any code.
 
 **Key Advantages:**
-- 🎯 **47+ Free Models** - Test all models in one interface
+- 🎯 **25+ Free Models** - Test all models in one interface
 - 🔄 **Model Comparison** - Test multiple models simultaneously
 - 📊 **Usage Statistics** - View quotas and costs in real-time
 - 🎛️ **Parameter Adjustment** - Customize generation parameters
@@ -173,7 +173,7 @@ Playground shares API quotas:
 |---------|--------|-------------|
 | Daily Requests | 50 times | 1,000 times |
 | Requests per Minute | 20 times | 20 times |
-| Free Models | 47+ | 47+ |
+| Free Models | 25+ | 25+ |
 
 ### Actual Usage Experience
 

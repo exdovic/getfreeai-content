@@ -45,7 +45,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 ### 高免费配额
 
 #### [Groq Playground](/services/chatbot/groq)
-- **配额：** 14,400 次/天
+- **配额：** 约 14,400 次/天
 - **特点：** 800+ tokens/s 极速
 - **推荐：** ⭐⭐⭐⭐⭐
 
@@ -63,7 +63,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 #### [OpenRouter Playground](/services/chatbot/openrouter)
 - **配额：** 50-1,000 次/天
-- **特点：** 47+ 免费模型
+- **特点：** 25+ 免费模型
 - **推荐：** ⭐⭐⭐⭐⭐（模型最多）
 
 ### 企业级
@@ -79,18 +79,18 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 | 服务 | 免费类型 | 配额 | 速度 | 中文 | 多模态 | 特色功能 |
 |------|---------|------|------|------|--------|---------|
-| [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 无限制 | 快 | ✅ | ❌ | RAG、引用来源 |
-| [Groq](/services/chatbot/groq) | 永久免费 | 14,400/天 | 🏆 极快 | ✅ | ❌ | 速度王者 |
-| [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 免费使用 | 快 | ✅ | 🏆 强 | 多模态、2M上下文 |
-| [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 50条/天 | 快 | 🏆 顶尖 | ✅ | 思维链、代码执行 |
-| [OpenRouter](/services/chatbot/openrouter) | 永久免费 | 50-1000/天 | 快 | ✅ | 部分 | 🏆 47+ 模型 |
+| [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 免费使用 | 快 | ✅ | ❌ | RAG、引用来源 |
+| [Groq](/services/chatbot/groq) | 免费服务 | 约 14,400/天 | 🏆 极快 | ✅ | ❌ | 速度王者 |
+| [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 免费使用 | 快 | ✅ | 🏆 强 | 多模态、最高2M |
+| [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 免费使用 | 快 | 🏆 顶尖 | ✅ | 思维链、代码执行 |
+| [OpenRouter](/services/chatbot/openrouter) | 免费增值 | 50-1000/天 | 快 | ✅ | 部分 | 🏆 25+ 模型 |
 | [Vertex AI Studio](/services/chatbot/vertex-ai) | 试用积分 | $300 | 快 | ✅ | 🏆 强 | 企业级、2M上下文 |
 
 ---
 
 ## 🎯 选择指南
 
-### 我需要无限制使用
+### 我需要 RAG 功能
 → [Cohere Coral](/services/chatbot/cohere)
 
 ### 我需要极快的速度
@@ -114,7 +114,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 ### 初学者
 
-1. 从 [Cohere Coral](/services/chatbot/cohere) 开始（无限制）
+1. 从 [Cohere Coral](/services/chatbot/cohere) 开始（RAG 专家）
 2. 尝试 [DeepSeek Chat](/services/chatbot/deepseek)（中文友好）
 3. 体验 [Groq](/services/chatbot/groq)（感受极速）
 

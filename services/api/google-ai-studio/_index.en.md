@@ -32,11 +32,11 @@ sidebar:
 Google AI Studio API provides powerful access to Gemini models, fully compatible with OpenAI API format, allowing developers to easily integrate into their applications.
 
 **Key Advantages:**
-- 🎁 **High Free Quota** - 15M tokens/day (Flash series)
+- 🎁 **Ultra-High Free Quota** - Multiple models available for free, quota varies by model
 - ⚡ **Fast Response** - Flash series optimized
-- 🔄 **OpenAI Compatible** - Seamless code migration
+- 🔄 **OpenAI Compatible** - Supports OpenAI API format (partial compatibility)
 - 🎨 **Multimodal API** - Text, image, audio, video support
-- 📱 **Long Context** - Up to 2M tokens
+- 📱 **Long Context** - Up to 2M tokens (Pro series)
 - 🔍 **Web Search** - Google Search Grounding
 
 ---
@@ -132,10 +132,11 @@ Google AI Studio's free tier is very generous, with all major models available f
 
 | Feature | Free Tier |
 |---------|-----------|
-| **Input Tokens** | Free |
-| **Output Tokens** | Free |
+| **Input Tokens** | Completely free |
+| **Output Tokens** | Completely free |
 | **Available Models** | Gemini 3 Flash, 2.5 Flash/Pro, 2.0 Flash, Gemma 3, etc. |
 | **Rate Limits** | Varies by model, see table below |
+| **Quota Reset** | Daily quota resets at Pacific Time midnight |
 
 ### Rate Limits (Free Tier)
 
@@ -160,10 +161,11 @@ Different models have different rate limits. Here are the limits for major model
 
 ### ⚠️ Important Notes
 
-1. **Free Usage:** Both input and output are free in the free tier
-2. **Rate Limits:** Exceeding rate limits will result in 429 errors
-3. **Paid Upgrade:** Upgrade to paid tier for higher quotas
-4. **Data Usage:** Free tier data may be used to improve Google products
+1. **Completely Free:** Both input and output are completely free in the free tier
+2. **Rate Limits:** Exceeding rate limits will result in 429 errors, implement backoff retry is recommended
+3. **Paid Upgrade:** If you need higher quotas, you can request an upgrade in [AI Studio](https://aistudio.google.com)
+4. **Data Usage:** Free tier data may be used to improve Google products (opt-out available), paid tier will not
+5. **View Quota:** Real-time quotas can be viewed in [AI Studio Dashboard](https://aistudio.google.com/usage)
 
 ---
 
@@ -370,6 +372,7 @@ genai.configure(api_key="YOUR_API_KEY")
 # Enable Google Search Grounding
 model = genai.GenerativeModel('gemini-2.5-flash')
 
+# ⚠️ Note: Grounding feature may be separately charged, check latest pricing
 response = model.generate_content(
     "What are the latest AI technology trends?",
     tools=[{"google_search_retrieval": {}}]
@@ -408,7 +411,7 @@ go get github.com/google/generative-ai-go
 
 ### OpenAI Compatibility
 
-Google AI Studio API is compatible with OpenAI format, you can directly use OpenAI SDK:
+Google AI Studio API provides OpenAI compatibility layer, you can use OpenAI SDK:
 
 ```python {filename="Python"}
 from openai import OpenAI
@@ -427,6 +430,8 @@ response = client.chat.completions.create(
 
 print(response.choices[0].message.content)
 ```
+
+⚠️ **Note:** Compatibility is not 100% identical, some parameters and features may differ, refer to [official compatibility documentation](https://ai.google.dev/gemini-api/docs/openai)
 
 ---
 

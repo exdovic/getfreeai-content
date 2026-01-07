@@ -1,7 +1,7 @@
 ---
 title: "Groq Playground - 极速免费 AI 在线对话工具"
 linkTitle: "Playground - Groq"
-description: "Groq Playground 提供业界最快的免费 AI 对话体验，支持 Llama 3.3、Mixtral、Gemma 2 等模型。800+ tokens/秒极速响应，每日 14,400 次免费请求，实时对话无等待。"
+description: "Groq Playground 提供业界最快的免费 AI 对话体验，支持 Llama 3.3、Mixtral、Gemma 2 等模型。800+ tokens/秒极速响应，免费服务，典型配额约 14,400 次/天，实时对话无等待。"
 keywords:
   - Groq Playground
   - 极速 AI 对话
@@ -24,7 +24,7 @@ sidebar:
 **提供者：** [Groq](/providers/groq)  
 **服务类型：** Chatbot（Web Playground）  
 **访问地址：** [https://console.groq.com/playground](https://console.groq.com/playground)  
-**免费类型：** 永久免费（有使用限制）
+**免费类型：** 免费服务（有使用限制）
 
 ---
 
@@ -164,12 +164,14 @@ Groq Playground 是一个强大的 Web 界面，让您可以直观地体验 Groq
 
 Playground 共享 API 配额：
 
-| 限制类型 | 配额 | 说明 |
+| 限制类型 | 典型配额 | 说明 |
 |---------|------|------|
-| 每日请求数 | 14,400 次 | 与 API 共享 |
-| 每分钟请求数 | 30 次 | 与 API 共享 |
-| 每日 Tokens | 20,000-1,000,000 | 视模型而定 |
+| 每日请求数 | 约 14,400 次 | 与 API 共享 |
+| 每分钟请求数 | 约 30 次 | 与 API 共享 |
+| 每日 Tokens | 约 20,000-1,000,000 | 视模型而定 |
 | 单次最大 Tokens | 8,192 | 输出长度限制 |
+
+**注意：** 具体配额可能因账户而异，请在控制台查看实际配额。
 
 ### 实际使用体验
 
@@ -221,8 +223,8 @@ Playground 共享 API 配额：
 
 1. **配额管理**
    - Playground 与 API 共享配额
-   - 注意每日限制
-   - 在 Usage 页面监控使用量
+   - 注意每日请求限制
+   - 在控制台 Usage 页面监控使用量
 
 2. **参数设置**
    - Temperature 过高会导致不稳定输出

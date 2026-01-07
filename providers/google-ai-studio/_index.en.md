@@ -37,10 +37,10 @@ sidebar:
 Google AI Studio is Google's official AI development platform, providing convenient access to Gemini models for developers and researchers.
 
 **Core Features:**
-- 🎁 **Industry's Highest Free Quota** - 15M tokens/day
+- 🎁 **Ultra-High Free Quota** - Free access to multiple Gemini models
 - 🌟 **Gemini Series Models** - Latest AI models
 - 🎨 **Multimodal Support** - Text, images, audio, video
-- 📱 **2M Ultra-Long Context** - Handle massive information
+- 📱 **Ultra-Long Context** - Up to 2M tokens (Pro series)
 - 🔍 **Google Search Grounding** - Search the web for latest information
 - ⚡ **High-Speed Inference** - Flash series models provide extremely fast responses
 
@@ -110,22 +110,27 @@ Google AI Studio provides two main services:
 
 Google AI Studio provides generous free quotas, with all major models available in the free tier:
 
-| Model Series | Free Tier | Notes |
-|-------------|-----------|-------|
-| Gemini 3 Flash (Preview) | ✅ Free | Latest generation, free input/output |
-| Gemini 2.5 Flash | ✅ Free | Stable version, free input/output |
-| Gemini 2.5 Pro | ✅ Free | Advanced model, free input/output |
-| Gemini 2.0 Flash | ✅ Free | Previous generation, free input/output |
-| Gemma 3 Series | ✅ Free | Open source models, completely free |
+| Model Series | Free Tier | Daily Requests | Daily Tokens |
+|-------------|-----------|----------|-----------|
+| Gemini 3 Flash | ✅ Free | 1,500/day | 15M tokens/day |
+| Gemini 2.5 Flash | ✅ Free | 1,500/day | 15M tokens/day |
+| Gemini 2.5 Pro | ✅ Free | 50/day | 1.5M tokens/day |
+| Gemini 2.0 Flash | ✅ Free | 1,500/day | 15M tokens/day |
+| Gemma 3 Series | ✅ Free | 14,400/day | 200K tokens/day |
 
-⚠️ **Note:** Free tier has rate limits that vary by model. See [API Service documentation](/services/api/google-ai-studio) for details
+⚠️ **Important Notes:** 
+- Both input and output are free in the free tier
+- Daily quota resets at Pacific Time midnight
+- Additional per-minute rate limits apply besides daily limits
+- Actual limits can be viewed in [AI Studio Dashboard](https://aistudio.google.com/usage)
+- For details, see the [API Service documentation](/services/api/google-ai-studio)
 
 ---
 
 ## 💡 General Features
 
 ### 1. Multimodal Support
-- **Text:** Ultra-long text understanding and generation (up to 2M tokens)
+- **Text:** Ultra-long text understanding and generation (Pro series up to 2M tokens)
 - **Images:** Image recognition and analysis
 - **Audio:** Audio transcription and understanding
 - **Video:** Video content analysis
@@ -134,6 +139,7 @@ Google AI Studio provides generous free quotas, with all major models available 
 - Models can search the web for latest information
 - Provides source citations
 - Ensures timeliness and accuracy of answers
+- ⚠️ **Note:** Grounding feature may be separately charged, please check latest pricing before use
 
 ### 3. Function Calling
 - Support for defining and calling external functions
@@ -150,8 +156,9 @@ Google AI Studio provides generous free quotas, with all major models available 
 ## ⚠️ Usage Notes
 
 ### Data Privacy
-- In regions outside the EU/EEA/UK/Switzerland, your data may be used for Google model training
-- You can opt out of data training in settings
+- **Free Tier:** Your interaction data may be used to improve Google products (opt-out available in settings)
+- **Paid Tier:** After enabling billing, Google will not use your data to train models
+- **Recommendation:** For sensitive data, consider using paid tier or enterprise solutions
 
 ### Regional Restrictions
 - Some regions (like mainland China) may require VPN access
@@ -166,9 +173,9 @@ Google AI Studio provides generous free quotas, with all major models available 
 
 | Feature | Google AI Studio | OpenRouter | Groq |
 |---------|-----------------|------------|------|
-| Daily Requests | 1,500 | 50-1,000 | 14,400 |
-| Daily Tokens | 15M (Flash) | Unlimited | 20K-1M |
-| Context Length | 2M | Varies by model | 32K-128K |
+| Daily Requests | 50-1,500 | 50-1,000 | 14,400 |
+| Daily Tokens | 1.5M-15M | Unlimited | 20K-1M |
+| Context Length | 1M-2M | Varies by model | 32K-128K |
 | Multimodal Support | ✅ Strong | Some models | ❌ |
 | Web Search | ✅ | ❌ | ❌ |
 | Credit Card Required | ❌ | ❌ | ✅ (Verification) |

@@ -46,15 +46,15 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 [View Details →](/providers/google-ai-studio)
 
 ### Groq
-- **Type:** Completely Free
-- **Features:** 800+ tokens/s ultra-fast, 14,400 requests/day
+- **Type:** Free Service
+- **Features:** 800+ tokens/s ultra-fast, typical quota ~14,400 requests/day
 - **Suitable for:** Real-time applications, high-frequency calls
 
 [View Details →](/providers/groq)
 
 ### OpenRouter
-- **Type:** Completely Free
-- **Features:** 47+ free models, one-stop access
+- **Type:** Freemium
+- **Features:** 25+ free models, one-stop access, BYOK support
 - **Suitable for:** Model comparison, diverse needs
 
 [View Details →](/providers/openrouter)
@@ -88,14 +88,14 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 → [Groq](/providers/groq) - 800+ tokens/s
 
 ### I need ultra-long context
-→ [Google AI Studio](/providers/google-ai-studio) - 2M tokens
-→ [Vertex AI](/providers/google-vertex-ai) - 2M tokens
+→ [Google AI Studio](/providers/google-ai-studio) - Up to 2M tokens
+→ [Vertex AI](/providers/google-vertex-ai) - Up to 2M tokens
 
 ### I need Chinese optimization
 → [DeepSeek](/providers/deepseek) - Top-tier Chinese
 
 ### I need many free models
-→ [OpenRouter](/providers/openrouter) - 47+ models
+→ [OpenRouter](/providers/openrouter) - 25+ models
 
 ### I need RAG functionality
 → [Cohere](/providers/cohere) - RAG expert

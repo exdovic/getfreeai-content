@@ -38,12 +38,12 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 ### 永久免费，高配额
 
 #### [Google AI Studio API](/services/api/google-ai-studio)
-- **配额：** 15M tokens/天
+- **配额：** 免费使用（因模型而异）
 - **特点：** Gemini 系列，OpenAI 兼容
 - **推荐：** ⭐⭐⭐⭐⭐
 
 #### [Groq API](/services/api/groq)
-- **配额：** 14,400 次/天
+- **配额：** 约 14,400 次/天
 - **特点：** 800+ tokens/s 极速
 - **推荐：** ⭐⭐⭐⭐⭐
 
@@ -51,7 +51,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 
 #### [OpenRouter API](/services/api/openrouter)
 - **配额：** 50-1,000 次/天
-- **特点：** 47+ 免费模型，OpenAI 兼容
+- **特点：** 25+ 免费模型，OpenAI 兼容
 - **推荐：** ⭐⭐⭐⭐⭐
 
 ### 超低价格
@@ -84,8 +84,8 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | API | 免费类型 | 每日/月配额 | 速率限制 | OpenAI 兼容 |
 |-----|---------|-------------|---------|------------|
 | [Google AI Studio](/services/api/google-ai-studio) | 永久免费 | 免费使用 | 因模型而异 | ❌ |
-| [Groq](/services/api/groq) | 永久免费 | 14,400 req/天 | 30 req/min | ✅ |
-| [OpenRouter](/services/api/openrouter) | 永久免费 | 50-1,000 req/天 | 20 req/min | ✅ |
+| [Groq](/services/api/groq) | 免费服务 | 约 14,400 req/天 | 约 30 req/min | ✅ |
+| [OpenRouter](/services/api/openrouter) | 免费增值 | 50-1,000 req/天 | 20 req/min | ✅ |
 | [DeepSeek](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 按用量 | ✅ |
 | [Cohere](/services/api/cohere) | 免费试用 | 1,000/月 | 10-20 req/min | ❌ |
 | [Vertex AI](/services/api/vertex-ai) | 试用积分 | $300 (90天) | 按配置 | ❌ |
@@ -94,9 +94,9 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 
 | API | 推理速度 | 中文性能 | 上下文 | 特色 |
 |-----|---------|---------|--------|------|
-| [Google AI Studio](/services/api/google-ai-studio) | 快 | 优秀 | 2M | 多模态、高配额 |
+| [Google AI Studio](/services/api/google-ai-studio) | 快 | 优秀 | 最高2M | 多模态、高配额 |
 | [Groq](/services/api/groq) | 🏆 极快 | 良好 | 128K | 速度王者 |
-| [OpenRouter](/services/api/openrouter) | 快 | 视模型 | 视模型 | 🏆 47+ 模型 |
+| [OpenRouter](/services/api/openrouter) | 快 | 视模型 | 视模型 | 🏆 25+ 模型 |
 | [DeepSeek](/services/api/deepseek) | 快 | 🏆 顶尖 | 128K | 超低价、思维链 |
 | [Cohere](/services/api/cohere) | 快 | 优秀 | 128K | 🏆 RAG、Embed |
 | [Vertex AI](/services/api/vertex-ai) | 快 | 优秀 | 🏆 2M | 企业级 |
@@ -117,7 +117,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 → [DeepSeek API](/services/api/deepseek)
 
 ### 我需要尝试多种模型
-→ [OpenRouter API](/services/api/openrouter) - 47+ 模型
+→ [OpenRouter API](/services/api/openrouter) - 25+ 模型
 
 ### 我需要中文优化
 → [DeepSeek API](/services/api/deepseek) - 中文顶尖
@@ -126,8 +126,8 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 → [Cohere API](/services/api/cohere) - Embed + Rerank
 
 ### 我需要超长上下文
-→ [Google AI Studio API](/services/api/google-ai-studio) - 2M
-→ [Vertex AI API](/services/api/vertex-ai) - 2M
+→ [Google AI Studio API](/services/api/google-ai-studio) - 最高2M
+→ [Vertex AI API](/services/api/vertex-ai) - 最高2M
 
 ### 我需要企业级部署
 → [Vertex AI API](/services/api/vertex-ai) - 完整 MLOps

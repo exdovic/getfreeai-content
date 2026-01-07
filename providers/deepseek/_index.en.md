@@ -41,7 +41,7 @@ DeepSeek is an AI company from China, focusing on developing powerful open-sourc
 - 🇨🇳 **Chinese Optimization** - Top-tier Chinese performance
 - 🧠 **Thinking Mode** - Transparent reasoning process
 - 💰 **Ultra-low Prices** - 95%+ cheaper than GPT-4
-- 🎁 **Free Chatbot** - 50 messages daily
+- 🎁 **Free Chatbot** - Basic chat free to use
 - 🔧 **Trial Credits** - New users get ¥5 (7 days validity)
 
 **Rating:** ⭐⭐⭐⭐⭐ (Best for Chinese!)
@@ -103,7 +103,7 @@ DeepSeek provides two main services:
 ### 1. [Chatbot Service](/services/chatbot/deepseek)
 - **Type:** Web conversation interface
 - **Access URL:** https://chat.deepseek.com
-- **Features:** Completely free, 50 messages daily
+- **Features:** Free to use, thinking mode has daily limits
 - **Functions:** Web search, code execution, file upload, chain-of-thought display
 
 ### 2. [API Service](/services/api/deepseek)
@@ -128,10 +128,10 @@ DeepSeek provides two main services:
 
 | Item | Details |
 |------|---------|
-| **Trial Credits** | ¥5 RMB |
-| **Usable Tokens** | Approximately 1,800M tokens (V3.2 input)|
+| **Trial Credits** | ¥5 RMB (may vary by promotion) |
 | **Validity** | 7 days after registration |
 | **Recharge Price** | $0.28/M tokens (input)<br>$0.42/M tokens (output)|
+| **Cache Hit** | $0.028/M tokens (input cache hit)|
 
 ---
 

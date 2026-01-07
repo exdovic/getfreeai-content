@@ -44,7 +44,7 @@ Cohere is a Canadian artificial intelligence company founded in 2019, specializi
 - 🌍 **Multilingual Support** - Supports 100+ languages with excellent Chinese performance
 - 📊 **Powerful Embedding** - Top-tier text vectorization technology
 - 🔝 **Best Rerank** - Improves search accuracy by 20-30%
-- 🎁 **Free Chatbot** - Coral is completely free with unlimited usage
+- 🎁 **Free Chatbot** - Coral free to use, requires login
 - 🆓 **Free Trial** - Trial 1,000 calls/month, resets monthly
 - 🏆 **Industry Recognition** - Valued at $6.8 billion in 2025 with $150M annual revenue
 
@@ -107,8 +107,8 @@ Cohere provides two main services:
 ### 1. [Coral Chatbot Service](/services/chatbot/cohere)
 - **Type:** Web conversation interface
 - **Access URL:** https://coral.cohere.com
-- **Features:** Direct conversation, test model capabilities
-- **Supports:** Command R+, Command R
+- **Features:** Free to use, requires login
+- **Capabilities:** RAG, document upload, citation sources, multilingual
 
 ### 2. [API Service](/services/api/cohere)
 - **Type:** RESTful API
@@ -125,7 +125,9 @@ Cohere provides two main services:
 | Limit Type | Quota | Notes |
 |-----------|-------|-------|
 | **Monthly API Calls** | 1,000 calls | All APIs shared |
-| **Rate Limit** | 10-20 req/min | Varies by model |
+| **Chat Rate** | 20 requests/min | Command series |
+| **Embed Rate** | 2,000 inputs/min | Batch processing |
+| **Rerank Rate** | 10 requests/min | Reranking |
 | **Available Models** | All | Command A, R+, Embed, Rerank, etc. |
 | **Credit Card Required** | ❌ No | Completely free |
 | **Quota Reset** | Monthly | Continuously available |
@@ -141,10 +143,11 @@ Cohere provides two main services:
 
 ### API Call Counting Rules (Trial Tier)
 
-- **Chat:** 1 request = 1 call
-- **Embed:** 1,000 texts = 1 call
-- **Rerank:** 1 request = 1 call
-- **Quota Reset:** Monthly reset
+- **Chat:** Each API request = 1 call
+- **Embed:** Each API request = 1 call (supports batch processing)
+- **Rerank:** Each API request = 1 call
+- **Quota Reset:** Automatically resets monthly, continuously available
+- **Tip:** Embed supports processing multiple texts in one request for efficiency
 
 ---
 
@@ -245,18 +248,19 @@ Cohere provides two main services:
 - **Trial Tier:** 1,000 calls/month, suitable for development, testing, and small-scale applications
 - **Monthly Reset:** Trial quota automatically resets monthly, can be used long-term for free
 - **Monitor Usage:** Check current month's usage in Dashboard
+- **Testing Only:** Trial Key is for development and testing, production use requires upgrade
 
 ### Free vs Paid
 
 - **Trial (Free):** No credit card required, 1,000 calls/month, resets monthly
 - **Production (Paid):** Credit card required, pay-as-you-go, higher rate limits
-- **When to Upgrade:** Consider upgrading to paid tier when free quota is insufficient
+- **When to Upgrade:** When free quota is insufficient or production deployment is needed
 
 ### API Call Optimization
 
-- **Embed is Cost-Effective:** 1,000 texts = 1 call (batch processing is highly efficient)
-- **Chat and Rerank:** 1 request = 1 call
-- **Smart Usage:** Fully utilize Embed's batch processing capability to save quota
+- **Embed Batch Processing:** Process multiple texts in one request for efficiency
+- **Chat and Rerank:** Each request = 1 call
+- **Smart Usage:** Fully utilize batch processing to save quota
 
 ---
 

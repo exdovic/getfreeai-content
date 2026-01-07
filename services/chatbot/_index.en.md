@@ -35,17 +35,17 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 ## 🌟 Recommended Services
 
-### Completely Free, Unlimited
+### Completely Free
 
 #### [Cohere Coral](/en/services/chatbot/cohere)
-- **Quota:** Unlimited
+- **Quota:** Free to use
 - **Features:** RAG expert, document upload
 - **Rating:** ⭐⭐⭐⭐⭐
 
 ### High Free Quota
 
 #### [Groq Playground](/en/services/chatbot/groq)
-- **Quota:** 14,400 times/day
+- **Quota:** ~14,400 times/day
 - **Features:** 800+ tokens/s ultra-fast
 - **Rating:** ⭐⭐⭐⭐⭐
 
@@ -63,7 +63,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 #### [OpenRouter Playground](/en/services/chatbot/openrouter)
 - **Quota:** 50-1,000 times/day
-- **Features:** 47+ free models
+- **Features:** 25+ free models
 - **Rating:** ⭐⭐⭐⭐⭐ (Most models)
 
 ### Enterprise-grade
@@ -79,18 +79,18 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 | Service | Free Type | Quota | Speed | Chinese | Multimodal | Special Features |
 |------|---------|------|------|------|--------|---------|
-| [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Unlimited | Fast | ✅ | ❌ | RAG, citation sources |
-| [Groq](/en/services/chatbot/groq) | Free Forever | 14,400/day | 🏆 Ultra-fast | ✅ | ❌ | Speed champion |
-| [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Fast | ✅ | 🏆 Strong | Multimodal, 2M context |
-| [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | 50/day | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
-| [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1000/day | Fast | ✅ | Partial | 🏆 47+ models |
+| [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Free to use | Fast | ✅ | ❌ | RAG, citation sources |
+| [Groq](/en/services/chatbot/groq) | Free Service | ~14,400/day | 🏆 Ultra-fast | ✅ | ❌ | Speed champion |
+| [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Fast | ✅ | 🏆 Strong | Multimodal, up to 2M |
+| [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | Free to use | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
+| [OpenRouter](/en/services/chatbot/openrouter) | Freemium | 50-1000/day | Fast | ✅ | Partial | 🏆 25+ models |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | Fast | ✅ | 🏆 Strong | Enterprise-grade, 2M context |
 
 ---
 
 ## 🎯 Selection Guide
 
-### I Need Unlimited Usage
+### I Need RAG Features
 → [Cohere Coral](/en/services/chatbot/cohere)
 
 ### I Need Ultra-fast Speed
@@ -114,7 +114,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 ### Beginners
 
-1. Start with [Cohere Coral](/en/services/chatbot/cohere) (unlimited)
+1. Start with [Cohere Coral](/en/services/chatbot/cohere) (RAG expert)
 2. Try [DeepSeek Chat](/en/services/chatbot/deepseek) (Chinese-friendly)
 3. Experience [Groq](/en/services/chatbot/groq) (feel the speed)
 

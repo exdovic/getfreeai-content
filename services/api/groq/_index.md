@@ -1,7 +1,7 @@
 ---
 title: "Groq API - 极速免费 AI API 接口服务"
 linkTitle: "API - Groq"
-description: "Groq 提供业界最快推理速度 800+ tokens/秒的免费 API！每日 14,400 次免费请求，支持 Llama 3.3、Mixtral、Gemma 2 等模型。OpenAI 兼容接口，极速响应，详细代码示例。"
+description: "Groq 提供业界最快推理速度 800+ tokens/秒的免费 API！免费服务，典型配额约 14,400 次/天，支持 Llama 3.3、Mixtral、Gemma 2 等模型。OpenAI 兼容接口，极速响应，详细代码示例。"
 keywords:
   - Groq API
   - 极速 AI API
@@ -23,7 +23,7 @@ sidebar:
 **提供者：** [Groq](/providers/groq)  
 **服务类型：** API 服务  
 **API 端点：** [https://api.groq.com/openai/v1](https://api.groq.com/openai/v1)  
-**免费类型：** 永久免费（有使用限制）  
+**免费类型：** 免费服务（有使用限制）  
 **API 兼容性：** 完全兼容 OpenAI API
 
 ---
@@ -35,8 +35,8 @@ Groq API 提供业界最快的 LLM 推理服务，完全兼容 OpenAI API 格式
 **核心优势：**
 - ⚡ **业界最快** - 800+ tokens/s 推理速度
 - 🔄 **OpenAI 兼容** - 无缝迁移现有代码
-- 🎁 **超高配额** - 14,400 请求/天
-- 💰 **完全免费** - 无隐藏费用
+- 🎁 **超高配额** - 典型配额约 14,400 请求/天
+- 💰 **免费服务** - 无需付费
 - 🚀 **低延迟** - 毫秒级首 token 响应
 
 ---
@@ -127,13 +127,15 @@ print(response.choices[0].message.content)
 
 ### API 配额
 
-| 限制类型 | 免费层级 | 说明 |
+| 限制类型 | 典型配额 | 说明 |
 |---------|---------|------|
-| **每日请求数** | 14,400 requests | 所有模型共享 |
-| **每分钟请求数** | 30 requests | 所有模型共享 |
-| **每日 Tokens** | 20,000-1,000,000 | 视模型而定 |
-| **每分钟 Tokens** | 6,000 tokens | 输入输出总和 |
+| **每日请求数** | 约 14,400 requests | 所有模型共享 |
+| **每分钟请求数** | 约 30 requests | 所有模型共享 |
+| **每日 Tokens** | 约 20,000-1,000,000 | 视模型而定 |
+| **每分钟 Tokens** | 约 6,000 tokens | 输入输出总和 |
 | **最大上下文** | 128K tokens | Llama 3.x 系列 |
+
+**注意：** 具体配额可能因账户而异，请在控制台查看实际配额。
 | **最大输出** | 8,192 tokens | 单次请求 |
 
 ### ⚠️ 重要限制

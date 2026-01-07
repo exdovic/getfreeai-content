@@ -64,10 +64,10 @@ Developer API interfaces to integrate into your applications.
 | Provider | Free Type | Daily Quota | Advanced Features |
 |--------|---------|---------|---------|
 | [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Multimodal, web search |
-| [Groq](/en/services/chatbot/groq) | Free Forever | 14,400 times | Ultra-fast inference |
-| [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1,000 times | 47+ models |
-| [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | 50 messages | Chain-of-thought, code execution |
-| [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Unlimited | RAG, document upload |
+| [Groq](/en/services/chatbot/groq) | Free Service | ~14,400 times | Ultra-fast inference |
+| [OpenRouter](/en/services/chatbot/openrouter) | Freemium | 50-1,000 times | 25+ models |
+| [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | Free to use | Chain-of-thought, code execution |
+| [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Free to use | RAG, document upload |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | 2M context |
 
 ### API Service Comparison
@@ -75,8 +75,8 @@ Developer API interfaces to integrate into your applications.
 | Provider | Free Type | Quota | Features |
 |--------|---------|------|------|
 | [Google AI Studio API](/en/services/api/google-ai-studio) | Free Forever | Free to use | Gemini series |
-| [Groq API](/en/services/api/groq) | Free Forever | 14,400 times/day | Ultra-fast inference |
-| [OpenRouter API](/en/services/api/openrouter) | Free Forever | 50-1,000 times/day | 47+ models |
+| [Groq API](/en/services/api/groq) | Free Service | ~14,400 times/day | Ultra-fast inference |
+| [OpenRouter API](/en/services/api/openrouter) | Freemium | 50-1,000 times/day | 25+ models |
 | [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Top Chinese |
 | [Cohere API](/en/services/api/cohere) | Free Trial | 1,000 times/month | RAG expert |
 | [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (90 days) | Enterprise-grade |
@@ -87,16 +87,17 @@ Developer API interfaces to integrate into your applications.
 
 ### I Need a Chatbot
 
-**Completely Free, Unlimited:**
+**Completely Free:**
 - [Cohere Coral](/en/services/chatbot/cohere) - RAG expert
+- [Google AI Studio](/en/services/chatbot/google-ai-studio) - Powerful multimodal
 
 **High Quota:**
-- [Groq Playground](/en/services/chatbot/groq) - 14,400 times/day
+- [Groq Playground](/en/services/chatbot/groq) - ~14,400 times/day
 - [Google AI Studio](/en/services/chatbot/google-ai-studio) - Free to use
 
 **Special Features:**
 - [DeepSeek Chat](/en/services/chatbot/deepseek) - Visible chain-of-thought
-- [OpenRouter](/en/services/chatbot/openrouter) - 47+ model choices
+- [OpenRouter](/en/services/chatbot/openrouter) - 25+ model choices
 
 ### I Need an API
 

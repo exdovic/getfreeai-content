@@ -1,7 +1,7 @@
 ---
-title: "OpenRouter Playground - 100+ 免费 AI 模型在线对话"
+title: "OpenRouter Playground - 25+ 免费 AI 模型在线对话"
 linkTitle: "Playground - OpenRouter"
-description: "OpenRouter Playground 提供 100+ 免费 AI 模型的对话服务，包括 GPT-4、Claude 3.5、Gemini Pro 等顶级模型。统一界面，一键切换，免费额度丰富，支持多模态对话。"
+description: "OpenRouter Playground 提供 25+ 免费 AI 模型的对话服务，包括 GPT-4、Claude 3.5、Gemini Pro 等顶级模型。统一界面，一键切换，免费额度丰富，支持多模态对话。"
 keywords:
   - OpenRouter Playground
   - 多模型对话
@@ -30,10 +30,10 @@ sidebar:
 
 ## 🎯 服务简介
 
-OpenRouter Playground 是一个强大的 Web 测试界面，让您可以直接在浏览器中测试和对比 47+ 个免费 AI 模型，无需编写任何代码。
+OpenRouter Playground 是一个强大的 Web 测试界面，让您可以直接在浏览器中测试和对比 25+ 个免费 AI 模型，无需编写任何代码。
 
 **核心优势：**
-- 🎯 **47+ 免费模型** - 一个界面测试所有模型
+- 🎯 **25+ 免费模型** - 一个界面测试所有模型
 - 🔄 **模型对比** - 同时测试多个模型
 - 📊 **使用统计** - 实时查看配额和成本
 - 🎛️ **参数调节** - 自定义生成参数
@@ -173,7 +173,7 @@ Playground 共享 API 配额：
 |---------|--------|-------------|
 | 每日请求数 | 50 次 | 1,000 次 |
 | 每分钟请求数 | 20 次 | 20 次 |
-| 免费模型 | 47+ | 47+ |
+| 免费模型 | 25+ | 25+ |
 
 ### 实际使用体验
 

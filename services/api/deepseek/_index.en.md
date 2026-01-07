@@ -23,7 +23,7 @@ sidebar:
 **Provider:** [DeepSeek](/en/providers/deepseek)  
 **Service Type:** API Service  
 **API Endpoint:** [https://api.deepseek.com](https://api.deepseek.com)  
-**Free Tier:** Trial Credits (¥5, 7-day validity)  
+**Free Tier:** Trial Credits (¥5, 7-day validity, may vary)  
 **API Compatibility:** Fully compatible with OpenAI API
 
 ---
@@ -38,7 +38,7 @@ DeepSeek API provides powerful AI capabilities, fully compatible with OpenAI API
 - 🧠 **Thinking Mode** - Transparent reasoning process
 - 🆕 **Latest V3.2** - Enhanced Agent capabilities
 - 🇨🇳 **Chinese Optimized** - Top-tier Chinese performance
-- 🎁 **Trial Credits** - New users receive ¥5 (7 days validity)
+- 🎁 **Trial Credits** - New users receive ¥5 (7 days validity, may vary)
 
 ---
 
@@ -48,7 +48,7 @@ DeepSeek API provides powerful AI capabilities, fully compatible with OpenAI API
 
 **Required:**
 - ✅ Registered developer account
-- ✅ Completed real-name verification (ID card upload)
+- ✅ Completed real-name verification (required for API recharge)
 - ✅ API key created
 
 For detailed steps, see: [DeepSeek Registration Guide](/en/providers/deepseek#registration-and-account)
@@ -102,8 +102,7 @@ print(response.choices[0].message.content)
 
 | Item | Details |
 |------|------|
-| **Amount** | ¥5 RMB |
-| **Usage** | ~1,800M tokens (V3.2 input) |
+| **Amount** | ¥5 RMB (may vary by promotion) |
 | **Validity** | 7 days after registration |
 | **How to Get** | Automatically after registration and verification |
 
