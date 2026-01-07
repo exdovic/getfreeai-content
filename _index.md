@@ -60,7 +60,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/chatbot/groq" title="Groq Playground" subtitle="14,400次/天 · 极速推理 · 800+ tokens/s" >}}
   {{< card link="/zh-cn/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000次/天 · 47+免费模型" >}}
   {{< card link="/zh-cn/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="50条/天 · 中文顶尖 · 思维链可见" >}}
-  {{< card link="/zh-cn/services/chatbot/cohere" title="Cohere Coral" subtitle="无限制 · RAG专家 · 文档上传" >}}
+  {{< card link="/zh-cn/services/chatbot/cohere" title="Cohere Coral" subtitle="免费使用 · RAG专家 · 文档上传" >}}
   {{< card link="/zh-cn/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300试用 · 企业级 · 2M上下文" >}}
 {{< /cards >}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Cohere Coral - Enterprise RAG-Focused Chat Tool"
 linkTitle: "Coral - Cohere"
-description: "Cohere Coral provides RAG-focused online chat tool, supporting Command R+ model, document understanding, knowledge base conversation. Unlimited free usage, enterprise-grade accuracy, optimized for document retrieval and Q&A."
+description: "Cohere Coral provides RAG-focused online chat tool, supporting Command R+ model, document understanding, knowledge base conversation. Free to use, enterprise-grade accuracy, optimized for document retrieval and Q&A."
 keywords:
   - Cohere Coral
   - RAG chat tool
@@ -24,7 +24,7 @@ sidebar:
 **Provider:** [Cohere](/en/providers/cohere)  
 **Service Type:** Chatbot (Coral Web Interface)  
 **Access URL:** [https://coral.cohere.com](https://coral.cohere.com) or [https://chat.cohere.com](https://chat.cohere.com)  
-**Free Tier:** Completely Free, no usage limits
+**Free Tier:** Free to use, requires login
 
 ---
 
@@ -33,7 +33,7 @@ sidebar:
 Coral is Cohere's free AI chatbot, developed by Canadian AI company Cohere (founded in 2019). Coral particularly excels at RAG (Retrieval-Augmented Generation), capable of answering questions based on uploaded documents and automatically citing information sources—an ideal choice for enterprise-grade document Q&A.
 
 **Key Advantages:**
-- 🆓 **Completely Free** - No usage limits, permanently free
+- 🆓 **Free to Use** - Requires login, free to use
 - 📚 **RAG Expert** - Accurately answer questions based on documents
 - 📎 **Document Upload** - Support multiple formats: PDF, Word, TXT, etc.
 - 🔗 **Source Citations** - Automatically mark information sources, traceable verification
@@ -150,11 +150,11 @@ Coral: According to the paper, core contributions include:
 
 | Limit Type | Quota | Notes |
 |---------|------|------|
-| Number of Messages | Unlimited | Completely free |
-| Document Upload | Unlimited | Support multiple documents |
+| Number of Messages | Free to use | Requires login |
+| Document Upload | Supported | Support multiple documents |
 | Conversation History | Saved | Automatically saved |
 
-**Completely free, no usage limits!** 🎉
+**Free to use, requires login!** 🎉
 
 ---
 
@@ -206,9 +206,9 @@ Coral: According to the paper, core contributions include:
 ### 1. Does Coral Have Usage Limits?
 
 **Answer:**
-- Completely free
-- No message count limit
-- No document upload limit
+- Free to use
+- Requires Cohere account login
+- Supports document upload and multi-turn conversations
 
 ### 2. What Document Formats Are Supported?
 

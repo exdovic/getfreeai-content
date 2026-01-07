@@ -35,10 +35,10 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 ## 🌟 Recommended Services
 
-### Completely Free, Unlimited
+### Completely Free
 
 #### [Cohere Coral](/en/services/chatbot/cohere)
-- **Quota:** Unlimited
+- **Quota:** Free to use
 - **Features:** RAG expert, document upload
 - **Rating:** ⭐⭐⭐⭐⭐
 
@@ -79,7 +79,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 | Service | Free Type | Quota | Speed | Chinese | Multimodal | Special Features |
 |------|---------|------|------|------|--------|---------|
-| [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Unlimited | Fast | ✅ | ❌ | RAG, citation sources |
+| [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Free to use | Fast | ✅ | ❌ | RAG, citation sources |
 | [Groq](/en/services/chatbot/groq) | Free Forever | 14,400/day | 🏆 Ultra-fast | ✅ | ❌ | Speed champion |
 | [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Fast | ✅ | 🏆 Strong | Multimodal, up to 2M |
 | [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | 50/day | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
@@ -90,7 +90,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 ## 🎯 Selection Guide
 
-### I Need Unlimited Usage
+### I Need RAG Features
 → [Cohere Coral](/en/services/chatbot/cohere)
 
 ### I Need Ultra-fast Speed
@@ -114,7 +114,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 ### Beginners
 
-1. Start with [Cohere Coral](/en/services/chatbot/cohere) (unlimited)
+1. Start with [Cohere Coral](/en/services/chatbot/cohere) (RAG expert)
 2. Try [DeepSeek Chat](/en/services/chatbot/deepseek) (Chinese-friendly)
 3. Experience [Groq](/en/services/chatbot/groq) (feel the speed)
 

@@ -67,7 +67,7 @@ comments: true
 | [Groq](/services/chatbot/groq) | 永久免费 | 14,400 次 | 极速推理 |
 | [OpenRouter](/services/chatbot/openrouter) | 永久免费 | 50-1,000 次 | 47+ 模型 |
 | [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 50 条消息 | 思维链、代码执行 |
-| [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 无限制 | RAG、文档上传 |
+| [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 免费使用 | RAG、文档上传 |
 | [Vertex AI Studio](/services/chatbot/vertex-ai) | 试用积分 | $300 | 2M 上下文 |
 
 ### API 服务对比
@@ -87,8 +87,9 @@ comments: true
 
 ### 我需要 Chatbot
 
-**完全免费，无限制：**
+**完全免费：**
 - [Cohere Coral](/services/chatbot/cohere) - RAG 专家
+- [Google AI Studio](/services/chatbot/google-ai-studio) - 多模态强大
 
 **高配额：**
 - [Groq Playground](/services/chatbot/groq) - 14,400 次/天

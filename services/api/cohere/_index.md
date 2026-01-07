@@ -37,7 +37,7 @@ Cohere API 提供企业级 AI 能力，特别擅长 RAG、Embedding 和 Rerank�
 - 🔝 **最佳 Rerank** - 提升搜索准确度 20-30%
 - 🌍 **多语言** - 支持 100+ 语言，中文表现优秀
 - 💼 **企业级** - 生产级性能和可靠性
-- 🆓 **免费开始** - Trial 1,000 calls/月，无需信用卡
+- 🆓 **免费开始** - Trial 1,000 calls/月，无需信用卡，每月重置
 - 🆕 **最新模型** - Command A（111B 参数，256K 上下文）
 
 ---
@@ -232,10 +232,11 @@ for result in response.results:
 
 | 项目 | 配额 | 说明 |
 |------|------|------|
-| 月度调用 | 1,000 calls | 完全免费 |
-| 速率限制 | 10-20 req/min | 因模型而异 |
+| 月度调用 | 1,000 calls | 完全免费，每月重置 |
+| Chat 速率 | 20 req/min | Command 系列 |
+| Embed 速率 | 2,000 inputs/min | 批量处理 |
+| Rerank 速率 | 10 req/min | 重排序 |
 | 可用模型 | 全部 | Command A, R+, Embed, Rerank |
-| 配额重置 | 每月重置 | 持续可用 |
 | 需要信用卡 | ❌ 否 | 无需付费信息 |
 
 ### Production 付费层级
@@ -248,9 +249,11 @@ for result in response.results:
 
 ### API 调用计数（Trial 层级）
 
-- **Chat：** 每次请求 = 1 call
-- **Embed：** 每 1,000 texts = 1 call（非常划算！）
-- **Rerank：** 每次请求 = 1 call
+- **Chat：** 每次 API 请求 = 1 call
+- **Embed：** 每次 API 请求 = 1 call（支持批量处理多个文本）
+- **Rerank：** 每次 API 请求 = 1 call
+- **配额重置：** 每月自动重置，持续可用
+- **提示：** Embed 支持一次请求处理多个文本，可显著提高效率
 
 ---
 
@@ -294,7 +297,7 @@ for result in response.results:
 
 2. **优化 API 调用**
    ```python
-   # Embed 很划算：1,000 texts = 1 call
+   # Embed 支持批量处理：一次请求处理多个文本
    # 批量处理文本
    large_batch = ["text1", "text2", ..., "text1000"]
    embeddings = co.embed(
@@ -342,9 +345,9 @@ for result in response.results:
 ### 3. Embed 为什么这么划算？
 
 **计费方式：**
-- 每 1,000 texts = 1 call
-- 例如：向量化 5,000 个文档 = 5 calls
-- 非常适合大规模文本处理
+- 每次 API 请求 = 1 call（支持批量处理）
+- 例如：一次请求向量化 1,000 个文档 = 1 call
+- 批量处理非常适合大规模文本处理
 
 ### 4. 如何查看剩余配额？
 

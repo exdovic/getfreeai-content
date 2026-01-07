@@ -23,7 +23,7 @@ sidebar:
 **Provider:** [Cohere](/en/providers/cohere)  
 **Service Type:** API Service  
 **API Endpoint:** [https://api.cohere.ai](https://api.cohere.ai)  
-**Free Quota:** Trial 1,000 calls/month (resets monthly, completely free)
+**Free Quota:** Trial 1,000 calls/month (resets monthly, no credit card required)
 
 ---
 
@@ -232,10 +232,11 @@ for result in response.results:
 
 | Item | Quota | Notes |
 |------|------|------|
-| Monthly Calls | 1,000 calls | Completely free |
-| Rate Limit | 10-20 req/min | Varies by model |
+| Monthly Calls | 1,000 calls | No credit card required |
+| Chat Rate | 20 req/min | Command series |
+| Embed Rate | 2,000 inputs/min | Batch processing |
+| Rerank Rate | 10 req/min | Reranking |
 | Available Models | All | Command A, R+, Embed, Rerank |
-| Quota Reset | Monthly | Continuously available |
 | Credit Card Required | ❌ No | No payment info needed |
 
 ### Production Paid Tier
@@ -248,9 +249,11 @@ for result in response.results:
 
 ### API Call Counting (Trial Tier)
 
-- **Chat:** 1 request = 1 call
-- **Embed:** 1,000 texts = 1 call (very cost-effective!)
-- **Rerank:** 1 request = 1 call
+- **Chat:** Each API request = 1 call
+- **Embed:** Each API request = 1 call (supports batch processing)
+- **Rerank:** Each API request = 1 call
+- **Quota Reset:** Automatically resets monthly, continuously available
+- **Tip:** Embed supports processing multiple texts in one request for efficiency
 
 ---
 

@@ -79,7 +79,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 | 服务 | 免费类型 | 配额 | 速度 | 中文 | 多模态 | 特色功能 |
 |------|---------|------|------|------|--------|---------|
-| [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 无限制 | 快 | ✅ | ❌ | RAG、引用来源 |
+| [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 免费使用 | 快 | ✅ | ❌ | RAG、引用来源 |
 | [Groq](/services/chatbot/groq) | 永久免费 | 14,400/天 | 🏆 极快 | ✅ | ❌ | 速度王者 |
 | [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 免费使用 | 快 | ✅ | 🏆 强 | 多模态、最高2M |
 | [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 50条/天 | 快 | 🏆 顶尖 | ✅ | 思维链、代码执行 |
@@ -90,7 +90,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 ## 🎯 选择指南
 
-### 我需要无限制使用
+### 我需要 RAG 功能
 → [Cohere Coral](/services/chatbot/cohere)
 
 ### 我需要极快的速度
@@ -114,7 +114,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 ### 初学者
 
-1. 从 [Cohere Coral](/services/chatbot/cohere) 开始（无限制）
+1. 从 [Cohere Coral](/services/chatbot/cohere) 开始（RAG 专家）
 2. 尝试 [DeepSeek Chat](/services/chatbot/deepseek)（中文友好）
 3. 体验 [Groq](/services/chatbot/groq)（感受极速）
 

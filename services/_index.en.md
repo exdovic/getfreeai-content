@@ -67,7 +67,7 @@ Developer API interfaces to integrate into your applications.
 | [Groq](/en/services/chatbot/groq) | Free Forever | 14,400 times | Ultra-fast inference |
 | [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1,000 times | 47+ models |
 | [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | 50 messages | Chain-of-thought, code execution |
-| [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Unlimited | RAG, document upload |
+| [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Free to use | RAG, document upload |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | 2M context |
 
 ### API Service Comparison
@@ -87,8 +87,9 @@ Developer API interfaces to integrate into your applications.
 
 ### I Need a Chatbot
 
-**Completely Free, Unlimited:**
+**Completely Free:**
 - [Cohere Coral](/en/services/chatbot/cohere) - RAG expert
+- [Google AI Studio](/en/services/chatbot/google-ai-studio) - Powerful multimodal
 
 **High Quota:**
 - [Groq Playground](/en/services/chatbot/groq) - 14,400 times/day
