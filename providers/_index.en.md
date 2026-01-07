@@ -46,8 +46,8 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 [View Details →](/providers/google-ai-studio)
 
 ### Groq
-- **Type:** Completely Free
-- **Features:** 800+ tokens/s ultra-fast, 14,400 requests/day
+- **Type:** Free Service
+- **Features:** 800+ tokens/s ultra-fast, typical quota ~14,400 requests/day
 - **Suitable for:** Real-time applications, high-frequency calls
 
 [View Details →](/providers/groq)

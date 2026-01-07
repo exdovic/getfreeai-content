@@ -64,7 +64,7 @@ comments: true
 | 提供者 | 免费类型 | 每日限额 | 高级功能 |
 |--------|---------|---------|---------|
 | [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 免费使用 | 多模态、联网 |
-| [Groq](/services/chatbot/groq) | 永久免费 | 14,400 次 | 极速推理 |
+| [Groq](/services/chatbot/groq) | 免费服务 | 约 14,400 次 | 极速推理 |
 | [OpenRouter](/services/chatbot/openrouter) | 永久免费 | 50-1,000 次 | 47+ 模型 |
 | [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 免费使用 | 思维链、代码执行 |
 | [Cohere Coral](/services/chatbot/cohere) | 永久免费 | 免费使用 | RAG、文档上传 |
@@ -75,7 +75,7 @@ comments: true
 | 提供者 | 免费类型 | 配额 | 特点 |
 |--------|---------|------|------|
 | [Google AI Studio API](/services/api/google-ai-studio) | 永久免费 | 免费使用 | Gemini 系列 |
-| [Groq API](/services/api/groq) | 永久免费 | 14,400 次/天 | 极速推理 |
+| [Groq API](/services/api/groq) | 免费服务 | 约 14,400 次/天 | 极速推理 |
 | [OpenRouter API](/services/api/openrouter) | 永久免费 | 50-1,000 次/天 | 47+ 模型 |
 | [DeepSeek API](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 中文顶尖 |
 | [Cohere API](/services/api/cohere) | 免费试用 | 1,000 次/月 | RAG 专家 |
@@ -92,7 +92,7 @@ comments: true
 - [Google AI Studio](/services/chatbot/google-ai-studio) - 多模态强大
 
 **高配额：**
-- [Groq Playground](/services/chatbot/groq) - 14,400 次/天
+- [Groq Playground](/services/chatbot/groq) - 约 14,400 次/天
 - [Google AI Studio](/services/chatbot/google-ai-studio) - 免费使用
 
 **特殊功能：**

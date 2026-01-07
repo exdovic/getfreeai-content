@@ -45,7 +45,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 ### High Free Quota
 
 #### [Groq Playground](/en/services/chatbot/groq)
-- **Quota:** 14,400 times/day
+- **Quota:** ~14,400 times/day
 - **Features:** 800+ tokens/s ultra-fast
 - **Rating:** ⭐⭐⭐⭐⭐
 
@@ -80,7 +80,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 | Service | Free Type | Quota | Speed | Chinese | Multimodal | Special Features |
 |------|---------|------|------|------|--------|---------|
 | [Cohere Coral](/en/services/chatbot/cohere) | Free Forever | Free to use | Fast | ✅ | ❌ | RAG, citation sources |
-| [Groq](/en/services/chatbot/groq) | Free Forever | 14,400/day | 🏆 Ultra-fast | ✅ | ❌ | Speed champion |
+| [Groq](/en/services/chatbot/groq) | Free Service | ~14,400/day | 🏆 Ultra-fast | ✅ | ❌ | Speed champion |
 | [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Fast | ✅ | 🏆 Strong | Multimodal, up to 2M |
 | [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | Free to use | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
 | [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1000/day | Fast | ✅ | Partial | 🏆 47+ models |

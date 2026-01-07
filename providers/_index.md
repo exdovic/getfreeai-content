@@ -46,8 +46,8 @@ next: /providers/google-ai-studio
 [查看详情 →](/providers/google-ai-studio)
 
 ### Groq
-- **类型：** 完全免费
-- **特点：** 800+ tokens/s 极速，14,400 次/天
+- **类型：** 免费服务
+- **特点：** 800+ tokens/s 极速，典型配额约 14,400 次/天
 - **适合：** 实时应用，高频调用
 
 [查看详情 →](/providers/groq)

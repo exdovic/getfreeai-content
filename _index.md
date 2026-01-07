@@ -57,7 +57,7 @@ image: /images/og-default.png
 
 {{< cards >}}
   {{< card link="/zh-cn/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="免费使用 · Gemini系列 · 多模态" >}}
-  {{< card link="/zh-cn/services/chatbot/groq" title="Groq Playground" subtitle="14,400次/天 · 极速推理 · 800+ tokens/s" >}}
+  {{< card link="/zh-cn/services/chatbot/groq" title="Groq Playground" subtitle="约14,400次/天 · 极速推理 · 800+ tokens/s" >}}
   {{< card link="/zh-cn/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000次/天 · 47+免费模型" >}}
   {{< card link="/zh-cn/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="免费使用 · 中文顶尖 · 思维链可见" >}}
   {{< card link="/zh-cn/services/chatbot/cohere" title="Cohere Coral" subtitle="免费使用 · RAG专家 · 文档上传" >}}
@@ -70,7 +70,7 @@ image: /images/og-default.png
 
 {{< cards >}}
   {{< card link="/zh-cn/services/api/google-ai-studio" title="Google AI Studio API" subtitle="免费使用 · Gemini系列 · OpenAI兼容" >}}
-  {{< card link="/zh-cn/services/api/groq" title="Groq API" subtitle="14,400次/天 · 极速推理 · OpenAI兼容" >}}
+  {{< card link="/zh-cn/services/api/groq" title="Groq API" subtitle="约14,400次/天 · 极速推理 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000次/天 · 47+模型 · 一站式" >}}
   {{< card link="/zh-cn/services/api/deepseek" title="DeepSeek API" subtitle="¥5试用 · $0.28/M · 中文优化" >}}
   {{< card link="/zh-cn/services/api/cohere" title="Cohere API" subtitle="1,000次/月 · RAG · Embed+Rerank" >}}

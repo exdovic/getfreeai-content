@@ -57,7 +57,7 @@ No coding required, use AI conversational services directly in your browser:
 
 {{< cards >}}
   {{< card link="/en/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="Free to use · Gemini · Multimodal" >}}
-  {{< card link="/en/services/chatbot/groq" title="Groq Playground" subtitle="14,400/day · Ultra-fast · 800+ tokens/s" >}}
+  {{< card link="/en/services/chatbot/groq" title="Groq Playground" subtitle="~14,400/day · Ultra-fast · 800+ tokens/s" >}}
   {{< card link="/en/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000/day · 47+ free models" >}}
   {{< card link="/en/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="Free to use · Top Chinese · Chain-of-thought" >}}
   {{< card link="/en/services/chatbot/cohere" title="Cohere Coral" subtitle="Free to use · RAG expert · Doc upload" >}}
@@ -70,7 +70,7 @@ Developer API interfaces to integrate into your applications:
 
 {{< cards >}}
   {{< card link="/en/services/api/google-ai-studio" title="Google AI Studio API" subtitle="Free to use · Gemini · OpenAI-compatible" >}}
-  {{< card link="/en/services/api/groq" title="Groq API" subtitle="14,400/day · Ultra-fast · OpenAI-compatible" >}}
+  {{< card link="/en/services/api/groq" title="Groq API" subtitle="~14,400/day · Ultra-fast · OpenAI-compatible" >}}
   {{< card link="/en/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000/day · 47+ models · One-stop" >}}
   {{< card link="/en/services/api/deepseek" title="DeepSeek API" subtitle="¥5 trial · $0.28/M · Chinese optimized" >}}
   {{< card link="/en/services/api/cohere" title="Cohere API" subtitle="1,000/month · RAG · Embed+Rerank" >}}

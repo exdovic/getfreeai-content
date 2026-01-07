@@ -43,7 +43,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **推荐：** ⭐⭐⭐⭐⭐
 
 #### [Groq API](/services/api/groq)
-- **配额：** 14,400 次/天
+- **配额：** 约 14,400 次/天
 - **特点：** 800+ tokens/s 极速
 - **推荐：** ⭐⭐⭐⭐⭐
 
@@ -84,7 +84,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | API | 免费类型 | 每日/月配额 | 速率限制 | OpenAI 兼容 |
 |-----|---------|-------------|---------|------------|
 | [Google AI Studio](/services/api/google-ai-studio) | 永久免费 | 免费使用 | 因模型而异 | ❌ |
-| [Groq](/services/api/groq) | 永久免费 | 14,400 req/天 | 30 req/min | ✅ |
+| [Groq](/services/api/groq) | 免费服务 | 约 14,400 req/天 | 约 30 req/min | ✅ |
 | [OpenRouter](/services/api/openrouter) | 永久免费 | 50-1,000 req/天 | 20 req/min | ✅ |
 | [DeepSeek](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 按用量 | ✅ |
 | [Cohere](/services/api/cohere) | 免费试用 | 1,000/月 | 10-20 req/min | ❌ |
