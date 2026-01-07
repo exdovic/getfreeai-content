@@ -63,7 +63,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 #### [OpenRouter Playground](/en/services/chatbot/openrouter)
 - **Quota:** 50-1,000 times/day
-- **Features:** 47+ free models
+- **Features:** 25+ free models
 - **Rating:** ⭐⭐⭐⭐⭐ (Most models)
 
 ### Enterprise-grade
@@ -83,7 +83,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 | [Groq](/en/services/chatbot/groq) | Free Service | ~14,400/day | 🏆 Ultra-fast | ✅ | ❌ | Speed champion |
 | [Google AI Studio](/en/services/chatbot/google-ai-studio) | Free Forever | Free to use | Fast | ✅ | 🏆 Strong | Multimodal, up to 2M |
 | [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | Free to use | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
-| [OpenRouter](/en/services/chatbot/openrouter) | Free Forever | 50-1000/day | Fast | ✅ | Partial | 🏆 47+ models |
+| [OpenRouter](/en/services/chatbot/openrouter) | Freemium | 50-1000/day | Fast | ✅ | Partial | 🏆 25+ models |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | Fast | ✅ | 🏆 Strong | Enterprise-grade, 2M context |
 
 ---

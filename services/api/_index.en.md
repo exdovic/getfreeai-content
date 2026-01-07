@@ -51,7 +51,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 
 #### [OpenRouter API](/en/services/api/openrouter)
 - **Quota:** 50-1,000 times/day
-- **Features:** 47+ free models, OpenAI compatible
+- **Features:** 25+ free models, OpenAI compatible
 - **Rating:** ⭐⭐⭐⭐⭐
 
 ### Ultra-low Price
@@ -85,7 +85,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 |-----|---------|-------------|---------|------------|
 | [Google AI Studio](/en/services/api/google-ai-studio) | Free Forever | Free to use | Varies by model | ❌ |
 | [Groq](/en/services/api/groq) | Free Service | ~14,400 req/day | ~30 req/min | ✅ |
-| [OpenRouter](/en/services/api/openrouter) | Free Forever | 50-1,000 req/day | 20 req/min | ✅ |
+| [OpenRouter](/en/services/api/openrouter) | Freemium | 50-1,000 req/day | 20 req/min | ✅ |
 | [DeepSeek](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | By usage | ✅ |
 | [Cohere](/en/services/api/cohere) | Free Trial | 1,000/month | 10-20 req/min | ❌ |
 | [Vertex AI](/en/services/api/vertex-ai) | Trial Credits | $300 (90 days) | Configurable | ❌ |
@@ -96,7 +96,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 |-----|---------|---------|--------|------|
 | [Google AI Studio](/en/services/api/google-ai-studio) | Fast | Excellent | Up to 2M | Multimodal, high quota |
 | [Groq](/en/services/api/groq) | 🏆 Ultra-fast | Good | 128K | Speed champion |
-| [OpenRouter](/en/services/api/openrouter) | Fast | Varies by model | Varies | 🏆 47+ models |
+| [OpenRouter](/en/services/api/openrouter) | Fast | Varies by model | Varies | 🏆 25+ models |
 | [DeepSeek](/en/services/api/deepseek) | Fast | 🏆 Top-tier | 128K | Ultra-low price, thinking mode |
 | [Cohere](/en/services/api/cohere) | Fast | Excellent | 128K | 🏆 RAG, Embed |
 | [Vertex AI](/en/services/api/vertex-ai) | Fast | Excellent | 🏆 2M | Enterprise-grade |
@@ -117,7 +117,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 → [DeepSeek API](/en/services/api/deepseek)
 
 ### I Need to Try Multiple Models
-→ [OpenRouter API](/en/services/api/openrouter) - 47+ models
+→ [OpenRouter API](/en/services/api/openrouter) - 25+ models
 
 ### I Need Chinese Optimization
 → [DeepSeek API](/en/services/api/deepseek) - Top Chinese performance

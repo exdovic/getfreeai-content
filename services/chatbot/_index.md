@@ -63,7 +63,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 #### [OpenRouter Playground](/services/chatbot/openrouter)
 - **配额：** 50-1,000 次/天
-- **特点：** 47+ 免费模型
+- **特点：** 25+ 免费模型
 - **推荐：** ⭐⭐⭐⭐⭐（模型最多）
 
 ### 企业级
@@ -83,7 +83,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 | [Groq](/services/chatbot/groq) | 免费服务 | 约 14,400/天 | 🏆 极快 | ✅ | ❌ | 速度王者 |
 | [Google AI Studio](/services/chatbot/google-ai-studio) | 永久免费 | 免费使用 | 快 | ✅ | 🏆 强 | 多模态、最高2M |
 | [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 免费使用 | 快 | 🏆 顶尖 | ✅ | 思维链、代码执行 |
-| [OpenRouter](/services/chatbot/openrouter) | 永久免费 | 50-1000/天 | 快 | ✅ | 部分 | 🏆 47+ 模型 |
+| [OpenRouter](/services/chatbot/openrouter) | 免费增值 | 50-1000/天 | 快 | ✅ | 部分 | 🏆 25+ 模型 |
 | [Vertex AI Studio](/services/chatbot/vertex-ai) | 试用积分 | $300 | 快 | ✅ | 🏆 强 | 企业级、2M上下文 |
 
 ---

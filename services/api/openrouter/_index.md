@@ -1,7 +1,7 @@
 ---
-title: "OpenRouter API - 100+ 免费 AI 模型 API 聚合"
+title: "OpenRouter API - 25+ 免费 AI 模型 API 聚合"
 linkTitle: "API - OpenRouter"
-description: "OpenRouter 提供 100+ 免费 AI 模型的 API 服务，包括 GPT-4、Claude 3.5、Gemini Pro 等顶级模型。统一接口，一键切换，免费额度丰富，OpenAI 兼容格式，详细文档。"
+description: "OpenRouter 提供 25+ 免费 AI 模型的 API 服务，包括 GPT-4、Claude 3.5、Gemini Pro 等顶级模型。统一接口，一键切换，免费额度丰富，OpenAI 兼容格式，详细文档。"
 keywords:
   - OpenRouter API
   - 多模型 API
@@ -30,14 +30,15 @@ sidebar:
 
 ## 🎯 服务简介
 
-OpenRouter API 通过统一的接口提供 47+ 个免费 AI 模型，完全兼容 OpenAI API 格式，让您可以轻松切换和测试不同的模型。
+OpenRouter API 通过统一的接口提供 25+ 个免费 AI 模型，完全兼容 OpenAI API 格式，让您可以轻松切换和测试不同的模型。
 
 **核心优势：**
-- 🎯 **一站式访问** - 一个 API 密钥访问 47+ 模型
+- 🎯 **一站式访问** - 一个 API 密钥访问 25+ 模型
 - 🔄 **OpenAI 兼容** - 无缝迁移现有代码
 - 🎁 **大量免费模型** - 包括 Llama 3.1 405B 等顶级模型
 - 🚀 **智能路由** - 自动选择最优提供者
 - 💰 **灵活定价** - 免费模型永不扣费
+- 🔑 **BYOK 支持** - 使用自己的 API 密钥（每月 100 万次免费）
 
 ---
 
@@ -119,8 +120,13 @@ print(response.choices[0].message.content)
 |---------|--------|-------------|
 | **每日请求数** | 50 requests | 1,000 requests |
 | **每分钟请求数** | 20 requests | 20 requests |
-| **免费模型** | 47+ | 47+ |
+| **免费模型** | 25+ | 25+ |
 | **费用** | $0 | $10 一次性 |
+
+**BYOK (Bring Your Own Key):**
+- 使用自己的提供商 API 密钥
+- 每月 100 万次 BYOK 请求免费
+- 超出后按 5.5% 平台费收费
 
 ### ⚠️ 重要限制
 
@@ -128,6 +134,7 @@ print(response.choices[0].message.content)
 2. **配额共享：** 所有免费模型共享配额
 3. **速率限制：** 超过限制返回 429 错误
 4. **余额保护：** 可设置信用限额为 $0 避免误用付费模型
+5. **模型数量：** 免费模型数量会变化，建议查看 [官方模型列表](https://openrouter.ai/models?free=true)
 
 ---
 

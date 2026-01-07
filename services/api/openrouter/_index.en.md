@@ -1,7 +1,7 @@
 ---
-title: "OpenRouter API - 100+ Free AI Models API Aggregation"
+title: "OpenRouter API - 25+ Free AI Models API Aggregation"
 linkTitle: "API - OpenRouter"
-description: "OpenRouter provides API service with 100+ free AI models, including GPT-4, Claude 3.5, Gemini Pro and more top models. Unified interface, one-click switching, generous free quota, OpenAI-compatible format, detailed documentation."
+description: "OpenRouter provides API service with 25+ free AI models, including GPT-4, Claude 3.5, Gemini Pro and more top models. Unified interface, one-click switching, generous free quota, OpenAI-compatible format, detailed documentation."
 keywords:
   - OpenRouter API
   - multi-model API
@@ -30,14 +30,15 @@ sidebar:
 
 ## 🎯 Service Overview
 
-OpenRouter API provides access to 47+ free AI models through a unified interface, fully compatible with OpenAI API format, allowing you to easily switch and test different models.
+OpenRouter API provides access to 25+ free AI models through a unified interface, fully compatible with OpenAI API format, allowing you to easily switch and test different models.
 
 **Key Advantages:**
-- 🎯 **One-stop Access** - Access 47+ models with one API key
+- 🎯 **One-stop Access** - Access 25+ models with one API key
 - 🔄 **OpenAI Compatible** - Seamless code migration
 - 🎁 **Many Free Models** - Including top models like Llama 3.1 405B
 - 🚀 **Smart Routing** - Automatically selects optimal provider
 - 💰 **Flexible Pricing** - Free models never charge
+- 🔑 **BYOK Support** - Use your own API keys (1M free requests/month)
 
 ---
 
@@ -119,8 +120,13 @@ Free models have `:free` suffix in their model ID:
 |---------|--------|-------------|
 | **Daily Requests** | 50 requests | 1,000 requests |
 | **Requests/Minute** | 20 requests | 20 requests |
-| **Free Models** | 47+ | 47+ |
+| **Free Models** | 25+ | 25+ |
 | **Cost** | $0 | $10 one-time |
+
+**BYOK (Bring Your Own Key):**
+- Use your own provider API keys
+- 1 million BYOK requests per month free
+- 5.5% platform fee after exceeding
 
 ### ⚠️ Important Limitations
 
@@ -128,6 +134,7 @@ Free models have `:free` suffix in their model ID:
 2. **Quota Sharing:** All free models share quota
 3. **Rate Limits:** Returns 429 error when exceeded
 4. **Balance Protection:** Can set credit limit to $0 to avoid using paid models
+5. **Model Count:** Free model count changes dynamically, check [official model list](https://openrouter.ai/models?free=true)
 
 ---
 

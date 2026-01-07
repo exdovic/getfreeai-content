@@ -53,8 +53,8 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 [View Details →](/providers/groq)
 
 ### OpenRouter
-- **Type:** Completely Free
-- **Features:** 47+ free models, one-stop access
+- **Type:** Freemium
+- **Features:** 25+ free models, one-stop access, BYOK support
 - **Suitable for:** Model comparison, diverse needs
 
 [View Details →](/providers/openrouter)
@@ -95,7 +95,7 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 → [DeepSeek](/providers/deepseek) - Top-tier Chinese
 
 ### I need many free models
-→ [OpenRouter](/providers/openrouter) - 47+ models
+→ [OpenRouter](/providers/openrouter) - 25+ models
 
 ### I need RAG functionality
 → [Cohere](/providers/cohere) - RAG expert
