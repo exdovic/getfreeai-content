@@ -32,11 +32,11 @@ sidebar:
 Google AI Studio 的 API 服务提供了强大的 Gemini 模型访问能力，完全兼容 OpenAI API 格式，让开发者可以轻松集成到自己的应用中。
 
 **核心优势：**
-- 🎁 **超高免费配额** - 15M tokens/天（Flash 系列）
+- 🎁 **超高免费配额** - 多个模型免费使用，配额因模型而异
 - ⚡ **极快响应速度** - Flash 系列优化
-- 🔄 **OpenAI 兼容** - 无缝迁移现有代码
+- 🔄 **OpenAI 兼容** - 支持 OpenAI API 格式（部分兼容）
 - 🎨 **多模态 API** - 支持文本、图像、音频、视频
-- 📱 **超长上下文** - 最高 2M tokens
+- 📱 **超长上下文** - 最高 2M tokens（Pro 系列）
 - 🔍 **联网搜索** - Google Search Grounding
 
 ---
@@ -132,10 +132,11 @@ Google AI Studio 的免费层级非常慷慨，所有主要模型都可以免费
 
 | 特性 | 免费层级 |
 |------|---------|
-| **输入 Tokens** | 免费 |
-| **输出 Tokens** | 免费 |
+| **输入 Tokens** | 完全免费 |
+| **输出 Tokens** | 完全免费 |
 | **可用模型** | Gemini 3 Flash, 2.5 Flash/Pro, 2.0 Flash, Gemma 3 等 |
 | **速率限制** | 因模型而异，详见下表 |
+| **配额重置** | 每日配额在太平洋时间午夜重置 |
 
 ### 速率限制（免费层级）
 
@@ -160,10 +161,11 @@ Google AI Studio 的免费层级非常慷慨，所有主要模型都可以免费
 
 ### ⚠️ 重要说明
 
-1. **免费使用：** 免费层级的输入和输出都是免费的
-2. **速率限制：** 超过速率限制会收到 429 错误
-3. **付费升级：** 如需更高配额，可升级到付费层级
-4. **数据使用：** 免费层级的数据可能用于改进 Google 产品
+1. **完全免费：** 免费层级的输入和输出都完全免费
+2. **速率限制：** 超过速率限制会收到 429 错误，建议实现退避重试
+3. **付费升级：** 如需更高配额，可在 [AI Studio](https://aistudio.google.com) 中申请升级
+4. **数据使用：** 免费层级的数据可能用于改进 Google 产品（可选择退出），付费层级不会
+5. **查看配额：** 实时配额可在 [AI Studio 控制面板](https://aistudio.google.com/usage)查看
 
 ---
 
@@ -371,6 +373,7 @@ genai.configure(api_key="YOUR_API_KEY")
 # 启用 Google Search Grounding
 model = genai.GenerativeModel('gemini-2.5-flash')
 
+# ⚠️ 注意：Grounding 功能可能会单独计费，请查看最新定价
 response = model.generate_content(
     "最新的 AI 技术发展趋势是什么？",
     tools=[{"google_search_retrieval": {}}]
@@ -409,7 +412,7 @@ go get github.com/google/generative-ai-go
 
 ### OpenAI 兼容
 
-Google AI Studio API 兼容 OpenAI 格式，可以直接使用 OpenAI SDK：
+Google AI Studio API 提供 OpenAI 兼容层，可以使用 OpenAI SDK：
 
 ```python {filename="Python"}
 from openai import OpenAI
@@ -428,6 +431,8 @@ response = client.chat.completions.create(
 
 print(response.choices[0].message.content)
 ```
+
+⚠️ **注意：** 兼容性并非 100% 一致，部分参数和功能可能有差异，建议参考[官方兼容性文档](https://ai.google.dev/gemini-api/docs/openai)
 
 ---
 

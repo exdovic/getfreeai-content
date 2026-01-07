@@ -91,7 +91,7 @@ Click the settings icon on the right side to adjust:
 **Basic Conversation:**
 - Supports Chinese, English, and many other languages
 - Multi-turn conversations with context memory
-- Supports ultra-long context up to 2M tokens
+- Supports ultra-long context (Pro series up to 2M tokens)
 
 **Advanced Features:**
 - Code generation and explanation
@@ -149,6 +149,8 @@ Click the settings icon on the right side to adjust:
 - Get real-time weather, stock information
 - Find latest technical documentation and tutorials
 
+⚠️ **Important Note:** Grounding feature may be separately charged, please check latest pricing before use
+
 ### 6. Prompt Management
 
 **Features:**
@@ -173,7 +175,8 @@ Google AI Studio's Chatbot provides generous usage quotas in the free tier:
 | Limit Type | Quota | Notes |
 |---------|------|------|
 | Usage Cost | Completely Free | Free input and output |
-| Single Context | Up to 2M tokens | Varies by model |
+| Daily Requests | 50-1,500/day | Varies by model |
+| Single Context | 1M-2M tokens | Pro series up to 2M |
 | File Size | Varies by type | Images: 4MB, Audio/Video: 100MB |
 | Rate Limits | Varies by model | Shares rate limits with API |
 
@@ -184,6 +187,7 @@ For Chatbot users, the free quota is very sufficient:
 - ✅ Supports long continuous conversations
 - ✅ Multimodal file uploads
 - ✅ All major models available
+- ✅ Daily quota resets at Pacific Time midnight
 
 ---
 
@@ -221,7 +225,8 @@ For Chatbot users, the free quota is very sufficient:
 
 1. **Privacy Protection**
    - Don't upload sensitive personal information
-   - Can opt out of data training
+   - Free tier data may be used to improve Google products (opt-out available)
+   - Paid tier will not use your data to train models
    - Regularly check privacy settings
 
 2. **Quota Management**
