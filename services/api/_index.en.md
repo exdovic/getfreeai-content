@@ -1,6 +1,6 @@
 ---
 title: API Services
-description: Free AI API directory! Access Google AI Studio API, Groq API, OpenRouter API, DeepSeek API, Cohere API with free quotas. OpenAI-compatible, high-speed inference, detailed tutorials, and code examples.
+description: Free AI API directory! Access OpenAI API, Google AI Studio API, Groq API, OpenRouter API, DeepSeek API, Cohere API with free quotas. OpenAI-compatible, high-speed inference, detailed tutorials, and code examples.
 keywords:
   - free AI API
   - AI API interface

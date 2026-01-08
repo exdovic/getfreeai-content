@@ -56,6 +56,7 @@ image: /images/og-default.png
 无需编程，直接在网页使用 AI 对话服务：
 
 {{< cards >}}
+  {{< card link="/zh-cn/services/chatbot/openai" title="ChatGPT" subtitle="完全免费 · GPT-4o · 全球最流行" >}}
   {{< card link="/zh-cn/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="免费使用 · Gemini系列 · 多模态" >}}
   {{< card link="/zh-cn/services/chatbot/groq" title="Groq Playground" subtitle="约14,400次/天 · 极速推理 · 800+ tokens/s" >}}
   {{< card link="/zh-cn/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000次/天 · 25+免费模型" >}}
@@ -69,6 +70,7 @@ image: /images/og-default.png
 开发者 API 接口，集成到您的应用中：
 
 {{< cards >}}
+  {{< card link="/zh-cn/services/api/openai" title="OpenAI API" subtitle="$18试用 · GPT-4o · 行业标准" >}}
   {{< card link="/zh-cn/services/api/google-ai-studio" title="Google AI Studio API" subtitle="免费使用 · Gemini系列 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/groq" title="Groq API" subtitle="约14,400次/天 · 极速推理 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000次/天 · 25+模型 · 一站式" >}}
@@ -94,6 +96,7 @@ image: /images/og-default.png
 
 ### 我想要...
 
+- **全球最流行** → [OpenAI ChatGPT](/providers/openai)
 - **最高免费配额** → [Google AI Studio](/providers/google-ai-studio)
 - **最快推理速度** → [Groq](/providers/groq)
 - **最多模型选择** → [OpenRouter](/providers/openrouter)
@@ -104,6 +107,7 @@ image: /images/og-default.png
 ### 按门槛查找
 
 **无需信用卡：**
+- ✅ [ChatGPT 免费版](/providers/openai)
 - ✅ [Google AI Studio](/providers/google-ai-studio)
 - ✅ [OpenRouter](/providers/openrouter)
 - ✅ [DeepSeek Chatbot](/providers/deepseek)
@@ -118,9 +122,10 @@ image: /images/og-default.png
 ## 💡 推荐组合
 
 ### 个人开发者
-1. **Google AI Studio** - 日常高频使用
-2. **OpenRouter** - 模型多样性测试
-3. **DeepSeek** - 中文任务处理
+1. **ChatGPT** - 全球最流行，质量最高
+2. **Google AI Studio** - 日常高频使用
+3. **OpenRouter** - 模型多样性测试
+4. **DeepSeek** - 中文任务处理
 
 ### 企业应用
 1. **Cohere** - RAG 知识库应用

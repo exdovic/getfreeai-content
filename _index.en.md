@@ -56,6 +56,7 @@ Welcome to GetFreeAI! We've carefully compiled guides for free AI services from 
 No coding required, use AI conversational services directly in your browser:
 
 {{< cards >}}
+  {{< card link="/en/services/chatbot/openai" title="ChatGPT" subtitle="Completely free · GPT-4o · Most popular" >}}
   {{< card link="/en/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="Free to use · Gemini · Multimodal" >}}
   {{< card link="/en/services/chatbot/groq" title="Groq Playground" subtitle="~14,400/day · Ultra-fast · 800+ tokens/s" >}}
   {{< card link="/en/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000/day · 25+ free models" >}}
@@ -69,6 +70,7 @@ No coding required, use AI conversational services directly in your browser:
 Developer API interfaces to integrate into your applications:
 
 {{< cards >}}
+  {{< card link="/en/services/api/openai" title="OpenAI API" subtitle="$18 trial · GPT-4o · Industry standard" >}}
   {{< card link="/en/services/api/google-ai-studio" title="Google AI Studio API" subtitle="Free to use · Gemini · OpenAI-compatible" >}}
   {{< card link="/en/services/api/groq" title="Groq API" subtitle="~14,400/day · Ultra-fast · OpenAI-compatible" >}}
   {{< card link="/en/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000/day · 25+ models · One-stop" >}}
@@ -94,6 +96,7 @@ Developer API interfaces to integrate into your applications:
 
 ### I want...
 
+- **Most popular worldwide** → [OpenAI ChatGPT](/providers/openai)
 - **Highest free quota** → [Google AI Studio](/providers/google-ai-studio)
 - **Fastest inference speed** → [Groq](/providers/groq)
 - **Most model choices** → [OpenRouter](/providers/openrouter)
@@ -104,6 +107,7 @@ Developer API interfaces to integrate into your applications:
 ### Find by Requirements
 
 **No credit card required:**
+- ✅ [ChatGPT Free](/providers/openai)
 - ✅ [Google AI Studio](/providers/google-ai-studio)
 - ✅ [OpenRouter](/providers/openrouter)
 - ✅ [DeepSeek Chatbot](/providers/deepseek)
@@ -118,9 +122,10 @@ Developer API interfaces to integrate into your applications:
 ## 💡 Recommended Combinations
 
 ### Individual Developers
-1. **Google AI Studio** - Daily high-frequency use
-2. **OpenRouter** - Model diversity testing
-3. **DeepSeek** - Chinese task processing
+1. **ChatGPT** - Most popular, highest quality
+2. **Google AI Studio** - Daily high-frequency use
+3. **OpenRouter** - Model diversity testing
+4. **DeepSeek** - Chinese task processing
 
 ### Enterprise Applications
 1. **Cohere** - RAG knowledge base applications

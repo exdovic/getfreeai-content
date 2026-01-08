@@ -1,6 +1,6 @@
 ---
 title: Chatbot Services
-description: Free AI chatbot services directory! Use Google AI Studio, Groq, OpenRouter, DeepSeek, Cohere and more without coding. Online conversation, multimodal support, Chinese optimization, and free tutorials.
+description: Free AI chatbot services directory! Use OpenAI ChatGPT, Google AI Studio, Groq, OpenRouter, DeepSeek, Cohere and more without coding. Online conversation, multimodal support, Chinese optimization, and free tutorials.
 keywords:
   - AI chatbot
   - free chatbot
