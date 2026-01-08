@@ -56,7 +56,7 @@ image: /images/og-default.png
 无需编程，直接在网页使用 AI 对话服务：
 
 {{< cards >}}
-  {{< card link="/zh-cn/services/chatbot/openai" title="ChatGPT" subtitle="完全免费 · GPT-4o · 全球最流行" >}}
+  {{< card link="/zh-cn/services/chatbot/openai" title="ChatGPT" subtitle="免费使用 · GPT-4o · 全球最流行" >}}
   {{< card link="/zh-cn/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="免费使用 · Gemini系列 · 多模态" >}}
   {{< card link="/zh-cn/services/chatbot/groq" title="Groq Playground" subtitle="约14,400次/天 · 极速推理 · 800+ tokens/s" >}}
   {{< card link="/zh-cn/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000次/天 · 25+免费模型" >}}
@@ -70,7 +70,7 @@ image: /images/og-default.png
 开发者 API 接口，集成到您的应用中：
 
 {{< cards >}}
-  {{< card link="/zh-cn/services/api/openai" title="OpenAI API" subtitle="$18试用 · GPT-4o · 行业标准" >}}
+  {{< card link="/zh-cn/services/api/openai" title="OpenAI API" subtitle="试用额度 · GPT-4o · 行业标准" >}}
   {{< card link="/zh-cn/services/api/google-ai-studio" title="Google AI Studio API" subtitle="免费使用 · Gemini系列 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/groq" title="Groq API" subtitle="约14,400次/天 · 极速推理 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000次/天 · 25+模型 · 一站式" >}}
