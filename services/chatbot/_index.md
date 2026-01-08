@@ -1,6 +1,6 @@
 ---
 title: Chatbot 服务
-description: 免费 AI 聊天机器人服务大全！无需编程即可使用 Google AI Studio、Groq、OpenRouter、DeepSeek、Cohere 等平台的 Chatbot 服务。在线对话、多模态支持、中文优化，免费使用教程。
+description: 免费 AI 聊天机器人服务大全！无需编程即可使用 OpenAI ChatGPT、Google AI Studio、Groq、OpenRouter、DeepSeek、Cohere 等平台的 Chatbot 服务。在线对话、多模态支持、中文优化，免费使用教程。
 keywords:
   - AI聊天机器人
   - 免费Chatbot

@@ -38,6 +38,13 @@ next: /providers/google-ai-studio
 
 ## 🌟 推荐提供者
 
+### OpenAI
+- **类型：** 免费 Chatbot + 试用积分
+- **特点：** 全球最流行，GPT-4o 最强模型
+- **适合：** 所有用户，行业标准
+
+[查看详情 →](/providers/openai)
+
 ### Google AI Studio
 - **类型：** 完全免费
 - **特点：** 免费使用，Gemini 系列
@@ -83,6 +90,9 @@ next: /providers/google-ai-studio
 ---
 
 ## 🔍 按需选择
+
+### 我需要最强的 AI 能力
+→ [OpenAI](/providers/openai) - GPT-4o 全球领先
 
 ### 我需要极快的推理速度
 → [Groq](/providers/groq) - 800+ tokens/s
