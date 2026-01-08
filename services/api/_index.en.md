@@ -71,7 +71,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 ### Enterprise-grade
 
 #### [Vertex AI API](/en/services/api/vertex-ai)
-- **Quota:** $300 trial (90 days)
+- **Quota:** $300 trial (91 days)
 - **Features:** 2M context, complete MLOps
 - **Rating:** ⭐⭐⭐⭐ (Enterprise choice)
 
@@ -88,7 +88,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [OpenRouter](/en/services/api/openrouter) | Freemium | 50-1,000 req/day | 20 req/min | ✅ |
 | [DeepSeek](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | By usage | ✅ |
 | [Cohere](/en/services/api/cohere) | Free Trial | 1,000/month | 10-20 req/min | ❌ |
-| [Vertex AI](/en/services/api/vertex-ai) | Trial Credits | $300 (90 days) | Configurable | ❌ |
+| [Vertex AI](/en/services/api/vertex-ai) | Trial Credits | $300 (91 days) | Configurable | ❌ |
 
 ### By Key Features
 

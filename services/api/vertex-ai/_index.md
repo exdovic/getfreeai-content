@@ -23,7 +23,7 @@ sidebar:
 **提供者：** [Google Vertex AI](/providers/google-vertex-ai)  
 **服务类型：** API 服务  
 **API 端点：** `https://[REGION]-aiplatform.googleapis.com`（需替换 `[REGION]`，如 `us-central1`）  
-**免费类型：** 试用积分（$300，90天）
+**免费类型：** 试用积分（$300，91天）
 
 ---
 
@@ -32,8 +32,8 @@ sidebar:
 Vertex AI API 提供企业级 AI 能力，支持 Gemini 系列模型，特别适合大规模生产部署和与 Google Cloud 服务集成。
 
 **核心优势：**
-- 💰 **$300 试用积分** - 90天有效
-- 🌟 **Gemini 1.5 Pro** - 2M 超长上下文
+- 💰 **$300 试用积分** - 91天有效
+- 🌟 **Gemini 系列模型** - 支持 1.5/2.x 系列，最高 2M 超长上下文
 - 🏢 **企业级** - 完整 MLOps 工具
 - 🔐 **安全合规** - Google Cloud 标准
 - 🌐 **全球部署** - 多区域可用
@@ -80,25 +80,27 @@ print(response.text)
 
 ## 🤖 支持的模型
 
-### Gemini 1.5 Pro
+### Gemini Pro 系列
 
-**Model ID:** `gemini-1.5-pro`
+**Model ID 示例:** `gemini-1.5-pro` 或 `gemini-2.0-pro`（具体版本以控制台为准）
 
 | 特性 | 详情 |
 |------|------|
-| **上下文** | 2M tokens |
+| **上下文** | 最高 2M tokens |
 | **多模态** | 文本、图像、音频、视频 |
-| **价格** | $1.25-2.50/M (in), $5-10/M (out) |
+| **价格** | $1.25-2.50/M (in), $5-10/M (out)（示例） |
 
-### Gemini 1.5 Flash
+### Gemini Flash 系列
 
-**Model ID:** `gemini-1.5-flash`
+**Model ID 示例:** `gemini-1.5-flash` 或 `gemini-2.0-flash`（具体版本以控制台为准）
 
 | 特性 | 详情 |
 |------|------|
-| **上下文** | 1M tokens |
+| **上下文** | 最高 1M tokens |
 | **速度** | 极快 |
-| **价格** | $0.075-0.15/M (in), $0.30-0.60/M (out) |
+| **价格** | $0.075-0.15/M (in), $0.30-0.60/M (out)（示例） |
+
+💡 **提示：** Google 持续更新模型版本，具体可用模型和定价请查看[官方文档](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models)。
 
 ---
 
@@ -213,23 +215,25 @@ print(response)
 
 ### 定价
 
-**Gemini 1.5 Pro：**
+**Gemini 1.5 Pro（示例）：**
 | 上下文 | 输入 | 输出 |
 |--------|------|------|
 | ≤ 128K | $1.25/M | $5/M |
 | > 128K | $2.50/M | $10/M |
 
-**Gemini 1.5 Flash：**
+**Gemini 1.5 Flash（示例）：**
 | 上下文 | 输入 | 输出 |
 |--------|------|------|
 | ≤ 128K | $0.075/M | $0.30/M |
 | > 128K | $0.15/M | $0.60/M |
 
-### 试用积分使用示例
+💡 **提示：** 不同模型版本定价可能不同，具体请查看[官方定价页面](https://cloud.google.com/vertex-ai/generative-ai/pricing)。
 
-**$300 可以：**
-- Gemini Pro: 处理 240M input tokens
-- Gemini Flash: 处理 4B input tokens
+### 试用积分使用估算
+
+**$300 估算（仅供参考）：**
+- Gemini 1.5 Pro: 处理约 240M input tokens
+- Gemini 1.5 Flash: 处理约 4B input tokens
 - 或任意组合
 
 ---

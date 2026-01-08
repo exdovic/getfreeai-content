@@ -71,7 +71,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 ### 企业级
 
 #### [Vertex AI API](/services/api/vertex-ai)
-- **配额：** $300 试用（90天）
+- **配额：** $300 试用（91天）
 - **特点：** 2M 上下文，完整 MLOps
 - **推荐：** ⭐⭐⭐⭐（企业首选）
 
@@ -88,7 +88,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [OpenRouter](/services/api/openrouter) | 免费增值 | 50-1,000 req/天 | 20 req/min | ✅ |
 | [DeepSeek](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 按用量 | ✅ |
 | [Cohere](/services/api/cohere) | 免费试用 | 1,000/月 | 10-20 req/min | ❌ |
-| [Vertex AI](/services/api/vertex-ai) | 试用积分 | $300 (90天) | 按配置 | ❌ |
+| [Vertex AI](/services/api/vertex-ai) | 试用积分 | $300 (91天) | 按配置 | ❌ |
 
 ### 按特色功能
 

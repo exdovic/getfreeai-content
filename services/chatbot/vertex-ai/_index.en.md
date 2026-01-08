@@ -24,7 +24,7 @@ sidebar:
 **Provider:** [Google Vertex AI](/en/providers/google-vertex-ai)  
 **Service Type:** Web Interface (Vertex AI Studio)  
 **Access URL:** [https://console.cloud.google.com/vertex-ai/generative](https://console.cloud.google.com/vertex-ai/generative)  
-**Free Tier:** Trial Credits ($300, 90 days)
+**Free Tier:** Trial Credits ($300, 91 days)
 
 ---
 
@@ -34,7 +34,7 @@ Vertex AI Studio is Google Cloud's visual AI testing platform, allowing you to t
 
 **Key Advantages:**
 - 🎨 **Visual Interface** - No programming required
-- 🌟 **Gemini 1.5 Pro** - 2M ultra-long context
+- 🌟 **Gemini Series Models** - Supports 1.5/2.x series, up to 2M ultra-long context
 - 🖼️ **Multimodal** - Text, images, audio, video
 - 🎛️ **Parameter Adjustment** - Customize generation parameters
 - 💾 **Prompt Management** - Save and reuse
@@ -67,8 +67,10 @@ Choose model in Studio interface:
 
 | Model | Context | Use Cases |
 |------|--------|---------|
-| **Gemini 1.5 Pro** | 2M tokens | Complex tasks, long documents |
-| **Gemini 1.5 Flash** | 1M tokens | Quick response, high frequency |
+| **Gemini Pro Series** | Up to 2M tokens | Complex tasks, long documents |
+| **Gemini Flash Series** | Up to 1M tokens | Quick response, high frequency |
+
+💡 **Note:** Check available model versions in Studio. Google continuously updates models.
 
 #### Step 3: Start Testing
 
@@ -98,8 +100,8 @@ Choose model in Studio interface:
 
 ### 2. Ultra-Long Context
 
-**Gemini 1.5 Pro:**
-- 2M tokens context
+**Gemini Pro Series:**
+- Up to 2M tokens context
 - Equivalent to 1,400 pages of books
 - Analyze complete movie scripts
 - Process large volumes of documents
@@ -136,15 +138,17 @@ Choose model in Studio interface:
 
 Using Vertex AI Studio consumes $300 trial credits:
 
-**Gemini 1.5 Pro:**
+**Gemini 1.5 Pro (example):**
 - Input: $1.25/M tokens (≤128K)
 - Output: $5/M tokens
 - $300 ≈ 240M input tokens
 
-**Gemini 1.5 Flash:**
+**Gemini 1.5 Flash (example):**
 - Input: $0.075/M tokens (≤128K)
 - Output: $0.30/M tokens
 - $300 ≈ 4B input tokens
+
+💡 **Note:** Different model versions may have different pricing. Check [official pricing page](https://cloud.google.com/vertex-ai/generative-ai/pricing) for details.
 
 ---
 
@@ -176,7 +180,7 @@ Using Vertex AI Studio consumes $300 trial credits:
 
 1. **Cost Control**
    - Be aware of $300 limit
-   - 90-day validity period
+   - 91-day validity period
    - Monitor consumption rate
 
 2. **Network Requirements**
@@ -200,7 +204,7 @@ Using Vertex AI Studio consumes $300 trial credits:
 2. Click "Billing"
 3. View trial credit balance
 
-### 2. What Happens After 90 Days?
+### 2. What Happens After 91 Days?
 
 **Explanation:**
 - No automatic charges after trial ends

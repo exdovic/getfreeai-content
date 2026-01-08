@@ -79,7 +79,7 @@ Developer API interfaces to integrate into your applications.
 | [OpenRouter API](/en/services/api/openrouter) | Freemium | 50-1,000 times/day | 25+ models |
 | [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Top Chinese |
 | [Cohere API](/en/services/api/cohere) | Free Trial | 1,000 times/month | RAG expert |
-| [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (90 days) | Enterprise-grade |
+| [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (91 days) | Enterprise-grade |
 
 ---
 

@@ -23,7 +23,7 @@ sidebar:
 **Provider:** [Google Vertex AI](/en/providers/google-vertex-ai)  
 **Service Type:** API Service  
 **API Endpoint:** `https://[REGION]-aiplatform.googleapis.com` (replace `[REGION]`, e.g. `us-central1`)  
-**Free Tier:** Trial Credits ($300, 90 days)
+**Free Tier:** Trial Credits ($300, 91 days)
 
 ---
 
@@ -32,8 +32,8 @@ sidebar:
 Vertex AI API provides enterprise-grade AI capabilities, supporting Gemini series models, particularly suitable for large-scale production deployments and integration with Google Cloud services.
 
 **Key Advantages:**
-- 💰 **$300 Trial Credits** - 90-day validity
-- 🌟 **Gemini 1.5 Pro** - 2M super-long context
+- 💰 **$300 Trial Credits** - 91-day validity
+- 🌟 **Gemini Series Models** - Supports 1.5/2.x series, up to 2M super-long context
 - 🏢 **Enterprise Grade** - Complete MLOps tools
 - 🔐 **Security Compliance** - Google Cloud standards
 - 🌐 **Global Deployment** - Multi-region availability
@@ -80,25 +80,27 @@ print(response.text)
 
 ## 🤖 Supported Models
 
-### Gemini 1.5 Pro
+### Gemini Pro Series
 
-**Model ID:** `gemini-1.5-pro`
+**Model ID Example:** `gemini-1.5-pro` or `gemini-2.0-pro` (check console for specific versions)
 
 | Feature | Details |
 |------|------|
-| **Context** | 2M tokens |
+| **Context** | Up to 2M tokens |
 | **Multimodal** | Text, image, audio, video |
-| **Price** | $1.25-2.50/M (in), $5-10/M (out) |
+| **Price** | $1.25-2.50/M (in), $5-10/M (out) (example) |
 
-### Gemini 1.5 Flash
+### Gemini Flash Series
 
-**Model ID:** `gemini-1.5-flash`
+**Model ID Example:** `gemini-1.5-flash` or `gemini-2.0-flash` (check console for specific versions)
 
 | Feature | Details |
 |------|------|
-| **Context** | 1M tokens |
+| **Context** | Up to 1M tokens |
 | **Speed** | Extremely fast |
-| **Price** | $0.075-0.15/M (in), $0.30-0.60/M (out) |
+| **Price** | $0.075-0.15/M (in), $0.30-0.60/M (out) (example) |
+
+💡 **Note:** Google continuously updates model versions. Check [official documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models) for available models and pricing.
 
 ---
 
@@ -213,23 +215,25 @@ print(response)
 
 ### Pricing
 
-**Gemini 1.5 Pro:**
+**Gemini 1.5 Pro (example):**
 | Context | Input | Output |
 |--------|------|------|
 | ≤ 128K | $1.25/M | $5/M |
 | > 128K | $2.50/M | $10/M |
 
-**Gemini 1.5 Flash:**
+**Gemini 1.5 Flash (example):**
 | Context | Input | Output |
 |--------|------|------|
 | ≤ 128K | $0.075/M | $0.30/M |
 | > 128K | $0.15/M | $0.60/M |
 
-### Trial Credits Usage Example
+💡 **Note:** Different model versions may have different pricing. Check [official pricing page](https://cloud.google.com/vertex-ai/generative-ai/pricing) for details.
 
-**$300 can:**
-- Gemini Pro: Process 240M input tokens
-- Gemini Flash: Process 4B input tokens
+### Trial Credits Usage Estimate
+
+**$300 estimate (for reference):**
+- Gemini 1.5 Pro: Process approximately 240M input tokens
+- Gemini 1.5 Flash: Process approximately 4B input tokens
 - Or any combination
 
 ---

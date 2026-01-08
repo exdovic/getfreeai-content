@@ -69,7 +69,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 ### Enterprise-grade
 
 #### [Vertex AI Studio](/en/services/chatbot/vertex-ai)
-- **Quota:** $300 trial credits (90 days)
+- **Quota:** $300 trial credits (91 days)
 - **Features:** 2M context, enterprise features
 - **Rating:** ⭐⭐⭐⭐ (Enterprise choice)
 

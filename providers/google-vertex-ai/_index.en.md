@@ -28,7 +28,7 @@ sidebar:
 **Provider Name:** Google Vertex AI  
 **Official Website:** https://cloud.google.com/vertex-ai  
 **Console:** https://console.cloud.google.com/vertex-ai  
-**Type:** Trial Account - Provides $300 trial credit for 90 days
+**Type:** Trial Account - Provides $300 trial credit for 91 days
 
 ---
 
@@ -37,10 +37,10 @@ sidebar:
 Google Vertex AI is an enterprise-level AI platform under Google Cloud Platform (GCP), providing comprehensive AI development, training, and deployment services. Through Vertex AI, developers can use Google's latest AI models (Gemini series), and also access MLOps tools and AutoML services.
 
 **Core Advantages:**
-- 🤖 **Gemini Series** - Google's most advanced AI models
+- 🤖 **Gemini Series** - Google's most advanced AI models (1.5/2.x series)
 - 🏢 **Enterprise-Grade** - Complete MLOps and monitoring
 - 🎨 **Multimodal** - Supports text, images, audio, video
-- 💰 **Generous Trial Credit** - $300 trial credit for 90 days
+- 💰 **Generous Trial Credit** - $300 trial credit for 91 days
 - 🔧 **Rich Tools** - Vertex AI Studio, Model Garden, etc.
 
 **Rating:** ⭐⭐⭐⭐⭐ (Enterprise-Grade!)
@@ -82,7 +82,7 @@ Open browser, visit [https://console.cloud.google.com](https://console.cloud.goo
    - ⚠️ **Important:** This is only for identity verification, won't charge automatically
    - After trial credit exhausted, services stop, won't deduct card fees
 6. Agree to terms of service, click **"Start Free Trial"**
-7. ✅ Successfully activated! Received **$300 trial credit**, valid for **90 days**
+7. ✅ Successfully activated! Received **$300 trial credit**, valid for **91 days**
 
 #### Create a Project
 
@@ -125,7 +125,7 @@ Google Vertex AI provides two main services:
 - **Type:** RESTful API
 - **Features:** Fully functional, supports streaming, function calling, etc.
 - **Models:** Gemini 2.0 Flash, Gemini 1.5 Pro, Gemini 1.5 Flash
-- **Quota:** $300 trial credit for 90 days
+- **Quota:** $300 trial credit for 91 days
 
 ---
 
@@ -136,7 +136,7 @@ Google Vertex AI provides two main services:
 | Limit Type | Quota | Notes |
 |-----------|-------|-------|
 | **Trial Credit** | $300 | One-time |
-| **Validity** | 90 days | Starts from activation date |
+| **Validity** | 91 days | Starts from activation date |
 | **Requests Per Minute (RPM)** | Varies | Depends on model and region |
 | **Requests Per Day (RPD)** | Varies | Depends on model and region |
 | **Auto Charge After Expiration** | ❌ Won't | Services stop, won't charge automatically |
@@ -145,13 +145,15 @@ Google Vertex AI provides two main services:
 
 | Model | Input Cost | Output Cost | Notes |
 |-------|-----------|-------------|-------|
-| **Gemini 2.0 Flash** | $0.075/M tokens | $0.30/M tokens | Latest, fastest |
-| **Gemini 1.5 Pro** | $1.25/M tokens | $5.00/M tokens | Most powerful |
-| **Gemini 1.5 Flash** | $0.075/M tokens | $0.30/M tokens | Balanced |
+| **Gemini 2.0 Flash** | $0.075/M tokens | $0.30/M tokens | Latest, fastest (example) |
+| **Gemini 1.5 Pro** | $1.25/M tokens | $5.00/M tokens | Most powerful (example) |
+| **Gemini 1.5 Flash** | $0.075/M tokens | $0.30/M tokens | Balanced (example) |
+
+💡 **Note:** Gemini 2.x series pricing may differ. Check [official pricing page](https://cloud.google.com/vertex-ai/generative-ai/pricing) for details.
 
 ⚠️ **Important Notes:**
 - Trial credit $300, suitable for testing and light usage
-- Credit valid for 90 days, expired unused portion invalidated
+- Credit valid for 91 days, expired unused portion invalidated
 - After credit exhausted or expired, services stop, need to upgrade to paid account
 - Won't charge automatically, safe to use
 
@@ -265,7 +267,7 @@ Google Vertex AI provides two main services:
 ### Trial Credit Management
 
 - Trial credit $300, suitable for testing and medium usage
-- Valid for 90 days, expired unused portion invalidated
+- Valid for 91 days, expired unused portion invalidated
 - Monitor credit consumption in console to avoid unexpected depletion
 - After credit exhausted, services stop, need to upgrade to paid account
 
@@ -293,7 +295,7 @@ Google Vertex AI provides two main services:
 
 | Feature | Vertex AI | Google AI Studio | OpenAI |
 |---------|-----------|------------------|--------|
-| Trial Credit | 🏆 $300 (90 days) | Completely free | $5 |
+| Trial Credit | 🏆 $300 (91 days) | Completely free | $5 |
 | Flagship Model | Gemini 1.5 Pro | Gemini 2.0 Flash | GPT-4 |
 | Context Length | 🏆 2M tokens | 1M tokens | 128K |
 | Multimodal | ✅ Excellent | ✅ Excellent | ✅ Good |
