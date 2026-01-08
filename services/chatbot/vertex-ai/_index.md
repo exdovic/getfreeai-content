@@ -24,7 +24,7 @@ sidebar:
 **提供者：** [Google Vertex AI](/providers/google-vertex-ai)  
 **服务类型：** Web 界面（Vertex AI Studio）  
 **访问地址：** [https://console.cloud.google.com/vertex-ai/generative](https://console.cloud.google.com/vertex-ai/generative)  
-**免费类型：** 试用积分（$300，90天）
+**免费类型：** 试用积分（$300，91天）
 
 ---
 
@@ -34,7 +34,7 @@ Vertex AI Studio 是 Google Cloud 提供的可视化 AI 测试平台，让您无
 
 **核心优势：**
 - 🎨 **可视化界面** - 无需编程
-- 🌟 **Gemini 1.5 Pro** - 2M 超长上下文
+- 🌟 **Gemini 系列模型** - 支持 1.5/2.x 系列，最高 2M 超长上下文
 - 🖼️ **多模态** - 文本、图像、音频、视频
 - 🎛️ **参数调节** - 自定义生成参数
 - 💾 **Prompt 管理** - 保存和复用
@@ -67,8 +67,10 @@ Vertex AI Studio 是 Google Cloud 提供的可视化 AI 测试平台，让您无
 
 | 模型 | 上下文 | 适用场景 |
 |------|--------|---------|
-| **Gemini 1.5 Pro** | 2M tokens | 复杂任务、长文档 |
-| **Gemini 1.5 Flash** | 1M tokens | 快速响应、高频 |
+| **Gemini Pro 系列** | 最高 2M tokens | 复杂任务、长文档 |
+| **Gemini Flash 系列** | 最高 1M tokens | 快速响应、高频 |
+
+💡 **提示：** 具体可用模型版本请在 Studio 中查看，Google 持续更新模型。
 
 #### 步骤 3：开始测试
 
@@ -98,8 +100,8 @@ Vertex AI Studio 是 Google Cloud 提供的可视化 AI 测试平台，让您无
 
 ### 2. 超长上下文
 
-**Gemini 1.5 Pro：**
-- 2M tokens 上下文
+**Gemini Pro 系列：**
+- 最高 2M tokens 上下文
 - 相当于 1,400 页书
 - 分析完整电影脚本
 - 处理大量文档
@@ -136,15 +138,17 @@ Vertex AI Studio 是 Google Cloud 提供的可视化 AI 测试平台，让您无
 
 使用 Vertex AI Studio 会消耗 $300 试用积分：
 
-**Gemini 1.5 Pro：**
+**Gemini 1.5 Pro（示例）：**
 - 输入：$1.25/M tokens (≤128K)
 - 输出：$5/M tokens
 - $300 ≈ 240M input tokens
 
-**Gemini 1.5 Flash：**
+**Gemini 1.5 Flash（示例）：**
 - 输入：$0.075/M tokens (≤128K)
 - 输出：$0.30/M tokens
 - $300 ≈ 4B input tokens
+
+💡 **提示：** 不同模型版本定价可能不同，具体请查看[官方定价页面](https://cloud.google.com/vertex-ai/generative-ai/pricing)。
 
 ---
 
@@ -176,7 +180,7 @@ Vertex AI Studio 是 Google Cloud 提供的可视化 AI 测试平台，让您无
 
 1. **成本控制**
    - 注意 $300 限额
-   - 90 天有效期
+   - 91 天有效期
    - 监控消耗速度
 
 2. **网络要求**
@@ -200,7 +204,7 @@ Vertex AI Studio 是 Google Cloud 提供的可视化 AI 测试平台，让您无
 2. 点击"Billing"
 3. 查看试用积分余额
 
-### 2. 90 天后会怎样？
+### 2. 91 天后会怎样？
 
 **说明：**
 - 试用结束后不自动扣费

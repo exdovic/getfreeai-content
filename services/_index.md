@@ -79,7 +79,7 @@ comments: true
 | [OpenRouter API](/services/api/openrouter) | 免费增值 | 50-1,000 次/天 | 25+ 模型 |
 | [DeepSeek API](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 中文顶尖 |
 | [Cohere API](/services/api/cohere) | 免费试用 | 1,000 次/月 | RAG 专家 |
-| [Vertex AI API](/services/api/vertex-ai) | 试用积分 | $300 (90天) | 企业级 |
+| [Vertex AI API](/services/api/vertex-ai) | 试用积分 | $300 (91天) | 企业级 |
 
 ---
 

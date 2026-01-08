@@ -28,7 +28,7 @@ sidebar:
 **产品名称：** Google Vertex AI  
 **官方网站：** https://cloud.google.com/vertex-ai  
 **控制台：** https://console.cloud.google.com/vertex-ai  
-**类型：** 试用积分（$300，90天有效期）
+**类型：** 试用积分（$300，91天有效期）
 
 ---
 
@@ -37,8 +37,8 @@ sidebar:
 Google Vertex AI 是 Google Cloud 的企业级 AI 平台，提供 Gemini 系列模型和完整的 MLOps 工具链，是大规模生产部署的首选。
 
 **核心特点：**
-- 💰 **$300 试用积分** - 90天有效期
-- 🌟 **Gemini 1.5 Pro** - 2M 超长上下文
+- 💰 **$300 试用积分** - 91天有效期
+- 🌟 **Gemini 系列模型** - 支持 1.5/2.x 系列，2M 超长上下文
 - 🎨 **多模态** - 文本、图像、音频、视频
 - 🏢 **企业级平台** - 完整 MLOps 工具
 - 🔐 **安全合规** - Google Cloud 级别保障
@@ -80,8 +80,8 @@ Google Vertex AI 是 Google Cloud 的企业级 AI 平台，提供 Gemini 系列�
 输入信用卡信息，Google 可能扣除 $1 验证（立即退回），完成验证。
 
 ⚠️ **重要：**
-- 试用期间（90天）不会自动扣费
-- 用完 $300 或 90 天后需手动升级
+- 试用期间（91天）不会自动扣费
+- 用完 $300 或 91 天后需手动升级
 
 #### 启用 Vertex AI API
 
@@ -108,8 +108,8 @@ Google Vertex AI 提供两种主要服务：
 ### 2. [API 服务](/services/api/vertex-ai)
 - **类型：** RESTful API 和 SDK
 - **特点：** 企业级性能，完整功能
-- **模型：** Gemini 1.5 Pro/Flash, PaLM 2 等
-- **试用：** $300 积分，90 天有效
+- **模型：** Gemini 1.5/2.x Pro/Flash 等
+- **试用：** $300 积分，91 天有效
 
 ---
 
@@ -120,49 +120,55 @@ Google Vertex AI 提供两种主要服务：
 | 项目 | 详情 |
 |------|------|
 | **积分金额** | $300 USD |
-| **有效期** | 90 天 |
+| **有效期** | 91 天 |
 | **适用范围** | 所有 Google Cloud 服务 |
 | **到期后** | 不会自动扣费，需手动升级 |
 
 ### Gemini 模型定价
 
-**Gemini 1.5 Pro：**
+**Gemini 1.5 Pro（示例）：**
 | 上下文 | 输入 | 输出 |
 |--------|------|------|
 | ≤ 128K | $1.25/M | $5/M |
 | > 128K | $2.50/M | $10/M |
 
-**Gemini 1.5 Flash：**
+**Gemini 1.5 Flash（示例）：**
 | 上下文 | 输入 | 输出 |
 |--------|------|------|
 | ≤ 128K | $0.075/M | $0.30/M |
 | > 128K | $0.15/M | $0.60/M |
 
-**$300 能用多久：**
-- Gemini Pro: ~240M input tokens
-- Gemini Flash: ~4B input tokens
+**$300 使用估算（仅供参考）：**
+- Gemini 1.5 Pro: ~240M input tokens
+- Gemini 1.5 Flash: ~4B input tokens
+
+💡 **提示：** Gemini 2.x 系列定价可能不同，具体请查看[官方定价页面](https://cloud.google.com/vertex-ai/generative-ai/pricing)。
 
 ---
 
 ## 🤖 支持的模型
 
-### Gemini 1.5 Pro
+### Gemini 系列
 
+Vertex AI 支持 Gemini 1.5 和 2.x 系列模型：
+
+**Gemini Pro 系列：**
 | 特性 | 详情 |
 |------|------|
-| **上下文** | 2M tokens（业界最长）|
+| **上下文** | 最高 2M tokens（业界最长）|
 | **多模态** | 文本、图像、音频、视频 |
 | **特点** | 企业级性能 |
 | **适用** | 复杂任务、长文档 |
 
-### Gemini 1.5 Flash
-
+**Gemini Flash 系列：**
 | 特性 | 详情 |
 |------|------|
-| **上下文** | 1M tokens |
+| **上下文** | 最高 1M tokens |
 | **速度** | 极快 |
 | **成本** | 更低 |
 | **适用** | 高频场景 |
+
+💡 **提示：** Google 持续更新模型版本，具体可用模型请查看[官方模型列表](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models)。
 
 ### 其他模型
 
@@ -176,8 +182,8 @@ Google Vertex AI 提供两种主要服务：
 
 ### 1. 超长上下文
 
-**Gemini 1.5 Pro：**
-- 2M tokens 上下文
+**Gemini Pro 系列：**
+- 最高 2M tokens 上下文
 - 处理完整书籍
 - 分析大量文档
 - 长时间对话
@@ -221,7 +227,7 @@ Google Vertex AI 提供两种主要服务：
 ### 配额管理
 
 - 监控积分使用
-- 90 天有效期
+- 91 天有效期
 - 设置预算警报
 - 避免意外扣费
 
@@ -238,7 +244,7 @@ Google Vertex AI 提供两种主要服务：
 | 特性 | Vertex AI | Google AI Studio | DeepSeek |
 |------|-----------|------------------|----------|
 | 上下文长度 | 🏆 2M tokens | 2M | 64K |
-| 免费形式 | $300积分(90天) | 永久免费 | ¥5(7天) |
+| 免费形式 | $300积分(91天) | 永久免费 | ¥5(7天) |
 | 企业功能 | 🏆 完整 | 基础 | 基础 |
 | 门槛 | 高（需信用卡）| 低 | 中（需实名）|
 | GCP 集成 | 🏆 完整 | 无 | 无 |
