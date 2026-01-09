@@ -83,6 +83,11 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 - **特点：** 多种开源模型，完全免费
 - **推荐：** ⭐⭐⭐⭐⭐（开源首选）
 
+#### [Le Chat](/services/chatbot/mistral)
+- **配额：** 10-50+ 次/天
+- **特点：** Pixtral Large 多模态，图像生成，欧洲 AI
+- **推荐：** ⭐⭐⭐⭐（欧洲首选）
+
 ---
 
 ## 📊 详细对比
@@ -96,6 +101,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 | [OpenRouter](/services/chatbot/openrouter) | 免费增值 | 50-1000/天 | 快 | ✅ | 部分 | 🏆 25+ 模型 |
 | [Vertex AI Studio](/services/chatbot/vertex-ai) | 试用积分 | $300 | 快 | ✅ | 🏆 强 | 企业级、2M上下文 |
 | [Claude](/services/chatbot/anthropic) | 有限免费 | 约100/天 | 快 | ✅ | ✅ | 🏆 200K上下文、AI安全 |
+| [Le Chat](/services/chatbot/mistral) | 免费增值 | 10-50+/天 | 快 | ✅ | ✅ | 欧洲AI、Pixtral多模态 |
 
 ---
 

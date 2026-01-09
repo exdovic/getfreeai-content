@@ -65,6 +65,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300试用 · 企业级 · 2M上下文" >}}
   {{< card link="/zh-cn/services/chatbot/anthropic" title="Claude" subtitle="约100条/天 · 200K上下文 · AI安全" >}}
   {{< card link="/zh-cn/services/chatbot/hugging-face" title="HuggingChat" subtitle="完全免费 · 无限制 · 多种开源模型" >}}
+  {{< card link="/zh-cn/services/chatbot/mistral" title="Le Chat" subtitle="10-50+次/天 · Pixtral多模态 · 欧洲AI" >}}
 {{< /cards >}}
 
 ### 🔌 API 服务
@@ -81,6 +82,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/api/vertex-ai" title="Vertex AI API" subtitle="$300试用 · 企业级 · 完整MLOps" >}}
   {{< card link="/zh-cn/services/api/anthropic" title="Anthropic API" subtitle="预付费$5+ · 200K上下文 · AI安全" >}}
   {{< card link="/zh-cn/services/api/hugging-face" title="Hugging Face API" subtitle="数百次/小时 · 100万+模型 · 开源" >}}
+  {{< card link="/zh-cn/services/api/mistral" title="Mistral API" subtitle="按需付费 · Pixtral多模态 · 开源+专有" >}}
 {{< /cards >}}
 
 ---

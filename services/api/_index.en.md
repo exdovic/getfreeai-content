@@ -85,6 +85,11 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Features:** 1M+ open-source models, multi-task support
 - **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
 
+#### [Mistral API](/en/services/api/mistral)
+- **Quota:** Pay-as-you-go (trial available)
+- **Features:** Pixtral Large multimodal, open+proprietary, multi-cloud
+- **Rating:** ⭐⭐⭐⭐ (European choice)
+
 ---
 
 ## 📊 Detailed Comparison
@@ -100,6 +105,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Cohere](/en/services/api/cohere) | Free Trial | 1,000/month | 10-20 req/min | ❌ |
 | [Vertex AI](/en/services/api/vertex-ai) | Trial Credits | $300 (91 days) | Configurable | ❌ |
 | [Anthropic](/en/services/api/anthropic) | Prepaid | Minimum $5 | By account tier | ❌ |
+| [Mistral](/en/services/api/mistral) | Pay-as-you-go | Trial credits | By config | ✅ |
 
 ### By Key Features
 
@@ -112,6 +118,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Cohere](/en/services/api/cohere) | Fast | Excellent | 128K | 🏆 RAG, Embed |
 | [Vertex AI](/en/services/api/vertex-ai) | Fast | Excellent | 🏆 2M | Enterprise-grade |
 | [Anthropic](/en/services/api/anthropic) | Fast | Excellent | 🏆 200K | AI safety, reasoning |
+| [Mistral](/en/services/api/mistral) | Fast | Excellent | 128K | 🏆 European AI, open source |
 
 ---
 
