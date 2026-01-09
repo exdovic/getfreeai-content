@@ -96,13 +96,13 @@ Mistral AI services share the same account system. Here's the registration proce
 
 #### Requirements
 
-|| Requirement | Mandatory | Notes |
-||------------|-----------|-------|
-|| Account Registration | ✅ Required | Needed for Le Chat and API |
-|| Email Verification | ✅ Required | Email verification required |
-|| Phone Verification | ❌ Not Required | Phone verification not needed |
-|| Credit Card | ❌ Not Required | Not needed for free Le Chat, required for API |
-|| ID Verification | ❌ Not Required | ID verification not required |
+| Requirement | Mandatory | Notes |
+|------------|-----------|-------|
+| Account Registration | ✅ Required | Needed for Le Chat and API |
+| Email Verification | ✅ Required | Email verification required |
+| Phone Verification | ❌ Not Required | Phone verification not needed |
+| Credit Card | ❌ Not Required | Not needed for free Le Chat, required for API |
+| ID Verification | ❌ Not Required | ID verification not required |
 
 #### Registration Steps
 
@@ -195,16 +195,16 @@ A: Main reasons to choose Mistral AI:
 
 ### Free vs Paid
 
-|| Feature | Le Chat Free | Le Chat Pro | API Service |
-||---------|-------------|------------|-------------|
-|| Price | Free | $14.99/month | Pay-as-you-go |
-|| Conversations | Daily limit | Unlimited | Token-based |
-|| Model Access | Basic models | Latest models | All models |
-|| Image Generation | ✅ Limited | ✅ Unlimited | ❌ |
-|| Web Search | ✅ | ✅ | ❌ |
-|| Code Execution | ✅ | ✅ | ❌ |
-|| API Access | ❌ | ❌ | ✅ |
-|| Multi-Cloud | ❌ | ❌ | ✅ |
+| Feature | Le Chat Free | Le Chat Pro | API Service |
+|---------|-------------|------------|-------------|
+| Price | Free | $14.99/month | Pay-as-you-go |
+| Conversations | Daily limit | Unlimited | Token-based |
+| Model Access | Basic models | Latest models | All models |
+| Image Generation | ✅ Limited | ✅ Unlimited | ❌ |
+| Web Search | ✅ | ✅ | ❌ |
+| Code Execution | ✅ | ✅ | ❌ |
+| API Access | ❌ | ❌ | ✅ |
+| Multi-Cloud | ❌ | ❌ | ✅ |
 
 ---
 
