@@ -108,6 +108,13 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/mistral)
 
+### NVIDIA NIM
+- **类型：** 免费托管试用 + 自托管下载
+- **特点：** GPU 加速推理，OpenAI 兼容，企业级微服务
+- **适合：** 企业部署，自托管需求，GPU 优化
+
+[查看详情 →](/providers/nvidia-nim)
+
 ---
 
 ## 🔍 按需选择
@@ -136,6 +143,9 @@ next: /providers/google-ai-studio
 
 ### 我需要超长上下文和AI安全
 → [Anthropic](/providers/anthropic) - 200K 上下文
+
+### 我需要 GPU 加速和自托管
+→ [NVIDIA NIM](/providers/nvidia-nim) - 企业级推理微服务
 
 ---
 

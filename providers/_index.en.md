@@ -108,6 +108,13 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/mistral)
 
+### NVIDIA NIM
+- **Type:** Free Hosted Trial + Self-hosted Download
+- **Features:** GPU-accelerated inference, OpenAI-compatible, enterprise microservices
+- **Suitable for:** Enterprise deployment, self-hosting needs, GPU optimization
+
+[View Details →](/providers/nvidia-nim)
+
 ---
 
 ## 🔍 Choose by Need
@@ -136,6 +143,9 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need ultra-long context and AI safety
 → [Anthropic](/providers/anthropic) - 200K context
+
+### I need GPU acceleration and self-hosting
+→ [NVIDIA NIM](/providers/nvidia-nim) - Enterprise inference microservices
 
 ---
 

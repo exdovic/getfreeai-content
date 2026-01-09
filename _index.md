@@ -83,6 +83,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/api/anthropic" title="Anthropic API" subtitle="预付费$5+ · 200K上下文 · AI安全" >}}
   {{< card link="/zh-cn/services/api/hugging-face" title="Hugging Face API" subtitle="数百次/小时 · 100万+模型 · 开源" >}}
   {{< card link="/zh-cn/services/api/mistral" title="Mistral API" subtitle="按需付费 · Pixtral多模态 · 开源+专有" >}}
+  {{< card link="/zh-cn/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="免费试用 · GPU加速 · 企业级推理" >}}
 {{< /cards >}}
 
 ---
@@ -109,6 +110,7 @@ image: /images/og-default.png
 - **中文优化** → [DeepSeek](/providers/deepseek)
 - **RAG 应用** → [Cohere](/providers/cohere)
 - **企业级平台** → [Google Vertex AI](/providers/google-vertex-ai)
+- **GPU 加速推理** → [NVIDIA NIM](/providers/nvidia-nim)
 
 ### 按门槛查找
 
