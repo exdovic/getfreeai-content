@@ -85,6 +85,16 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **特点：** 100万+ 开源模型，多任务支持
 - **推荐：** ⭐⭐⭐⭐⭐（开源首选）
 
+#### [Mistral API](/services/api/mistral)
+- **配额：** 按需付费（有试用）
+- **特点：** Pixtral Large 多模态，开源+专有，多云部署
+- **推荐：** ⭐⭐⭐⭐（欧洲首选）
+
+#### [NVIDIA NIM API](/services/api/nvidia-nim)
+- **配额：** 1,000 免费积分
+- **特点：** GPU 加速推理，OpenAI 兼容，自托管支持
+- **推荐：** ⭐⭐⭐⭐（企业级可靠）
+
 ---
 
 ## 📊 详细对比
@@ -100,6 +110,8 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Cohere](/services/api/cohere) | 免费试用 | 1,000/月 | 10-20 req/min | ❌ |
 | [Vertex AI](/services/api/vertex-ai) | 试用积分 | $300 (91天) | 按配置 | ❌ |
 | [Anthropic](/services/api/anthropic) | 预付费 | 最低 $5 | 根据账户等级 | ❌ |
+| [Mistral](/services/api/mistral) | 按需付费 | 试用额度 | 按配置 | ✅ |
+| [NVIDIA NIM](/services/api/nvidia-nim) | 免费试用 | 1,000 积分 | 视模型而定 | ✅ |
 
 ### 按特色功能
 
@@ -112,6 +124,8 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Cohere](/services/api/cohere) | 快 | 优秀 | 128K | 🏆 RAG、Embed |
 | [Vertex AI](/services/api/vertex-ai) | 快 | 优秀 | 🏆 2M | 企业级 |
 | [Anthropic](/services/api/anthropic) | 快 | 优秀 | 🏆 200K | AI安全、推理 |
+| [Mistral](/services/api/mistral) | 快 | 优秀 | 128K | 🏆 欧洲AI、开源 |
+| [NVIDIA NIM](/services/api/nvidia-nim) | 快 | 优秀 | 128K | 🏆 GPU加速、自托管 |
 
 ---
 
@@ -146,6 +160,9 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 
 ### 我需要AI安全和强推理
 → [Anthropic API](/services/api/anthropic) - 200K 上下文，安全可靠
+
+### 我需要 GPU 加速和自托管
+→ [NVIDIA NIM API](/services/api/nvidia-nim) - 企业级推理微服务
 
 ---
 
