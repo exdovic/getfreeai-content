@@ -63,6 +63,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="免费使用 · 中文顶尖 · 思维链可见" >}}
   {{< card link="/zh-cn/services/chatbot/cohere" title="Cohere Coral" subtitle="免费使用 · RAG专家 · 文档上传" >}}
   {{< card link="/zh-cn/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300试用 · 企业级 · 2M上下文" >}}
+  {{< card link="/zh-cn/services/chatbot/anthropic" title="Claude" subtitle="约100条/天 · 200K上下文 · AI安全" >}}
 {{< /cards >}}
 
 ### 🔌 API 服务
@@ -77,6 +78,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/api/deepseek" title="DeepSeek API" subtitle="¥5试用 · $0.28/M · 中文优化" >}}
   {{< card link="/zh-cn/services/api/cohere" title="Cohere API" subtitle="1,000次/月 · RAG · Embed+Rerank" >}}
   {{< card link="/zh-cn/services/api/vertex-ai" title="Vertex AI API" subtitle="$300试用 · 企业级 · 完整MLOps" >}}
+  {{< card link="/zh-cn/services/api/anthropic" title="Anthropic API" subtitle="预付费$5+ · 200K上下文 · AI安全" >}}
 {{< /cards >}}
 
 ---

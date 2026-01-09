@@ -87,6 +87,13 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/google-vertex-ai)
 
+### Anthropic
+- **Type:** Free Chatbot + Prepaid API
+- **Features:** 200K context, AI safety, powerful reasoning
+- **Suitable for:** Long document processing, complex reasoning, enterprise applications
+
+[View Details →](/providers/anthropic)
+
 ---
 
 ## 🔍 Choose by Need
@@ -112,6 +119,9 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need enterprise deployment
 → [Vertex AI](/providers/google-vertex-ai) - Enterprise platform
+
+### I need ultra-long context and AI safety
+→ [Anthropic](/providers/anthropic) - 200K context
 
 ---
 

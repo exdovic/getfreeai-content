@@ -87,6 +87,13 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/google-vertex-ai)
 
+### Anthropic
+- **类型：** 免费 Chatbot + 预付费 API
+- **特点：** 200K 上下文，AI 安全，强大推理
+- **适合：** 长文档处理，复杂推理，企业应用
+
+[查看详情 →](/providers/anthropic)
+
 ---
 
 ## 🔍 按需选择
@@ -112,6 +119,9 @@ next: /providers/google-ai-studio
 
 ### 我需要企业级部署
 → [Vertex AI](/providers/google-vertex-ai) - 企业平台
+
+### 我需要超长上下文和AI安全
+→ [Anthropic](/providers/anthropic) - 200K 上下文
 
 ---
 
