@@ -35,13 +35,15 @@ sidebar:
 ChatGPT is OpenAI's AI conversation service and the world's most popular AI product. Free version users can use GPT-4o and GPT-4o-mini models, enjoying unlimited conversations, image understanding, file uploads, and more.
 
 **Core Advantages:**
-- 🆓 **Completely Free** - Basic conversations completely free, no payment needed
+- 🆓 **Free Available** - Offers free version (advanced models have usage frequency limits)
 - 🏆 **Top Model** - Uses GPT-4o latest and strongest model
 - 🌐 **Globally Popular** - Choice of hundreds of millions of users
 - 🖼️ **Image Understanding** - Upload images for analysis and discussion
 - 📄 **File Upload** - Supports various document formats
-- 💬 **Unlimited Conversations** - GPT-4o-mini unlimited use
+- ⚡ **Fast Response** - GPT-4o-mini provides quick replies
 - 🎨 **Multilingual** - Supports Chinese and many other languages
+
+> **Usage Note:** Free version can use GPT-4o and GPT-4o-mini, but GPT-4o has usage frequency limits. Specific limits are dynamically adjusted based on server load.
 
 ---
 
@@ -189,27 +191,23 @@ Select model at the top of the conversation interface:
 
 | Limit Type | Quota | Notes |
 |-----------|-------|-------|
-| GPT-4o Messages | ~40-80/3 hours | Dynamically adjusted based on server load |
-| GPT-4o-mini | Unlimited | Completely free, no usage limits |
+| GPT-4o Usage | Frequency Limited | Specific count dynamically adjusted based on server load |
+| GPT-4o-mini | Available | Fast response, suitable for daily use |
 | Single Message Length | Long | Supports long text input |
-| Conversation History | Unlimited | Automatically saves all conversations |
+| Conversation History | Auto-saved | Automatically saves all conversations |
 | Image Upload | Supported | Can upload multiple images per conversation |
-| File Upload | Supported | File size limited |
-| Response Speed | Normal | May be slower during peak hours |
+| File Upload | Supported | File size limited (typically < 50MB) |
+| Response Speed | Normal | May need to queue during peak hours |
+
+**Note:** Free version limits are adjusted based on OpenAI's policies and server load. Actual usage may vary.
 
 ### Quota Description
 
-**GPT-4o Limits:**
-- Resets every 3 hours
-- Specific count dynamically adjusted based on server load
-- Automatically switches to GPT-4o-mini when limit reached
-- Can continue using GPT-4o after waiting some time
-
-**GPT-4o-mini:**
-- Completely unlimited use
-- Fast response
-- Excellent quality
-- Suitable for most daily tasks
+**Usage Limits Explained:**
+- **GPT-4o:** Free version has usage frequency limits; may need to wait or switch to GPT-4o-mini when limit reached
+- **GPT-4o-mini:** Lightweight fast model, suitable for daily conversations and quick queries
+- **Dynamic Adjustment:** Specific limits vary dynamically based on server load and account status
+- **Plus Subscription:** For higher frequency usage, consider upgrading to ChatGPT Plus ($20/month)
 
 ### ⚠️ Important Limits
 
@@ -279,11 +277,11 @@ Select model at the top of the conversation interface:
    - Prohibited for illegal uses
    - Respect copyright and intellectual property
 
-5. **Understanding Limitations**
-   - ChatGPT knowledge cutoff is October 2023
-   - Cannot access real-time information (free version no web search)
-   - May produce inaccurate information (hallucinations)
-   - Complex mathematical calculations may have errors
+5. **Usage Limitations**
+   - Free version has usage frequency limits for GPT-4o
+   - Knowledge cutoff varies by model (refer to official documentation)
+   - Web search and other advanced features require Plus subscription
+   - May produce inaccurate information; verify important details
 
 ---
 

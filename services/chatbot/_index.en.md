@@ -73,6 +73,16 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 - **Features:** 2M context, enterprise features
 - **Rating:** ⭐⭐⭐⭐ (Enterprise choice)
 
+#### [Claude](/en/services/chatbot/anthropic)
+- **Quota:** ~100 messages/day
+- **Features:** 200K context, AI safety, powerful reasoning
+- **Rating:** ⭐⭐⭐⭐⭐ (Safe & reliable)
+
+#### [HuggingChat](/en/services/chatbot/hugging-face)
+- **Quota:** Unlimited
+- **Features:** Multiple open-source models, completely free
+- **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
+
 ---
 
 ## 📊 Detailed Comparison
@@ -85,6 +95,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 | [DeepSeek](/en/services/chatbot/deepseek) | Free Forever | Free to use | Fast | 🏆 Top-tier | ✅ | Chain-of-thought, code execution |
 | [OpenRouter](/en/services/chatbot/openrouter) | Freemium | 50-1000/day | Fast | ✅ | Partial | 🏆 25+ models |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | Fast | ✅ | 🏆 Strong | Enterprise-grade, 2M context |
+| [Claude](/en/services/chatbot/anthropic) | Limited Free | ~100/day | Fast | ✅ | ✅ | 🏆 200K context, AI safety |
 
 ---
 
@@ -107,6 +118,9 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 ### I Need Enterprise Features
 → [Vertex AI Studio](/en/services/chatbot/vertex-ai)
+
+### I Need Ultra-long Context and AI Safety
+→ [Claude](/en/services/chatbot/anthropic)
 
 ---
 

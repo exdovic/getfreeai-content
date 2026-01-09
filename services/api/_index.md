@@ -75,6 +75,16 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **特点：** 2M 上下文，完整 MLOps
 - **推荐：** ⭐⭐⭐⭐（企业首选）
 
+#### [Anthropic API](/services/api/anthropic)
+- **配额：** 预付费（最低 $5）
+- **特点：** 200K 上下文，AI 安全，强大推理
+- **推荐：** ⭐⭐⭐⭐⭐（安全可靠）
+
+#### [Hugging Face Inference API](/services/api/hugging-face)
+- **配额：** 约数百次/小时
+- **特点：** 100万+ 开源模型，多任务支持
+- **推荐：** ⭐⭐⭐⭐⭐（开源首选）
+
 ---
 
 ## 📊 详细对比
@@ -89,6 +99,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [DeepSeek](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 按用量 | ✅ |
 | [Cohere](/services/api/cohere) | 免费试用 | 1,000/月 | 10-20 req/min | ❌ |
 | [Vertex AI](/services/api/vertex-ai) | 试用积分 | $300 (91天) | 按配置 | ❌ |
+| [Anthropic](/services/api/anthropic) | 预付费 | 最低 $5 | 根据账户等级 | ❌ |
 
 ### 按特色功能
 
@@ -100,6 +111,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [DeepSeek](/services/api/deepseek) | 快 | 🏆 顶尖 | 128K | 超低价、思维链 |
 | [Cohere](/services/api/cohere) | 快 | 优秀 | 128K | 🏆 RAG、Embed |
 | [Vertex AI](/services/api/vertex-ai) | 快 | 优秀 | 🏆 2M | 企业级 |
+| [Anthropic](/services/api/anthropic) | 快 | 优秀 | 🏆 200K | AI安全、推理 |
 
 ---
 
@@ -131,6 +143,9 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 
 ### 我需要企业级部署
 → [Vertex AI API](/services/api/vertex-ai) - 完整 MLOps
+
+### 我需要AI安全和强推理
+→ [Anthropic API](/services/api/anthropic) - 200K 上下文，安全可靠
 
 ---
 

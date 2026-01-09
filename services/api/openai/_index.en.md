@@ -37,12 +37,14 @@ OpenAI API is the industry's most comprehensive AI API service, providing top mo
 
 **Core Advantages:**
 - 🏆 **Industry Standard** - OpenAI API format is the de facto industry standard
-- 💰 **Trial Credits** - New users get $18 (3 months validity)
+- 💰 **Trial Policy** - New users may receive trial credits (policies subject to change)
 - 🤖 **Top Models** - GPT-4o and other strongest AI models
 - 🌐 **Multimodal** - Comprehensive text, image, and voice support
 - 🔌 **Mature Ecosystem** - Extensive third-party tools and integrations
 - 📚 **Complete Documentation** - Detailed official docs and community support
 - ⚡ **Reliable Performance** - Enterprise-grade stability and speed
+
+> **Update Note:** Trial credit policies change over time. Please visit [OpenAI Platform](https://platform.openai.com) for the latest information.
 
 ---
 
@@ -179,17 +181,25 @@ print(f"\nTokens Used: {response.usage.total_tokens}")
 
 | Item | Details |
 |------|---------|
-| **Credit Amount** | $18 USD |
-| **Validity** | 3 months after registration |
-| **How to Get** | Automatically granted after registration and phone verification |
+| **Trial Policy** | New users may receive trial credits (amount and conditions vary by period) |
+| **Historical Credits** | Historically ranged from $5-$18 |
+| **How to Get** | After registration and verification, check Billing page |
 | **Usage Scope** | All API services |
+
+**Note:** Trial credit policies change over time and are not guaranteed for all new users. Please refer to the official Billing page.
 
 ### Free Tier Rate Limits
 
-| Limit | Quota | Notes |
-|-------|-------|-------|
-| **Requests Per Minute (RPM)** | 3 requests/min | Shared across all models |
-| **Requests Per Day (RPD)** | 200 requests/day | Shared across all models |
+| Limit Item | Notes |
+|-----------|-------|
+| **Rate Limits** | Dynamically set based on account Tier |
+| **Free Tier Example** | Typically lower RPM/TPM/RPD limits |
+| **How to Check** | Login to Platform → Account → Limits page |
+| **How to Increase** | Automatically upgrades Tier after recharge and usage |
+
+**Important:** Specific rate limits vary by account Tier, model, and organization settings. Please refer to the [Rate Limits documentation](https://platform.openai.com/docs/guides/rate-limits) and your account Limits page for accurate information.
+
+### Previous Rate Limit Example (for reference only)
 | **Tokens Per Minute (TPM)** | 40,000 tokens/min | Shared across all models |
 | **Batch Queue Limit** | 2,000,000 tokens | Batch API |
 
@@ -205,20 +215,21 @@ After topping up at least $5, automatically upgrade to Tier 1:
 
 ### ⚠️ Important Limits
 
-1. **Trial Credit Expiration:** Unused credits expire after 3 months
-2. **Low Free Tier Limits:** Only 3 RPM, suitable for testing, not production
-3. **Need Top-up for Upgrade:** Recommend topping up to Tier 1 or higher for production
+1. **Trial Credits:** Policies vary by time period, check official Billing page for details
+2. **Rate Limits:** Vary by account Tier, suitable for testing initially
+3. **Tier Upgrades:** Recharge and usage over time automatically upgrades your Tier
 4. **Access Restriction:** Mainland China requires VPN
 
 ---
 
 ## 💰 Pricing
 
-### Trial Credits
+### Trial Policy
 
-- **New User Gift:** $18
-- **Validity:** 3 months
+- **Trial Credits:** New users may receive trial credits (amount varies by period)
+- **How to Obtain:** Check Billing page after registration and verification
 - **Usage Suggestion:** Use for testing and small-scale applications
+- **Note:** Policies subject to change, please refer to official information
 
 ### Post-Recharge Pricing
 
@@ -231,6 +242,8 @@ After topping up at least $5, automatically upgrade to Tier 1:
 | o1-mini | $3/1M | $12/1M | ~$3.00-6.00 |
 
 **\*Assumes average 200 tokens input + 200 tokens output per conversation**
+
+**Note:** Prices may change at any time. For the latest pricing, please refer to the official [OpenAI Pricing](https://openai.com/api/pricing) page.
 
 ### Cost Optimization Suggestions
 

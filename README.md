@@ -30,8 +30,8 @@
 
 ### 📊 系统化整理
 
-- **6+ AI 提供者** - Google、Groq、OpenRouter、DeepSeek、Cohere 等
-- **13+ 服务文档** - Chatbot 服务和 API 服务分类清晰
+- **7+ AI 提供者** - OpenAI、Google、Groq、OpenRouter、DeepSeek、Cohere、Anthropic 等
+- **15+ 服务文档** - Chatbot 服务和 API 服务分类清晰
 - **双语支持** - 完整的中英文文档
 
 ### 🎯 实用导向
@@ -51,39 +51,45 @@
 
 ## 📚 内容概览
 
-### 🏢 AI 提供者 (6个)
+### 🏢 AI 提供者 (7个)
 
 | 提供者 | 类型 | 主要特点 | 推荐指数 |
 |--------|------|---------|---------|
+| [OpenAI](providers/openai/) | 免费 + 试用 | ChatGPT 免费，$18 API 试用 | ⭐⭐⭐⭐⭐ |
 | [Google AI Studio](providers/google-ai-studio/) | 永久免费 | 15M tokens/天，Gemini 系列 | ⭐⭐⭐⭐⭐ |
 | [Groq](providers/groq/) | 永久免费 | 800+ tokens/s 极速 | ⭐⭐⭐⭐⭐ |
 | [OpenRouter](providers/openrouter/) | 永久免费 | 47+ 免费模型 | ⭐⭐⭐⭐⭐ |
 | [DeepSeek](providers/deepseek/) | 试用积分 | 中文顶尖，超低价格 | ⭐⭐⭐⭐⭐ |
 | [Cohere](providers/cohere/) | 免费试用 | RAG 专家，1,000 次/月 | ⭐⭐⭐⭐⭐ |
 | [Google Vertex AI](providers/google-vertex-ai/) | 试用积分 | $300，企业平台 | ⭐⭐⭐⭐ |
+| [Anthropic](providers/anthropic/) | 免费 + 预付费 | 200K 上下文，AI 安全 | ⭐⭐⭐⭐⭐ |
 
-### 💬 Chatbot 服务 (7个)
+### 💬 Chatbot 服务 (8个)
 
 网页对话界面，无需编程：
 
+- ChatGPT (OpenAI)
 - Google AI Studio Chatbot
 - Groq Playground
 - OpenRouter Playground
 - DeepSeek Chat
 - Cohere Coral
 - Vertex AI Studio
+- Claude (Anthropic)
 - 更多持续添加中...
 
-### 🔌 API 服务 (6个)
+### 🔌 API 服务 (7个)
 
 开发者 API 接口：
 
+- OpenAI API
 - Google AI Studio API
 - Groq API
 - OpenRouter API
 - DeepSeek API
 - Cohere API
 - Vertex AI API
+- Anthropic API
 - 更多持续添加中...
 
 ---
@@ -173,8 +179,8 @@ cp templates/SERVICE-API-TEMPLATE.md services/api/your-service/_index.md
 
 ### 急需添加的提供者
 
-- [ ] OpenAI（ChatGPT、GPT API）
-- [ ] Anthropic（Claude、Claude API）
+- [x] OpenAI（ChatGPT、GPT API）
+- [x] Anthropic（Claude、Claude API）
 - [ ] Mistral AI（Le Chat、Mistral API）
 - [ ] Perplexity（Perplexity Chatbot）
 - [ ] HuggingFace（各种免费模型）
@@ -204,12 +210,12 @@ cp templates/SERVICE-API-TEMPLATE.md services/api/your-service/_index.md
 
 ## 📊 项目统计
 
-**当前状态**（2024年12月）：
+**当前状态**（2026年1月）：
 
-- 🏢 提供者文档：**6 个**
-- 💬 Chatbot 服务：**7 个**
-- 🔌 API 服务：**6 个**
-- 📝 总计文档：**19 个**
+- 🏢 提供者文档：**7 个**
+- 💬 Chatbot 服务：**8 个**
+- 🔌 API 服务：**7 个**
+- 📝 总计文档：**22 个**
 - 🌐 支持语言：**中文 + 英语**
 
 ---

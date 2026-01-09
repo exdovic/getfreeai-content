@@ -30,8 +30,8 @@ English | [简体中文](README.md)
 
 ### 📊 Systematic Organization
 
-- **6+ AI Providers** - Google, Groq, OpenRouter, DeepSeek, Cohere, etc.
-- **13+ Service Docs** - Clear categorization of Chatbot and API services
+- **7+ AI Providers** - OpenAI, Google, Groq, OpenRouter, DeepSeek, Cohere, Anthropic, etc.
+- **15+ Service Docs** - Clear categorization of Chatbot and API services
 - **Bilingual Support** - Complete Chinese and English documentation
 
 ### 🎯 Practical Focus
@@ -51,39 +51,45 @@ English | [简体中文](README.md)
 
 ## 📚 Content Overview
 
-### 🏢 AI Providers (6)
+### 🏢 AI Providers (7)
 
 | Provider | Type | Key Features | Rating |
 |----------|------|-------------|---------|
+| [OpenAI](providers/openai/) | Free + Trial | ChatGPT free, $18 API trial | ⭐⭐⭐⭐⭐ |
 | [Google AI Studio](providers/google-ai-studio/) | Permanent Free | 15M tokens/day, Gemini series | ⭐⭐⭐⭐⭐ |
 | [Groq](providers/groq/) | Permanent Free | 800+ tokens/s speed | ⭐⭐⭐⭐⭐ |
 | [OpenRouter](providers/openrouter/) | Permanent Free | 47+ free models | ⭐⭐⭐⭐⭐ |
 | [DeepSeek](providers/deepseek/) | Trial Credits | Top Chinese, ultra-low price | ⭐⭐⭐⭐⭐ |
 | [Cohere](providers/cohere/) | Free Trial | RAG expert, 1,000 calls/month | ⭐⭐⭐⭐⭐ |
 | [Google Vertex AI](providers/google-vertex-ai/) | Trial Credits | $300, enterprise platform | ⭐⭐⭐⭐ |
+| [Anthropic](providers/anthropic/) | Free + Prepaid | 200K context, AI safety | ⭐⭐⭐⭐⭐ |
 
-### 💬 Chatbot Services (7)
+### 💬 Chatbot Services (8)
 
 Web conversational interfaces, no coding required:
 
+- ChatGPT (OpenAI)
 - Google AI Studio Chatbot
 - Groq Playground
 - OpenRouter Playground
 - DeepSeek Chat
 - Cohere Coral
 - Vertex AI Studio
+- Claude (Anthropic)
 - More coming soon...
 
-### 🔌 API Services (6)
+### 🔌 API Services (7)
 
 Developer API interfaces:
 
+- OpenAI API
 - Google AI Studio API
 - Groq API
 - OpenRouter API
 - DeepSeek API
 - Cohere API
 - Vertex AI API
+- Anthropic API
 - More coming soon...
 
 ---
@@ -173,8 +179,8 @@ See [Contribution Guide](contribute/_index.en.md) for detailed steps.
 
 ### Providers Urgently Needed
 
-- [ ] OpenAI (ChatGPT, GPT API)
-- [ ] Anthropic (Claude, Claude API)
+- [x] OpenAI (ChatGPT, GPT API)
+- [x] Anthropic (Claude, Claude API)
 - [ ] Mistral AI (Le Chat, Mistral API)
 - [ ] Perplexity (Perplexity Chatbot)
 - [ ] HuggingFace (Various free models)
@@ -204,12 +210,12 @@ See [Contribution Guide](contribute/_index.en.md) for detailed steps.
 
 ## 📊 Project Statistics
 
-**Current Status** (December 2024):
+**Current Status** (January 2026):
 
-- 🏢 Provider Docs: **6**
-- 💬 Chatbot Services: **7**
-- 🔌 API Services: **6**
-- 📝 Total Documents: **19**
+- 🏢 Provider Docs: **7**
+- 💬 Chatbot Services: **8**
+- 🔌 API Services: **7**
+- 📝 Total Documents: **22**
 - 🌐 Languages Supported: **Chinese + English**
 
 ---

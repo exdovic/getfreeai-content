@@ -75,6 +75,16 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Features:** 2M context, complete MLOps
 - **Rating:** ⭐⭐⭐⭐ (Enterprise choice)
 
+#### [Anthropic API](/en/services/api/anthropic)
+- **Quota:** Prepaid (minimum $5)
+- **Features:** 200K context, AI safety, powerful reasoning
+- **Rating:** ⭐⭐⭐⭐⭐ (Safe & reliable)
+
+#### [Hugging Face Inference API](/en/services/api/hugging-face)
+- **Quota:** ~Hundreds/hour
+- **Features:** 1M+ open-source models, multi-task support
+- **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
+
 ---
 
 ## 📊 Detailed Comparison
@@ -89,6 +99,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [DeepSeek](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | By usage | ✅ |
 | [Cohere](/en/services/api/cohere) | Free Trial | 1,000/month | 10-20 req/min | ❌ |
 | [Vertex AI](/en/services/api/vertex-ai) | Trial Credits | $300 (91 days) | Configurable | ❌ |
+| [Anthropic](/en/services/api/anthropic) | Prepaid | Minimum $5 | By account tier | ❌ |
 
 ### By Key Features
 
@@ -100,6 +111,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [DeepSeek](/en/services/api/deepseek) | Fast | 🏆 Top-tier | 128K | Ultra-low price, thinking mode |
 | [Cohere](/en/services/api/cohere) | Fast | Excellent | 128K | 🏆 RAG, Embed |
 | [Vertex AI](/en/services/api/vertex-ai) | Fast | Excellent | 🏆 2M | Enterprise-grade |
+| [Anthropic](/en/services/api/anthropic) | Fast | Excellent | 🏆 200K | AI safety, reasoning |
 
 ---
 
@@ -131,6 +143,9 @@ API services provide programming interfaces that allow you to integrate AI capab
 
 ### I Need Enterprise Deployment
 → [Vertex AI API](/en/services/api/vertex-ai) - Complete MLOps
+
+### I Need AI Safety and Strong Reasoning
+→ [Anthropic API](/en/services/api/anthropic) - 200K context, safe & reliable
 
 ---
 

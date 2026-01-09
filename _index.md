@@ -56,13 +56,15 @@ image: /images/og-default.png
 无需编程，直接在网页使用 AI 对话服务：
 
 {{< cards >}}
-  {{< card link="/zh-cn/services/chatbot/openai" title="ChatGPT" subtitle="完全免费 · GPT-4o · 全球最流行" >}}
+  {{< card link="/zh-cn/services/chatbot/openai" title="ChatGPT" subtitle="免费使用 · GPT-4o · 全球最流行" >}}
   {{< card link="/zh-cn/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="免费使用 · Gemini系列 · 多模态" >}}
   {{< card link="/zh-cn/services/chatbot/groq" title="Groq Playground" subtitle="约14,400次/天 · 极速推理 · 800+ tokens/s" >}}
   {{< card link="/zh-cn/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000次/天 · 25+免费模型" >}}
   {{< card link="/zh-cn/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="免费使用 · 中文顶尖 · 思维链可见" >}}
   {{< card link="/zh-cn/services/chatbot/cohere" title="Cohere Coral" subtitle="免费使用 · RAG专家 · 文档上传" >}}
   {{< card link="/zh-cn/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300试用 · 企业级 · 2M上下文" >}}
+  {{< card link="/zh-cn/services/chatbot/anthropic" title="Claude" subtitle="约100条/天 · 200K上下文 · AI安全" >}}
+  {{< card link="/zh-cn/services/chatbot/hugging-face" title="HuggingChat" subtitle="完全免费 · 无限制 · 多种开源模型" >}}
 {{< /cards >}}
 
 ### 🔌 API 服务
@@ -70,13 +72,15 @@ image: /images/og-default.png
 开发者 API 接口，集成到您的应用中：
 
 {{< cards >}}
-  {{< card link="/zh-cn/services/api/openai" title="OpenAI API" subtitle="$18试用 · GPT-4o · 行业标准" >}}
+  {{< card link="/zh-cn/services/api/openai" title="OpenAI API" subtitle="试用额度 · GPT-4o · 行业标准" >}}
   {{< card link="/zh-cn/services/api/google-ai-studio" title="Google AI Studio API" subtitle="免费使用 · Gemini系列 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/groq" title="Groq API" subtitle="约14,400次/天 · 极速推理 · OpenAI兼容" >}}
   {{< card link="/zh-cn/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000次/天 · 25+模型 · 一站式" >}}
   {{< card link="/zh-cn/services/api/deepseek" title="DeepSeek API" subtitle="¥5试用 · $0.28/M · 中文优化" >}}
   {{< card link="/zh-cn/services/api/cohere" title="Cohere API" subtitle="1,000次/月 · RAG · Embed+Rerank" >}}
   {{< card link="/zh-cn/services/api/vertex-ai" title="Vertex AI API" subtitle="$300试用 · 企业级 · 完整MLOps" >}}
+  {{< card link="/zh-cn/services/api/anthropic" title="Anthropic API" subtitle="预付费$5+ · 200K上下文 · AI安全" >}}
+  {{< card link="/zh-cn/services/api/hugging-face" title="Hugging Face API" subtitle="数百次/小时 · 100万+模型 · 开源" >}}
 {{< /cards >}}
 
 ---

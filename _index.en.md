@@ -56,13 +56,15 @@ Welcome to GetFreeAI! We've carefully compiled guides for free AI services from 
 No coding required, use AI conversational services directly in your browser:
 
 {{< cards >}}
-  {{< card link="/en/services/chatbot/openai" title="ChatGPT" subtitle="Completely free · GPT-4o · Most popular" >}}
+  {{< card link="/en/services/chatbot/openai" title="ChatGPT" subtitle="Free to use · GPT-4o · Most popular" >}}
   {{< card link="/en/services/chatbot/google-ai-studio" title="Google AI Studio" subtitle="Free to use · Gemini · Multimodal" >}}
   {{< card link="/en/services/chatbot/groq" title="Groq Playground" subtitle="~14,400/day · Ultra-fast · 800+ tokens/s" >}}
   {{< card link="/en/services/chatbot/openrouter" title="OpenRouter" subtitle="50-1,000/day · 25+ free models" >}}
   {{< card link="/en/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="Free to use · Top Chinese · Chain-of-thought" >}}
   {{< card link="/en/services/chatbot/cohere" title="Cohere Coral" subtitle="Free to use · RAG expert · Doc upload" >}}
   {{< card link="/en/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300 trial · Enterprise · 2M context" >}}
+  {{< card link="/en/services/chatbot/anthropic" title="Claude" subtitle="~100/day · 200K context · AI safety" >}}
+  {{< card link="/en/services/chatbot/hugging-face" title="HuggingChat" subtitle="Completely free · Unlimited · Multiple open-source models" >}}
 {{< /cards >}}
 
 ### 🔌 API Services
@@ -70,13 +72,15 @@ No coding required, use AI conversational services directly in your browser:
 Developer API interfaces to integrate into your applications:
 
 {{< cards >}}
-  {{< card link="/en/services/api/openai" title="OpenAI API" subtitle="$18 trial · GPT-4o · Industry standard" >}}
+  {{< card link="/en/services/api/openai" title="OpenAI API" subtitle="Trial credits · GPT-4o · Industry standard" >}}
   {{< card link="/en/services/api/google-ai-studio" title="Google AI Studio API" subtitle="Free to use · Gemini · OpenAI-compatible" >}}
   {{< card link="/en/services/api/groq" title="Groq API" subtitle="~14,400/day · Ultra-fast · OpenAI-compatible" >}}
   {{< card link="/en/services/api/openrouter" title="OpenRouter API" subtitle="50-1,000/day · 25+ models · One-stop" >}}
   {{< card link="/en/services/api/deepseek" title="DeepSeek API" subtitle="¥5 trial · $0.28/M · Chinese optimized" >}}
   {{< card link="/en/services/api/cohere" title="Cohere API" subtitle="1,000/month · RAG · Embed+Rerank" >}}
   {{< card link="/en/services/api/vertex-ai" title="Vertex AI API" subtitle="$300 trial · Enterprise · Full MLOps" >}}
+  {{< card link="/en/services/api/anthropic" title="Anthropic API" subtitle="Prepaid $5+ · 200K context · AI safety" >}}
+  {{< card link="/en/services/api/hugging-face" title="Hugging Face API" subtitle="Hundreds/hour · 1M+ models · Open source" >}}
 {{< /cards >}}
 
 ---

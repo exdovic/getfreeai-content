@@ -39,11 +39,13 @@ OpenAI is a leading artificial intelligence research and application company, re
 
 **Core Features:**
 - 🏆 **Industry Standard** - ChatGPT is the world's most popular AI conversation product
-- 🆓 **Completely Free** - ChatGPT free version with unlimited conversations
+- 🆓 **Free Available** - ChatGPT offers free version (GPT-4o has usage frequency limits)
 - 🤖 **Top Models** - GPT-4o provides cutting-edge AI capabilities
 - 🌍 **Multimodal Support** - Comprehensive text, image, and voice support
 - 💻 **Developer Friendly** - Excellent API compatibility and mature ecosystem
-- 🎁 **Trial Credits** - New users get $18 (3 months validity)
+- 🎁 **API Credits** - New users may receive trial credits (policies subject to change)
+
+> **Information Update:** This page was last updated in January 2026. Free policies and quotas may change at any time. Please refer to [OpenAI Official](https://openai.com) for the most current information.
 
 **Rating:** ⭐⭐⭐⭐⭐ (World's #1 AI Platform!)
 
@@ -131,22 +133,25 @@ OpenAI provides two main free/trial services:
 
 | Limit Type | Quota | Notes |
 |-----------|-------|-------|
-| Daily Conversations | Unlimited | Free to use, may slow during peak |
-| GPT-4o Usage | Limited | ~40-80 messages per 3 hours (dynamic) |
-| GPT-4o-mini | Unlimited | Completely free to use |
+| GPT-4o Usage | Limited | Free version has usage frequency limits, may queue during peak hours |
+| GPT-4o-mini | Available | Fast response, suitable for daily use |
 | Single Conversation Length | Long | Supports long conversation context |
 | Advanced Features | Partial | Image understanding free, web search needs Plus |
+
+**Note:** Specific limits are dynamically adjusted based on server load. Actual usage may vary.
 
 ### API Trial Credits
 
 | Item | Details |
 |------|---------|
-| **Trial Credits** | $18 USD (may vary by promotion) |
-| **Validity** | 3 months after registration |
+| **Trial Policy** | New users may receive trial credits (amount and conditions vary by period) |
+| **How to Obtain** | After registration and verification, check your account Billing page |
 | **Post-Recharge Price** | $0.15/1M tokens (GPT-4o-mini input)<br>$0.6/1M tokens (GPT-4o-mini output) |
-| **Rate Limits** | Free tier: 3 RPM, 200 RPD, 40,000 TPM |
+| **Rate Limits** | Dynamically adjusted based on account Tier |
 
-**Note:** RPM = Requests Per Minute, RPD = Requests Per Day, TPM = Tokens Per Minute
+**Note:** 
+- Trial credit policies change over time; historically ranged from $5-$18
+- Rate limits vary by account Tier. See [OpenAI Rate Limits](https://platform.openai.com/docs/guides/rate-limits) documentation
 
 ---
 
