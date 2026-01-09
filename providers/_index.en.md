@@ -94,6 +94,13 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/anthropic)
 
+### Hugging Face
+- **Type:** Completely Free
+- **Features:** 1M+ open-source models, unlimited HuggingChat
+- **Suitable for:** Open-source AI, model testing, learning & research
+
+[View Details →](/providers/hugging-face)
+
 ---
 
 ## 🔍 Choose by Need

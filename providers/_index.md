@@ -94,6 +94,13 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/anthropic)
 
+### Hugging Face
+- **类型：** 完全免费
+- **特点：** 100万+ 开源模型，HuggingChat 无限制
+- **适合：** 开源 AI，模型测试，学习研究
+
+[查看详情 →](/providers/hugging-face)
+
 ---
 
 ## 🔍 按需选择

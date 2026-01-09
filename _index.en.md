@@ -64,6 +64,7 @@ No coding required, use AI conversational services directly in your browser:
   {{< card link="/en/services/chatbot/cohere" title="Cohere Coral" subtitle="Free to use · RAG expert · Doc upload" >}}
   {{< card link="/en/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300 trial · Enterprise · 2M context" >}}
   {{< card link="/en/services/chatbot/anthropic" title="Claude" subtitle="~100/day · 200K context · AI safety" >}}
+  {{< card link="/en/services/chatbot/hugging-face" title="HuggingChat" subtitle="Completely free · Unlimited · Multiple open-source models" >}}
 {{< /cards >}}
 
 ### 🔌 API Services
@@ -79,6 +80,7 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/cohere" title="Cohere API" subtitle="1,000/month · RAG · Embed+Rerank" >}}
   {{< card link="/en/services/api/vertex-ai" title="Vertex AI API" subtitle="$300 trial · Enterprise · Full MLOps" >}}
   {{< card link="/en/services/api/anthropic" title="Anthropic API" subtitle="Prepaid $5+ · 200K context · AI safety" >}}
+  {{< card link="/en/services/api/hugging-face" title="Hugging Face API" subtitle="Hundreds/hour · 1M+ models · Open source" >}}
 {{< /cards >}}
 
 ---

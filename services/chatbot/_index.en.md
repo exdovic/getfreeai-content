@@ -78,6 +78,11 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 - **Features:** 200K context, AI safety, powerful reasoning
 - **Rating:** ⭐⭐⭐⭐⭐ (Safe & reliable)
 
+#### [HuggingChat](/en/services/chatbot/hugging-face)
+- **Quota:** Unlimited
+- **Features:** Multiple open-source models, completely free
+- **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
+
 ---
 
 ## 📊 Detailed Comparison

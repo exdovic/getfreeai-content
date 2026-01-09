@@ -80,6 +80,11 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Features:** 200K context, AI safety, powerful reasoning
 - **Rating:** ⭐⭐⭐⭐⭐ (Safe & reliable)
 
+#### [Hugging Face Inference API](/en/services/api/hugging-face)
+- **Quota:** ~Hundreds/hour
+- **Features:** 1M+ open-source models, multi-task support
+- **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
+
 ---
 
 ## 📊 Detailed Comparison
