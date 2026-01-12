@@ -129,6 +129,13 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/cerebras)
 
+### GitHub Models
+- **类型：** 免费服务（有速率限制）
+- **特点：** 10+ 模型，GitHub 深度集成，OpenAI 兼容
+- **适合：** GitHub 开发者，模型对比，原型开发
+
+[查看详情 →](/providers/github-models)
+
 ---
 
 ## 🔍 按需选择
@@ -166,6 +173,9 @@ next: /providers/google-ai-studio
 
 ### 我需要极速推理
 → [Cerebras](/providers/cerebras) - 2,600+ tokens/s
+
+### 我需要 GitHub 生态集成
+→ [GitHub Models](/providers/github-models) - 10+ 模型，深度集成
 
 ---
 

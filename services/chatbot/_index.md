@@ -88,6 +88,11 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 - **特点：** Pixtral Large 多模态，图像生成，欧洲 AI
 - **推荐：** ⭐⭐⭐⭐（欧洲首选）
 
+#### [GitHub Models Playground](/services/chatbot/github-models)
+- **配额：** 因模型而异（有速率限制）
+- **特点：** 10+ 模型，GitHub 集成，模型对比
+- **推荐：** ⭐⭐⭐⭐⭐（GitHub 开发者首选）
+
 ---
 
 ## 📊 详细对比

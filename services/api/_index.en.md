@@ -107,6 +107,11 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Features:** 2,600+ tokens/s ultra-fast inference, 20x faster than GPUs
 - **Rating:** ⭐⭐⭐⭐⭐ (Speed champion)
 
+#### [GitHub Models API](/en/services/api/github-models)
+- **Quota:** Varies by model (with rate limits)
+- **Features:** 10+ models, OpenAI compatible, GitHub integration
+- **Rating:** ⭐⭐⭐⭐⭐ (Top choice for GitHub developers)
+
 ---
 
 ## 📊 Detailed Comparison

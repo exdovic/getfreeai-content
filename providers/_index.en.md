@@ -129,6 +129,13 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/cerebras)
 
+### GitHub Models
+- **Type:** Free service (with rate limits)
+- **Features:** 10+ models, deep GitHub integration, OpenAI compatible
+- **Suitable for:** GitHub developers, model comparison, prototyping
+
+[View Details →](/providers/github-models)
+
 ---
 
 ## 🔍 Choose by Need
@@ -166,6 +173,9 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need ultra-fast inference
 → [Cerebras](/providers/cerebras) - 2,600+ tokens/s
+
+### I need GitHub ecosystem integration
+→ [GitHub Models](/providers/github-models) - 10+ models, deep integration
 
 ---
 

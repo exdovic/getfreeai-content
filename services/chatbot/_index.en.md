@@ -88,6 +88,11 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 - **Features:** Pixtral Large multimodal, image generation, European AI
 - **Rating:** ⭐⭐⭐⭐ (European choice)
 
+#### [GitHub Models Playground](/en/services/chatbot/github-models)
+- **Quota:** Varies by model (with rate limits)
+- **Features:** 10+ models, GitHub integration, model comparison
+- **Rating:** ⭐⭐⭐⭐⭐ (Top choice for GitHub developers)
+
 ---
 
 ## 📊 Detailed Comparison
