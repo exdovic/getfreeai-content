@@ -115,6 +115,34 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/nvidia-nim)
 
+### Vercel AI Gateway
+- **类型：** 免费试用（$5/月免费额度）
+- **特点：** 统一接口访问数百种模型，自动故障转移，零加价
+- **适合：** 多模型集成，高可用应用，成本优化
+
+[查看详情 →](/providers/vercel-ai-gateway)
+
+### Cerebras
+- **类型：** 免费服务（每日 100 万 Token）
+- **特点：** 极速推理，比 GPU 快 20 倍，晶圆级引擎技术
+- **适合：** 实时应用，高性能推理，快速响应场景
+
+[查看详情 →](/providers/cerebras)
+
+### GitHub Models
+- **类型：** 免费服务（有速率限制）
+- **特点：** 10+ 模型，GitHub 深度集成，OpenAI 兼容
+- **适合：** GitHub 开发者，模型对比，原型开发
+
+[查看详情 →](/providers/github-models)
+
+### Cloudflare Workers AI
+- **类型：** 免费服务（每日 10,000 神经元）
+- **特点：** 边缘 AI 推理，50+ 开源模型，全球 300+ 数据中心部署
+- **适合：** 低延迟应用，边缘计算，无服务器架构
+
+[查看详情 →](/providers/cloudflare-workers-ai)
+
 ---
 
 ## 🔍 按需选择
@@ -146,6 +174,18 @@ next: /providers/google-ai-studio
 
 ### 我需要 GPU 加速和自托管
 → [NVIDIA NIM](/providers/nvidia-nim) - 企业级推理微服务
+
+### 我需要统一接口访问多个提供商
+→ [Vercel AI Gateway](/providers/vercel-ai-gateway) - 统一 AI Gateway
+
+### 我需要极速推理
+→ [Cerebras](/providers/cerebras) - 2,600+ tokens/s
+
+### 我需要 GitHub 生态集成
+→ [GitHub Models](/providers/github-models) - 10+ 模型，深度集成
+
+### 我需要边缘 AI 推理
+→ [Cloudflare Workers AI](/providers/cloudflare-workers-ai) - 全球边缘部署，低延迟
 
 ---
 

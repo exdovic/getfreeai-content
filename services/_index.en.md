@@ -80,6 +80,8 @@ Developer API interfaces to integrate into your applications.
 | [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Top Chinese |
 | [Cohere API](/en/services/api/cohere) | Free Trial | 1,000 times/month | RAG expert |
 | [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (91 days) | Enterprise-grade |
+| [Vercel AI Gateway API](/en/services/api/vercel-ai-gateway) | Free Trial | $5/month | Unified multi-model access |
+| [Cerebras API](/en/services/api/cerebras) | Free Service | 1M tokens/day | Ultra-fast inference (20x GPU) |
 
 ---
 
@@ -102,6 +104,7 @@ Developer API interfaces to integrate into your applications.
 ### I Need an API
 
 **Ultra-fast Inference:**
+- [Cerebras API](/en/services/api/cerebras) - 2,600+ tokens/s (fastest)
 - [Groq API](/en/services/api/groq) - 800+ tokens/s
 
 **High Free Quota:**
@@ -115,6 +118,9 @@ Developer API interfaces to integrate into your applications.
 
 **Enterprise-grade:**
 - [Vertex AI API](/en/services/api/vertex-ai) - Complete MLOps
+
+**Unified Multi-model Access:**
+- [Vercel AI Gateway API](/en/services/api/vercel-ai-gateway) - Zero markup aggregation
 
 ---
 

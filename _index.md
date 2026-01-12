@@ -66,6 +66,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/chatbot/anthropic" title="Claude" subtitle="约100条/天 · 200K上下文 · AI安全" >}}
   {{< card link="/zh-cn/services/chatbot/hugging-face" title="HuggingChat" subtitle="完全免费 · 无限制 · 多种开源模型" >}}
   {{< card link="/zh-cn/services/chatbot/mistral" title="Le Chat" subtitle="10-50+次/天 · Pixtral多模态 · 欧洲AI" >}}
+  {{< card link="/zh-cn/services/chatbot/github-models" title="GitHub Models" subtitle="免费使用 · 10+模型 · GitHub集成" >}}
 {{< /cards >}}
 
 ### 🔌 API 服务
@@ -84,6 +85,10 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/api/hugging-face" title="Hugging Face API" subtitle="数百次/小时 · 100万+模型 · 开源" >}}
   {{< card link="/zh-cn/services/api/mistral" title="Mistral API" subtitle="按需付费 · Pixtral多模态 · 开源+专有" >}}
   {{< card link="/zh-cn/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="免费试用 · GPU加速 · 企业级推理" >}}
+  {{< card link="/zh-cn/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/月免费 · 统一接口 · 零加价" >}}
+  {{< card link="/zh-cn/services/api/cerebras" title="Cerebras API" subtitle="100万tokens/天 · 极速推理 · 20倍GPU速度" >}}
+  {{< card link="/zh-cn/services/api/github-models" title="GitHub Models API" subtitle="免费使用 · 10+模型 · OpenAI兼容" >}}
+  {{< card link="/zh-cn/services/api/cloudflare-workers-ai" title="Cloudflare Workers AI API" subtitle="10,000神经元/天 · 边缘部署 · 50+开源模型" >}}
 {{< /cards >}}
 
 ---
@@ -111,6 +116,10 @@ image: /images/og-default.png
 - **RAG 应用** → [Cohere](/providers/cohere)
 - **企业级平台** → [Google Vertex AI](/providers/google-vertex-ai)
 - **GPU 加速推理** → [NVIDIA NIM](/providers/nvidia-nim)
+- **统一多模型访问** → [Vercel AI Gateway](/providers/vercel-ai-gateway)
+- **极速推理** → [Cerebras](/providers/cerebras)
+- **GitHub 生态集成** → [GitHub Models](/providers/github-models)
+- **边缘 AI 推理** → [Cloudflare Workers AI](/providers/cloudflare-workers-ai)
 
 ### 按门槛查找
 

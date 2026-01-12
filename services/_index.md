@@ -80,6 +80,8 @@ comments: true
 | [DeepSeek API](/services/api/deepseek) | 试用积分 | ¥5 (7天) | 中文顶尖 |
 | [Cohere API](/services/api/cohere) | 免费试用 | 1,000 次/月 | RAG 专家 |
 | [Vertex AI API](/services/api/vertex-ai) | 试用积分 | $300 (91天) | 企业级 |
+| [Vercel AI Gateway API](/services/api/vercel-ai-gateway) | 免费试用 | $5/月 | 统一多模型访问 |
+| [Cerebras API](/services/api/cerebras) | 免费服务 | 100万 tokens/天 | 极速推理 (20倍GPU) |
 
 ---
 
@@ -102,6 +104,7 @@ comments: true
 ### 我需要 API
 
 **极速推理：**
+- [Cerebras API](/services/api/cerebras) - 2,600+ tokens/s (最快)
 - [Groq API](/services/api/groq) - 800+ tokens/s
 
 **高免费配额：**
@@ -115,6 +118,9 @@ comments: true
 
 **企业级：**
 - [Vertex AI API](/services/api/vertex-ai) - 完整 MLOps
+
+**统一多模型访问：**
+- [Vercel AI Gateway API](/services/api/vercel-ai-gateway) - 零加价聚合
 
 ---
 

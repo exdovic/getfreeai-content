@@ -66,6 +66,7 @@ No coding required, use AI conversational services directly in your browser:
   {{< card link="/en/services/chatbot/anthropic" title="Claude" subtitle="~100/day · 200K context · AI safety" >}}
   {{< card link="/en/services/chatbot/hugging-face" title="HuggingChat" subtitle="Completely free · Unlimited · Multiple open-source models" >}}
   {{< card link="/en/services/chatbot/mistral" title="Le Chat" subtitle="10-50+/day · Pixtral multimodal · European AI" >}}
+  {{< card link="/en/services/chatbot/github-models" title="GitHub Models" subtitle="Free to use · 10+ models · GitHub integrated" >}}
 {{< /cards >}}
 
 ### 🔌 API Services
@@ -84,6 +85,10 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/hugging-face" title="Hugging Face API" subtitle="Hundreds/hour · 1M+ models · Open source" >}}
   {{< card link="/en/services/api/mistral" title="Mistral API" subtitle="Pay-as-you-go · Pixtral multimodal · Open+proprietary" >}}
   {{< card link="/en/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="Free trial · GPU-accelerated · Enterprise inference" >}}
+  {{< card link="/en/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/month free · Unified interface · Zero markup" >}}
+  {{< card link="/en/services/api/cerebras" title="Cerebras API" subtitle="1M tokens/day · Ultra-fast · 20x GPU speed" >}}
+  {{< card link="/en/services/api/github-models" title="GitHub Models API" subtitle="Free to use · 10+ models · OpenAI-compatible" >}}
+  {{< card link="/en/services/api/cloudflare-workers-ai" title="Cloudflare Workers AI API" subtitle="10,000 neurons/day · Edge deployed · 50+ open models" >}}
 {{< /cards >}}
 
 ---
@@ -111,6 +116,10 @@ Developer API interfaces to integrate into your applications:
 - **RAG applications** → [Cohere](/providers/cohere)
 - **Enterprise platform** → [Google Vertex AI](/providers/google-vertex-ai)
 - **GPU-accelerated inference** → [NVIDIA NIM](/providers/nvidia-nim)
+- **Unified multi-model access** → [Vercel AI Gateway](/providers/vercel-ai-gateway)
+- **Ultra-fast inference** → [Cerebras](/providers/cerebras)
+- **GitHub ecosystem integration** → [GitHub Models](/providers/github-models)
+- **Edge AI inference** → [Cloudflare Workers AI](/providers/cloudflare-workers-ai)
 
 ### Find by Requirements
 

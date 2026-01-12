@@ -95,6 +95,28 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **特点：** GPU 加速推理，OpenAI 兼容，自托管支持
 - **推荐：** ⭐⭐⭐⭐（企业级可靠）
 
+### 统一多模型访问
+
+#### [Vercel AI Gateway API](/services/api/vercel-ai-gateway)
+- **配额：** $5/月 免费额度
+- **特点：** 统一接口访问数百种模型，自动故障转移，零加价
+- **推荐：** ⭐⭐⭐⭐（多模型集成首选）
+
+#### [Cerebras API](/services/api/cerebras)
+- **配额：** 100 万 tokens/天
+- **特点：** 2,600+ tokens/s 极速推理，比 GPU 快 20 倍
+- **推荐：** ⭐⭐⭐⭐⭐（速度王者）
+
+#### [GitHub Models API](/services/api/github-models)
+- **配额：** 因模型而异（有速率限制）
+- **特点：** 10+ 模型，OpenAI 兼容，GitHub 集成
+- **推荐：** ⭐⭐⭐⭐⭐（GitHub 开发者首选）
+
+#### [Cloudflare Workers AI API](/services/api/cloudflare-workers-ai)
+- **配额：** 10,000 神经元/天
+- **特点：** 边缘 AI 推理，50+ 开源模型，全球部署，低延迟
+- **推荐：** ⭐⭐⭐⭐⭐（边缘计算首选）
+
 ---
 
 ## 📊 详细对比
@@ -112,6 +134,9 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Anthropic](/services/api/anthropic) | 预付费 | 最低 $5 | 根据账户等级 | ❌ |
 | [Mistral](/services/api/mistral) | 按需付费 | 试用额度 | 按配置 | ✅ |
 | [NVIDIA NIM](/services/api/nvidia-nim) | 免费试用 | 1,000 积分 | 视模型而定 | ✅ |
+| [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 免费试用 | $5/月 | 上游决定 | ✅ |
+| [Cerebras](/services/api/cerebras) | 免费服务 | 100万 tokens/天 | 合理范围 | ✅ |
+| [Cloudflare Workers AI](/services/api/cloudflare-workers-ai) | 免费服务 | 10,000 神经元/天 | 合理范围 | 部分 |
 
 ### 按特色功能
 
@@ -126,6 +151,9 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Anthropic](/services/api/anthropic) | 快 | 优秀 | 🏆 200K | AI安全、推理 |
 | [Mistral](/services/api/mistral) | 快 | 优秀 | 128K | 🏆 欧洲AI、开源 |
 | [NVIDIA NIM](/services/api/nvidia-nim) | 快 | 优秀 | 128K | 🏆 GPU加速、自托管 |
+| [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 快 | 优秀 | 视模型 | 🏆 统一接口、零加价 |
+| [Cerebras](/services/api/cerebras) | 🏆 极快 | 优秀 | 128K | 🏆 极速推理、晶圆级引擎 |
+| [Cloudflare Workers AI](/services/api/cloudflare-workers-ai) | 快 | 优秀 | 视模型 | 🏆 边缘部署、低延迟 |
 
 ---
 
@@ -135,6 +163,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 → [Google AI Studio API](/services/api/google-ai-studio) - 免费使用
 
 ### 我需要极快的推理速度
+→ [Cerebras API](/services/api/cerebras) - 2,600+ tokens/s（最快）
 → [Groq API](/services/api/groq) - 800+ tokens/s
 
 ### 我需要 OpenAI 兼容性
@@ -163,6 +192,12 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 
 ### 我需要 GPU 加速和自托管
 → [NVIDIA NIM API](/services/api/nvidia-nim) - 企业级推理微服务
+
+### 我需要统一接口访问多个提供商
+→ [Vercel AI Gateway API](/services/api/vercel-ai-gateway) - 零加价聚合
+
+### 我需要边缘 AI 推理
+→ [Cloudflare Workers AI API](/services/api/cloudflare-workers-ai) - 全球 300+ 数据中心，低延迟
 
 ---
 

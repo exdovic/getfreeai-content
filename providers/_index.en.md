@@ -115,6 +115,34 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/nvidia-nim)
 
+### Vercel AI Gateway
+- **Type:** Free trial ($5/month free credits)
+- **Features:** Unified interface to hundreds of models, automatic failover, zero markup
+- **Suitable for:** Multi-model integration, high-availability apps, cost optimization
+
+[View Details →](/providers/vercel-ai-gateway)
+
+### Cerebras
+- **Type:** Free service (1 million tokens daily)
+- **Features:** Ultra-fast inference, 20x faster than GPUs, Wafer-Scale Engine technology
+- **Suitable for:** Real-time applications, high-performance inference, fast response scenarios
+
+[View Details →](/providers/cerebras)
+
+### GitHub Models
+- **Type:** Free service (with rate limits)
+- **Features:** 10+ models, deep GitHub integration, OpenAI compatible
+- **Suitable for:** GitHub developers, model comparison, prototyping
+
+[View Details →](/providers/github-models)
+
+### Cloudflare Workers AI
+- **Type:** Free service (10,000 neurons daily)
+- **Features:** Edge AI inference, 50+ open-source models, deployed across 300+ global data centers
+- **Suitable for:** Low-latency applications, edge computing, serverless architecture
+
+[View Details →](/providers/cloudflare-workers-ai)
+
 ---
 
 ## 🔍 Choose by Need
@@ -146,6 +174,18 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need GPU acceleration and self-hosting
 → [NVIDIA NIM](/providers/nvidia-nim) - Enterprise inference microservices
+
+### I need unified interface to access multiple providers
+→ [Vercel AI Gateway](/providers/vercel-ai-gateway) - Unified AI Gateway
+
+### I need ultra-fast inference
+→ [Cerebras](/providers/cerebras) - 2,600+ tokens/s
+
+### I need GitHub ecosystem integration
+→ [GitHub Models](/providers/github-models) - 10+ models, deep integration
+
+### I need edge AI inference
+→ [Cloudflare Workers AI](/providers/cloudflare-workers-ai) - Global edge deployment, low latency
 
 ---
 
