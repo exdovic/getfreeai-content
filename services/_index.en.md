@@ -80,6 +80,7 @@ Developer API interfaces to integrate into your applications.
 | [DeepSeek API](/en/services/api/deepseek) | Trial Credits | ¥5 (7 days) | Top Chinese |
 | [Cohere API](/en/services/api/cohere) | Free Trial | 1,000 times/month | RAG expert |
 | [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (91 days) | Enterprise-grade |
+| [Vercel AI Gateway API](/en/services/api/vercel-ai-gateway) | Free Trial | $5/month | Unified multi-model access |
 
 ---
 
@@ -115,6 +116,9 @@ Developer API interfaces to integrate into your applications.
 
 **Enterprise-grade:**
 - [Vertex AI API](/en/services/api/vertex-ai) - Complete MLOps
+
+**Unified Multi-model Access:**
+- [Vercel AI Gateway API](/en/services/api/vercel-ai-gateway) - Zero markup aggregation
 
 ---
 

@@ -95,6 +95,13 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Features:** GPU-accelerated inference, OpenAI-compatible, self-hosting support
 - **Rating:** ⭐⭐⭐⭐ (Enterprise-grade reliability)
 
+### Unified Multi-Model Access
+
+#### [Vercel AI Gateway API](/en/services/api/vercel-ai-gateway)
+- **Quota:** $5/month free credits
+- **Features:** Unified interface to hundreds of models, automatic failover, zero markup
+- **Rating:** ⭐⭐⭐⭐ (Best for multi-model integration)
+
 ---
 
 ## 📊 Detailed Comparison
@@ -112,6 +119,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Anthropic](/en/services/api/anthropic) | Prepaid | Minimum $5 | By account tier | ❌ |
 | [Mistral](/en/services/api/mistral) | Pay-as-you-go | Trial credits | By config | ✅ |
 | [NVIDIA NIM](/en/services/api/nvidia-nim) | Free Trial | 1,000 credits | Varies by model | ✅ |
+| [Vercel AI Gateway](/en/services/api/vercel-ai-gateway) | Free Trial | $5/month | Upstream decides | ✅ |
 
 ### By Key Features
 
@@ -126,6 +134,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Anthropic](/en/services/api/anthropic) | Fast | Excellent | 🏆 200K | AI safety, reasoning |
 | [Mistral](/en/services/api/mistral) | Fast | Excellent | 128K | 🏆 European AI, open source |
 | [NVIDIA NIM](/en/services/api/nvidia-nim) | Fast | Excellent | 128K | 🏆 GPU-accelerated, self-hosting |
+| [Vercel AI Gateway](/en/services/api/vercel-ai-gateway) | Fast | Excellent | Varies | 🏆 Unified interface, zero markup |
 
 ---
 
@@ -163,6 +172,9 @@ API services provide programming interfaces that allow you to integrate AI capab
 
 ### I Need GPU Acceleration and Self-hosting
 → [NVIDIA NIM API](/en/services/api/nvidia-nim) - Enterprise inference microservices
+
+### I Need Unified Interface to Access Multiple Providers
+→ [Vercel AI Gateway API](/en/services/api/vercel-ai-gateway) - Zero markup aggregation
 
 ---
 

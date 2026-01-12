@@ -115,6 +115,13 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/nvidia-nim)
 
+### Vercel AI Gateway
+- **Type:** Free trial ($5/month free credits)
+- **Features:** Unified interface to hundreds of models, automatic failover, zero markup
+- **Suitable for:** Multi-model integration, high-availability apps, cost optimization
+
+[View Details →](/providers/vercel-ai-gateway)
+
 ---
 
 ## 🔍 Choose by Need
@@ -146,6 +153,9 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need GPU acceleration and self-hosting
 → [NVIDIA NIM](/providers/nvidia-nim) - Enterprise inference microservices
+
+### I need unified interface to access multiple providers
+→ [Vercel AI Gateway](/providers/vercel-ai-gateway) - Unified AI Gateway
 
 ---
 

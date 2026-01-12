@@ -95,6 +95,13 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **特点：** GPU 加速推理，OpenAI 兼容，自托管支持
 - **推荐：** ⭐⭐⭐⭐（企业级可靠）
 
+### 统一多模型访问
+
+#### [Vercel AI Gateway API](/services/api/vercel-ai-gateway)
+- **配额：** $5/月 免费额度
+- **特点：** 统一接口访问数百种模型，自动故障转移，零加价
+- **推荐：** ⭐⭐⭐⭐（多模型集成首选）
+
 ---
 
 ## 📊 详细对比
@@ -112,6 +119,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Anthropic](/services/api/anthropic) | 预付费 | 最低 $5 | 根据账户等级 | ❌ |
 | [Mistral](/services/api/mistral) | 按需付费 | 试用额度 | 按配置 | ✅ |
 | [NVIDIA NIM](/services/api/nvidia-nim) | 免费试用 | 1,000 积分 | 视模型而定 | ✅ |
+| [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 免费试用 | $5/月 | 上游决定 | ✅ |
 
 ### 按特色功能
 
@@ -126,6 +134,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Anthropic](/services/api/anthropic) | 快 | 优秀 | 🏆 200K | AI安全、推理 |
 | [Mistral](/services/api/mistral) | 快 | 优秀 | 128K | 🏆 欧洲AI、开源 |
 | [NVIDIA NIM](/services/api/nvidia-nim) | 快 | 优秀 | 128K | 🏆 GPU加速、自托管 |
+| [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 快 | 优秀 | 视模型 | 🏆 统一接口、零加价 |
 
 ---
 
@@ -163,6 +172,9 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 
 ### 我需要 GPU 加速和自托管
 → [NVIDIA NIM API](/services/api/nvidia-nim) - 企业级推理微服务
+
+### 我需要统一接口访问多个提供商
+→ [Vercel AI Gateway API](/services/api/vercel-ai-gateway) - 零加价聚合
 
 ---
 

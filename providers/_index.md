@@ -115,6 +115,13 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/nvidia-nim)
 
+### Vercel AI Gateway
+- **类型：** 免费试用（$5/月免费额度）
+- **特点：** 统一接口访问数百种模型，自动故障转移，零加价
+- **适合：** 多模型集成，高可用应用，成本优化
+
+[查看详情 →](/providers/vercel-ai-gateway)
+
 ---
 
 ## 🔍 按需选择
@@ -146,6 +153,9 @@ next: /providers/google-ai-studio
 
 ### 我需要 GPU 加速和自托管
 → [NVIDIA NIM](/providers/nvidia-nim) - 企业级推理微服务
+
+### 我需要统一接口访问多个提供商
+→ [Vercel AI Gateway](/providers/vercel-ai-gateway) - 统一 AI Gateway
 
 ---
 

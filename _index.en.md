@@ -84,6 +84,7 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/hugging-face" title="Hugging Face API" subtitle="Hundreds/hour · 1M+ models · Open source" >}}
   {{< card link="/en/services/api/mistral" title="Mistral API" subtitle="Pay-as-you-go · Pixtral multimodal · Open+proprietary" >}}
   {{< card link="/en/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="Free trial · GPU-accelerated · Enterprise inference" >}}
+  {{< card link="/en/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/month free · Unified interface · Zero markup" >}}
 {{< /cards >}}
 
 ---
@@ -111,6 +112,7 @@ Developer API interfaces to integrate into your applications:
 - **RAG applications** → [Cohere](/providers/cohere)
 - **Enterprise platform** → [Google Vertex AI](/providers/google-vertex-ai)
 - **GPU-accelerated inference** → [NVIDIA NIM](/providers/nvidia-nim)
+- **Unified multi-model access** → [Vercel AI Gateway](/providers/vercel-ai-gateway)
 
 ### Find by Requirements
 
