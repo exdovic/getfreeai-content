@@ -136,6 +136,13 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/github-models)
 
+### Cloudflare Workers AI
+- **类型：** 免费服务（每日 10,000 神经元）
+- **特点：** 边缘 AI 推理，50+ 开源模型，全球 300+ 数据中心部署
+- **适合：** 低延迟应用，边缘计算，无服务器架构
+
+[查看详情 →](/providers/cloudflare-workers-ai)
+
 ---
 
 ## 🔍 按需选择
@@ -176,6 +183,9 @@ next: /providers/google-ai-studio
 
 ### 我需要 GitHub 生态集成
 → [GitHub Models](/providers/github-models) - 10+ 模型，深度集成
+
+### 我需要边缘 AI 推理
+→ [Cloudflare Workers AI](/providers/cloudflare-workers-ai) - 全球边缘部署，低延迟
 
 ---
 

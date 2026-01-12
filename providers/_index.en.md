@@ -136,6 +136,13 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/github-models)
 
+### Cloudflare Workers AI
+- **Type:** Free service (10,000 neurons daily)
+- **Features:** Edge AI inference, 50+ open-source models, deployed across 300+ global data centers
+- **Suitable for:** Low-latency applications, edge computing, serverless architecture
+
+[View Details →](/providers/cloudflare-workers-ai)
+
 ---
 
 ## 🔍 Choose by Need
@@ -176,6 +183,9 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need GitHub ecosystem integration
 → [GitHub Models](/providers/github-models) - 10+ models, deep integration
+
+### I need edge AI inference
+→ [Cloudflare Workers AI](/providers/cloudflare-workers-ai) - Global edge deployment, low latency
 
 ---
 

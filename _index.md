@@ -88,6 +88,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/月免费 · 统一接口 · 零加价" >}}
   {{< card link="/zh-cn/services/api/cerebras" title="Cerebras API" subtitle="100万tokens/天 · 极速推理 · 20倍GPU速度" >}}
   {{< card link="/zh-cn/services/api/github-models" title="GitHub Models API" subtitle="免费使用 · 10+模型 · OpenAI兼容" >}}
+  {{< card link="/zh-cn/services/api/cloudflare-workers-ai" title="Cloudflare Workers AI API" subtitle="10,000神经元/天 · 边缘部署 · 50+开源模型" >}}
 {{< /cards >}}
 
 ---
@@ -118,6 +119,7 @@ image: /images/og-default.png
 - **统一多模型访问** → [Vercel AI Gateway](/providers/vercel-ai-gateway)
 - **极速推理** → [Cerebras](/providers/cerebras)
 - **GitHub 生态集成** → [GitHub Models](/providers/github-models)
+- **边缘 AI 推理** → [Cloudflare Workers AI](/providers/cloudflare-workers-ai)
 
 ### 按门槛查找
 

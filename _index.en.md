@@ -88,6 +88,7 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/month free · Unified interface · Zero markup" >}}
   {{< card link="/en/services/api/cerebras" title="Cerebras API" subtitle="1M tokens/day · Ultra-fast · 20x GPU speed" >}}
   {{< card link="/en/services/api/github-models" title="GitHub Models API" subtitle="Free to use · 10+ models · OpenAI-compatible" >}}
+  {{< card link="/en/services/api/cloudflare-workers-ai" title="Cloudflare Workers AI API" subtitle="10,000 neurons/day · Edge deployed · 50+ open models" >}}
 {{< /cards >}}
 
 ---
@@ -118,6 +119,7 @@ Developer API interfaces to integrate into your applications:
 - **Unified multi-model access** → [Vercel AI Gateway](/providers/vercel-ai-gateway)
 - **Ultra-fast inference** → [Cerebras](/providers/cerebras)
 - **GitHub ecosystem integration** → [GitHub Models](/providers/github-models)
+- **Edge AI inference** → [Cloudflare Workers AI](/providers/cloudflare-workers-ai)
 
 ### Find by Requirements
 
