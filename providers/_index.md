@@ -122,6 +122,13 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/vercel-ai-gateway)
 
+### Cerebras
+- **类型：** 免费服务（每日 100 万 Token）
+- **特点：** 极速推理，比 GPU 快 20 倍，晶圆级引擎技术
+- **适合：** 实时应用，高性能推理，快速响应场景
+
+[查看详情 →](/providers/cerebras)
+
 ---
 
 ## 🔍 按需选择
@@ -156,6 +163,9 @@ next: /providers/google-ai-studio
 
 ### 我需要统一接口访问多个提供商
 → [Vercel AI Gateway](/providers/vercel-ai-gateway) - 统一 AI Gateway
+
+### 我需要极速推理
+→ [Cerebras](/providers/cerebras) - 2,600+ tokens/s
 
 ---
 

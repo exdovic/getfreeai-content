@@ -102,6 +102,11 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Features:** Unified interface to hundreds of models, automatic failover, zero markup
 - **Rating:** ⭐⭐⭐⭐ (Best for multi-model integration)
 
+#### [Cerebras API](/en/services/api/cerebras)
+- **Quota:** 1 million tokens/day
+- **Features:** 2,600+ tokens/s ultra-fast inference, 20x faster than GPUs
+- **Rating:** ⭐⭐⭐⭐⭐ (Speed champion)
+
 ---
 
 ## 📊 Detailed Comparison
@@ -120,6 +125,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Mistral](/en/services/api/mistral) | Pay-as-you-go | Trial credits | By config | ✅ |
 | [NVIDIA NIM](/en/services/api/nvidia-nim) | Free Trial | 1,000 credits | Varies by model | ✅ |
 | [Vercel AI Gateway](/en/services/api/vercel-ai-gateway) | Free Trial | $5/month | Upstream decides | ✅ |
+| [Cerebras](/en/services/api/cerebras) | Free Service | 1M tokens/day | Within reason | ✅ |
 
 ### By Key Features
 
@@ -135,6 +141,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Mistral](/en/services/api/mistral) | Fast | Excellent | 128K | 🏆 European AI, open source |
 | [NVIDIA NIM](/en/services/api/nvidia-nim) | Fast | Excellent | 128K | 🏆 GPU-accelerated, self-hosting |
 | [Vercel AI Gateway](/en/services/api/vercel-ai-gateway) | Fast | Excellent | Varies | 🏆 Unified interface, zero markup |
+| [Cerebras](/en/services/api/cerebras) | 🏆 Ultra-fast | Excellent | 128K | 🏆 Ultra-fast inference, Wafer-Scale Engine |
 
 ---
 
@@ -144,6 +151,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 → [Google AI Studio API](/en/services/api/google-ai-studio) - Free to use
 
 ### I Need Ultra-fast Inference Speed
+→ [Cerebras API](/en/services/api/cerebras) - 2,600+ tokens/s (fastest)
 → [Groq API](/en/services/api/groq) - 800+ tokens/s
 
 ### I Need OpenAI Compatibility

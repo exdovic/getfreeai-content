@@ -102,6 +102,11 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **特点：** 统一接口访问数百种模型，自动故障转移，零加价
 - **推荐：** ⭐⭐⭐⭐（多模型集成首选）
 
+#### [Cerebras API](/services/api/cerebras)
+- **配额：** 100 万 tokens/天
+- **特点：** 2,600+ tokens/s 极速推理，比 GPU 快 20 倍
+- **推荐：** ⭐⭐⭐⭐⭐（速度王者）
+
 ---
 
 ## 📊 详细对比
@@ -120,6 +125,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Mistral](/services/api/mistral) | 按需付费 | 试用额度 | 按配置 | ✅ |
 | [NVIDIA NIM](/services/api/nvidia-nim) | 免费试用 | 1,000 积分 | 视模型而定 | ✅ |
 | [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 免费试用 | $5/月 | 上游决定 | ✅ |
+| [Cerebras](/services/api/cerebras) | 免费服务 | 100万 tokens/天 | 合理范围 | ✅ |
 
 ### 按特色功能
 
@@ -135,6 +141,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Mistral](/services/api/mistral) | 快 | 优秀 | 128K | 🏆 欧洲AI、开源 |
 | [NVIDIA NIM](/services/api/nvidia-nim) | 快 | 优秀 | 128K | 🏆 GPU加速、自托管 |
 | [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 快 | 优秀 | 视模型 | 🏆 统一接口、零加价 |
+| [Cerebras](/services/api/cerebras) | 🏆 极快 | 优秀 | 128K | 🏆 极速推理、晶圆级引擎 |
 
 ---
 
@@ -144,6 +151,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 → [Google AI Studio API](/services/api/google-ai-studio) - 免费使用
 
 ### 我需要极快的推理速度
+→ [Cerebras API](/services/api/cerebras) - 2,600+ tokens/s（最快）
 → [Groq API](/services/api/groq) - 800+ tokens/s
 
 ### 我需要 OpenAI 兼容性

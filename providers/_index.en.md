@@ -122,6 +122,13 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/vercel-ai-gateway)
 
+### Cerebras
+- **Type:** Free service (1 million tokens daily)
+- **Features:** Ultra-fast inference, 20x faster than GPUs, Wafer-Scale Engine technology
+- **Suitable for:** Real-time applications, high-performance inference, fast response scenarios
+
+[View Details →](/providers/cerebras)
+
 ---
 
 ## 🔍 Choose by Need
@@ -156,6 +163,9 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need unified interface to access multiple providers
 → [Vercel AI Gateway](/providers/vercel-ai-gateway) - Unified AI Gateway
+
+### I need ultra-fast inference
+→ [Cerebras](/providers/cerebras) - 2,600+ tokens/s
 
 ---
 

@@ -85,6 +85,7 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/mistral" title="Mistral API" subtitle="Pay-as-you-go · Pixtral multimodal · Open+proprietary" >}}
   {{< card link="/en/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="Free trial · GPU-accelerated · Enterprise inference" >}}
   {{< card link="/en/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/month free · Unified interface · Zero markup" >}}
+  {{< card link="/en/services/api/cerebras" title="Cerebras API" subtitle="1M tokens/day · Ultra-fast · 20x GPU speed" >}}
 {{< /cards >}}
 
 ---
@@ -113,6 +114,7 @@ Developer API interfaces to integrate into your applications:
 - **Enterprise platform** → [Google Vertex AI](/providers/google-vertex-ai)
 - **GPU-accelerated inference** → [NVIDIA NIM](/providers/nvidia-nim)
 - **Unified multi-model access** → [Vercel AI Gateway](/providers/vercel-ai-gateway)
+- **Ultra-fast inference** → [Cerebras](/providers/cerebras)
 
 ### Find by Requirements
 
