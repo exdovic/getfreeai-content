@@ -39,9 +39,9 @@ Anthropic is a company focused on AI safety and research, founded by former Open
 
 **Core Features:**
 - 🛡️ **AI Safety First** - Focused on developing safe and controllable AI systems
-- 🆓 **Free Available** - Claude offers a free version (~100 messages per day)
+- 🆓 **Free Available** - Claude offers a free version with dynamically adjusted quota
 - 🧠 **Powerful Reasoning** - Excellent performance on complex reasoning tasks
-- 📚 **Ultra-Long Context** - Up to 200K tokens context support
+- 📚 **Ultra-Long Context** - Standard 200K tokens, select models support 1M (beta)
 - 🎯 **Accurate & Reliable** - Less prone to hallucinations, more reliable
 - 💼 **Enterprise Features** - Comprehensive security and privacy protection
 
@@ -70,7 +70,7 @@ Anthropic is a company focused on AI safety and research, founded by former Open
 |------------|---------|-------|
 | Account Registration | ✅ Required | Email or third-party account |
 | Email Verification | ✅ Required | Email verification needed |
-| Credit Card Binding | ✅ Required | Need to purchase credits (minimum $5) |
+| Credit Card Binding | ✅ Required | Purchase credits (minimum $5, new users may receive trial credits) |
 | Identity Verification | ❌ Not Required | No identity verification |
 
 ### Registration Steps
@@ -155,7 +155,7 @@ Anthropic offers two main services:
 - Significant performance improvements
 - Excellent reasoning capabilities
 - Strong code generation abilities
-- Context window: 200K tokens
+- Context window: 200K tokens (select versions support 1M beta)
 
 ### Claude 3 Series
 
@@ -179,11 +179,17 @@ Anthropic offers two main services:
 
 ### 2. Ultra-Long Context
 
-**200K tokens Context:**
+**200K tokens Standard Context:**
 - Can process approximately 150,000 words of text
 - Suitable for analyzing long documents
 - Supports complete codebase understanding
 - Long conversations without context loss
+
+**1M tokens Extended Context (beta):**
+- Select Sonnet models support 1M token context
+- Requires specific tier or API header to enable
+- Tokens beyond 200K charged at premium rate
+- See [official documentation](https://docs.anthropic.com) for details
 
 **Examples:**
 ```
@@ -250,16 +256,17 @@ def optimized_solution(arr, target):
 ### Free Version Limits
 
 **Claude Chatbot Free Version:**
-- About 100 messages per day
+- Quota dynamically adjusted (session-based and system load)
 - May not access latest models
 - May need to queue during peak hours
 - Some advanced features restricted
 
 **API Prepaid:**
-- Need to purchase credits in advance (minimum $5)
-- Credits valid for 1 year
+- Need to purchase credits in advance (minimum $5, new users may receive trial credits)
+- Purchased credits valid for 1 year, non-refundable
 - Need to continue recharging after use
 - Different models have different prices
+- Researchers can apply for [AI for Science](https://www.anthropic.com/news/ai-for-science-program) grants
 
 ### Content Policy
 
@@ -271,13 +278,13 @@ def optimized_solution(arr, target):
 ### Quota Management
 
 **Chatbot:**
-- Daily message count dynamically adjusted
+- Message quota dynamically adjusted (session-based)
 - Use reasonably, avoid abuse
-- Paid subscriptions get more quota
+- Paid subscriptions (Pro/Max) get more quota
 
 **API:**
-- Check remaining credits in console
-- Monitor usage
+- Check remaining credits and rate limits in console
+- Automatically upgrade tier based on cumulative spending
 - Set budget alerts
 
 ---

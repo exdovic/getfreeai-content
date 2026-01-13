@@ -26,7 +26,7 @@ sidebar:
 **Service Name:** Anthropic API  
 **Provider:** [Anthropic](/providers/anthropic)  
 **API Endpoint:** `https://api.anthropic.com/v1`  
-**Service Type:** Prepaid (minimum $5 top-up)  
+**Service Type:** Prepaid (minimum $5 top-up, new users may receive trial credits)  
 **Registration Required:** Yes, account registration and credit purchase required
 
 ---
@@ -37,7 +37,7 @@ Anthropic API is a developer API service provided by Anthropic, allowing develop
 
 ### Main Features
 
-- **Ultra-Long Context:** Supports up to 200K tokens context window
+- **Ultra-Long Context:** Standard 200K tokens, select models support 1M (beta)
 - **Powerful Reasoning:** Excellent performance in complex reasoning, code generation, logical analysis
 - **AI Safety:** Focused on providing safe and reliable AI services, reducing harmful content generation
 - **Flexible Pricing:** Pay-as-you-go, different models at different prices
@@ -59,7 +59,7 @@ Anthropic API is a developer API service provided by Anthropic, allowing develop
 ### Model Details
 
 #### Claude 3.5 Sonnet (Recommended)
-- **Context Window:** 200,000 tokens
+- **Context Window:** 200,000 tokens (select versions support 1M beta)
 - **Main Use:** General conversation, complex reasoning, code generation
 - **Advantages:** Best balance of performance and cost, excellent in multiple benchmarks
 - **Update:** Released October 2024 with significant performance improvements
@@ -84,18 +84,19 @@ Anthropic API is a developer API service provided by Anthropic, allowing develop
 
 | Limit Item | Quota | Notes |
 |-----------|-------|-------|
-| **Minimum Top-up** | $5 | Minimum amount for first purchase |
-| **Credit Validity** | 1 year | Expires 1 year from purchase date |
-| **Max Context Length** | 200K tokens | All Claude 3 series models |
-| **Rate Limits** | By account tier | New accounts limited, increases with usage |
+| **Minimum Top-up** | $5 | Minimum amount (new users may receive trial credits) |
+| **Credit Validity** | 1 year | Expires 1 year from purchase date, non-refundable |
+| **Max Context Length** | 200K tokens | Standard context (select models support 1M beta) |
+| **Rate Limits** | By account tier | Automatically upgrade tier based on cumulative spending |
 | **Concurrent Requests** | By account tier | Paying users have higher concurrency |
 
 ### ⚠️ Important Limitations
 
-1. **Prepaid Requirement:** Must purchase usage credits before calling API, no free trial credits
+1. **Prepaid Requirement:** Need to purchase usage credits (new users may receive trial credits in console)
 2. **Credit Expiration:** Purchased credits expire after 1 year and are non-refundable
-3. **Rate Limits:** New accounts have stricter rate limits, gradually increase with usage
+3. **Rate Limits:** New accounts have rate limits, automatically upgrade tier based on cumulative spending
 4. **Regional Restrictions:** Some regions may not have direct API access
+5. **Research Grants:** Researchers can apply for [AI for Science](https://www.anthropic.com/news/ai-for-science-program) for free credits
 
 ### Rate Limit Examples
 

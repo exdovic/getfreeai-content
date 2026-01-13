@@ -63,7 +63,7 @@ No coding required, use AI conversational services directly in your browser:
   {{< card link="/en/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="Free to use · Top Chinese · Chain-of-thought" >}}
   {{< card link="/en/services/chatbot/cohere" title="Cohere Coral" subtitle="Free to use · RAG expert · Doc upload" >}}
   {{< card link="/en/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300 trial · Enterprise · 2M context" >}}
-  {{< card link="/en/services/chatbot/anthropic" title="Claude" subtitle="~100/day · 200K context · AI safety" >}}
+  {{< card link="/en/services/chatbot/anthropic" title="Claude" subtitle="Dynamic quota · 200K context · AI safety" >}}
   {{< card link="/en/services/chatbot/hugging-face" title="HuggingChat" subtitle="Completely free · Unlimited · Multiple open-source models" >}}
   {{< card link="/en/services/chatbot/mistral" title="Le Chat" subtitle="10-50+/day · Pixtral multimodal · European AI" >}}
   {{< card link="/en/services/chatbot/github-models" title="GitHub Models" subtitle="Free to use · 10+ models · GitHub integrated" >}}

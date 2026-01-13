@@ -26,7 +26,7 @@ sidebar:
 **Service Name:** Claude Chatbot  
 **Provider:** [Anthropic](/providers/anthropic)  
 **Access URL:** [https://claude.ai](https://claude.ai)  
-**Service Type:** Limited Free (~100 messages per day)  
+**Service Type:** Limited Free (dynamically adjusted quota)  
 **Registration Required:** Yes (email verification)
 
 ---
@@ -37,10 +37,10 @@ Claude Chatbot is a web-based AI conversation service provided by Anthropic, foc
 
 ### Main Features
 
-- **Ultra-Long Context:** Supports up to 200K tokens context, can process up to 150,000 words of text
+- **Ultra-Long Context:** Standard 200K tokens, select models support 1M (beta), can process up to 150,000 words
 - **Safe & Reliable:** Focused on AI safety, less prone to hallucinations, more accurate answers
 - **Powerful Reasoning:** Excellent performance in complex reasoning, logical analysis, code generation
-- **Multimodal Support:** Supports file upload (PDF, text, etc.) and image understanding
+- **Multimodal Support:** File upload (PDF, text, etc., ~20 files/upload, ~30MB/file) and image understanding
 
 ---
 
@@ -84,19 +84,19 @@ Claude Chatbot is a web-based AI conversation service provided by Anthropic, foc
 
 | Limit Item | Quota | Notes |
 |-----------|-------|-------|
-| **Daily Message Count** | ~100 messages | Specific number may adjust dynamically |
+| **Message Quota** | Dynamically adjusted | Based on sessions and system load |
 | **Single Conversation Length** | No fixed limit | Limited by context window |
 | **Context Memory** | 200K tokens | ~150,000 words |
-| **File Upload** | ✅ Supported | PDF, text, images, etc. |
+| **File Upload** | ✅ Supported | PDF, text, images (~20 files/upload, ~30MB/file) |
 | **Image Upload** | ✅ Supported | Image understanding supported |
 | **Credit Card Required** | ❌ Not Required | Free to use |
 
 ### ⚠️ Important Limitations
 
-1. **Daily Message Limit:** Free version ~100 messages per day, specific number may adjust dynamically
+1. **Dynamic Quota Adjustment:** Free version uses session-based limits, quota adjusts based on system load
 2. **Model Access Limits:** Free users may not access the latest Claude models
 3. **Peak Hour Queuing:** May need to queue during peak usage times
-4. **Paid Subscriptions:** Pro subscription ($20/month) offers 5x usage, Max subscription offers higher quotas
+4. **Paid Subscriptions:** Pro subscription ($20/month) offers significantly higher session quotas, Max offers highest
 
 ---
 

@@ -63,7 +63,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="免费使用 · 中文顶尖 · 思维链可见" >}}
   {{< card link="/zh-cn/services/chatbot/cohere" title="Cohere Coral" subtitle="免费使用 · RAG专家 · 文档上传" >}}
   {{< card link="/zh-cn/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300试用 · 企业级 · 2M上下文" >}}
-  {{< card link="/zh-cn/services/chatbot/anthropic" title="Claude" subtitle="约100条/天 · 200K上下文 · AI安全" >}}
+  {{< card link="/zh-cn/services/chatbot/anthropic" title="Claude" subtitle="配额动态 · 200K上下文 · AI安全" >}}
   {{< card link="/zh-cn/services/chatbot/hugging-face" title="HuggingChat" subtitle="完全免费 · 无限制 · 多种开源模型" >}}
   {{< card link="/zh-cn/services/chatbot/mistral" title="Le Chat" subtitle="10-50+次/天 · Pixtral多模态 · 欧洲AI" >}}
   {{< card link="/zh-cn/services/chatbot/github-models" title="GitHub Models" subtitle="免费使用 · 10+模型 · GitHub集成" >}}

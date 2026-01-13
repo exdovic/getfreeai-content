@@ -105,7 +105,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 | [DeepSeek](/services/chatbot/deepseek) | 永久免费 | 免费使用 | 快 | 🏆 顶尖 | ✅ | 思维链、代码执行 |
 | [OpenRouter](/services/chatbot/openrouter) | 免费增值 | 50-1000/天 | 快 | ✅ | 部分 | 🏆 25+ 模型 |
 | [Vertex AI Studio](/services/chatbot/vertex-ai) | 试用积分 | $300 | 快 | ✅ | 🏆 强 | 企业级、2M上下文 |
-| [Claude](/services/chatbot/anthropic) | 有限免费 | 约100/天 | 快 | ✅ | ✅ | 🏆 200K上下文、AI安全 |
+| [Claude](/services/chatbot/anthropic) | 有限免费 | 动态配额 | 快 | ✅ | ✅ | 🏆 200K上下文、AI安全 |
 | [Le Chat](/services/chatbot/mistral) | 免费增值 | 10-50+/天 | 快 | ✅ | ✅ | 欧洲AI、Pixtral多模态 |
 
 ---
