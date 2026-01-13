@@ -39,7 +39,7 @@ Hugging Face is the world's largest AI open-source community and model hosting p
 ### Core Features
 
 - **🌍 World's Largest AI Community:** Over 1 million open-source models covering NLP, CV, audio, and more
-- **🆓 Completely Free:** HuggingChat and Inference API offer free services with no credit card required
+- **🆓 Free Usage Quota:** Provides free usage allowance, Free account ~$0.10/month, PRO ($9/month) ~$2/month
 - **🔓 Open Source First:** Supports open-source models that users can freely download, modify, and deploy
 - **🛠️ Rich Toolchain:** Powerful open-source libraries like Transformers, Datasets, Accelerate
 - **🤝 Active Community:** Millions of developers, researchers, and AI enthusiasts
@@ -77,7 +77,7 @@ Hugging Face provides the following free services:
 {{< /cards >}}
 
 **Features:**
-- Completely free with unlimited usage
+- Free to use with usage quota (consumes Inference credits)
 - Supports multiple open-source models (Llama, Mistral, Qwen, etc.)
 - No registration required for basic use (more features with account)
 - Supports file upload, web search, image generation
@@ -89,7 +89,7 @@ Hugging Face provides the following free services:
 {{< /cards >}}
 
 **Features:**
-- Free tier with hundreds of requests per hour
+- Free quota: Free ~$0.10/month, PRO ~$2/month (reference values)
 - Supports thousands of public models
 - Easy-to-use RESTful API
 - Seamless integration with Python SDK
@@ -164,15 +164,16 @@ You can register using:
 
 ### ⚠️ Important Notes
 
-1. **Rate Limits:** Free Inference API has ~hundreds of requests per hour, exceeding limits causes temporary throttling
-2. **Model Quality Variance:** Open-source model performance varies, testing is needed to select suitable models
-3. **Cold Start Time:** First call to a model may take longer (cold start)
-4. **Data Privacy:** Be mindful of data privacy when using public models, use private deployment for sensitive data
+1. **Usage Quota:** Inference API and HuggingChat usage consumes monthly credits (Free ~$0.10/month, PRO ~$2/month), limitations apply when quota is exhausted
+2. **Rate Limits:** Different account tiers have different rate limits, refer to official docs and actual API responses
+3. **Model Quality Variance:** Open-source model performance varies, testing is needed to select suitable models
+4. **Cold Start Time:** First call to a model may take longer (cold start)
+5. **Data Privacy:** Be mindful of data privacy when using public models, use private deployment for sensitive data
 
 ### 🔧 Common Questions
 
 **Q: Is Hugging Face completely free?**  
-A: HuggingChat is completely free, Inference API has a free tier (~hundreds of requests/hour). PRO account ($9/month) offers higher quotas and extra features.
+A: Provides free usage quota, Free account ~$0.10/month of Inference credits, PRO account ($9/month) includes ~$2/month credits with pay-as-you-go support. Exact quotas subject to official terms.
 
 **Q: What's the difference between HuggingChat and ChatGPT?**  
 A: HuggingChat is based on open-source models (like Llama, Mistral), completely free with unlimited usage. ChatGPT uses OpenAI's proprietary models, may have stronger performance but free version has limitations.
@@ -181,7 +182,7 @@ A: HuggingChat is based on open-source models (like Llama, Mistral), completely 
 A: Most models can be used commercially, but check each model's license. Common open-source licenses like Apache 2.0, MIT allow commercial use.
 
 **Q: What are the Inference API rate limits?**  
-A: Free users get ~hundreds of requests per hour (depends on model and account status). PRO users ($9/month) have higher rate limits.
+A: Rate limits are calculated by account tier (Free/PRO/Team/Enterprise) and time windows, with dynamic adjustments. Check official Rate limits documentation or actual API response headers for specifics.
 
 **Q: How to choose the right model?**  
 A: Consider task type, model size, performance metrics, download count, etc. Recommend testing in HuggingChat or Playground first before integrating into applications.

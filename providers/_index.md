@@ -95,8 +95,8 @@ next: /providers/google-ai-studio
 [查看详情 →](/providers/anthropic)
 
 ### Hugging Face
-- **类型：** 完全免费
-- **特点：** 100万+ 开源模型，HuggingChat 无限制
+- **类型：** 免费配额（Free 约 $0.10/月，PRO $9/月含 $2/月）
+- **特点：** 100万+ 开源模型，多任务支持
 - **适合：** 开源 AI，模型测试，学习研究
 
 [查看详情 →](/providers/hugging-face)

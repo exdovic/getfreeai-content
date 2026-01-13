@@ -26,7 +26,7 @@ sidebar:
 **Service Name:** HuggingChat  
 **Provider:** [Hugging Face](/providers/hugging-face)  
 **Access URL:** [https://huggingface.co/chat](https://huggingface.co/chat)  
-**Service Type:** Completely Free (unlimited usage)  
+**Service Type:** Free to Use (with usage quota)  
 **Registration:** Not required (optional for extra features)
 
 ---
@@ -37,7 +37,7 @@ HuggingChat is an open-source AI chat service provided by Hugging Face, serving 
 
 ### Main Features
 
-- **Completely Free:** Unlimited usage with no payment required
+- **Free to Use:** Provides free usage quota (consumes Inference credits), limitations apply when quota is exhausted
 - **Open & Transparent:** Based on open-source models with viewable details
 - **Model Variety:** Switch between multiple open-source models for different needs
 - **Feature Rich:** Supports file upload, web search, image generation, and more
@@ -80,20 +80,21 @@ HuggingChat supports multiple open-source models that users can freely switch be
 
 | Limit Item | Quota | Notes |
 |-----------|-------|-------|
-| **Daily Conversations** | Unlimited | Completely free, no limit |
+| **Usage Quota** | Limited | Consumes monthly credits (Free ~$0.10/month, PRO ~$2/month) |
 | **Single Conversation Length** | Long | Limited by model context window |
 | **Context Memory** | Model dependent | Generally thousands to tens of thousands of tokens |
 | **File Upload** | ✅ Supported | Multiple file formats |
 | **Web Search** | ✅ Supported | Some models support |
 | **Image Generation** | ✅ Supported | Free to use |
-| **Credit Card Required** | ❌ Not Required | Completely free |
+| **Credit Card Required** | ❌ Not Required | Free quota needs no credit card |
 
 ### ⚠️ Important Limitations
 
-1. **Rate Limiting:** While unlimited, there may be short-term request frequency limits to prevent abuse
-2. **Model Availability:** Popular models may have queues during peak times or switch to other models
-3. **Response Speed:** Open-source models may be slower than commercial models
-4. **Feature Differences:** Different models support different features (web search, image understanding, etc.)
+1. **Usage Quota:** Usage consumes monthly Inference credits, limitations appear when quota is exhausted
+2. **Rate Limiting:** Request frequency limits exist to prevent excessive short-term requests
+3. **Model Availability:** Popular models may have queues during peak times or switch to other models
+4. **Response Speed:** Open-source models may be slower than commercial models
+5. **Feature Differences:** Different models support different features (web search, image understanding, etc.)
 
 ---
 
@@ -213,7 +214,7 @@ For registration, refer to [Hugging Face Registration](/providers/hugging-face#a
 
 | Feature | HuggingChat | ChatGPT | Claude | DeepSeek Chat |
 |---------|------------|---------|--------|--------------|
-| Free Quota | 🏆 Unlimited | Limited (GPT-4o restricted) | ~100/day | 50/day |
+| Free Quota | Has quota limit | Limited (GPT-4o restricted) | Dynamic quota | 50/day |
 | Registration Required | ❌ Optional | ✅ Required | ✅ Required | ✅ Required |
 | Model Choice | 🏆 Multiple open-source | GPT series | Claude series | DeepSeek series |
 | Open Source | 🏆 Fully open | ❌ Closed | ❌ Closed | Partially open |
@@ -224,7 +225,7 @@ For registration, refer to [Hugging Face Registration](/providers/hugging-face#a
 
 ### Unique Highlights
 
-1. **Completely Free & Unlimited:** No daily message limit, unlimited use
+1. **Free Usage Quota:** Provides free usage allowance suitable for testing and learning (limitations when quota exhausted)
 2. **Open & Transparent:** All models are open-source with viewable technical details
 3. **Model Diversity:** Switch between different models to find what suits you best
 4. **No Registration Needed:** Open and use immediately with no barriers
@@ -255,7 +256,7 @@ For registration, refer to [Hugging Face Registration](/providers/hugging-face#a
 ## 🔧 Common Questions
 
 **Q: Is HuggingChat really completely free?**  
-A: Yes, HuggingChat is completely free with unlimited usage and no payment required.
+A: Provides free usage quota but consumes monthly Inference credits (Free ~$0.10/month, PRO ~$2/month). Limitations appear when quota is exhausted.
 
 **Q: Can I use it without registration?**  
 A: Yes! HuggingChat works without registration, but registration provides extra features like conversation history.

@@ -81,7 +81,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Rating:** ⭐⭐⭐⭐⭐ (Safe & reliable)
 
 #### [Hugging Face Inference API](/en/services/api/hugging-face)
-- **Quota:** ~Hundreds/hour
+- **Quota:** Free ~$0.10/month, PRO ~$2/month
 - **Features:** 1M+ open-source models, multi-task support
 - **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
 

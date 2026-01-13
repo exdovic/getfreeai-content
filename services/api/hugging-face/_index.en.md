@@ -26,7 +26,7 @@ sidebar:
 **Service Name:** Hugging Face Inference API  
 **Provider:** [Hugging Face](/providers/hugging-face)  
 **API Endpoint:** `https://api-inference.huggingface.co/models/{model_id}`  
-**Service Type:** Freemium (Free tier + PRO account)  
+**Service Type:** Freemium (Free ~$0.10/month + PRO $9/month includes $2/month)  
 **Registration:** Registration and API Token required
 
 ---
@@ -38,7 +38,7 @@ Hugging Face Inference API is a serverless inference API service that allows dev
 ### Main Features
 
 - **Abundant Models:** Supports thousands of public models covering various AI tasks
-- **Free to Use:** Provides free tier with hundreds of requests per hour
+- **Free Quota:** Free account ~$0.10/month, PRO account ~$2/month (reference values)
 - **Ready to Use:** No deployment needed, use via API calls
 - **Multi-Task Support:** Text generation, image generation, speech recognition, image classification, etc.
 
@@ -97,28 +97,31 @@ Hugging Face Inference API supports the following task types:
 
 | Limit Item | Quota | Notes |
 |-----------|-------|-------|
-| **Requests per Hour** | ~Hundreds | Depends on account status and model |
+| **Monthly Quota** | Free ~$0.10/month | PRO ~$2/month (reference, subject to official terms) |
+| **Rate Limits** | Varies by tier | Free/PRO/Team/Enterprise have different limits |
 | **Concurrent Requests** | Limited | Avoid many requests in short time |
 | **Cold Start Time** | May be long | First request may need model loading |
 | **Response Time** | No guarantee | Best effort, no SLA |
-| **Credit Card Required** | ❌ Not Required | Free tier needs no credit card |
+| **Credit Card Required** | ❌ Not Required | Free quota needs no credit card |
 
 ### PRO Account ($9/month)
 
 | Limit Item | Quota | Notes |
 |-----------|-------|-------|
-| **Requests per Hour** | Higher limit | Significantly increased rate limits |
+| **Monthly Quota** | ~$2/month | Included in $9/month subscription, supports pay-as-you-go |
+| **Rate Limits** | Higher limit | Significantly increased rate limits |
 | **Priority Processing** | ✅ | Requests prioritized, less waiting |
 | **Cold Start** | Faster | Models kept active |
 | **Early Access** | ✅ | Early access to new features and models |
 
 ### ⚠️ Important Limitations
 
-1. **Cold Start Delay:** First request or after long inactivity needs loading time (may be 10-30 seconds)
-2. **Rate Limits:** Free users have strict rate limits, exceeding returns 429 error
-3. **Model Availability:** Some models may require PRO account or special permissions
-4. **No SLA Guarantee:** Free tier provides no service level agreement
-5. **Production Use Limits:** Free tier not recommended for production, use dedicated inference endpoints
+1. **Monthly Quota Limits:** Free ~$0.10/month, PRO ~$2/month, limitations apply when exhausted (values subject to official terms)
+2. **Cold Start Delay:** First request or after long inactivity needs loading time (may be 10-30 seconds)
+3. **Rate Limits:** Different account tiers have different rate limits, exceeding returns 429 error
+4. **Model Availability:** Some models may require PRO account or special permissions
+5. **No SLA Guarantee:** Free tier provides no service level agreement
+6. **Production Use Limits:** Free tier not recommended for production, use dedicated inference endpoints
 
 ---
 
@@ -127,16 +130,18 @@ Hugging Face Inference API supports the following task types:
 ### Free Tier
 
 - **Price:** Completely free
-- **Rate Limit:** ~Hundreds of requests per hour
+- **Monthly Quota:** ~$0.10/month (reference, subject to official terms)
 - **Use Cases:** Testing, learning, small-scale applications
 
 ### PRO Account
 
 - **Price:** $9/month
+- **Included Quota:** ~$2/month of Inference credits
 - **Features:**
   - Higher rate limits
   - Priority request processing
   - Faster cold starts
+  - Pay-as-you-go support (after quota exhausted)
   - Early access to new features
 - **Use Cases:** Personal projects, small to medium-scale applications
 
@@ -563,7 +568,7 @@ for item in results:
 ## 🔧 Common Questions
 
 **Q: Is Inference API completely free?**  
-A: There's a free tier (~hundreds of requests per hour), or upgrade to PRO account ($9/month) for higher quotas.
+A: Provides free quota (Free ~$0.10/month, PRO $9/month includes $2/month), limitations apply when exhausted. PRO supports pay-as-you-go.
 
 **Q: What is cold start?**  
 A: Models need loading time on first request or after long inactivity, may take 10-30 seconds. PRO users have faster cold starts.

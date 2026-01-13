@@ -64,7 +64,7 @@ No coding required, use AI conversational services directly in your browser:
   {{< card link="/en/services/chatbot/cohere" title="Cohere Coral" subtitle="Free to use · RAG expert · Doc upload" >}}
   {{< card link="/en/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300 trial · Enterprise · 2M context" >}}
   {{< card link="/en/services/chatbot/anthropic" title="Claude" subtitle="Dynamic quota · 200K context · AI safety" >}}
-  {{< card link="/en/services/chatbot/hugging-face" title="HuggingChat" subtitle="Completely free · Unlimited · Multiple open-source models" >}}
+  {{< card link="/en/services/chatbot/hugging-face" title="HuggingChat" subtitle="Free quota · Open-source models · No registration" >}}
   {{< card link="/en/services/chatbot/mistral" title="Le Chat" subtitle="10-50+/day · Pixtral multimodal · European AI" >}}
   {{< card link="/en/services/chatbot/github-models" title="GitHub Models" subtitle="Free to use · 10+ models · GitHub integrated" >}}
 {{< /cards >}}
@@ -82,7 +82,7 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/cohere" title="Cohere API" subtitle="1,000/month · RAG · Embed+Rerank" >}}
   {{< card link="/en/services/api/vertex-ai" title="Vertex AI API" subtitle="$300 trial · Enterprise · Full MLOps" >}}
   {{< card link="/en/services/api/anthropic" title="Anthropic API" subtitle="Prepaid $5+ · 200K context · AI safety" >}}
-  {{< card link="/en/services/api/hugging-face" title="Hugging Face API" subtitle="Hundreds/hour · 1M+ models · Open source" >}}
+  {{< card link="/en/services/api/hugging-face" title="Hugging Face API" subtitle="$0.10/month free · 1M+ models · Open source" >}}
   {{< card link="/en/services/api/mistral" title="Mistral API" subtitle="Free trial · Pixtral multimodal · Open+proprietary" >}}
   {{< card link="/en/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="Free trial · GPU-accelerated · Enterprise inference" >}}
   {{< card link="/en/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/month free · Unified interface · Zero markup" >}}

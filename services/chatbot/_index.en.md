@@ -79,8 +79,8 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 - **Rating:** ⭐⭐⭐⭐⭐ (Safe & reliable)
 
 #### [HuggingChat](/en/services/chatbot/hugging-face)
-- **Quota:** Unlimited
-- **Features:** Multiple open-source models, completely free
+- **Quota:** Has quota limit (~$0.10/month)
+- **Features:** Multiple open-source models, no registration
 - **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
 
 #### [Le Chat](/en/services/chatbot/mistral)
