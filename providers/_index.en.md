@@ -102,8 +102,8 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 [View Details →](/providers/hugging-face)
 
 ### Mistral AI
-- **Type:** Free Chatbot + Pay-as-you-go API
-- **Features:** European AI leader, Pixtral Large multimodal, open+proprietary models
+- **Type:** Free Chatbot + Free Trial API
+- **Features:** European AI leader, Pixtral Large multimodal, open+proprietary models, Experiment free plan
 - **Suitable for:** European users, open-source enthusiasts, multi-cloud deployment
 
 [View Details →](/providers/mistral)

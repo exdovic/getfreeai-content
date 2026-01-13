@@ -86,7 +86,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **推荐：** ⭐⭐⭐⭐⭐（开源首选）
 
 #### [Mistral API](/services/api/mistral)
-- **配额：** 按需付费（有试用）
+- **配额：** Experiment 免费试用（仅需手机验证）
 - **特点：** Pixtral Large 多模态，开源+专有，多云部署
 - **推荐：** ⭐⭐⭐⭐（欧洲首选）
 
@@ -132,7 +132,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Cohere](/services/api/cohere) | 免费试用 | 1,000/月 | 10-20 req/min | ❌ |
 | [Vertex AI](/services/api/vertex-ai) | 试用积分 | $300 (91天) | 按配置 | ❌ |
 | [Anthropic](/services/api/anthropic) | 预付费 | 最低 $5 | 根据账户等级 | ❌ |
-| [Mistral](/services/api/mistral) | 按需付费 | 试用额度 | 按配置 | ✅ |
+| [Mistral](/services/api/mistral) | 免费试用 | Experiment 计划 | 受限速率 | ✅ |
 | [NVIDIA NIM](/services/api/nvidia-nim) | 免费试用 | 1,000 积分 | 视模型而定 | ✅ |
 | [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 免费试用 | $5/月 | 上游决定 | ✅ |
 | [Cerebras](/services/api/cerebras) | 免费服务 | 100万 tokens/天 | 合理范围 | ✅ |

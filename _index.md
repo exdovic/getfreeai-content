@@ -83,7 +83,7 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/api/vertex-ai" title="Vertex AI API" subtitle="$300试用 · 企业级 · 完整MLOps" >}}
   {{< card link="/zh-cn/services/api/anthropic" title="Anthropic API" subtitle="预付费$5+ · 200K上下文 · AI安全" >}}
   {{< card link="/zh-cn/services/api/hugging-face" title="Hugging Face API" subtitle="数百次/小时 · 100万+模型 · 开源" >}}
-  {{< card link="/zh-cn/services/api/mistral" title="Mistral API" subtitle="按需付费 · Pixtral多模态 · 开源+专有" >}}
+  {{< card link="/zh-cn/services/api/mistral" title="Mistral API" subtitle="免费试用 · Pixtral多模态 · 开源+专有" >}}
   {{< card link="/zh-cn/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="免费试用 · GPU加速 · 企业级推理" >}}
   {{< card link="/zh-cn/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/月免费 · 统一接口 · 零加价" >}}
   {{< card link="/zh-cn/services/api/cerebras" title="Cerebras API" subtitle="100万tokens/天 · 极速推理 · 20倍GPU速度" >}}

@@ -102,8 +102,8 @@ next: /providers/google-ai-studio
 [查看详情 →](/providers/hugging-face)
 
 ### Mistral AI
-- **类型：** 免费 Chatbot + 按需付费 API
-- **特点：** 欧洲 AI 领军者，Pixtral Large 多模态，开源+专有模型
+- **类型：** 免费 Chatbot + 免费试用 API
+- **特点：** 欧洲 AI 领军者，Pixtral Large 多模态，开源+专有模型，Experiment 免费计划
 - **适合：** 欧洲用户，开源爱好者，多云部署
 
 [查看详情 →](/providers/mistral)

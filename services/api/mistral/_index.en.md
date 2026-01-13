@@ -26,8 +26,8 @@ sidebar:
 **Service Name:** Mistral API  
 **Provider:** [Mistral AI](/providers/mistral)  
 **API Endpoint:** `https://api.mistral.ai/v1`  
-**Service Type:** Pay-as-you-go (with free trial)  
-**Registration:** Account and payment method required
+**Service Type:** Experiment free trial + Scale pay-as-you-go  
+**Registration:** Account required; Experiment plan needs phone verification only, Scale plan requires payment method
 
 ---
 
@@ -83,13 +83,14 @@ Mistral API is a developer API interface provided by Mistral AI, allowing develo
 
 ## 🔢 Quotas and Limits
 
-### Free Trial
+### Free Trial (Experiment Plan)
 
-|| Item | Details |
-||------|---------|
-|| **Trial Credits** | New users may receive free trial credits (check official site) |
-|| **Rate Limits** | Varies by account tier |
-|| **Access** | Get API key from console after registration |
+| Item | Details |
+|------|---------|
+| **Trial Method** | Experiment plan, free trial (phone verification only, no credit card) |
+| **Rate Limits** | Limited rates, suitable for experiments and prototyping |
+| **Access** | Activate Experiment plan in console Subscription after registration |
+| **Upgrade Option** | Upgrade to Scale plan (pay-as-you-go) for higher quotas |
 
 ### Rate Limits
 
@@ -101,9 +102,9 @@ Mistral API is a developer API interface provided by Mistral AI, allowing develo
 
 ### ⚠️ Important Limits
 
-1. **Paid Service:** API is primarily paid, payment method required
-2. **Rate Limits:** Different rate limits based on account tier
-3. **Region Restrictions:** May not be available in some regions
+1. **Experiment vs Scale:** Experiment plan is free but rate-limited, Scale plan is pay-as-you-go with higher quotas
+2. **Rate Limits:** Different rate limits based on account tier and plan
+3. **Data Usage:** Experiment plan requests may be used for model improvement, Scale plan is opt-out by default (adjustable in console)
 
 ### Quota Reset
 
@@ -147,6 +148,13 @@ Please [register a Mistral AI account](/providers/mistral#account-registration)
 
 Visit [Mistral AI Console](https://console.mistral.ai) and log in.
 
+##### Choose Plan
+
+1. Go to "Admin" → "Subscription" section
+2. Choose **Experiment** (free trial) or **Scale** (paid)
+3. **Experiment:** Usually requires phone verification only, no credit card
+4. **Scale:** Requires adding payment method in Billing
+
 ##### Create API Key
 
 1. Navigate to "API Keys" page
@@ -154,12 +162,6 @@ Visit [Mistral AI Console](https://console.mistral.ai) and log in.
 3. Name your key (e.g., "My App API Key")
 4. Copy the generated API key
 5. **Important:** Save key securely, shown only once
-
-##### Configure Payment
-
-1. Go to "Billing" page
-2. Add payment method (credit card, etc.)
-3. Complete payment setup
 
 {{% /steps %}}
 
@@ -588,7 +590,7 @@ print(review)
 ## 🔧 Common Questions
 
 **Q: Does Mistral API have free quota?**  
-A: New users may receive trial credits, but the API is primarily a paid service. Check the [official pricing page](https://mistral.ai/pricing).
+A: Yes. Mistral offers an **Experiment free trial plan** that requires only phone verification (no credit card). The Experiment plan is suitable for experiments and prototyping with rate limits. For higher quotas, upgrade to the Scale pay-as-you-go plan. See [official pricing page](https://mistral.ai/pricing).
 
 **Q: How to migrate from OpenAI API to Mistral API?**  
 A: Just modify `base_url` and `api_key`, no other code changes needed:

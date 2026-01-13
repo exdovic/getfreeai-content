@@ -84,7 +84,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 - **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
 
 #### [Le Chat](/en/services/chatbot/mistral)
-- **Quota:** 10-50+ /day
+- **Quota:** ~10-50+ /day (reference, subject to official site)
 - **Features:** Pixtral Large multimodal, image generation, European AI
 - **Rating:** ⭐⭐⭐⭐ (European choice)
 
@@ -106,7 +106,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 | [OpenRouter](/en/services/chatbot/openrouter) | Freemium | 50-1000/day | Fast | ✅ | Partial | 🏆 25+ models |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | Fast | ✅ | 🏆 Strong | Enterprise-grade, 2M context |
 | [Claude](/en/services/chatbot/anthropic) | Limited Free | Dynamic | Fast | ✅ | ✅ | 🏆 200K context, AI safety |
-| [Le Chat](/en/services/chatbot/mistral) | Freemium | 10-50+/day | Fast | ✅ | ✅ | European AI, Pixtral multimodal |
+| [Le Chat](/en/services/chatbot/mistral) | Freemium | ~10-50+/day | Fast | ✅ | ✅ | European AI, Pixtral multimodal |
 
 ---
 

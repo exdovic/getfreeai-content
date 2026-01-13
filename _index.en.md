@@ -83,7 +83,7 @@ Developer API interfaces to integrate into your applications:
   {{< card link="/en/services/api/vertex-ai" title="Vertex AI API" subtitle="$300 trial · Enterprise · Full MLOps" >}}
   {{< card link="/en/services/api/anthropic" title="Anthropic API" subtitle="Prepaid $5+ · 200K context · AI safety" >}}
   {{< card link="/en/services/api/hugging-face" title="Hugging Face API" subtitle="Hundreds/hour · 1M+ models · Open source" >}}
-  {{< card link="/en/services/api/mistral" title="Mistral API" subtitle="Pay-as-you-go · Pixtral multimodal · Open+proprietary" >}}
+  {{< card link="/en/services/api/mistral" title="Mistral API" subtitle="Free trial · Pixtral multimodal · Open+proprietary" >}}
   {{< card link="/en/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="Free trial · GPU-accelerated · Enterprise inference" >}}
   {{< card link="/en/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/month free · Unified interface · Zero markup" >}}
   {{< card link="/en/services/api/cerebras" title="Cerebras API" subtitle="1M tokens/day · Ultra-fast · 20x GPU speed" >}}
