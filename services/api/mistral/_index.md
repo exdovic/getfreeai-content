@@ -50,14 +50,14 @@ Mistral API 是 Mistral AI 提供的开发者 API 接口，允许开发者将 Mi
 
 ### 免费/付费模型列表
 
-|| 模型名称 | 上下文长度 | 特点 | 适用场景 | 定价 |
-||---------|-----------|------|---------|------|
-|| **Mistral Large 2** | 128K | 最强性能，多语言 | 复杂推理、长文本 | $2-6/M tokens |
-|| **Pixtral Large** | 128K | 多模态，图像理解 | 视觉任务、OCR | $2-6/M tokens |
-|| **Mistral Medium** | 32K | 平衡性能成本 | 日常应用 | $0.40-2/M tokens |
-|| **Mistral Small** | 32K | 轻量高效 | 简单任务、高频调用 | $0.20-0.60/M tokens |
-|| **Mixtral 8x7B** | 32K | 开源 MoE | 通用任务 | 开源免费/API付费 |
-|| **Mistral 7B** | 8K | 开源基础 | 入门学习 | 开源免费 |
+| 模型名称 | 上下文长度 | 特点 | 适用场景 | 定价 |
+|---------|-----------|------|---------|------|
+| **Mistral Large 2** | 128K | 最强性能，多语言 | 复杂推理、长文本 | $2-6/M tokens |
+| **Pixtral Large** | 128K | 多模态，图像理解 | 视觉任务、OCR | $2-6/M tokens |
+| **Mistral Medium** | 32K | 平衡性能成本 | 日常应用 | $0.40-2/M tokens |
+| **Mistral Small** | 32K | 轻量高效 | 简单任务、高频调用 | $0.20-0.60/M tokens |
+| **Mixtral 8x7B** | 32K | 开源 MoE | 通用任务 | 开源免费/API付费 |
+| **Mistral 7B** | 8K | 开源基础 | 入门学习 | 开源免费 |
 
 ### 模型详细说明
 
@@ -94,11 +94,11 @@ Mistral API 是 Mistral AI 提供的开发者 API 接口，允许开发者将 Mi
 
 ### 速率限制
 
-|| 限制项 | 免费/试用 | 付费 |
-||--------|----------|------|
-|| **每分钟请求数** | 较低 | 根据套餐 |
-|| **每分钟 Token 数** | 有限制 | 根据套餐 |
-|| **并发请求** | 有限制 | 根据套餐 |
+| 限制项 | 免费/试用 | 付费 |
+|--------|----------|------|
+| **每分钟请求数** | 较低 | 根据套餐 |
+| **每分钟 Token 数** | 有限制 | 根据套餐 |
+| **并发请求** | 有限制 | 根据套餐 |
 
 ### ⚠️ 重要限制
 
@@ -117,12 +117,12 @@ Mistral API 是 Mistral AI 提供的开发者 API 接口，允许开发者将 Mi
 
 ### 按需付费
 
-|| 模型 | 输入价格 | 输出价格 | 说明 |
-||------|---------|---------|------|
-|| **Mistral Large 2** | $2/M tokens | $6/M tokens | 最强性能 |
-|| **Pixtral Large** | $2/M tokens | $6/M tokens | 多模态 |
-|| **Mistral Medium** | $0.40/M tokens | $2/M tokens | 性价比高 |
-|| **Mistral Small** | $0.20/M tokens | $0.60/M tokens | 经济实惠 |
+| 模型 | 输入价格 | 输出价格 | 说明 |
+|------|---------|---------|------|
+| **Mistral Large 2** | $2/M tokens | $6/M tokens | 最强性能 |
+| **Pixtral Large** | $2/M tokens | $6/M tokens | 多模态 |
+| **Mistral Medium** | $0.40/M tokens | $2/M tokens | 性价比高 |
+| **Mistral Small** | $0.20/M tokens | $0.60/M tokens | 经济实惠 |
 
 **注：** M = Million（百万）
 
@@ -380,14 +380,14 @@ print(response.choices[0].message.content)
 
 ### 与其他 API 对比
 
-|| 特性 | Mistral API | OpenAI API | Google AI Studio | DeepSeek API |
-||------|------------|-----------|-----------------|-------------|
-|| 免费配额 | 试用额度 | 试用额度 | 高配额免费 | ¥5 试用 |
-|| 开源模型 | ✅ 部分 | ❌ | ❌ | ✅ |
-|| 多云部署 | ✅ | ❌ | ✅ | ❌ |
-|| 欧洲服务器 | ✅ | ❌ | ❌ | ❌ |
-|| OpenAI 兼容 | ✅ | ✅ | 部分 | ✅ |
-|| 多模态 | ✅ Pixtral | ✅ GPT-4V | ✅ Gemini | ❌ |
+| 特性 | Mistral API | OpenAI API | Google AI Studio | DeepSeek API |
+|------|------------|-----------|-----------------|-------------|
+| 免费配额 | 试用额度 | 试用额度 | 高配额免费 | ¥5 试用 |
+| 开源模型 | ✅ 部分 | ❌ | ❌ | ✅ |
+| 多云部署 | ✅ | ❌ | ✅ | ❌ |
+| 欧洲服务器 | ✅ | ❌ | ❌ | ❌ |
+| OpenAI 兼容 | ✅ | ✅ | 部分 | ✅ |
+| 多模态 | ✅ Pixtral | ✅ GPT-4V | ✅ Gemini | ❌ |
 
 ---
 

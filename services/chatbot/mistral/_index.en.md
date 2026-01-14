@@ -63,12 +63,12 @@ Le Chat is a free AI chatbot launched by Mistral AI in February 2024. Built on M
 
 Le Chat provides different model access based on subscription type:
 
-|| Model Name | Features | Use Cases | Free | Pro |
-||-----------|----------|-----------|------|-----|
-|| **Mistral Large** | Best performance | Complex reasoning, long text | ✅ | ✅ |
-|| **Pixtral Large** | Multimodal | Image understanding, visual tasks | ✅ | ✅ |
-|| **Mixtral 8x7B** | Open-source efficient | Daily chat, fast response | ✅ | ✅ |
-|| **Latest Experimental** | Cutting-edge | Testing new features | ❌ | ✅ |
+| Model Name | Features | Use Cases | Free | Pro |
+|-----------|----------|-----------|------|-----|
+| **Mistral Large** | Best performance | Complex reasoning, long text | ✅ | ✅ |
+| **Pixtral Large** | Multimodal | Image understanding, visual tasks | ✅ | ✅ |
+| **Mixtral 8x7B** | Open-source efficient | Daily chat, fast response | ✅ | ✅ |
+| **Latest Experimental** | Cutting-edge | Testing new features | ❌ | ✅ |
 
 ---
 
@@ -76,16 +76,16 @@ Le Chat provides different model access based on subscription type:
 
 ### Free Quota
 
-|| Limit Item | Unregistered | Registered (Free) | Pro Subscription |
-||-----------|-------------|------------------|-----------------|
-|| **Daily Conversations** | ~10 | ~50+ | Unlimited |
-|| **Image Generation** | ❌ | ✅ Limited | ✅ Unlimited |
-|| **Image Upload** | ✅ | ✅ | ✅ |
-|| **Web Search** | ✅ | ✅ | ✅ |
-|| **Code Execution** | ✅ | ✅ | ✅ |
-|| **Document Upload** | ✅ | ✅ | ✅ |
-|| **Context Length** | Standard | Standard | Extended |
-|| **Latest Models** | ❌ | ❌ | ✅ |
+| Limit Item | Unregistered | Registered (Free) | Pro Subscription |
+|-----------|-------------|------------------|-----------------|
+| **Daily Conversations** | ~10 | ~50+ | Unlimited |
+| **Image Generation** | ❌ | ✅ Limited | ✅ Unlimited |
+| **Image Upload** | ✅ | ✅ | ✅ |
+| **Web Search** | ✅ | ✅ | ✅ |
+| **Code Execution** | ✅ | ✅ | ✅ |
+| **Document Upload** | ✅ | ✅ | ✅ |
+| **Context Length** | Standard | Standard | Extended |
+| **Latest Models** | ❌ | ❌ | ✅ |
 
 **Note:** Free quotas may be adjusted per official policy, please refer to [official Pricing page](https://mistral.ai/pricing).
 
@@ -208,16 +208,16 @@ Open [https://chat.mistral.ai](https://chat.mistral.ai), no login required to st
 
 ### Comparison with Other Chatbots
 
-|| Feature | Le Chat | ChatGPT | Google AI Studio | DeepSeek Chat |
-||---------|---------|---------|-----------------|--------------|
-|| Free Quota | 10-50+/day | Free use | Free use | 50/day |
-|| Multimodal | ✅ Strong | ✅ Strong | ✅ Strong | ✅ Yes |
-|| Image Generation | ✅ Flux Ultra | ✅ DALL-E | ❌ | ❌ |
-|| Web Search | ✅ | ✅ (Plus) | ✅ | ✅ |
-|| Code Execution | ✅ | ✅ (Plus) | ✅ | ✅ |
-|| Mobile Apps | ✅ | ✅ | ❌ | ❌ |
-|| Open Source | ✅ | ❌ | ❌ | ✅ |
-|| EU Servers | ✅ | ❌ | ❌ | ❌ |
+| Feature | Le Chat | ChatGPT | Google AI Studio | DeepSeek Chat |
+|---------|---------|---------|-----------------|--------------|
+| Free Quota | 10-50+/day | Free use | Free use | 50/day |
+| Multimodal | ✅ Strong | ✅ Strong | ✅ Strong | ✅ Yes |
+| Image Generation | ✅ Flux Ultra | ✅ DALL-E | ❌ | ❌ |
+| Web Search | ✅ | ✅ (Plus) | ✅ | ✅ |
+| Code Execution | ✅ | ✅ (Plus) | ✅ | ✅ |
+| Mobile Apps | ✅ | ✅ | ❌ | ❌ |
+| Open Source | ✅ | ❌ | ❌ | ✅ |
+| EU Servers | ✅ | ❌ | ❌ | ❌ |
 
 ### Unique Highlights
 

@@ -50,14 +50,14 @@ Mistral API is a developer API interface provided by Mistral AI, allowing develo
 
 ### Free/Paid Model List
 
-|| Model Name | Context Length | Features | Use Cases | Pricing |
-||-----------|---------------|----------|-----------|---------|
-|| **Mistral Large 2** | 128K | Best performance, multilingual | Complex reasoning, long text | $2-6/M tokens |
-|| **Pixtral Large** | 128K | Multimodal, image understanding | Visual tasks, OCR | $2-6/M tokens |
-|| **Mistral Medium** | 32K | Balanced performance/cost | Daily applications | $0.40-2/M tokens |
-|| **Mistral Small** | 32K | Lightweight, efficient | Simple tasks, high frequency | $0.20-0.60/M tokens |
-|| **Mixtral 8x7B** | 32K | Open-source MoE | General tasks | Free (open)/Paid (API) |
-|| **Mistral 7B** | 8K | Open-source base | Learning, entry-level | Free (open-source) |
+| Model Name | Context Length | Features | Use Cases | Pricing |
+|-----------|---------------|----------|-----------|---------|
+| **Mistral Large 2** | 128K | Best performance, multilingual | Complex reasoning, long text | $2-6/M tokens |
+| **Pixtral Large** | 128K | Multimodal, image understanding | Visual tasks, OCR | $2-6/M tokens |
+| **Mistral Medium** | 32K | Balanced performance/cost | Daily applications | $0.40-2/M tokens |
+| **Mistral Small** | 32K | Lightweight, efficient | Simple tasks, high frequency | $0.20-0.60/M tokens |
+| **Mixtral 8x7B** | 32K | Open-source MoE | General tasks | Free (open)/Paid (API) |
+| **Mistral 7B** | 8K | Open-source base | Learning, entry-level | Free (open-source) |
 
 ### Model Details
 
@@ -94,11 +94,11 @@ Mistral API is a developer API interface provided by Mistral AI, allowing develo
 
 ### Rate Limits
 
-|| Limit Item | Free/Trial | Paid |
-||-----------|-----------|------|
-|| **Requests per Minute** | Lower | By tier |
-|| **Tokens per Minute** | Limited | By tier |
-|| **Concurrent Requests** | Limited | By tier |
+| Limit Item | Free/Trial | Paid |
+|-----------|-----------|------|
+| **Requests per Minute** | Lower | By tier |
+| **Tokens per Minute** | Limited | By tier |
+| **Concurrent Requests** | Limited | By tier |
 
 ### ⚠️ Important Limits
 
@@ -117,12 +117,12 @@ Mistral API is a developer API interface provided by Mistral AI, allowing develo
 
 ### Pay-as-you-go
 
-|| Model | Input Price | Output Price | Notes |
-||-------|------------|--------------|-------|
-|| **Mistral Large 2** | $2/M tokens | $6/M tokens | Best performance |
-|| **Pixtral Large** | $2/M tokens | $6/M tokens | Multimodal |
-|| **Mistral Medium** | $0.40/M tokens | $2/M tokens | High value |
-|| **Mistral Small** | $0.20/M tokens | $0.60/M tokens | Economical |
+| Model | Input Price | Output Price | Notes |
+|-------|------------|--------------|-------|
+| **Mistral Large 2** | $2/M tokens | $6/M tokens | Best performance |
+| **Pixtral Large** | $2/M tokens | $6/M tokens | Multimodal |
+| **Mistral Medium** | $0.40/M tokens | $2/M tokens | High value |
+| **Mistral Small** | $0.20/M tokens | $0.60/M tokens | Economical |
 
 **Note:** M = Million
 
@@ -380,14 +380,14 @@ print(response.choices[0].message.content)
 
 ### Comparison with Other APIs
 
-|| Feature | Mistral API | OpenAI API | Google AI Studio | DeepSeek API |
-||---------|------------|-----------|-----------------|-------------|
-|| Free Quota | Trial credits | Trial credits | High free quota | ¥5 trial |
-|| Open Source | ✅ Partial | ❌ | ❌ | ✅ |
-|| Multi-Cloud | ✅ | ❌ | ✅ | ❌ |
-|| EU Servers | ✅ | ❌ | ❌ | ❌ |
-|| OpenAI Compatible | ✅ | ✅ | Partial | ✅ |
-|| Multimodal | ✅ Pixtral | ✅ GPT-4V | ✅ Gemini | ❌ |
+| Feature | Mistral API | OpenAI API | Google AI Studio | DeepSeek API |
+|---------|------------|-----------|-----------------|-------------|
+| Free Quota | Trial credits | Trial credits | High free quota | ¥5 trial |
+| Open Source | ✅ Partial | ❌ | ❌ | ✅ |
+| Multi-Cloud | ✅ | ❌ | ✅ | ❌ |
+| EU Servers | ✅ | ❌ | ❌ | ❌ |
+| OpenAI Compatible | ✅ | ✅ | Partial | ✅ |
+| Multimodal | ✅ Pixtral | ✅ GPT-4V | ✅ Gemini | ❌ |
 
 ---
 
