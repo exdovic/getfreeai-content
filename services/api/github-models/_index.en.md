@@ -122,6 +122,7 @@ Different models have different rate limits. Here are typical examples:
 2. **Daily Reset:** Daily quota resets at UTC 0:00.
 3. **Concurrent Limit:** Requests exceeding max concurrency will be rejected.
 4. **Token Limits:** Both input and output tokens have per-request limits.
+5. **Quota Examples:** Above quotas are reference examples, actual limits may vary by model and account, check [model details page](https://github.com/marketplace/models) for real-time info.
 
 ### Quota Reset Time
 
@@ -473,6 +474,7 @@ def log_usage(response):
 2. **Token Security:** Don't commit PAT to public repos, use environment variables.
 3. **Error Handling:** Implement comprehensive error handling and retry mechanisms.
 4. **Cost Control:** Although free, use reasonably to avoid wasting quota.
+5. **Data Privacy:** Do not include sensitive information (passwords, keys, personal data, etc.) in API requests.
 
 ---
 
