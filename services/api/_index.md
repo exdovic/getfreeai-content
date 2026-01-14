@@ -91,8 +91,8 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **推荐：** ⭐⭐⭐⭐（欧洲首选）
 
 #### [NVIDIA NIM API](/services/api/nvidia-nim)
-- **配额：** 1,000 免费积分
-- **特点：** GPU 加速推理，OpenAI 兼容，自托管支持
+- **配额：** 约 1,000 免费积分（试用）
+- **特点：** GPU 加速推理，OpenAI 兼容，支持自托管
 - **推荐：** ⭐⭐⭐⭐（企业级可靠）
 
 ### 统一多模型访问
@@ -133,7 +133,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [Vertex AI](/services/api/vertex-ai) | 试用积分 | $300 (91天) | 按配置 | ❌ |
 | [Anthropic](/services/api/anthropic) | 预付费 | 最低 $5 | 根据账户等级 | ❌ |
 | [Mistral](/services/api/mistral) | 免费试用 | Experiment 计划 | 受限速率 | ✅ |
-| [NVIDIA NIM](/services/api/nvidia-nim) | 免费试用 | 1,000 积分 | 视模型而定 | ✅ |
+| [NVIDIA NIM](/services/api/nvidia-nim) | 免费试用 | 约 1,000 积分 | 视模型而定 | ✅ |
 | [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 免费试用 | $5/月 | 上游决定 | ✅ |
 | [Cerebras](/services/api/cerebras) | 免费服务 | 100万 tokens/天 | 合理范围 | ✅ |
 | [Cloudflare Workers AI](/services/api/cloudflare-workers-ai) | 免费服务 | 10,000 神经元/天 | 合理范围 | 部分 |
