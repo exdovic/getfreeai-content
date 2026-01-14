@@ -179,7 +179,7 @@ A: 登录 Cloudflare Dashboard，在 Workers & Pages 页面可以查看 AI 使�
 A: 最大的区别是边缘部署。Workers AI 在全球 300+ 个数据中心运行，提供更低的延迟。而传统 AI 服务通常集中在少数几个区域。
 
 **Q: 可以使用自己的模型吗？**  
-A: 目前 Workers AI 只支持 Cloudflare 提供的开源模型，暂不支持上传自定义模型。
+A: Workers AI 已支持 **LoRA（Fine-tuned adapters）** 和从 **Hugging Face 一键部署**，可以运行定制化的模型适配器。对于更高级的需求，可以提交 Cloudflare 的 Custom Requirements 表单申请私有模型支持。
 
 ---
 

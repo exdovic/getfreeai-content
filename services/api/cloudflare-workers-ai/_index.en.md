@@ -100,10 +100,10 @@ Visit [Cloudflare Workers AI Model Catalog](https://developers.cloudflare.com/wo
 | Limit Item | Quota | Description |
 |-----------|-------|-------------|
 | **Daily Neurons** | 10,000 neurons/day | Shared across all models |
-| **Request Rate** | No hard limit | Constrained by neuron quota |
+| **Request Rate** | By task type | Text Generation ~300 req/min, Embeddings ~3000 req/min |
 | **Single Request Size** | Model dependent | Usually 1-10MB |
-| **Concurrent Requests** | Unlimited | Subject to Workers limits |
-| **Credit Card Required** | ❌ No | No card needed for free tier |
+| **Concurrent Requests** | Rate limited | Different limits for different task types |
+| **Credit Card Required** | ❌ No | Not needed for free tier, required when exceeding quota |
 
 ### ⚠️ Important Limits
 
@@ -112,9 +112,15 @@ Visit [Cloudflare Workers AI Model Catalog](https://developers.cloudflare.com/wo
    - Image generation (e.g., SDXL): ~50-100 neurons/image
    - Speech recognition: ~1 neuron/second of audio
 
-2. **Daily Reset:** Free quota resets at UTC 00:00 daily
+2. **Rate Limits:** Different task types have different rate limits (req/min):
+   - Text Generation: ~300 req/min
+   - Text Embeddings: ~3000 req/min
+   - Speech Recognition (ASR): ~720 req/min
+   - Some models may have stricter limits
 
-3. **Excess Billing:** When exceeding free tier, charges $0.011/1000 neurons
+3. **Daily Reset:** Free quota resets at UTC 00:00 daily
+
+4. **Excess Billing:** When exceeding free tier, charges $0.011/1000 neurons
 
 ### Quota Reset Time
 
@@ -476,6 +482,12 @@ curl https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/meta/
 - Daily 10,000 neurons can support ~1,000-2,000 LLM requests
 - Choose appropriate model size and input length
 - Use caching to reduce redundant requests
+
+**Cost Control Tips:**
+- Use smaller models or shorter contexts during development/testing
+- Leverage AI Gateway for caching and rate limiting to reduce repeat calls
+- Set usage alerts in Dashboard to avoid unexpected overages
+- Conduct load testing for high-frequency scenarios to understand actual neuron consumption
 
 **Optimize Latency:**
 - Leverage edge deployment for low-latency apps

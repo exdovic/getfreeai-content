@@ -179,7 +179,7 @@ A: Log in to Cloudflare Dashboard, you can view AI usage and neuron consumption 
 A: The biggest difference is edge deployment. Workers AI runs in 300+ data centers globally, providing lower latency. Traditional AI services are usually concentrated in a few regions.
 
 **Q: Can I use my own models?**  
-A: Currently, Workers AI only supports models provided by Cloudflare's open-source catalog and doesn't support custom model uploads.
+A: Workers AI now supports **LoRA (Fine-tuned adapters)** and **one-click deployment from Hugging Face**, allowing you to run customized model adapters. For more advanced needs, you can submit a Cloudflare Custom Requirements form to request private model support.
 
 ---
 
