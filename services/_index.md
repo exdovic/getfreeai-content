@@ -82,6 +82,7 @@ comments: true
 | [Vertex AI API](/services/api/vertex-ai) | 试用积分 | $300 (91天) | 企业级 |
 | [Vercel AI Gateway API](/services/api/vercel-ai-gateway) | 免费试用 | $5/月 | 统一多模型访问 |
 | [Cerebras API](/services/api/cerebras) | 免费服务 | 100万 tokens/天 | 极速推理 (20倍GPU) |
+| [Cloudflare Workers AI API](/services/api/cloudflare-workers-ai) | 免费服务 | 10,000 神经元/天 | 边缘部署、低延迟 |
 
 ---
 
@@ -121,6 +122,9 @@ comments: true
 
 **统一多模型访问：**
 - [Vercel AI Gateway API](/services/api/vercel-ai-gateway) - 零加价聚合
+
+**边缘 AI 推理：**
+- [Cloudflare Workers AI API](/services/api/cloudflare-workers-ai) - 全球边缘部署，低延迟
 
 ---
 
