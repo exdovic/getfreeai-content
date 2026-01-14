@@ -64,7 +64,7 @@ Cloudflare Workers AI 主要提供 API 开发接口服务：
 ### API 服务
 
 {{< cards >}}
-  {{< card link="/services/api/cloudflare-workers-ai" title="Cloudflare Workers AI API" subtitle="边缘 AI 推理 API，支持 50+ 模型，每日 10,000 神经元免费" >}}
+  {{< card link="/zh-cn/services/api/cloudflare-workers-ai" title="Cloudflare Workers AI API" subtitle="边缘 AI 推理 API，支持 50+ 模型，每日 10,000 神经元免费" >}}
 {{< /cards >}}
 
 **特点：**
