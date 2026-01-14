@@ -159,8 +159,9 @@ Different models have different rate limits. Here are typical limit examples:
 | **Max Concurrent Requests** | 5 | Simultaneous requests |
 
 **Notes:** 
-- Specific limits vary by model, check model details page for latest info
+- Above are example quotas, specific limits vary by model, check [model details page](https://github.com/marketplace/models) for real-time info
 - Rate limits are dynamically adjusted based on usage
+- GitHub Models is currently in public preview, limits may change at any time
 
 ---
 
@@ -283,6 +284,7 @@ response = client.chat.completions.create(
 - **Email Verification:** GitHub account must have verified email
 - **Network Access:** Some regions may need special network environment to access GitHub
 - **API Use:** Need to create Personal Access Token with `models` scope
+- **Data Privacy:** Do not input sensitive information (passwords, keys, personal data, etc.) in conversations
 
 ### Rate Limits
 

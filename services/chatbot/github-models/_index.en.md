@@ -200,9 +200,9 @@ Try different models for same question:
 
 ### ⚠️ Notes
 
-1. **Rate Limits:** Need to wait for quota reset after reaching limit, allocate usage wisely.
+1. **Rate Limits:** Need to wait for quota reset after reaching limit, allocate usage wisely. Quotas are reference values, please check [official page](https://github.com/marketplace/models) for actual limits.
 2. **Context Management:** Long conversations may exceed model context limit, start new conversation timely.
-3. **Data Privacy:** Don't input sensitive information, conversations may be used to improve service.
+3. **Data Privacy:** Do not input sensitive information (passwords, keys, personal data, etc.).
 4. **Network Requirements:** Some regions may need special network environment to access GitHub.
 
 ---

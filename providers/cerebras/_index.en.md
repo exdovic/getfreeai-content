@@ -40,8 +40,8 @@ Cerebras Systems is the world's leading AI compute infrastructure provider, spec
 
 - **🚀 Ultra-Fast Inference:** 20x faster than traditional GPUs, Llama 4 Scout achieves 2,600+ tokens/s
 - **💎 Wafer-Scale Engine:** World's largest AI processor WSE-3 with 900,000 cores
-- **🎁 Free Tier:** 1 million tokens free daily
-- **🔌 OpenAI Compatible:** Fully compatible with OpenAI API format for seamless migration
+- **🎁 Free Tier:** 1 million tokens free daily (most mainstream models)
+- **🔌 OpenAI Compatible:** Fully compatible with OpenAI API format, plus official SDK
 
 **Recommendation:** ⭐⭐⭐⭐⭐ (Speed Champion!)
 

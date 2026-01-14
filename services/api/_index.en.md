@@ -136,6 +136,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [NVIDIA NIM](/en/services/api/nvidia-nim) | Free Trial | ~1,000 credits | Varies by model | ✅ |
 | [Vercel AI Gateway](/en/services/api/vercel-ai-gateway) | Free Trial | $5/month | Upstream decides | ✅ |
 | [Cerebras](/en/services/api/cerebras) | Free Service | 1M tokens/day | Within reason | ✅ |
+| [GitHub Models](/en/services/api/github-models) | Free Service | 50-150 req/day | 10-15 req/min | ✅ |
 | [Cloudflare Workers AI](/en/services/api/cloudflare-workers-ai) | Free Service | 10,000 neurons/day | Within reason | Partial |
 
 ### By Key Features

@@ -84,6 +84,7 @@ Vercel AI Gateway 支持多家主流 AI 提供商：
 1. **免费额度限制：** 一旦购买 AI Gateway Credits，账户将转为付费模式，不再每月获得 $5 免费额度。
 2. **上游速率限制：** Vercel 不设速率限制，但各提供商有自己的限制，需遵守上游提供商的政策。
 3. **模型可用性：** 模型可用性取决于上游提供商，可能因地区或账户类型而异。
+4. **BYOK 使用：** 使用 BYOK（自带密钥）时，理论上可绕过 Gateway Credits 计费，但建议在生产前充分测试。
 
 ### 配额重置时间
 
@@ -98,7 +99,8 @@ Vercel AI Gateway 支持多家主流 AI 提供商：
 
 - **免费额度：** 每个团队账户每月 $5
 - **有效期：** 每 30 天自动刷新
-- **获取方式：** 注册 Vercel 账户后自动获得
+- **获取方式：** 注册 Vercel 账户后，首次使用 AI Gateway 时自动获得
+- **注意：** 一旦购买 AI Gateway Credits（充值），将转为付费模式，不再每月获得免费 $5
 
 ### 付费定价
 
@@ -154,8 +156,9 @@ npm install ai @ai-sdk/openai @vercel/ai-gateway
 from openai import OpenAI
 
 # 初始化客户端
+# 注意：实际的 base_url 请以 Vercel Dashboard 中 AI Gateway 显示的端点为准
 client = OpenAI(
-    base_url="https://gateway.ai.cloudflare.com/v1/{account_id}/{gateway_id}/openai",
+    base_url="https://gateway.vercel.ai/v1",  # 示例端点，请替换为实际端点
     api_key="YOUR_VERCEL_API_KEY"  # ⬅️ 替换为您的 Vercel API 密钥
 )
 

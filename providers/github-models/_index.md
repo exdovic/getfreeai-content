@@ -159,8 +159,9 @@ GitHub Models 提供两种主要免费服务：
 | **最大并发请求** | 5 个 | 同时进行的请求数 |
 
 **注：** 
-- 具体限制因模型而异，请在模型详情页查看最新信息
+- 以上为示例配额，具体限制因模型而异，请查看 [模型详情页](https://github.com/marketplace/models) 获取实时信息
 - 速率限制会根据使用情况动态调整
+- GitHub Models 目前处于公开测试阶段，限制可能随时变化
 
 ---
 
@@ -283,6 +284,7 @@ response = client.chat.completions.create(
 - **邮箱验证：** GitHub 账户需要已验证邮箱
 - **网络访问：** 部分地区可能需要特殊网络环境访问 GitHub
 - **API 使用：** 需要创建具有 `models` 作用域的 Personal Access Token
+- **数据隐私：** 请勿在对话中输入敏感信息（密码、密钥、个人隐私等）
 
 ### 速率限制
 

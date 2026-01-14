@@ -82,6 +82,7 @@ Developer API interfaces to integrate into your applications.
 | [Vertex AI API](/en/services/api/vertex-ai) | Trial Credits | $300 (91 days) | Enterprise-grade |
 | [Vercel AI Gateway API](/en/services/api/vercel-ai-gateway) | Free Trial | $5/month | Unified multi-model access |
 | [Cerebras API](/en/services/api/cerebras) | Free Service | 1M tokens/day | Ultra-fast inference (20x GPU) |
+| [Cloudflare Workers AI API](/en/services/api/cloudflare-workers-ai) | Free Service | 10,000 neurons/day | Edge deployment, low latency |
 
 ---
 
@@ -121,6 +122,9 @@ Developer API interfaces to integrate into your applications.
 
 **Unified Multi-model Access:**
 - [Vercel AI Gateway API](/en/services/api/vercel-ai-gateway) - Zero markup aggregation
+
+**Edge AI Inference:**
+- [Cloudflare Workers AI API](/en/services/api/cloudflare-workers-ai) - Global edge deployment, low latency
 
 ---
 

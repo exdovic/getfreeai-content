@@ -83,12 +83,14 @@ Cerebras Inference API is an ultra-high-performance AI inference service provide
 
 | Limit Item | Quota | Notes |
 |-----------|-------|-------|
-| **Daily Tokens** | 1M tokens/day | Daily reset |
+| **Daily Tokens** | 1M tokens/day | Most mainstream models, daily reset |
 | **Rate Limits** | Varies by model | Retry mechanism recommended |
-| **Max Context Length** | 128K tokens | Depends on model |
-| **Max Output Length** | 4K tokens | Depends on model |
+| **Max Context Length** | Up to 128K tokens | Depends on specific model |
+| **Max Output Length** | Up to 4K tokens | Depends on specific model |
 | **Concurrent Requests** | Within reason | See official docs for specifics |
 | **Credit Card Required** | ❌ | Completely free, no card needed |
+
+**Note:** Specific limits may vary by model. Please refer to the [official Rate Limits documentation](https://inference-docs.cerebras.ai/support/rate-limits) for the latest information.
 
 ### ⚠️ Important Limits
 
@@ -154,6 +156,8 @@ Visit [Cerebras Cloud](https://cloud.cerebras.ai) and log in to your account.
 
 ### Python Example
 
+#### Method 1: Using OpenAI Client (Compatible Mode)
+
 **Install Dependencies:**
 
 ```bash {filename="Bash"}
@@ -189,6 +193,37 @@ print(response.choices[0].message.content)
 print(f"\nTokens Used: {response.usage.total_tokens}")
 print(f"Prompt Tokens: {response.usage.prompt_tokens}")
 print(f"Completion Tokens: {response.usage.completion_tokens}")
+```
+
+#### Method 2: Using Official SDK (Recommended)
+
+**Install Dependencies:**
+
+```bash {filename="Bash"}
+pip install cerebras_cloud_sdk
+```
+
+**Basic Usage:**
+
+```python {filename="Python"}
+from cerebras.cloud.sdk import Cerebras
+import os
+
+# Initialize client
+client = Cerebras(
+    api_key=os.environ.get("CEREBRAS_API_KEY")
+)
+
+# Send request
+response = client.chat.completions.create(
+    model="llama-3.3-70b",
+    messages=[
+        {"role": "user", "content": "Explain what a Wafer-Scale Engine is"}
+    ],
+)
+
+# Print response
+print(response.choices[0].message.content)
 ```
 
 **Streaming Output Example:**
@@ -434,6 +469,13 @@ streamExample();
 - Control conversation history length
 - Set max_tokens appropriately
 
+**Monitor Quota Usage:**
+
+```python {filename="Python"}
+# You can check usage in the Cerebras Cloud console
+# Visit: https://cloud.cerebras.ai
+```
+
 **Error Handling:**
 
 ```python {filename="Python"}
@@ -609,7 +651,7 @@ print(code)
 ## 🔧 Common Questions
 
 **Q: How do I check remaining quota?**  
-A: Check via `x-ratelimit-*` fields in API response headers or log in to Cerebras Cloud console.
+A: Log in to [Cerebras Cloud console](https://cloud.cerebras.ai) to view API usage and remaining quota. It's recommended to check usage regularly during development.
 
 **Q: What happens if I exceed daily quota?**  
 A: API will return 429 error, need to wait until UTC 00:00 for quota reset, or upgrade to paid plan.

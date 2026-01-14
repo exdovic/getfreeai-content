@@ -83,12 +83,14 @@ Cerebras Inference API 是 Cerebras Systems 提供的超高性能 AI 推理服�
 
 | 限制项 | 配额 | 说明 |
 |--------|------|------|
-| **每日 Token 数** | 100 万 tokens/day | 每日重置 |
+| **每日 Token 数** | 100 万 tokens/day | 多数主流模型，每日重置 |
 | **速率限制** | 视模型而定 | 建议实现重试机制 |
-| **最大上下文长度** | 128K tokens | 取决于模型 |
-| **最大输出长度** | 4K tokens | 取决于模型 |
+| **最大上下文长度** | 最高 128K tokens | 取决于具体模型 |
+| **最大输出长度** | 最高 4K tokens | 取决于具体模型 |
 | **并发请求** | 合理范围内 | 具体限制请参考官方文档 |
 | **需要信用卡** | ❌ | 完全免费，无需绑卡 |
+
+**注意：** 不同模型的具体限制可能有所不同，建议查看 [官方 Rate Limits 文档](https://inference-docs.cerebras.ai/support/rate-limits) 获取最新信息。
 
 ### ⚠️ 重要限制
 
@@ -154,6 +156,8 @@ Cerebras Inference API 是 Cerebras Systems 提供的超高性能 AI 推理服�
 
 ### Python 示例
 
+#### 方式 1：使用 OpenAI 客户端（兼容模式）
+
 **安装依赖：**
 
 ```bash {filename="Bash"}
@@ -189,6 +193,37 @@ print(response.choices[0].message.content)
 print(f"\n使用 Tokens: {response.usage.total_tokens}")
 print(f"输入 Tokens: {response.usage.prompt_tokens}")
 print(f"输出 Tokens: {response.usage.completion_tokens}")
+```
+
+#### 方式 2：使用官方 SDK（推荐）
+
+**安装依赖：**
+
+```bash {filename="Bash"}
+pip install cerebras_cloud_sdk
+```
+
+**基本使用：**
+
+```python {filename="Python"}
+from cerebras.cloud.sdk import Cerebras
+import os
+
+# 初始化客户端
+client = Cerebras(
+    api_key=os.environ.get("CEREBRAS_API_KEY")
+)
+
+# 发送请求
+response = client.chat.completions.create(
+    model="llama-3.3-70b",
+    messages=[
+        {"role": "user", "content": "解释一下什么是晶圆级引擎"}
+    ],
+)
+
+# 打印响应
+print(response.choices[0].message.content)
 ```
 
 **流式输出示例：**
@@ -434,6 +469,13 @@ streamExample();
 - 控制对话历史长度
 - 合理设置 max_tokens
 
+**监控配额使用：**
+
+```python {filename="Python"}
+# 您可以在 Cerebras Cloud 控制台查看使用情况
+# 访问: https://cloud.cerebras.ai
+```
+
 **错误处理：**
 
 ```python {filename="Python"}
@@ -609,7 +651,7 @@ print(code)
 ## 🔧 常见问题
 
 **Q: 如何查看剩余配额？**  
-A: 可以通过 API 响应头中的 `x-ratelimit-*` 字段或登录 Cerebras Cloud 控制台查看。
+A: 登录 [Cerebras Cloud 控制台](https://cloud.cerebras.ai) 可以查看 API 使用情况和剩余配额。建议在开发时定期检查使用量。
 
 **Q: 超过每日配额会怎样？**  
 A: API 将返回 429 错误，需要等待到 UTC 00:00 配额重置，或升级到付费计划。

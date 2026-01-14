@@ -136,6 +136,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 | [NVIDIA NIM](/services/api/nvidia-nim) | 免费试用 | 约 1,000 积分 | 视模型而定 | ✅ |
 | [Vercel AI Gateway](/services/api/vercel-ai-gateway) | 免费试用 | $5/月 | 上游决定 | ✅ |
 | [Cerebras](/services/api/cerebras) | 免费服务 | 100万 tokens/天 | 合理范围 | ✅ |
+| [GitHub Models](/services/api/github-models) | 免费服务 | 50-150 req/天 | 10-15 req/min | ✅ |
 | [Cloudflare Workers AI](/services/api/cloudflare-workers-ai) | 免费服务 | 10,000 神经元/天 | 合理范围 | 部分 |
 
 ### 按特色功能

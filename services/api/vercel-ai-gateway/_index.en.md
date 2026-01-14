@@ -84,6 +84,7 @@ Vercel AI Gateway supports multiple mainstream AI providers:
 1. **Free Credit Limitations:** Once you purchase AI Gateway Credits, your account converts to paid status and no longer receives $5 monthly free credits.
 2. **Upstream Rate Limits:** Vercel sets no rate limits, but each provider has their own restrictions. Must comply with upstream provider policies.
 3. **Model Availability:** Model availability depends on upstream providers and may vary by region or account type.
+4. **BYOK Usage:** When using BYOK (Bring Your Own Key), you theoretically bypass Gateway Credits billing, but thorough testing before production is recommended.
 
 ### Quota Reset Time
 
@@ -98,7 +99,8 @@ Vercel AI Gateway supports multiple mainstream AI providers:
 
 - **Free Credits:** $5 per team account per month
 - **Validity:** Auto-refreshes every 30 days
-- **How to Get:** Automatically granted after registering Vercel account
+- **How to Get:** Automatically granted when you first use AI Gateway after registration
+- **Note:** Once you purchase AI Gateway Credits (top-up), you'll switch to paid mode and no longer receive the monthly free $5
 
 ### Paid Pricing
 
@@ -154,8 +156,9 @@ npm install ai @ai-sdk/openai @vercel/ai-gateway
 from openai import OpenAI
 
 # Initialize client
+# Note: Use the actual base_url from your Vercel Dashboard AI Gateway settings
 client = OpenAI(
-    base_url="https://gateway.ai.cloudflare.com/v1/{account_id}/{gateway_id}/openai",
+    base_url="https://gateway.vercel.ai/v1",  # Example endpoint, replace with actual
     api_key="YOUR_VERCEL_API_KEY"  # ⬅️ Replace with your Vercel API key
 )
 
