@@ -65,7 +65,7 @@ Vercel AI Gateway provides the following services for developers:
 ### API Service
 
 {{< cards >}}
-  {{< card link="/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="Unified interface to access hundreds of AI models, $5 free credits per month" >}}
+  {{< card link="/en/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="Unified interface to access hundreds of AI models, $5 free credits per month" >}}
 {{< /cards >}}
 
 **Features:**

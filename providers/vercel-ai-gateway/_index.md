@@ -65,7 +65,7 @@ Vercel AI Gateway 为开发者提供以下服务：
 ### API 服务
 
 {{< cards >}}
-  {{< card link="/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="统一接口访问数百种 AI 模型，每月 $5 免费额度" >}}
+  {{< card link="/zh-cn/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="统一接口访问数百种 AI 模型，每月 $5 免费额度" >}}
 {{< /cards >}}
 
 **特点：**

@@ -65,7 +65,7 @@ Mistral AI 为用户提供以下免费/试用服务：
 ### Chatbot 服务
 
 {{< cards >}}
-  {{< card link="/services/chatbot/mistral" title="Le Chat" subtitle="免费 AI 聊天机器人，支持多模态、网页搜索和图像生成" >}}
+  {{< card link="/zh-cn/services/chatbot/mistral" title="Le Chat" subtitle="免费 AI 聊天机器人，支持多模态、网页搜索和图像生成" >}}
 {{< /cards >}}
 
 **特点：**
@@ -77,7 +77,7 @@ Mistral AI 为用户提供以下免费/试用服务：
 ### API 服务
 
 {{< cards >}}
-  {{< card link="/services/api/mistral" title="Mistral API" subtitle="开发者 API，支持多种模型和多云部署" >}}
+  {{< card link="/zh-cn/services/api/mistral" title="Mistral API" subtitle="开发者 API，支持多种模型和多云部署" >}}
 {{< /cards >}}
 
 **特点：**
