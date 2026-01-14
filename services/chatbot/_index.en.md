@@ -107,6 +107,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | Fast | ✅ | 🏆 Strong | Enterprise-grade, 2M context |
 | [Claude](/en/services/chatbot/anthropic) | Limited Free | Dynamic | Fast | ✅ | ✅ | 🏆 200K context, AI safety |
 | [Le Chat](/en/services/chatbot/mistral) | Freemium | ~10-50+/day | Fast | ✅ | ✅ | European AI, Pixtral multimodal |
+| [GitHub Models](/en/services/chatbot/github-models) | Free Service | Varies by model | Fast | ✅ | Partial | 10+ models, GitHub integration |
 
 ---
 
