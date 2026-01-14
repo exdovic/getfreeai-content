@@ -63,8 +63,8 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/chatbot/deepseek" title="DeepSeek Chat" subtitle="免费使用 · 中文顶尖 · 思维链可见" >}}
   {{< card link="/zh-cn/services/chatbot/cohere" title="Cohere Coral" subtitle="免费使用 · RAG专家 · 文档上传" >}}
   {{< card link="/zh-cn/services/chatbot/vertex-ai" title="Vertex AI Studio" subtitle="$300试用 · 企业级 · 2M上下文" >}}
-  {{< card link="/zh-cn/services/chatbot/anthropic" title="Claude" subtitle="约100条/天 · 200K上下文 · AI安全" >}}
-  {{< card link="/zh-cn/services/chatbot/hugging-face" title="HuggingChat" subtitle="完全免费 · 无限制 · 多种开源模型" >}}
+  {{< card link="/zh-cn/services/chatbot/anthropic" title="Claude" subtitle="配额动态 · 200K上下文 · AI安全" >}}
+  {{< card link="/zh-cn/services/chatbot/hugging-face" title="HuggingChat" subtitle="免费配额 · 多种开源模型 · 无需注册" >}}
   {{< card link="/zh-cn/services/chatbot/mistral" title="Le Chat" subtitle="10-50+次/天 · Pixtral多模态 · 欧洲AI" >}}
   {{< card link="/zh-cn/services/chatbot/github-models" title="GitHub Models" subtitle="免费使用 · 10+模型 · GitHub集成" >}}
 {{< /cards >}}
@@ -82,8 +82,8 @@ image: /images/og-default.png
   {{< card link="/zh-cn/services/api/cohere" title="Cohere API" subtitle="1,000次/月 · RAG · Embed+Rerank" >}}
   {{< card link="/zh-cn/services/api/vertex-ai" title="Vertex AI API" subtitle="$300试用 · 企业级 · 完整MLOps" >}}
   {{< card link="/zh-cn/services/api/anthropic" title="Anthropic API" subtitle="预付费$5+ · 200K上下文 · AI安全" >}}
-  {{< card link="/zh-cn/services/api/hugging-face" title="Hugging Face API" subtitle="数百次/小时 · 100万+模型 · 开源" >}}
-  {{< card link="/zh-cn/services/api/mistral" title="Mistral API" subtitle="按需付费 · Pixtral多模态 · 开源+专有" >}}
+  {{< card link="/zh-cn/services/api/hugging-face" title="Hugging Face API" subtitle="$0.10/月免费 · 100万+模型 · 开源" >}}
+  {{< card link="/zh-cn/services/api/mistral" title="Mistral API" subtitle="免费试用 · Pixtral多模态 · 开源+专有" >}}
   {{< card link="/zh-cn/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="免费试用 · GPU加速 · 企业级推理" >}}
   {{< card link="/zh-cn/services/api/vercel-ai-gateway" title="Vercel AI Gateway API" subtitle="$5/月免费 · 统一接口 · 零加价" >}}
   {{< card link="/zh-cn/services/api/cerebras" title="Cerebras API" subtitle="100万tokens/天 · 极速推理 · 20倍GPU速度" >}}

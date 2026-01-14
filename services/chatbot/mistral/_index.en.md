@@ -27,7 +27,7 @@ sidebar:
 **Provider:** [Mistral AI](/providers/mistral)  
 **Access URL:** [https://chat.mistral.ai](https://chat.mistral.ai)  
 **Service Type:** Freemium (Free + Pro)  
-**Registration:** Free to use (10/day unregistered, more after registration)
+**Registration:** Free to use (reference: ~10/day unregistered, ~50+/day registered, subject to official site)
 
 ---
 
@@ -78,7 +78,7 @@ Le Chat provides different model access based on subscription type:
 
 || Limit Item | Unregistered | Registered (Free) | Pro Subscription |
 ||-----------|-------------|------------------|-----------------|
-|| **Daily Conversations** | 10 | 50+ | Unlimited |
+|| **Daily Conversations** | ~10 | ~50+ | Unlimited |
 || **Image Generation** | ❌ | ✅ Limited | ✅ Unlimited |
 || **Image Upload** | ✅ | ✅ | ✅ |
 || **Web Search** | ✅ | ✅ | ✅ |
@@ -86,6 +86,8 @@ Le Chat provides different model access based on subscription type:
 || **Document Upload** | ✅ | ✅ | ✅ |
 || **Context Length** | Standard | Standard | Extended |
 || **Latest Models** | ❌ | ❌ | ✅ |
+
+**Note:** Free quotas may be adjusted per official policy, please refer to [official Pricing page](https://mistral.ai/pricing).
 
 ### ⚠️ Important Limits
 
@@ -249,7 +251,7 @@ Open [https://chat.mistral.ai](https://chat.mistral.ai), no login required to st
 ## 🔧 Common Questions
 
 **Q: Is Le Chat completely free?**  
-A: Le Chat offers a free version with 10 daily conversations unregistered, 50+ after registration. For unlimited use and advanced features, subscribe to Pro ($14.99/month).
+A: Le Chat offers a free version with reference quotas of ~10 daily conversations unregistered, ~50+ after registration (actual quotas subject to official site, may change). For unlimited use and advanced features, subscribe to Pro ($14.99/month).
 
 **Q: How to increase free quota?**  
 A: Register a Mistral AI account to increase from 10 to 50+ daily conversations. No payment required, just registration.

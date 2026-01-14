@@ -26,8 +26,8 @@ sidebar:
 **服务名称：** Mistral API  
 **所属提供者：** [Mistral AI](/providers/mistral)  
 **API 端点：** `https://api.mistral.ai/v1`  
-**服务类型：** 按需付费（有免费试用）  
-**注册要求：** 需要注册账户并绑定支付方式
+**服务类型：** Experiment 免费试用 + Scale 按需付费  
+**注册要求：** 需要注册账户；Experiment 计划仅需手机验证，Scale 计划需绑定支付方式
 
 ---
 
@@ -83,13 +83,14 @@ Mistral API 是 Mistral AI 提供的开发者 API 接口，允许开发者将 Mi
 
 ## 🔢 配额和限制
 
-### 免费试用
+### 免费试用 (Experiment 计划)
 
-|| 项目 | 详情 |
-||------|------|
-|| **试用额度** | 新用户可能有免费试用额度（具体以官网为准）|
-|| **速率限制** | 根据账户等级不同 |
-|| **获取方式** | 注册后通过控制台获取 API 密钥 |
+| 项目 | 详情 |
+|------|------|
+| **试用方式** | Experiment 计划，免费试用（仅需手机验证，无需信用卡）|
+| **速率限制** | 受限速率，适合实验和原型开发 |
+| **获取方式** | 注册后在控制台 Subscription 中激活 Experiment 计划 |
+| **升级选项** | 可升级到 Scale 计划（按需付费）获得更高配额 |
 
 ### 速率限制
 
@@ -101,9 +102,9 @@ Mistral API 是 Mistral AI 提供的开发者 API 接口，允许开发者将 Mi
 
 ### ⚠️ 重要限制
 
-1. **付费使用：** API 主要为付费服务，需绑定支付方式
-2. **速率限制：** 根据账户等级有不同的速率限制
-3. **地区限制：** 某些地区可能无法使用
+1. **Experiment vs Scale：** Experiment 计划免费但有速率限制，Scale 计划按需付费且配额更高
+2. **速率限制：** 根据账户等级和计划有不同的速率限制
+3. **数据使用：** Experiment 计划的请求可能用于模型改进，Scale 计划默认不会（可在控制台调整）
 
 ### 配额重置时间
 
@@ -147,6 +148,13 @@ Mistral API 是 Mistral AI 提供的开发者 API 接口，允许开发者将 Mi
 
 访问 [Mistral AI 控制台](https://console.mistral.ai) 并登录。
 
+##### 选择计划
+
+1. 进入 "Admin" → "Subscription" 部分
+2. 选择 **Experiment**（免费试用）或 **Scale**（付费）
+3. **Experiment：** 通常只需手机验证，无需信用卡
+4. **Scale：** 需要在 Billing 中添加支付方式
+
 ##### 创建 API 密钥
 
 1. 导航到 "API Keys" 页面
@@ -154,12 +162,6 @@ Mistral API 是 Mistral AI 提供的开发者 API 接口，允许开发者将 Mi
 3. 为密钥命名（例如："My App API Key"）
 4. 复制生成的 API 密钥
 5. **重要：** 安全保存密钥，它只会显示一次
-
-##### 配置支付方式
-
-1. 前往 "Billing" 页面
-2. 添加支付方式（信用卡等）
-3. 完成支付配置
 
 {{% /steps %}}
 
@@ -588,7 +590,7 @@ print(review)
 ## 🔧 常见问题
 
 **Q: Mistral API 有免费额度吗？**  
-A: 新用户可能有试用额度，但 API 主要为付费服务。具体请查看 [官方定价页面](https://mistral.ai/pricing)。
+A: 有。Mistral 提供 **Experiment 免费试用计划**，仅需手机验证即可使用（无需信用卡）。Experiment 计划适合实验和原型开发，有速率限制。如需更高配额可升级到 Scale 按需付费计划。详见 [官方定价页面](https://mistral.ai/pricing)。
 
 **Q: 如何从 OpenAI API 迁移到 Mistral API？**  
 A: 只需修改 `base_url` 和 `api_key`，代码其他部分无需改动：

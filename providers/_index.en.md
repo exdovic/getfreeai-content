@@ -95,15 +95,15 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 [View Details →](/providers/anthropic)
 
 ### Hugging Face
-- **Type:** Completely Free
-- **Features:** 1M+ open-source models, unlimited HuggingChat
+- **Type:** Free Quota (Free ~$0.10/month, PRO $9/month includes $2/month)
+- **Features:** 1M+ open-source models, multi-task support
 - **Suitable for:** Open-source AI, model testing, learning & research
 
 [View Details →](/providers/hugging-face)
 
 ### Mistral AI
-- **Type:** Free Chatbot + Pay-as-you-go API
-- **Features:** European AI leader, Pixtral Large multimodal, open+proprietary models
+- **Type:** Free Chatbot + Free Trial API
+- **Features:** European AI leader, Pixtral Large multimodal, open+proprietary models, Experiment free plan
 - **Suitable for:** European users, open-source enthusiasts, multi-cloud deployment
 
 [View Details →](/providers/mistral)

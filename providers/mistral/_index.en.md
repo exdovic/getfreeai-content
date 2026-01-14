@@ -50,8 +50,8 @@ Mistral AI is an artificial intelligence company headquartered in Paris, France,
 
 Mistral AI's main technical advantages include:
 
-- **Open Source Ecosystem:** Released multiple open-source models (Mistral 7B, Mixtral 8x7B, etc.), driving community development
-- **Efficient Architecture:** Uses Mixture of Experts (MoE) architecture, providing a balance of high performance and low cost
+- **Open Source Ecosystem:** Released multiple open-source models (Mistral 7B, Mixtral 8x7B with Apache 2.0 license), driving community development
+- **Efficient Architecture:** Mixtral series uses Mixture of Experts (MoE) architecture, Mistral 7B is dense architecture, each with advantages
 - **Multimodal Innovation:** Pixtral Large excels in visual understanding and generation
 - **Enterprise-Grade Deployment:** Supports private deployment and multi-cloud environments, meeting enterprise data security needs
 - **Continuous Innovation:** Rapid iteration, regularly releasing new models and features
@@ -101,7 +101,7 @@ Mistral AI services share the same account system. Here's the registration proce
 | Account Registration | ✅ Required | Needed for Le Chat and API |
 | Email Verification | ✅ Required | Email verification required |
 | Phone Verification | ❌ Not Required | Phone verification not needed |
-| Credit Card | ❌ Not Required | Not needed for free Le Chat, required for API |
+| Credit Card | ❌ Not Required | Not needed for free Le Chat or API Experiment (trial) plan |
 | ID Verification | ❌ Not Required | ID verification not required |
 
 #### Registration Steps
@@ -156,9 +156,9 @@ After registration, you can:
 
 ### ⚠️ Important Notes
 
-1. **Free Limits:** Le Chat free version has daily conversation limits (10 for unregistered, more after registration)
-2. **API Pricing:** API service uses pay-as-you-go pricing, requires credit card
-3. **Data Privacy:** Le Chat conversations may be used to improve models, use caution with sensitive information
+1. **Free Limits:** Le Chat free version has daily conversation limits (reference: ~10 unregistered, ~50+ registered, subject to change per official site)
+2. **API Trial:** API offers Experiment free trial plan (phone verification only), paid Scale plan requires payment method
+3. **Data Privacy:** Experiment plan requests may be used for model improvement, Scale (paid) plan is opt-out by default, privacy settings adjustable in console
 4. **Service Region:** As a European company, servers are primarily in Europe, which may affect access speed
 
 ### 🔧 Common Questions
@@ -167,7 +167,7 @@ After registration, you can:
 A: Le Chat uses Mistral's proprietary open-source and proprietary models, featuring European data sovereignty and open-source transparency. ChatGPT uses OpenAI's GPT series models. Both have unique strengths, with Le Chat excelling in certain tasks.
 
 **Q: Can Mistral's open-source models be used commercially?**  
-A: Yes. Mistral's open-source models (like Mistral 7B, Mixtral 8x7B) use the Apache 2.0 license and can be used commercially for free. However, proprietary models (like Mistral Large) require paid API usage.
+A: Yes. Mistral 7B and Mixtral 8x7B use the Apache 2.0 license and can be downloaded and used commercially for free. Mistral Large, Pixtral Large and other advanced models are proprietary and require paid API usage. See [Hugging Face](https://huggingface.co/mistralai) and official model pages for details.
 
 **Q: Why choose Mistral AI?**  
 A: Main reasons to choose Mistral AI:

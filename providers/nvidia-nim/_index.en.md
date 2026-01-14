@@ -70,12 +70,15 @@ NVIDIA NIM provides the following free/trial services:
 {{< /cards >}}
 
 **Features:**
-- Free hosted API trial (via build.nvidia.com)
-- Self-hosted free download (requires NVIDIA developer account)
-- Supports multiple open-source and proprietary models
-- OpenAI-compatible API interface
+- **Hosted API Trial:** New users receive initial trial credits (reference: ~1,000 credits) for development and testing
+- **Self-hosted Download:** Free download for development, testing, and research (production deployment requires license)
+- **OpenAI Compatible:** Fully compatible with OpenAI API format
+- **Rich Model Library:** Supports Llama, Mistral, Phi, and other mainstream models
 
-**Note:** NVIDIA NIM is primarily targeted at developers and enterprise users, providing API services. Currently does not offer an independent ChatGPT-like Chatbot web interface, but you can test models through the Playground at build.nvidia.com.
+**Important Notes:**
+- Playground (web interface) trials typically don't consume API credits, ideal for quick testing
+- Remote API calls consume credits; when exhausted, you can request more or switch to self-hosting
+- Self-hosting for production typically requires NVIDIA AI Enterprise license (90-day trial available)
 
 ---
 
@@ -154,10 +157,10 @@ After registration is complete, visit [https://build.nvidia.com](https://build.n
 
 ### ⚠️ Important Reminders
 
-1. **Hardware Requirements:** Self-hosting NIM microservices requires NVIDIA GPU support, CPU-only deployment is not supported
-2. **License Requirements:** Production use requires NVIDIA AI Enterprise license (90-day free trial available)
-3. **Network Requirements:** Accessing NVIDIA services may require stable international network connection
-4. **Data Privacy:** Pay attention to data privacy and security when using hosted APIs
+1. **Trial Credits:** Hosted API trial credits are for development/testing, policies may change. Request more on Build platform if needed
+2. **License Requirements:** Self-hosting for production requires NVIDIA AI Enterprise license (~$4,500/GPU/year starting, 90-day trial available)
+3. **Hardware Requirements:** Self-hosting requires NVIDIA GPU (specific model and VRAM depend on the model)
+4. **Network Requirements:** Accessing NVIDIA services may require stable international network connection
 
 ### 🔧 Common Questions
 
@@ -165,13 +168,16 @@ After registration is complete, visit [https://build.nvidia.com](https://build.n
 A: NVIDIA NIM is a complete inference microservices platform that not only provides hosted APIs but also supports self-hosted deployment. It's deeply optimized for NVIDIA GPUs, offering higher performance and more flexible deployment options.
 
 **Q: What are the limitations of the free trial?**  
-A: The hosted API trial has call limits and rate limits. For specific quotas, please check build.nvidia.com. Self-hosted downloads require an NVIDIA developer account and are free for non-commercial use.
+A: Hosted API provides initial trial credits (reference: ~1,000 credits) for development/testing. Remote API calls consume credits; web Playground typically doesn't. Self-hosted downloads are free but production use requires a license.
 
 **Q: Does it support Chinese?**  
 A: Most models supported by NVIDIA NIM support Chinese, but the service interface and documentation are primarily in English. Some models like Llama have good Chinese support.
 
 **Q: Can it be used in environments without GPUs?**  
-A: Hosted APIs can be used in any environment with network connectivity, without requiring local GPUs. However, self-hosted deployment must use NVIDIA GPUs.
+A: Hosted APIs can be used in any environment with network connectivity, without requiring local GPUs. Self-hosted deployment must use NVIDIA GPUs.
+
+**Q: How do I get more trial credits?**  
+A: After logging into the Build platform, go to your profile page and click "Request More" to apply. Providing a company email may help obtain additional credits or activate the 90-day AI Enterprise trial.
 
 **Q: How do I get technical support?**  
 A: You can get technical support through the NVIDIA developer forum, official documentation, GitHub Issues, and other channels. Enterprise users can also get paid technical support services.

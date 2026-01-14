@@ -72,7 +72,7 @@ NVIDIA NIM API is an enterprise-grade AI inference API service provided by NVIDI
 | **deepseek-ai/deepseek-r1** | Chain-of-thought reasoning | Math, logical reasoning |
 | **nvidia/llama-3.1-nemotron-70b-instruct** | NVIDIA optimized | High-performance inference |
 
-**Note:** The model list is continuously updated. Visit [build.nvidia.com/explore](https://build.nvidia.com/explore/discover) for the latest models.
+**Note:** Above are example models. Actual available models are continuously updated and may vary by region. Visit [build.nvidia.com/explore](https://build.nvidia.com/explore/discover) for the latest, complete model list.
 
 ---
 
@@ -82,11 +82,11 @@ NVIDIA NIM API is an enterprise-grade AI inference API service provided by NVIDI
 
 | Limit Item | Quota | Description |
 |-----------|-------|-------------|
-| **Free Credits** | 1,000 credits | Granted upon registration |
+| **Free Credits** | ~1,000 credits | Reference value, granted after registration |
 | **Daily Requests** | Based on credit consumption | Different models consume different amounts |
-| **Rate Limits** | Model-specific | See API documentation |
-| **Max Context** | 128K tokens | Llama 3.1 series |
-| **Max Output** | 4K tokens | Most models |
+| **Rate Limits** | Model-specific | See individual model card descriptions |
+| **Max Context** | Varies by model | Example: Llama 3.1 supports 128K |
+| **Max Output** | Varies by model | Typically 4K-8K tokens |
 | **Credit Card Required** | ❌ Not required | Completely free trial |
 
 ### Self-hosted Deployment
@@ -101,10 +101,10 @@ NVIDIA NIM API is an enterprise-grade AI inference API service provided by NVIDI
 
 ### ⚠️ Important Limitations
 
-1. **Hosted API Limits:** After free credits are exhausted, payment required or switch to self-hosting
-2. **Model Availability:** Some new models may only be available on hosted API, self-hosting requires updates
-3. **Regional Restrictions:** Some regions may require stable international network connection
-4. **Commercial Use:** Hosted API trial for development/testing only, commercial use requires license
+1. **Credit Nature:** Free credits are for development/testing, policies may change. Request more or switch to self-hosting when exhausted
+2. **Billing Details:** Remote API calls consume credits, web Playground interactions typically don't
+3. **Model Availability:** Model list updates, some models may vary by region or partnership
+4. **Production Use:** Hosted API trial is for development/testing; recommend self-hosting or enterprise license for production
 
 ---
 
@@ -112,15 +112,16 @@ NVIDIA NIM API is an enterprise-grade AI inference API service provided by NVIDI
 
 ### Free/Trial
 
-- **Hosted API Trial:** New users receive 1,000 free credits
-- **Validity:** Credits don't expire, but idle accounts may be reclaimed
-- **How to Get:** Register for an NVIDIA developer account
+- **Hosted API Trial:** New users typically receive initial trial credits (reference: ~1,000 credits)
+- **Validity:** Credit policy controlled by NVIDIA, recommend using promptly. Request more on Build platform if needed
+- **How to Get:** Register for NVIDIA developer account and generate API Key on Build platform
+- **Billing Details:** Remote API calls consume credits, web Playground typically doesn't
 
-### Self-hosted (Free)
+### Self-hosted (Free Download)
 
-- **Download:** Free download through NVIDIA Developer Program
-- **Usage Restrictions:** Research, development, and testing only
-- **Commercial Use:** Requires NVIDIA AI Enterprise license
+- **Download:** Free download of NIM microservices through NVIDIA Developer Program
+- **Usage Restrictions:** Free for development, testing, and research
+- **Production Deployment:** Requires NVIDIA AI Enterprise license (~$4,500/GPU/year starting)
 
 ### Paid Options
 
@@ -456,10 +457,10 @@ main();
 
 ### ⚠️ Precautions
 
-1. **Credit Management:** Free credits are limited, use wisely during development and testing
-2. **Model Selection:** Different models consume different amounts of credits, larger models cost more
+1. **Credit Management:** Use trial credits wisely, different models consume different amounts. Only remote API calls consume credits
+2. **API Endpoint:** Example uses `https://integrate.api.nvidia.com/v1`, please refer to individual model card instructions
 3. **Network Connection:** Accessing NVIDIA services may require stable international network
-4. **Data Privacy:** Be careful not to send sensitive data when using hosted APIs
+4. **Troubleshooting:** When encountering credit or permission errors, check balance in Build console or request more
 
 ---
 
@@ -601,10 +602,13 @@ print(result)
 ## 🔧 Common Questions
 
 **Q: How do I check remaining credits?**  
-A: After logging into build.nvidia.com, click your profile picture and visit "API Keys" or "Usage" page to see credit usage.
+A: Log into build.nvidia.com and check your current API credits balance and usage in your profile or Usage page.
 
 **Q: What happens after free credits run out?**  
-A: You can: 1) Purchase more credits to continue using hosted API; 2) Download NIM microservices for self-hosting; 3) Purchase NVIDIA AI Enterprise license.
+A: You can: 1) Click "Request More" on the Build platform to request additional credits; 2) Download NIM microservices for self-hosting; 3) Purchase NVIDIA AI Enterprise license for production environments.
+
+**Q: Why am I getting 402/403 errors?**  
+A: This may be due to insufficient credits or permission issues. Check: 1) Credit balance in Build console; 2) Confirm using remote API calls (which consume credits); 3) Try requesting more credits or contact NVIDIA support.
 
 **Q: What hardware is needed for self-hosting?**  
 A: Minimum one NVIDIA GPU required. Specific requirements depend on model size. For example, Llama 3.1 8B needs at least 24GB VRAM, 70B models need 80GB+ VRAM.

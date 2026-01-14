@@ -81,18 +81,18 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Rating:** ⭐⭐⭐⭐⭐ (Safe & reliable)
 
 #### [Hugging Face Inference API](/en/services/api/hugging-face)
-- **Quota:** ~Hundreds/hour
+- **Quota:** Free ~$0.10/month, PRO ~$2/month
 - **Features:** 1M+ open-source models, multi-task support
 - **Rating:** ⭐⭐⭐⭐⭐ (Open-source choice)
 
 #### [Mistral API](/en/services/api/mistral)
-- **Quota:** Pay-as-you-go (trial available)
+- **Quota:** Experiment free trial (phone verification only)
 - **Features:** Pixtral Large multimodal, open+proprietary, multi-cloud
 - **Rating:** ⭐⭐⭐⭐ (European choice)
 
 #### [NVIDIA NIM API](/en/services/api/nvidia-nim)
-- **Quota:** 1,000 free credits
-- **Features:** GPU-accelerated inference, OpenAI-compatible, self-hosting support
+- **Quota:** ~1,000 free credits (trial)
+- **Features:** GPU-accelerated inference, OpenAI-compatible, self-hosting supported
 - **Rating:** ⭐⭐⭐⭐ (Enterprise-grade reliability)
 
 ### Unified Multi-Model Access
@@ -132,8 +132,8 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Cohere](/en/services/api/cohere) | Free Trial | 1,000/month | 10-20 req/min | ❌ |
 | [Vertex AI](/en/services/api/vertex-ai) | Trial Credits | $300 (91 days) | Configurable | ❌ |
 | [Anthropic](/en/services/api/anthropic) | Prepaid | Minimum $5 | By account tier | ❌ |
-| [Mistral](/en/services/api/mistral) | Pay-as-you-go | Trial credits | By config | ✅ |
-| [NVIDIA NIM](/en/services/api/nvidia-nim) | Free Trial | 1,000 credits | Varies by model | ✅ |
+| [Mistral](/en/services/api/mistral) | Free Trial | Experiment plan | Limited rate | ✅ |
+| [NVIDIA NIM](/en/services/api/nvidia-nim) | Free Trial | ~1,000 credits | Varies by model | ✅ |
 | [Vercel AI Gateway](/en/services/api/vercel-ai-gateway) | Free Trial | $5/month | Upstream decides | ✅ |
 | [Cerebras](/en/services/api/cerebras) | Free Service | 1M tokens/day | Within reason | ✅ |
 | [Cloudflare Workers AI](/en/services/api/cloudflare-workers-ai) | Free Service | 10,000 neurons/day | Within reason | Partial |

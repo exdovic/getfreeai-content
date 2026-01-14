@@ -50,8 +50,8 @@ Mistral AI 是一家总部位于法国巴黎的人工智能公司，成立于 20
 
 Mistral AI 的主要技术优势包括：
 
-- **开源生态：** 发布多个开源模型（Mistral 7B, Mixtral 8x7B 等），推动社区发展
-- **高效架构：** 采用 Mixture of Experts (MoE) 架构，提供高性能和低成本的平衡
+- **开源生态：** 发布多个开源模型（Mistral 7B, Mixtral 8x7B 等采用 Apache 2.0 许可），推动社区发展
+- **高效架构：** Mixtral 系列采用 Mixture of Experts (MoE) 架构，Mistral 7B 为 dense 架构，各有优势
 - **多模态创新：** Pixtral Large 在视觉理解和生成方面表现优异
 - **企业级部署：** 支持私有部署和多云环境，满足企业数据安全需求
 - **持续创新：** 快速迭代，定期发布新模型和功能
@@ -101,7 +101,7 @@ Mistral AI 的服务共享相同的账户系统，以下是注册流程：
 | 注册账户 | ✅ 必需 | 使用 Le Chat 和 API 需要注册 |
 | 邮箱验证 | ✅ 必需 | 需要验证邮箱地址 |
 | 手机验证 | ❌ 不需要 | 不需要手机验证 |
-| 信用卡绑定 | ❌ 不需要 | Le Chat 免费使用不需要，API 使用需要 |
+| 信用卡绑定 | ❌ 不需要 | Le Chat 免费使用不需要，API Experiment（试用）计划也不需要 |
 | 实名认证 | ❌ 不需要 | 不需要实名认证 |
 
 #### 注册步骤
@@ -156,9 +156,9 @@ Mistral AI 的服务共享相同的账户系统，以下是注册流程：
 
 ### ⚠️ 重要提醒
 
-1. **免费限制：** Le Chat 免费版每日有对话次数限制（未注册 10 次，注册后更多）
-2. **API 付费：** API 服务采用按需付费，需要绑定信用卡
-3. **数据隐私：** 使用 Le Chat 的对话可能用于改进模型，敏感信息请谨慎使用
+1. **免费限制：** Le Chat 免费版每日有对话次数限制（参考值：未注册约 10 次，注册后约 50+ 次，具体以官网为准）
+2. **API 试用：** API 提供 Experiment 免费试用计划（仅需手机验证），付费 Scale 计划需绑定支付方式
+3. **数据隐私：** Experiment 计划的请求可能用于改进模型，Scale（付费）计划默认不会用于训练，可在控制台调整隐私设置
 4. **服务区域：** 作为欧洲公司，服务器主要在欧洲，可能影响访问速度
 
 ### 🔧 常见问题
@@ -167,7 +167,7 @@ Mistral AI 的服务共享相同的账户系统，以下是注册流程：
 A: Le Chat 使用 Mistral 自研的开源和专有模型，特点是欧洲数据主权、开源透明。ChatGPT 使用 OpenAI 的 GPT 系列模型。两者在性能上各有特色，Le Chat 在某些任务上表现出色。
 
 **Q: Mistral 的开源模型可以商用吗？**  
-A: 可以。Mistral 的开源模型（如 Mistral 7B, Mixtral 8x7B）采用 Apache 2.0 许可证，可以免费商用。但专有模型（如 Mistral Large）需要通过 API 付费使用。
+A: 可以。Mistral 7B 和 Mixtral 8x7B 采用 Apache 2.0 许可证，可以免费下载和商用。Mistral Large、Pixtral Large 等高级模型为专有模型，需要通过 API 付费使用。详见 [Hugging Face](https://huggingface.co/mistralai) 和官方模型页面。
 
 **Q: 为什么选择 Mistral AI？**  
 A: 选择 Mistral AI 的主要原因：
