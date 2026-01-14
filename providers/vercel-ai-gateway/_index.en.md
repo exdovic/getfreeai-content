@@ -139,9 +139,9 @@ Vercel will prompt you to create a team. Each team account receives $5 of AI Gat
 
 ### ⚠️ Important Reminders
 
-1. **Free Credit Limitations:** Once you purchase AI Gateway Credits, your account converts to paid status and no longer receives $5 monthly free credits.
+1. **Free Credits Explanation:** After first using AI Gateway, you receive $5 free credits every 30 days. Once you purchase Credits (top-up), you'll switch to paid status and no longer receive monthly free credits.
 2. **Upstream Limitations:** While Vercel sets no rate limits, upstream providers may have their own restrictions.
-3. **Pricing Changes:** Although Vercel adds no markup, upstream provider prices may change.
+3. **BYOK Usage:** When using your own keys (BYOK), Vercel promises zero markup, but thorough testing before production is recommended.
 4. **Regional Access:** Some regions may require VPN to access Vercel services.
 
 ### 🔧 Common Questions
