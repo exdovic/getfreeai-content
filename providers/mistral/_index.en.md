@@ -65,7 +65,7 @@ Mistral AI provides the following free/trial services:
 ### Chatbot Service
 
 {{< cards >}}
-  {{< card link="/services/chatbot/mistral" title="Le Chat" subtitle="Free AI chatbot supporting multimodal, web search, and image generation" >}}
+  {{< card link="/en/services/chatbot/mistral" title="Le Chat" subtitle="Free AI chatbot supporting multimodal, web search, and image generation" >}}
 {{< /cards >}}
 
 **Features:**
@@ -77,7 +77,7 @@ Mistral AI provides the following free/trial services:
 ### API Service
 
 {{< cards >}}
-  {{< card link="/services/api/mistral" title="Mistral API" subtitle="Developer API with multiple models and multi-cloud deployment support" >}}
+  {{< card link="/en/services/api/mistral" title="Mistral API" subtitle="Developer API with multiple models and multi-cloud deployment support" >}}
 {{< /cards >}}
 
 **Features:**

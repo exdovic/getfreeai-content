@@ -73,7 +73,7 @@ Hugging Face provides the following free services:
 ### Chatbot Service
 
 {{< cards >}}
-  {{< card link="/services/chatbot/hugging-face" title="HuggingChat" subtitle="Completely free AI chat service supporting multiple open-source models" >}}
+  {{< card link="/en/services/chatbot/hugging-face" title="HuggingChat" subtitle="Completely free AI chat service supporting multiple open-source models" >}}
 {{< /cards >}}
 
 **Features:**
@@ -85,7 +85,7 @@ Hugging Face provides the following free services:
 ### API Service
 
 {{< cards >}}
-  {{< card link="/services/api/hugging-face" title="Hugging Face Inference API" subtitle="Free API to test thousands of open-source models" >}}
+  {{< card link="/en/services/api/hugging-face" title="Hugging Face Inference API" subtitle="Free API to test thousands of open-source models" >}}
 {{< /cards >}}
 
 **Features:**

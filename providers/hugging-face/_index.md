@@ -73,7 +73,7 @@ Hugging Face 为用户提供以下免费服务：
 ### Chatbot 服务
 
 {{< cards >}}
-  {{< card link="/services/chatbot/hugging-face" title="HuggingChat" subtitle="完全免费的 AI 对话服务，支持多种开源模型" >}}
+  {{< card link="/zh-cn/services/chatbot/hugging-face" title="HuggingChat" subtitle="完全免费的 AI 对话服务，支持多种开源模型" >}}
 {{< /cards >}}
 
 **特点：**
@@ -85,7 +85,7 @@ Hugging Face 为用户提供以下免费服务：
 ### API 服务
 
 {{< cards >}}
-  {{< card link="/services/api/hugging-face" title="Hugging Face Inference API" subtitle="免费测试数千个开源模型的 API 服务" >}}
+  {{< card link="/zh-cn/services/api/hugging-face" title="Hugging Face Inference API" subtitle="免费测试数千个开源模型的 API 服务" >}}
 {{< /cards >}}
 
 **特点：**

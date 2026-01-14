@@ -66,7 +66,7 @@ NVIDIA NIM 为用户提供以下免费/试用服务：
 ### API 服务
 
 {{< cards >}}
-  {{< card link="/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="免费试用托管 API，支持 Llama、Mistral 等主流模型" >}}
+  {{< card link="/zh-cn/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="免费试用托管 API，支持 Llama、Mistral 等主流模型" >}}
 {{< /cards >}}
 
 **特点：**

@@ -63,7 +63,7 @@ Cerebras 为用户提供以下免费/试用服务：
 ### API 服务
 
 {{< cards >}}
-  {{< card link="/services/api/cerebras" title="Cerebras Inference API" subtitle="每日 100 万 Token，极速推理，OpenAI 兼容" >}}
+  {{< card link="/zh-cn/services/api/cerebras" title="Cerebras Inference API" subtitle="每日 100 万 Token，极速推理，OpenAI 兼容" >}}
 {{< /cards >}}
 
 **特点：**

@@ -63,7 +63,7 @@ Cerebras provides the following free/trial services:
 ### API Service
 
 {{< cards >}}
-  {{< card link="/services/api/cerebras" title="Cerebras Inference API" subtitle="1M tokens daily, ultra-fast inference, OpenAI compatible" >}}
+  {{< card link="/en/services/api/cerebras" title="Cerebras Inference API" subtitle="1M tokens daily, ultra-fast inference, OpenAI compatible" >}}
 {{< /cards >}}
 
 **Features:**

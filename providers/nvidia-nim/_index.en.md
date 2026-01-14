@@ -66,7 +66,7 @@ NVIDIA NIM provides the following free/trial services:
 ### API Services
 
 {{< cards >}}
-  {{< card link="/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="Free hosted API trial, supports Llama, Mistral and other mainstream models" >}}
+  {{< card link="/en/services/api/nvidia-nim" title="NVIDIA NIM API" subtitle="Free hosted API trial, supports Llama, Mistral and other mainstream models" >}}
 {{< /cards >}}
 
 **Features:**
