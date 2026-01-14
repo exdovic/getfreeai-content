@@ -64,7 +64,7 @@ Cloudflare Workers AI primarily provides API development interface services:
 ### API Services
 
 {{< cards >}}
-  {{< card link="/services/api/cloudflare-workers-ai" title="Cloudflare Workers AI API" subtitle="Edge AI inference API with 50+ models, 10,000 neurons free daily" >}}
+  {{< card link="/en/services/api/cloudflare-workers-ai" title="Cloudflare Workers AI API" subtitle="Edge AI inference API with 50+ models, 10,000 neurons free daily" >}}
 {{< /cards >}}
 
 **Features:**
