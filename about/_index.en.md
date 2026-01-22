@@ -222,8 +222,8 @@ GetFreeAI is maintained by friends who love AI technology.
 ## 📞 Contact Us
 
 - **Website:** GetFreeAI.net
-- **GitHub:** [github.com/exdovic/getfreeai-content]
-- **Email:** [To be added]
+- **GitHub:** [github.com/exdovic/getfreeai-content](https://github.com/exdovic/getfreeai-content)
+- **Email:** [exdovic@gmail.com](mailto:exdovic@gmail.com)
 
 ---
 
