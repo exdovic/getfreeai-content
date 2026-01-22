@@ -4,8 +4,6 @@ weight: 6
 comments: false
 ---
 
-# Privacy Policy
-
 **Last Updated: January 2026**
 
 Welcome to GetFreeAI (hereinafter referred to as "we", "us", or "this site"). We value your privacy rights, and this Privacy Policy explains how we collect, use, and protect your personal information.
