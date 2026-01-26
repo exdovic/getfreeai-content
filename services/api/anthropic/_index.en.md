@@ -234,7 +234,15 @@ response = client.messages.create(
     messages=[
         {
             "role": "user",
-            "content": "Please optimize this code:\n\n```python\ndef find_max(arr):\n    max_val = arr[0]\n    for i in range(len(arr)):\n        if arr[i] > max_val:\n            max_val = arr[i]\n    return max_val\n```"
+            "content": """Please optimize this code:
+
+def find_max(arr):
+    max_val = arr[0]
+    for i in range(len(arr)):
+        if arr[i] > max_val:
+            max_val = arr[i]
+    return max_val
+"""
         }
     ]
 )
@@ -478,6 +486,153 @@ print(f"Cost for this call: ${cost:.6f}")
 2. **Rate Limits:** New accounts have strict limits, need to build usage history
 3. **Cost Control:** Monitor usage to avoid unexpected high bills
 4. **Regional Restrictions:** Some regions may require special network environment
+
+---
+
+## 🎯 Practical Use Cases
+
+### Case 1: Long Document Analysis
+
+**Scenario:** Analyze lengthy technical documents and extract key information
+
+```python {filename="Python"}
+def analyze_long_document(document_path):
+    """Analyze long documents"""
+    with open(document_path, 'r', encoding='utf-8') as f:
+        document = f.read()
+    
+    client = Anthropic(api_key="your-api-key-here")
+    
+    response = client.messages.create(
+        model="claude-3-5-sonnet-20241022",
+        max_tokens=4096,
+        system="You are a professional document analysis expert.",
+        messages=[
+            {
+                "role": "user",
+                "content": f"""Please analyze the following technical document:
+
+{document}
+
+Please provide:
+1. Document content overview
+2. Key technical points
+3. Important conclusions and recommendations
+4. Potential issues and risks"""
+            }
+        ]
+    )
+    
+    return response.content[0].text
+
+# Usage example
+result = analyze_long_document("technical_spec.txt")
+print(result)
+```
+
+### Case 2: Code Review Assistant
+
+**Scenario:** Automatically review code and provide optimization suggestions
+
+```python {filename="Python"}
+def code_review(code, language="python"):
+    """Code review assistant"""
+    client = Anthropic(api_key="your-api-key-here")
+    
+    prompt = f"""Please review the following {language} code:
+
+{code}
+
+Please provide:
+1. Code quality assessment
+2. Potential bugs or issues
+3. Performance optimization suggestions
+4. Best practice recommendations
+5. Security checks"""
+    
+    response = client.messages.create(
+        model="claude-3-5-sonnet-20241022",
+        max_tokens=2048,
+        system=f"You are a senior {language} developer expert, skilled in code review and optimization.",
+        messages=[
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    )
+    
+    return response.content[0].text
+
+# Usage example
+code = """
+def process_data(data):
+    result = []
+    for item in data:
+        if item > 0:
+            result.append(item * 2)
+    return result
+"""
+
+review = code_review(code)
+print(review)
+```
+
+### Case 3: Intelligent Customer Service
+
+**Scenario:** Build an intelligent customer service system
+
+```python {filename="Python"}
+class CustomerServiceBot:
+    def __init__(self, api_key, knowledge_base):
+        self.client = Anthropic(api_key=api_key)
+        self.knowledge_base = knowledge_base
+        self.conversation_history = []
+    
+    def chat(self, user_message):
+        """Handle user messages"""
+        # Add user message to history
+        self.conversation_history.append({
+            "role": "user",
+            "content": user_message
+        })
+        
+        # Call API
+        response = self.client.messages.create(
+            model="claude-3-5-sonnet-20241022",
+            max_tokens=1024,
+            system=f"""You are a professional customer service assistant.
+
+Knowledge base:
+{self.knowledge_base}
+
+Please answer user questions based on the knowledge base, maintaining politeness and professionalism.""",
+            messages=self.conversation_history
+        )
+        
+        assistant_message = response.content[0].text
+        
+        # Add assistant response to history
+        self.conversation_history.append({
+            "role": "assistant",
+            "content": assistant_message
+        })
+        
+        return assistant_message
+
+# Usage example
+knowledge = """
+Product: Smart Watch X1
+Price: $299
+Features: Health monitoring, activity tracking, message notifications
+Warranty: 1 year warranty
+Returns: 30-day money-back guarantee
+"""
+
+bot = CustomerServiceBot("your-api-key-here", knowledge)
+print(bot.chat("What features does your smart watch have?"))
+print(bot.chat("What's the price?"))
+```
 
 ---
 

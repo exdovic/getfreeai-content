@@ -234,7 +234,15 @@ response = client.messages.create(
     messages=[
         {
             "role": "user",
-            "content": "请帮我优化这段代码：\n\n```python\ndef find_max(arr):\n    max_val = arr[0]\n    for i in range(len(arr)):\n        if arr[i] > max_val:\n            max_val = arr[i]\n    return max_val\n```"
+            "content": """请帮我优化这段代码：
+
+def find_max(arr):
+    max_val = arr[0]
+    for i in range(len(arr)):
+        if arr[i] > max_val:
+            max_val = arr[i]
+    return max_val
+"""
         }
     ]
 )
@@ -531,18 +539,9 @@ def code_review(code, language="python"):
     """代码审查助手"""
     client = Anthropic(api_key="your-api-key-here")
     
-    response = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
-        max_tokens=2048,
-        system=f"你是一个资深的 {language} 开发专家，擅长代码审查和优化。",
-        messages=[
-            {
-                "role": "user",
-                "content": f"""请审查以下代码:
+    prompt = f"""请审查以下 {language} 代码:
 
-```{language}
 {code}
-```
 
 请提供:
 1. 代码质量评估
@@ -550,6 +549,15 @@ def code_review(code, language="python"):
 3. 性能优化建议
 4. 最佳实践建议
 5. 安全性检查"""
+    
+    response = client.messages.create(
+        model="claude-3-5-sonnet-20241022",
+        max_tokens=2048,
+        system=f"你是一个资深的 {language} 开发专家，擅长代码审查和优化。",
+        messages=[
+            {
+                "role": "user",
+                "content": prompt
             }
         ]
     )
