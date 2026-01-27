@@ -254,7 +254,7 @@ We hope GetFreeAI can:
 - **Website:** [GetFreeAI.net](https://getfreeai.net)
 - **GitHub:** [github.com/exdovic/getfreeai-content](https://github.com/exdovic/getfreeai-content)
 - **Issue Tracker:** [GitHub Issues](https://github.com/exdovic/getfreeai-content/issues)
-- **Email:** [To be added]
+- **Email:** [exdovic@gmail.com](mailto:exdovic@gmail.com)
 
 ---
 

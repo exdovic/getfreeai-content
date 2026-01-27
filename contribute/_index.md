@@ -507,8 +507,7 @@ docs: 添加 Anthropic (Claude) 提供者和服务文档
 
 - **GitHub Issues** - 提出问题或建议
 - **Pull Request** - 直接提交改进
-- **Email** - [待添加]
-- **Discord** - [待添加]
+- **Email** - [exdovic@gmail.com](mailto:exdovic@gmail.com)
 
 ---
 

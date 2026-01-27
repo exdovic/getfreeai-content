@@ -254,7 +254,7 @@ cp templates/SERVICE-API-TEMPLATE.md services/api/your-service/_index.md
 - **网站：** [GetFreeAI.net](https://getfreeai.net)
 - **GitHub：** [github.com/exdovic/getfreeai-content](https://github.com/exdovic/getfreeai-content)
 - **问题反馈：** [GitHub Issues](https://github.com/exdovic/getfreeai-content/issues)
-- **邮箱：** [待添加]
+- **邮箱：** [exdovic@gmail.com](mailto:exdovic@gmail.com)
 
 ---
 
