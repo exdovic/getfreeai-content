@@ -204,7 +204,6 @@ cp templates/SERVICE-API-TEMPLATE.md services/api/your-service/_index.md
 - **文档主题** - [Hextra](https://imfing.github.io/hextra/)
 - **文档格式** - Markdown
 - **版本控制** - Git / GitHub
-- **部署** - [待配置]
 
 ---
 
