@@ -204,7 +204,6 @@ See [Contribution Guide](contribute/_index.en.md) for detailed steps.
 - **Documentation Theme** - [Hextra](https://imfing.github.io/hextra/)
 - **Document Format** - Markdown
 - **Version Control** - Git / GitHub
-- **Deployment** - [To be configured]
 
 ---
 
