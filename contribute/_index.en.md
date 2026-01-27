@@ -507,8 +507,7 @@ If you have any questions or suggestions:
 
 - **GitHub Issues** - Raise questions or suggestions
 - **Pull Request** - Submit improvements directly
-- **Email** - [To be added]
-- **Discord** - [To be added]
+- **Email** - [exdovic@gmail.com](mailto:exdovic@gmail.com)
 
 ---
 

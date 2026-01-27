@@ -1118,7 +1118,7 @@ API 文档：
 - **网站：** GetFreeAI.net
 - **问题反馈：** GitHub Issues
 - **文档贡献：** Pull Request
-- **邮箱：** [待添加]
+- **邮箱：** [exdovic@gmail.com](mailto:exdovic@gmail.com)
 
 ---
 

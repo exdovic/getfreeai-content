@@ -1118,7 +1118,7 @@ If you have any questions:
 - **Website:** GetFreeAI.net
 - **Issue Feedback:** GitHub Issues
 - **Documentation Contribution:** Pull Request
-- **Email:** [To be added]
+- **Email:** [exdovic@gmail.com](mailto:exdovic@gmail.com)
 
 ---
 
