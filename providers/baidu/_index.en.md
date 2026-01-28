@@ -192,11 +192,13 @@ Baidu provides two main services:
 
 #### ERNIE-3.5-8K (Permanently Free)
 - **Context Window:** 8K tokens
+- **Quota Limit:** QPS 50
 - **Features:** Performance exceeds GPT-3.5 Turbo
 - **Use Cases:** General conversation, text generation, Q&A
 
 #### ERNIE-Speed-8K (Permanently Free)
 - **Context Window:** 8K tokens
+- **Quota Limit:** QPS 50
 - **Features:** Fastest response speed
 - **Use Cases:** Real-time conversation, quick response scenarios
 
@@ -347,6 +349,7 @@ Baidu provides two main services:
 
 ## 📝 Update Log
 
+- **2026-01-28:** Document verification and optimization, clarified free model quota limits
 - **April 2025:** ERNIE Bot fully free and open
 - **March 2025:** Released ERNIE 4.5 multimodal model and ERNIE X1 reasoning model
 - **November 2024:** User base reached 430 million, daily API calls exceeded 1.5 billion

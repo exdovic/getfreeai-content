@@ -1,7 +1,7 @@
 ---
 title: "Baidu Qianfan API - Permanently Free Chinese AI API Service"
 linkTitle: "API - Baidu"
-description: "Baidu Qianfan platform offers permanently free API service! ERNIE-3.5-8K and ERNIE-Speed-8K permanently free unlimited, performance exceeds GPT-3.5, supports OpenAI SDK, optimized for Chinese, fast domestic access."
+description: "Baidu Qianfan platform offers permanently free API service! ERNIE-3.5-8K and ERNIE-Speed-8K permanently free (with quota limits), performance exceeds GPT-3.5, supports OpenAI SDK, optimized for Chinese, fast domestic access."
 keywords:
   - Baidu Qianfan API
   - ERNIE API
@@ -25,7 +25,7 @@ sidebar:
 **Service Type:** API Service  
 **API Endpoint:** `https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/`  
 **Free Type:** Permanently Free (some models) + New User Gift  
-**API Compatibility:** Supports OpenAI SDK
+**API Compatibility:** Supports OpenAI SDK (adjust base_url and api_key)
 
 ---
 
@@ -124,6 +124,10 @@ print(response.choices[0].message.content)
 | **Concurrent** | 50 | 50 |
 | **Context** | 8K tokens | 8K tokens |
 | **Duration** | Permanent | Permanent |
+
+{{< callout type="info" >}}
+**Quota Note:** The above quotas are reference values. Please refer to the [Console](https://console.bce.baidu.com/qianfan/ais/console/quota) for actual quotas.
+{{< /callout >}}
 
 ### New User Gift Limits
 
@@ -370,7 +374,7 @@ def cached_completion(model, messages):
 
 ### 2. Are permanently free models really unlimited?
 
-**Answer:** Yes! ERNIE-3.5-8K and ERNIE-Speed-8K are permanently free with unlimited tokens, only QPS (50 requests/second) limit.
+**Answer:** Unlimited tokens! ERNIE-3.5-8K and ERNIE-Speed-8K are permanently free with unlimited token quota, but have QPS (50 requests/second) rate limits. Suitable for small to medium-scale applications.
 
 ### 3. How to use OpenAI SDK?
 
@@ -517,6 +521,7 @@ def content_moderation(user_content):
 
 ## 📝 Update Log
 
+- **2026-01-28:** Document verification and optimization, clarified quota limits
 - **2025:** ERNIE-3.5-8K and ERNIE-Speed-8K permanently free
 - **March 2025:** Released ERNIE 4.5 and ERNIE X1 new models
 - **Continuous Updates:** Ongoing optimization of API performance and stability
