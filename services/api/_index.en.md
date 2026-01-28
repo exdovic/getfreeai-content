@@ -143,6 +143,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Cerebras](/en/services/api/cerebras) | Free Service | 1M tokens/day | Within reason | ✅ |
 | [GitHub Models](/en/services/api/github-models) | Free Service | 50-150 req/day | 10-15 req/min | ✅ |
 | [Cloudflare Workers AI](/en/services/api/cloudflare-workers-ai) | Free Service | 10,000 neurons/day | Within reason | Partial |
+| [Baidu Qianfan](/en/services/api/baidu) | Permanently Free | Unlimited (QPS 50) | 50 req/s | ✅ |
 
 ### By Key Features
 
@@ -155,6 +156,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 | [Cohere](/en/services/api/cohere) | Fast | Excellent | 128K | 🏆 RAG, Embed |
 | [Vertex AI](/en/services/api/vertex-ai) | Fast | Excellent | 🏆 2M | Enterprise-grade |
 | [Anthropic](/en/services/api/anthropic) | Fast | Excellent | 🏆 200K | AI safety, reasoning |
+| [Baidu Qianfan](/en/services/api/baidu) | Fast | 🏆 Top-tier | 8K | 🏆 Permanently free, Chinese optimized |
 | [Mistral](/en/services/api/mistral) | Fast | Excellent | 128K | 🏆 European AI, open source |
 | [NVIDIA NIM](/en/services/api/nvidia-nim) | Fast | Excellent | 128K | 🏆 GPU-accelerated, self-hosting |
 | [Vercel AI Gateway](/en/services/api/vercel-ai-gateway) | Fast | Excellent | Varies | 🏆 Unified interface, zero markup |

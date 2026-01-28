@@ -30,8 +30,8 @@ English | [简体中文](README.md)
 
 ### 📊 Systematic Organization
 
-- **7+ AI Providers** - OpenAI, Google, Groq, OpenRouter, DeepSeek, Cohere, Anthropic, etc.
-- **15+ Service Docs** - Clear categorization of Chatbot and API services
+- **8+ AI Providers** - OpenAI, Google, Groq, OpenRouter, DeepSeek, Cohere, Anthropic, Baidu, etc.
+- **16+ Service Docs** - Clear categorization of Chatbot and API services
 - **Bilingual Support** - Complete Chinese and English documentation
 
 ### 🎯 Practical Focus
@@ -51,7 +51,7 @@ English | [简体中文](README.md)
 
 ## 📚 Content Overview
 
-### 🏢 AI Providers (7)
+### 🏢 AI Providers (8)
 
 | Provider | Type | Key Features | Rating |
 |----------|------|-------------|---------|
@@ -63,8 +63,9 @@ English | [简体中文](README.md)
 | [Cohere](providers/cohere/) | Free Trial | RAG expert, 1,000 calls/month | ⭐⭐⭐⭐⭐ |
 | [Google Vertex AI](providers/google-vertex-ai/) | Trial Credits | $300, enterprise platform | ⭐⭐⭐⭐ |
 | [Anthropic](providers/anthropic/) | Free + Prepaid | 200K context, AI safety | ⭐⭐⭐⭐⭐ |
+| [Baidu](providers/baidu/) | Free + Permanent Free | ERNIE Bot fully free, permanent free API | ⭐⭐⭐⭐⭐ |
 
-### 💬 Chatbot Services (8)
+### 💬 Chatbot Services (9)
 
 Web conversational interfaces, no coding required:
 
@@ -76,9 +77,10 @@ Web conversational interfaces, no coding required:
 - Cohere Coral
 - Vertex AI Studio
 - Claude (Anthropic)
+- ERNIE Bot (Baidu)
 - More coming soon...
 
-### 🔌 API Services (7)
+### 🔌 API Services (8)
 
 Developer API interfaces:
 
@@ -90,6 +92,7 @@ Developer API interfaces:
 - Cohere API
 - Vertex AI API
 - Anthropic API
+- Baidu Qianfan API
 - More coming soon...
 
 ---
@@ -211,10 +214,10 @@ See [Contribution Guide](contribute/_index.en.md) for detailed steps.
 
 **Current Status** (January 2026):
 
-- 🏢 Provider Docs: **7**
-- 💬 Chatbot Services: **8**
-- 🔌 API Services: **7**
-- 📝 Total Documents: **22**
+- 🏢 Provider Docs: **8**
+- 💬 Chatbot Services: **9**
+- 🔌 API Services: **8**
+- 📝 Total Documents: **25**
 - 🌐 Languages Supported: **Chinese + English**
 
 ---
