@@ -117,6 +117,11 @@ API services provide programming interfaces that allow you to integrate AI capab
 - **Features:** Edge AI inference, 50+ open-source models, global deployment, low latency
 - **Rating:** ⭐⭐⭐⭐⭐ (Top choice for edge computing)
 
+#### [Baidu Qianfan API](/en/services/api/baidu)
+- **Quota:** Permanently free (ERNIE-3.5-8K, ERNIE-Speed-8K unlimited)
+- **Features:** Top Chinese performance, OpenAI compatible, leading Chinese AI
+- **Rating:** ⭐⭐⭐⭐⭐ (Top choice for permanently free)
+
 ---
 
 ## 📊 Detailed Comparison
@@ -177,6 +182,7 @@ API services provide programming interfaces that allow you to integrate AI capab
 
 ### I Need Chinese Optimization
 → [DeepSeek API](/en/services/api/deepseek) - Top Chinese performance
+→ [Baidu Qianfan API](/en/services/api/baidu) - Leading Chinese AI, permanently free
 
 ### I Need RAG Features
 → [Cohere API](/en/services/api/cohere) - Embed + Rerank
@@ -199,6 +205,9 @@ API services provide programming interfaces that allow you to integrate AI capab
 
 ### I Need Edge AI Inference
 → [Cloudflare Workers AI API](/en/services/api/cloudflare-workers-ai) - 300+ global data centers, low latency
+
+### I Need Permanently Free API
+→ [Baidu Qianfan API](/en/services/api/baidu) - ERNIE-3.5-8K permanently free unlimited
 
 ---
 

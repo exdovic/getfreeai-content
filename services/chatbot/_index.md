@@ -88,6 +88,11 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 - **特点：** Pixtral Large 多模态，图像生成，欧洲 AI
 - **推荐：** ⭐⭐⭐⭐（欧洲首选）
 
+#### [ERNIE Bot（文心一言）](/services/chatbot/baidu)
+- **配额：** 2025年4月1日起全面免费
+- **特点：** 中文顶尖，多模态，国产领先
+- **推荐：** ⭐⭐⭐⭐⭐（国产首选）
+
 #### [GitHub Models Playground](/services/chatbot/github-models)
 - **配额：** 因模型而异（有速率限制）
 - **特点：** 10+ 模型，GitHub 集成，模型对比
@@ -124,6 +129,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 ### 我需要中文优化
 → [DeepSeek Chat](/services/chatbot/deepseek)
+→ [ERNIE Bot](/services/chatbot/baidu)（国产，永久免费）
 
 ### 我需要尝试多种模型
 → [OpenRouter Playground](/services/chatbot/openrouter)

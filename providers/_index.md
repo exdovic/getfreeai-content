@@ -143,6 +143,13 @@ next: /providers/google-ai-studio
 
 [查看详情 →](/providers/cloudflare-workers-ai)
 
+### Baidu（百度）
+- **类型：** 免费 Chatbot + 永久免费 API
+- **特点：** 2025.4.1起 Chatbot 全面免费，永久免费 API 模型，中文顶尖
+- **适合：** 中国用户，中文应用，永久免费 API 需求
+
+[查看详情 →](/providers/baidu)
+
 ---
 
 ## 🔍 按需选择
@@ -159,6 +166,7 @@ next: /providers/google-ai-studio
 
 ### 我需要中文优化
 → [DeepSeek](/providers/deepseek) - 中文顶尖
+→ [Baidu](/providers/baidu) - 国产领先，永久免费 API
 
 ### 我需要大量免费模型
 → [OpenRouter](/providers/openrouter) - 25+ 模型
@@ -186,6 +194,9 @@ next: /providers/google-ai-studio
 
 ### 我需要边缘 AI 推理
 → [Cloudflare Workers AI](/providers/cloudflare-workers-ai) - 全球边缘部署，低延迟
+
+### 我需要永久免费的 API
+→ [Baidu](/providers/baidu) - ERNIE-3.5-8K 永久免费不限量
 
 ---
 

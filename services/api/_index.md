@@ -117,6 +117,11 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 - **特点：** 边缘 AI 推理，50+ 开源模型，全球部署，低延迟
 - **推荐：** ⭐⭐⭐⭐⭐（边缘计算首选）
 
+#### [Baidu 千帆 API](/services/api/baidu)
+- **配额：** 永久免费（ERNIE-3.5-8K、ERNIE-Speed-8K 不限量）
+- **特点：** 中文顶尖，OpenAI 兼容，国产领先
+- **推荐：** ⭐⭐⭐⭐⭐（永久免费首选）
+
 ---
 
 ## 📊 详细对比
@@ -177,6 +182,7 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 
 ### 我需要中文优化
 → [DeepSeek API](/services/api/deepseek) - 中文顶尖
+→ [Baidu 千帆 API](/services/api/baidu) - 国产领先，永久免费
 
 ### 我需要 RAG 功能
 → [Cohere API](/services/api/cohere) - Embed + Rerank
@@ -199,6 +205,9 @@ API 服务提供编程接口，让您可以将 AI 能力集成到自己的应用
 
 ### 我需要边缘 AI 推理
 → [Cloudflare Workers AI API](/services/api/cloudflare-workers-ai) - 全球 300+ 数据中心，低延迟
+
+### 我需要永久免费的 API
+→ [Baidu 千帆 API](/services/api/baidu) - ERNIE-3.5-8K 永久免费不限量
 
 ---
 

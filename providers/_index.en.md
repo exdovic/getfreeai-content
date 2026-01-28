@@ -143,6 +143,13 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 [View Details →](/providers/cloudflare-workers-ai)
 
+### Baidu
+- **Type:** Free Chatbot + Permanently Free API
+- **Features:** Chatbot fully free from 4/1/2025, permanently free API models, top Chinese performance
+- **Suitable for:** Chinese users, Chinese applications, permanently free API needs
+
+[View Details →](/providers/baidu)
+
 ---
 
 ## 🔍 Choose by Need
@@ -159,6 +166,7 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need Chinese optimization
 → [DeepSeek](/providers/deepseek) - Top-tier Chinese
+→ [Baidu](/providers/baidu) - Leading Chinese AI, permanently free API
 
 ### I need many free models
 → [OpenRouter](/providers/openrouter) - 25+ models
@@ -186,6 +194,9 @@ Welcome to the AI Providers directory! Here you'll find quality providers offeri
 
 ### I need edge AI inference
 → [Cloudflare Workers AI](/providers/cloudflare-workers-ai) - Global edge deployment, low latency
+
+### I need permanently free API
+→ [Baidu](/providers/baidu) - ERNIE-3.5-8K permanently free unlimited
 
 ---
 
