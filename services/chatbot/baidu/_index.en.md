@@ -375,6 +375,7 @@ ERNIE Bot will: Generate beautiful image based on description
 
 ## 📝 Update Log
 
+- **2026-01-28:** Document verification and optimization
 - **April 2025:** Fully free for all users
 - **March 2025:** Released ERNIE 4.5 multimodal and ERNIE X1 reasoning models
 - **November 2024:** User base reached 430 million

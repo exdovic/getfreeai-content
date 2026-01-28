@@ -1,7 +1,7 @@
 ---
 title: "Baidu 千帆 API - 永久免费国产 AI API 服务"
 linkTitle: "API - Baidu"
-description: "百度千帆大模型平台提供永久免费 API 服务！ERNIE-3.5-8K 和 ERNIE-Speed-8K 永久免费不限量，性能超越 GPT-3.5，支持 OpenAI SDK，中文优化，国内访问快速。"
+description: "百度千帆大模型平台提供永久免费 API 服务！ERNIE-3.5-8K 和 ERNIE-Speed-8K 永久免费（有配额限制），性能超越 GPT-3.5，支持 OpenAI SDK，中文优化，国内访问快速。"
 keywords:
   - 百度千帆 API
   - 文心一言 API
@@ -25,7 +25,7 @@ sidebar:
 **服务类型：** API 服务  
 **API 端点：** `https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/`  
 **免费类型：** 永久免费（部分模型） + 新用户赠送  
-**API 兼容性：** 支持 OpenAI SDK
+**API 兼容性：** 支持 OpenAI SDK（调整 base_url 和 api_key 即可）
 
 ---
 
@@ -124,6 +124,10 @@ print(response.choices[0].message.content)
 | **并发请求** | 50 | 50 |
 | **上下文长度** | 8K tokens | 8K tokens |
 | **有效期** | 永久 | 永久 |
+
+{{< callout type="info" >}}
+**配额说明：** 以上配额为参考值，实际配额请以[控制台](https://console.bce.baidu.com/qianfan/ais/console/quota)显示为准。
+{{< /callout >}}
 
 ### 新用户赠送限制
 
@@ -370,7 +374,7 @@ def cached_completion(model, messages):
 
 ### 2. 永久免费模型真的不限量吗？
 
-**答：** 是的！ERNIE-3.5-8K 和 ERNIE-Speed-8K 永久免费，不限 token 数量，只有 QPS（每秒50次请求）限制。
+**答：** Token 数量不限！ERNIE-3.5-8K 和 ERNIE-Speed-8K 永久免费，token 数量无限制，但有 QPS（每秒50次请求）的速率限制。适合中小规模应用。
 
 ### 3. 如何使用 OpenAI SDK？
 
@@ -517,6 +521,7 @@ def content_moderation(user_content):
 
 ## 📝 更新日志
 
+- **2026-01-28：** 文档验证和优化，明确配额限制说明
 - **2025年：** ERNIE-3.5-8K 和 ERNIE-Speed-8K 永久免费
 - **2025年3月：** 发布 ERNIE 4.5 和 ERNIE X1 新模型
 - **持续更新：** 不断优化 API 性能和稳定性
