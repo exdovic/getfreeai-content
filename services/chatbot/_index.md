@@ -88,6 +88,11 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 - **特点：** Pixtral Large 多模态，图像生成，欧洲 AI
 - **推荐：** ⭐⭐⭐⭐（欧洲首选）
 
+#### [ERNIE Bot（文心一言）](/services/chatbot/baidu)
+- **配额：** 2025年4月1日起全面免费
+- **特点：** 中文顶尖，多模态，国产领先
+- **推荐：** ⭐⭐⭐⭐⭐（国产首选）
+
 #### [GitHub Models Playground](/services/chatbot/github-models)
 - **配额：** 因模型而异（有速率限制）
 - **特点：** 10+ 模型，GitHub 集成，模型对比
@@ -106,6 +111,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 | [OpenRouter](/services/chatbot/openrouter) | 免费增值 | 50-1000/天 | 快 | ✅ | 部分 | 🏆 25+ 模型 |
 | [Vertex AI Studio](/services/chatbot/vertex-ai) | 试用积分 | $300 | 快 | ✅ | 🏆 强 | 企业级、2M上下文 |
 | [Claude](/services/chatbot/anthropic) | 有限免费 | 动态配额 | 快 | ✅ | ✅ | 🏆 200K上下文、AI安全 |
+| [ERNIE Bot](/services/chatbot/baidu) | 永久免费 | 2025.4.1起 | 快 | 🏆 顶尖 | 🏆 强 | 国产领先、永久免费 |
 | [Le Chat](/services/chatbot/mistral) | 免费增值 | ~10-50+/天 | 快 | ✅ | ✅ | 欧洲AI、Pixtral多模态 |
 | [GitHub Models](/services/chatbot/github-models) | 免费服务 | 因模型而异 | 快 | ✅ | 部分 | 10+模型、GitHub集成 |
 
@@ -124,6 +130,7 @@ Chatbot 服务提供可视化的网页对话界面，让您无需编写代码即
 
 ### 我需要中文优化
 → [DeepSeek Chat](/services/chatbot/deepseek)
+→ [ERNIE Bot](/services/chatbot/baidu)（国产，永久免费）
 
 ### 我需要尝试多种模型
 → [OpenRouter Playground](/services/chatbot/openrouter)

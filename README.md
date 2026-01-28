@@ -30,8 +30,8 @@
 
 ### 📊 系统化整理
 
-- **7+ AI 提供者** - OpenAI、Google、Groq、OpenRouter、DeepSeek、Cohere、Anthropic 等
-- **15+ 服务文档** - Chatbot 服务和 API 服务分类清晰
+- **8+ AI 提供者** - OpenAI、Google、Groq、OpenRouter、DeepSeek、Cohere、Anthropic、Baidu 等
+- **16+ 服务文档** - Chatbot 服务和 API 服务分类清晰
 - **双语支持** - 完整的中英文文档
 
 ### 🎯 实用导向
@@ -51,7 +51,7 @@
 
 ## 📚 内容概览
 
-### 🏢 AI 提供者 (7个)
+### 🏢 AI 提供者 (8个)
 
 | 提供者 | 类型 | 主要特点 | 推荐指数 |
 |--------|------|---------|---------|
@@ -63,8 +63,9 @@
 | [Cohere](providers/cohere/) | 免费试用 | RAG 专家，1,000 次/月 | ⭐⭐⭐⭐⭐ |
 | [Google Vertex AI](providers/google-vertex-ai/) | 试用积分 | $300，企业平台 | ⭐⭐⭐⭐ |
 | [Anthropic](providers/anthropic/) | 免费 + 预付费 | 200K 上下文，AI 安全 | ⭐⭐⭐⭐⭐ |
+| [Baidu](providers/baidu/) | 免费 + 永久免费 | 文心一言全面免费，永久免费 API | ⭐⭐⭐⭐⭐ |
 
-### 💬 Chatbot 服务 (8个)
+### 💬 Chatbot 服务 (9个)
 
 网页对话界面，无需编程：
 
@@ -76,9 +77,10 @@
 - Cohere Coral
 - Vertex AI Studio
 - Claude (Anthropic)
+- ERNIE Bot (Baidu)
 - 更多持续添加中...
 
-### 🔌 API 服务 (7个)
+### 🔌 API 服务 (8个)
 
 开发者 API 接口：
 
@@ -90,6 +92,7 @@
 - Cohere API
 - Vertex AI API
 - Anthropic API
+- Baidu Qianfan API
 - 更多持续添加中...
 
 ---
@@ -211,10 +214,10 @@ cp templates/SERVICE-API-TEMPLATE.md services/api/your-service/_index.md
 
 **当前状态**（2026年1月）：
 
-- 🏢 提供者文档：**7 个**
-- 💬 Chatbot 服务：**8 个**
-- 🔌 API 服务：**7 个**
-- 📝 总计文档：**22 个**
+- 🏢 提供者文档：**8 个**
+- 💬 Chatbot 服务：**9 个**
+- 🔌 API 服务：**8 个**
+- 📝 总计文档：**25 个**
 - 🌐 支持语言：**中文 + 英语**
 
 ---

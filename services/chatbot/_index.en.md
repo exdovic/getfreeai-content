@@ -88,6 +88,11 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 - **Features:** Pixtral Large multimodal, image generation, European AI
 - **Rating:** ⭐⭐⭐⭐ (European choice)
 
+#### [ERNIE Bot (Baidu)](/en/services/chatbot/baidu)
+- **Quota:** Fully free from April 1, 2025
+- **Features:** Top Chinese performance, multimodal, leading Chinese AI
+- **Rating:** ⭐⭐⭐⭐⭐ (Top Chinese choice)
+
 #### [GitHub Models Playground](/en/services/chatbot/github-models)
 - **Quota:** Varies by model (with rate limits)
 - **Features:** 10+ models, GitHub integration, model comparison
@@ -106,6 +111,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 | [OpenRouter](/en/services/chatbot/openrouter) | Freemium | 50-1000/day | Fast | ✅ | Partial | 🏆 25+ models |
 | [Vertex AI Studio](/en/services/chatbot/vertex-ai) | Trial Credits | $300 | Fast | ✅ | 🏆 Strong | Enterprise-grade, 2M context |
 | [Claude](/en/services/chatbot/anthropic) | Limited Free | Dynamic | Fast | ✅ | ✅ | 🏆 200K context, AI safety |
+| [ERNIE Bot](/en/services/chatbot/baidu) | Permanently free | From 4/1/2025 | Fast | 🏆 Top | 🏆 Strong | Leading Chinese, permanently free |
 | [Le Chat](/en/services/chatbot/mistral) | Freemium | ~10-50+/day | Fast | ✅ | ✅ | European AI, Pixtral multimodal |
 | [GitHub Models](/en/services/chatbot/github-models) | Free Service | Varies by model | Fast | ✅ | Partial | 10+ models, GitHub integration |
 
@@ -124,6 +130,7 @@ Chatbot services provide visual web conversation interfaces, allowing you to use
 
 ### I Need Chinese Optimization
 → [DeepSeek Chat](/en/services/chatbot/deepseek)
+→ [ERNIE Bot](/en/services/chatbot/baidu) (Chinese, permanently free)
 
 ### I Need to Try Multiple Models
 → [OpenRouter Playground](/en/services/chatbot/openrouter)
